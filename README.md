@@ -15,7 +15,7 @@ We are devoted to our work and devoted to progress. We think out of the box and 
 - [What is Cosmos?](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#what-is-cosmos)
 - [How to obtain ATOM tokens?](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#how-to-obtain-atom-tokens) 
 - A list of [Cosmos wallets](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#a-list-of-cosmos-wallets)
-- A step-by-step [staking guide](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#a-step-by-step-staking-guide)
+- Cosmos step-by-step [staking guide](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#a-step-by-step-staking-guide)
 - Reward [calculator](https://www.stakingrewards.com/earn/cosmos)
 - [Our validator]() address:
 
@@ -24,6 +24,6 @@ We are devoted to our work and devoted to progress. We think out of the box and 
 - [What is Cyber?](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#what-is-cyber)
 - [How to obtain EUL/CYB tokens?](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#how-to-obtain-eulcyb-tokens) 
 - A list of [Cyber wallets](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#a-list-of-cyber-wallets)
-- A step-by-step [staking guide](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#a-step-by-step-staking-guide)
+- Cyber step-by-step [staking guide](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#a-step-by-step-staking-guide)
 - Reward [calculator](https://www.stakingrewards.com/earn/cyber)
 - [Our validator]() address:
