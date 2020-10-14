@@ -2,11 +2,7 @@
 
 Our aim is to onboard people to web3 via making that journey as human as possible. We believe that web3 is firsthand a communication tool. Let's communicate together!
 
------------------------------------------
-
-We operate validators on the below listed networks. Token holders can stake with us to help secure these networks and earn staking rewards.
-
-We are devoted to our work and devoted to progress. We think out of the box and are proud to be a bit crazy. We value security, decentralization and simplicity.
+We operate validators on the below listed networks. Token holders can stake with us to help secure these networks and earn staking rewards. We are devoted to our work and devoted to progress. We think out of the box and are proud to be a bit crazy. We value security, decentralization and simplicity.
 
 ---------------------------------------
 
