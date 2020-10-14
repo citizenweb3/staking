@@ -28,8 +28,9 @@ If you do have a Ledger, then you can also use [Cosmstation](https://www.cosmost
 ## A step-by-step staking guide
 Staking ATOM is easy as 1,2,3. It really is. Let's go thorough 2 options:
 
-1) You know what you're doing and how to delegate. Then simply use [our address: ]() and delegate!
-2) You're using [Keplr](), [Cosmostation]() or any other wallet. It doesn't really matter. They all work more or less the same. The idea is that you need to find the 'reward' or the 'validator' tab and then delegate the desired amount.
+1) You know what you're doing and how to delegate. Then simply use [our validator address: ]() and delegate!
+
+2) You're using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#keplr), [Cosmostation](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#cosmostation) or any other wallet. It doesn't really matter. They all work more or less the same. The idea is that you need to find the 'reward' or the 'validator' tab and then delegate the desired amount.
 
 #### Keplr
 Open Keplr, make sure you have some balance and click the blue 'stake' button, this will open a new browser window in which you will see the list of the current, active validators. Make sure that on the left menu, 'Cosmos' is selected (just under the Keplr logo). Find Citizen Cosmos and click 'manage':
