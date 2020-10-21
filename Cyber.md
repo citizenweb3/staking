@@ -34,6 +34,7 @@ There are several wallets that can be used to store, manage, stake and transfer 
 Other options include downloading the [cyb/~Virus](https://github.com/CipherDogs/cyb-virus), Mozilla extension, but it requires manual installation. Using the [cyberd Telegram bot](https://t.me/cyberdbot). Using [dpos.space/cyber](https://dpos.space/cyber) (has only Russian interface), which is a local storage browser wallet. You can also use the Cyber [wallet generator](https://crates.io/crates/cyber-wallet-generator), which is another local storage wallet and lastly, [cyberpi](https://pypi.org/project/cyberpy/), a Python tool for wallet management. Oh, and, of course, you can use the [CLI](https://cybercongress.ai/docs/go-cyber/ultimate-commands-guide/) to create a wallet.
 
 Please note, that Cyber is far from the mass adoption stage at the moment and most wallets are developer friendly. We suggest to use Keplr at this stage.
+
 ## A step-by-step staking guide
 There are 2 ways to currently stake Cyber:
 
@@ -75,12 +76,22 @@ If you have a Ledger device, you can connect to [cyber.page](https://cyber.page/
 
 1) Assuming your Ledger is already pocketed (if not, follow this [guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)), i.e. connected to the app, simply go to the [heroes page](https://cyber.page/heroes) and look for Citizen Cosmos:
 
-p
+[![Screenshot-from-2020-10-21-20-11-02.png](https://i.postimg.cc/SN1n8MfM/Screenshot-from-2020-10-21-20-11-02.png)](https://postimg.cc/SJ8Qbj5S)
 
 2) Click on Citizen Cosmos, this will open a new page:
 
-p
+[![Screenshot-from-2020-10-21-20-11-37.png](https://i.postimg.cc/2j2yRZJK/Screenshot-from-2020-10-21-20-11-37.png)](https://postimg.cc/xqNnLc9v)
 
 3) Click the 'stake' button at the bottom (make sure your Ledger is connected, unlocked and the Cosmos app is open):
 
-o
+[![Screenshot-from-2020-10-21-20-12-44.png](https://i.postimg.cc/FHchRdWm/Screenshot-from-2020-10-21-20-12-44.png)](https://postimg.cc/rD8BZm2Y)
+
+4) In the box that appeared at the bottom, enter the desired amount of GEUL you wish to delegate (1 GEUL = 1,000,000,000 EUL):
+
+[![Screenshot-from-2020-10-21-20-12-44.png](https://i.postimg.cc/FHchRdWm/Screenshot-from-2020-10-21-20-12-44.png)](https://postimg.cc/rD8BZm2Y)
+
+5) Click `generate tx` and confirm it on youe Ledger device:
+
+[![Screenshot-from-2020-10-21-20-15-15.png](https://i.postimg.cc/ncfJWcVP/Screenshot-from-2020-10-21-20-15-15.png)](https://postimg.cc/BtpkL3KT)
+
+Congratulations! You are now staking with Citizen Cosmos and recieving rewards. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more. 
