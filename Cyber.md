@@ -82,15 +82,11 @@ If you have a Ledger device, you can connect to [cyber.page](https://cyber.page/
 
 [![Screenshot-from-2020-10-21-20-11-37.png](https://i.postimg.cc/2j2yRZJK/Screenshot-from-2020-10-21-20-11-37.png)](https://postimg.cc/xqNnLc9v)
 
-3) Click the 'stake' button at the bottom (make sure your Ledger is connected, unlocked and the Cosmos app is open):
+3) Click the 'stake' button at the bottom (make sure your Ledger is connected, unlocked and the Cosmos app is open). In the box that appeared at the bottom, enter the desired amount of GEUL you wish to delegate (1 GEUL = 1,000,000,000 EUL):
 
 [![Screenshot-from-2020-10-21-20-12-44.png](https://i.postimg.cc/FHchRdWm/Screenshot-from-2020-10-21-20-12-44.png)](https://postimg.cc/rD8BZm2Y)
 
-4) In the box that appeared at the bottom, enter the desired amount of GEUL you wish to delegate (1 GEUL = 1,000,000,000 EUL):
-
-[![Screenshot-from-2020-10-21-20-12-44.png](https://i.postimg.cc/FHchRdWm/Screenshot-from-2020-10-21-20-12-44.png)](https://postimg.cc/rD8BZm2Y)
-
-5) Click `generate tx` and confirm it on youe Ledger device:
+4) Click `generate tx` and confirm it on youe Ledger device:
 
 [![Screenshot-from-2020-10-21-20-15-15.png](https://i.postimg.cc/ncfJWcVP/Screenshot-from-2020-10-21-20-15-15.png)](https://postimg.cc/BtpkL3KT)
 
