@@ -1,11 +1,38 @@
 # Cyber
 
-Please always DYOR (do your own research)
+Always DYOR (do your own research)
 
 ## What is Cyber?
+Cyber is a distributed, self-sustainable computer for answers, managed and governed by its users. Its architecture resembles a superintelligent AI organism, in that it can learn upon the data it's fed by its users and provide them answers without blackbox intermediaries. What this means, is that in essence Cyber is a general-knowledge layer for creating applications and tools that require provable indexing and ranking of any type of content. These can be decentralized search engines, such as [cyber.page](https://cyber.page/) or decentralized social media, such as [Linker](https://cyber.page/brain).
+
+Cyber's goal is to create an open alternative to the closed semantics core of web2, to be used by AI, machine learning algorithms and users alike. By achieving a higher degree of decentralization to the web infrastructure, Cyber strives to create a universal, innovative search mechanism that can help avoid censorship and prove content orgin (via the use of cryptography). By using blockchain and [cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-a-cyberlink) (a simple connection of 2 points, which can be information, data, block numbers, photos, videos, transactions, Geo positions, etc) Cyber strives to provide more resistance to web3, than web2 ever had.
+
+At the heart of Cyber lay content addressing, a way to locate information on the web using the content, rather than referring to its location, thus avoiding censorship and its energy model, which is a [Sybil resistant](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms) spam protection mechanism that allows to eliminate transactional fees and achieve transaction scalability.
+
+You may think of Cyber akin to a huge Wikipedia without censorship, which is at the moment waiting to be filled with knowledge from the current web, or even by a transition to the new, transparent web. A web in which you control your own dataset. A web that is free of censorship. A web where the internet works for you and not the other way around.
+
+Cyber is basically a big decentralized [knowledge graph](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#technical-questions-in-plain-terms), to which users add and read information from. While validators use their machines to rank and index the user provided information in a trustless manner. For now, Cyber works with a technology called [IPFS](https://ipfs.io/), which is basically, a distributed P2P storage where users can safely store and exchange data, but Cyber can work with any similar technology such as DAT, GIT, Bitcoin, Ethereum, Swarm, etc.
+
+Cyber has no jurisdictions, CEO's and has its own [decentralized bank/VC fund](https://github.com/cybercongress/cyber-foundation) charged with ETH and managed by the community. The whole protocol is parametrized. I.E. anything can be changed via voting, including the ranking mechanism, inflation parameters and so on.
+
+If you want to learn more, we suggest to start [here](https://cyber.page/brain/help).
 
 ## How to obtain EUL/CYB tokens?
+EUL are Cyber's testnet tokens and CYB is the mainet token. These tokens are used to build the semantics core, to transact, to secure the network, to compute the rank, to stake and to receive rewards.
+
+You can obtain EUL tokens by trying to check if you were eligible to receive [a gift](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#claiming-the-gift). Cyber airdropped some of its tokens to ETH, ATOM and Urbit holders. The easiest way to check if you have it is to enter your address at the search bar on [cyber.page](https://cyber.page/search/gift).
+
+If you don't have a gift then you can register with [cyberd bot](https://t.me/cyberdbot) on telegram and receive some tokens, which is by far the easiest option right now. You can also, simply ask at their [Telegram channel](https://t.me/fuckgoogle) for some testnet tokens.
+
+Other ways, include becoming an [evangelist](https://cybercongress.ai/post/obep/) for the project and receiving rewards for various tasks or participating in one of Cyber's [bounty campagins](https://ai.cybercongress.ai/t/prop-10-description-discussion-tasks-rewards/110/12). There is also a chance to play [the Game of Links](https://cybercongress.ai/playing-gol/), which is an incentivized game for the Euer canary test network. If you participate in [Cyber's takeoff round](https://cybercongress.ai/how-to-donate/), you will receive some EUL tokens at the end of it.
+
+Not all EULs will become CYB. But if you earn EUL from playing the Game of Links or any EUL tokens out of the community pool, they will become CYB. The easiest way to get CYB is to participate in [Cyber's takeoff round](https://cybercongress.ai/how-to-donate/) or wait until [cyber/~Auction](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#cyberauction-or-auction), which will be another distribution round for CYB and other tokens related to Cyber.
 
 ## A list of Cyber wallets
+There are several wallets that can be used to store, manage, stake and transfer EUL tokens and can help you to create a wallet to start using Cyber. The [Keplr extension](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en) is by far the easiest and the most intuitive to use. Cyber's native wallet is on their app: [cyber.page](https://cyber.page/pocket). But it requires you to have a [Ledger](https://www.ledger.com/) device and when you 'pocket' it, you can get an address.
+
+Other options include downloading the [cyb/~Virus](https://github.com/CipherDogs/cyb-virus), Mozilla extension, but it requires manual installation. Using the [cyberd Telegram bot](https://t.me/cyberdbot). Using [dpos.space/cyber](https://dpos.space/cyber) (has only Russian interface), which is a local storage browser wallet. You can also use the Cyber [wallet generator](https://crates.io/crates/cyber-wallet-generator), which is another local storage wallet and lastly, [cyberpi](https://pypi.org/project/cyberpy/), a Python tool for wallet management. Oh, and, of course, you can use the [CLI](https://cybercongress.ai/docs/go-cyber/ultimate-commands-guide/) to create a wallet.
+
+Please note, that Cyber is far from the mass adoption stage at the moment and most wallets are developer friendly. We suggest to use Keplr at this stage.
 
 ## A step-by-step staking guide
