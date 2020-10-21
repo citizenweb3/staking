@@ -36,3 +36,12 @@ Other options include downloading the [cyb/~Virus](https://github.com/CipherDogs
 Please note, that Cyber is far from the mass adoption stage at the moment and most wallets are developer friendly. We suggest to use Keplr at this stage.
 
 ## A step-by-step staking guide
+There are 2 ways to curretntly stake Cyber:
+
+1) Using [Keplr]() or a Ledger device connected to [cyber.page]()
+
+2) You know what you're doing, so all you need is Citizen's Cosmos [validator address: cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam)
+
+### Keplr
+
+### cyber.page
