@@ -50,23 +50,23 @@ Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamc
 
 2) This will open a new browser window, in which you will see the list of the current, active validators. Make sure that in the menu on the left, 'Cyber' is selected (just under the Keplr logo). Find Citizen Cosmos and click 'manage':
 
-[
+[![Screenshot-from-2020-10-21-20-05-44.png](https://i.postimg.cc/7YhvCGLd/Screenshot-from-2020-10-21-20-05-44.png)](https://postimg.cc/Dm9pHzLP)
 
 3) Another new window will appear: make sure it says Citizen Cosmos and click 'delegate':
 
-[
+[![Screenshot-from-2020-10-21-20-07-32.png](https://i.postimg.cc/x1L6qnLB/Screenshot-from-2020-10-21-20-07-32.png)](https://postimg.cc/ZWK8Mk7L)
 
 4) Input the desired amount you wish to delegate, and click 'delegate':
 
-[
+[![Screenshot-from-2020-10-21-20-08-20.png](https://i.postimg.cc/43Bbhdy2/Screenshot-from-2020-10-21-20-08-20.png)](https://postimg.cc/WDqJBsM0)
 
 5) Set the fee in the new window:
 
-[
+[![Screenshot-from-2020-10-21-20-08-52.png](https://i.postimg.cc/PfBcq6Bp/Screenshot-from-2020-10-21-20-08-52.png)](https://postimg.cc/8smwKbkN)
 
 6) Click 'approve':
 
-[
+[![Screenshot-from-2020-10-21-20-09-25.png](https://i.postimg.cc/N0fCnZrV/Screenshot-from-2020-10-21-20-09-25.png)](https://postimg.cc/CRX4BP7H)
 
 That' it, well done! In the left upper corner of the screen, you will see a pop-up box that says that the tx was successful. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more.
 
