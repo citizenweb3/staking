@@ -49,11 +49,11 @@ Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamc
 
 4) Input the desired amount you wish to delegate, and click 'delegate':
 
-[Screenshot-from-2020-10-21-16-31-42.png](https://postimg.cc/5YSdwwLP)
+[![Screenshot-from-2020-10-21-16-31-42.png](https://i.postimg.cc/26PkNG6f/Screenshot-from-2020-10-21-16-31-42.png)](https://postimg.cc/5YSdwwLP)
 
 5) Set the fee in the new window:
 
-[Screenshot-from-2020-10-21-16-32-25.png](https://postimg.cc/475qKXRq)
+[![Screenshot-from-2020-10-21-16-32-25.png](https://i.postimg.cc/gjFWT0Sz/Screenshot-from-2020-10-21-16-32-25.png)](https://postimg.cc/475qKXRq)
 
 6) Click 'approve':
 
