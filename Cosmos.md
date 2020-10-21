@@ -33,7 +33,7 @@ Staking ATOM is easy as 1,2,3. It really is. Let's go thorough 2 options:
 2) You're using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#keplr) or [Cosmostation](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#cosmostation). You might be using any other wallet. It doesn't really matter. The staking option works more or less the same. The idea is that you need to find the 'reward' or the 'validator' tab and then delegate the desired amount to a desired validator.
 
 #### Keplr
-Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some ATOM balance and
+Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some ATOM balance and:
 
 1) Click the blue 'stake' button:
 
