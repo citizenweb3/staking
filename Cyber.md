@@ -34,14 +34,53 @@ There are several wallets that can be used to store, manage, stake and transfer 
 Other options include downloading the [cyb/~Virus](https://github.com/CipherDogs/cyb-virus), Mozilla extension, but it requires manual installation. Using the [cyberd Telegram bot](https://t.me/cyberdbot). Using [dpos.space/cyber](https://dpos.space/cyber) (has only Russian interface), which is a local storage browser wallet. You can also use the Cyber [wallet generator](https://crates.io/crates/cyber-wallet-generator), which is another local storage wallet and lastly, [cyberpi](https://pypi.org/project/cyberpy/), a Python tool for wallet management. Oh, and, of course, you can use the [CLI](https://cybercongress.ai/docs/go-cyber/ultimate-commands-guide/) to create a wallet.
 
 Please note, that Cyber is far from the mass adoption stage at the moment and most wallets are developer friendly. We suggest to use Keplr at this stage.
-
 ## A step-by-step staking guide
-There are 2 ways to curretntly stake Cyber:
+There are 2 ways to currently stake Cyber:
 
-1) Using [Keplr]() or a Ledger device connected to [cyber.page]()
+1) Using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#keplr) or a Ledger device connected to [cyber.page](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#cyberpage)
 
 2) You know what you're doing, so all you need is Citizen's Cosmos [validator address: cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam)
 
 ### Keplr
+Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some EUL balance and:
+
+1) Click the 'stake' button:
+
+[![Untitled.png](https://i.postimg.cc/QdPs0NRV/Untitled.png)](https://postimg.cc/DSqtzhfK)
+
+2) This will open a new browser window, in which you will see the list of the current, active validators. Make sure that in the menu on the left, 'Cyber' is selected (just under the Keplr logo). Find Citizen Cosmos and click 'manage':
+
+[
+
+3) Another new window will appear: make sure it says Citizen Cosmos and click 'delegate':
+
+[
+
+4) Input the desired amount you wish to delegate, and click 'delegate':
+
+[
+
+5) Set the fee in the new window:
+
+[
+
+6) Click 'approve':
+
+[
+
+That' it, well done! In the left upper corner of the screen, you will see a pop-up box that says that the tx was successful. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more.
 
 ### cyber.page
+If you have a Ledger device, you can connect to [cyber.page](https://cyber.page/pocket) and use Cyber's native app and staking module.
+
+1) Assuming your Ledger is already pocketed (if not, follow this [guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)), i.e. connected to the app, simply go to the [heroes page](https://cyber.page/heroes) and look for Citizen Cosmos:
+
+p
+
+2) Click on Citizen Cosmos, this will open a new page:
+
+p
+
+3) Click the 'stake' button at the bottom (make sure your Ledger is connected, unlocked and the Cosmos app is open):
+
+o
