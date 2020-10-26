@@ -13,7 +13,7 @@ We operate validators on the below listed networks. Token holders can stake with
 - [How to obtain ATOM tokens?](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#how-to-obtain-atom-tokens) 
 - A list of [Cosmos wallets](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#a-list-of-cosmos-wallets)
 - Reward [calculator](https://www.stakingrewards.com/earn/cosmos)
-- [Citizen Cosmos validator]() address:
+- [Citizen Cosmos validator](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) address: cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u 
 
 ### [Cyber](https://cyber.page/)
 
@@ -22,4 +22,4 @@ We operate validators on the below listed networks. Token holders can stake with
 - [How to obtain EUL/CYB tokens?](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#how-to-obtain-eulcyb-tokens) 
 - A list of [Cyber wallets](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#a-list-of-cyber-wallets)
 - Reward [calculator](https://www.stakingrewards.com/earn/cyber)
-- [Citizen Cosmos validator]() address:
+- [Citizen Cosmos validator](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam) address: cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam
