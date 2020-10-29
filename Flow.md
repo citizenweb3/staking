@@ -3,4 +3,4 @@
 2. Out: [236](https://www.mintscan.io/cosmos/txs/9191BF5C73F1EB23D7C22F643610522614E2821F05D22B0F1AD2339BA869EB9A) | 29.10.20
 
 - [DAI]:
-1. In: [1](https://etherscan.io/tx/0x88cc8b5278c1580d17b84e3ea4f5c05e08565a94f9326bebc0619b48ea416ae9) (change to dai)
+1. In: [1078](https://etherscan.io/tx/0x88cc8b5278c1580d17b84e3ea4f5c05e08565a94f9326bebc0619b48ea416ae9) | 29.10.20
