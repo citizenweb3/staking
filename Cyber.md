@@ -15,7 +15,7 @@ Cyber is basically a big decentralized [knowledge graph](https://github.com/cybe
 
 Cyber has no jurisdictions, CEO's and has its own [decentralized bank/VC fund](https://github.com/cybercongress/cyber-foundation) charged with ETH and managed by the community. The whole protocol is parametrized. I.E. anything can be changed via voting, including the ranking mechanism, inflation parameters and so on.
 
-**To recap: Cyber is a communication layer between the new internet and the user. The twist is that this communication layer forms quite a complex layer in itself. A layer that contains blockchain, cryptography, economical incentives and is not managed by any central party, but rather, by a collective mind. Also, the layer allows for the creation of applications on top of it. That layer, opposed to 'OSI layers' is managed by a DAO and has its self-sustainable.**
+To recap: Cyber is a communication layer between the new internet and the user. The twist is that this communication layer forms quite a complex layer in itself. A layer that contains blockchain, cryptography, economical incentives and is not managed by any central party, but rather, by a collective mind. Also, the layer allows for the creation of applications on top of it. That layer, opposed to 'OSI layers' is managed by a DAO and has is self-sustainable.
 
 [![What is Cyber?](https://i.postimg.cc/BZxQjTfx/Screenshot-from-2020-11-02-13-42-53.png)](https://www.youtube.com/watch?v=mTrGJRM6IME)
 
