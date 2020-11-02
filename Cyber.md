@@ -15,6 +15,8 @@ Cyber is basically a big decentralized [knowledge graph](https://github.com/cybe
 
 Cyber has no jurisdictions, CEO's and has its own [decentralized bank/VC fund](https://github.com/cybercongress/cyber-foundation) charged with ETH and managed by the community. The whole protocol is parametrized. I.E. anything can be changed via voting, including the ranking mechanism, inflation parameters and so on.
 
+[![A 45 second overview of Cyber](https://i.postimg.cc/BZxQjTfx/Screenshot-from-2020-11-02-13-42-53.png](https://www.youtube.com/watch?v=mTrGJRM6IME "Cyber")
+
 If you want to learn more, we suggest to start [here](https://cyber.page/brain/help).
 
 ## How to obtain EUL/CYB tokens?
