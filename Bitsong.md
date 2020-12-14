@@ -1,6 +1,6 @@
 # Bitsong
 
-Always DYOR (do your own research)
+Always DYOR (Do Your Own Research)
 
 ## What is Bitsong?
 - Bitsong Network is a project whereby artists can tokenize their productions, receive new investments for their new productions and share their rewards with all their fans.
