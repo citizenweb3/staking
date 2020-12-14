@@ -3,6 +3,10 @@
 Always DYOR (Do Your Own Research)
 
 ## What is Bitsong?
+BitSong is an open source blockchain born in December 2017. Bitsong's mission is to simplify the music bureaucracy as much as possible, make the artists independent and facilitate the management of royalties.
+Based on Cosmos-SDK/Tendermint, BitSong is an interoperable and cross-chain blockchain.
+Through the BitSong api, any user can build their own decentralized music player and/or manage their royalties.
+
 - Bitsong Network is a project whereby artists can tokenize their productions, receive new investments for their new productions and share their rewards with all their fans.
 - Thanks to blockchain technology, each stream will be recorded and impossible to modify.
 - BitSong is a new music platform, which is built using [Cosmos-SDK] (https://cosmos.network) and the distributed IPFS filesystem.
