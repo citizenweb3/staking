@@ -12,7 +12,7 @@ Through the BitSong api, any user can build their own decentralized music player
 - BitSong is a new music platform, which is built using [Cosmos-SDK] (https://cosmos.network) and the distributed IPFS filesystem.
 - Your music will be distributed via BitSong on all its clients. For each track listened, you will receive a real-time $BTSG reward the token that is used to secure the network.
 - Thanks to blockchain technology, each stream will be recorded and impossible to modify.
-- Your music will be distributed via BitSong on all its clients. For each track listened, you will receive a real-time BTSG reward.
+- Your music will be distributed via BitSong on all its clients. For each track listened, you will receive a real-time BTSG token reward.
 - Distributed governance means that there is no element that can make decisions independently.
 
 ## How to obtain BTSG tokens?
