@@ -9,7 +9,7 @@ Through the BitSong api, any user can build their own decentralized music player
 
 - Bitsong Network is a project whereby artists can tokenize their productions, receive new investments for their new productions and share their rewards with all their fans.
 - Thanks to blockchain technology, each stream will be recorded and impossible to modify.
-- BitSong is a new music platform, which is built using [Cosmos-SDK] (https://cosmos.network) and the distributed IPFS filesystem.
+- BitSong is a new music platform, which is built using [Cosmos-SDK](https://cosmos.network) and the distributed IPFS filesystem.
 - Your music will be distributed via BitSong on all its clients. For each track listened, you will receive a real-time $BTSG reward the token that is used to secure the network.
 - Thanks to blockchain technology, each stream will be recorded and impossible to modify.
 - Your music will be distributed via BitSong on all its clients. For each track listened, you will receive a real-time BTSG token reward.
