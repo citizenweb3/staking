@@ -28,5 +28,5 @@ In the meantime Bitsong still have the ERC20 token, users who want to partecipat
 - Once on mainnet the list of wallets supporting Bitsong will be updated. Stay tuned!
 
 ## A step-by-step staking guide
-- A staking guide will be available soon.
+- A staking guide will be available soon!
 
