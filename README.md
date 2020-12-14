@@ -1,6 +1,6 @@
 ## Citizen Cosmos validator
 
-Our aim is to onboard people to web3 via making that journey as humane as possible. We believe that web3 is above all a communication tool. Let's communicate together!
+Our aim is to onboard people to web3 via making that journey as humane as possible. We believe that web3 is above all a communication tool. Let's communicate together!!
 
 We operate validators on the below listed networks. Token holders can stake with us to help secure these networks and their incentive for doing so, is earning staking rewards. We are devoted to our work and devoted to progress. We think out of the box and are proud to be a bit crazy. We value security, decentralization and simplicity.
 
