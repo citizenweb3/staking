@@ -19,7 +19,10 @@ With the launch of Mainnet 1.0 Bitsong will enable:
     - Governance
     - Staking
 The goal of this testnet-4 is testing the sdk 0.39.1 the official release that we will use for Mainnet 1.0.
-
+**ERC20 and Liquidity Pool**
+In the meantime Bitsong still have the ERC20 token, users who want to partecipate to the staking and governance can swap the token from ERC20 to the native token before the launch.
+- After Mainnet launch, users can continue to swap the token in a decentralized or centralized way
+- Until  Mainnet 2.0 they plan to keep our token only on DEX.
 
 ## A list of Bitsong wallets
 - Once on mainnet the list of wallets supporting Bitsong will be updated. Stay tuned!
