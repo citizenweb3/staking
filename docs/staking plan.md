@@ -4,7 +4,7 @@
 
 - Cosmos: [done](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u)
 - Cyber: [done](https://cyber.page/network/euler/hero/cybervaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqwetkam)
-- Bitsong: in progress
+- Bitsong: [done](https://testnet.explorebitsong.com/staking/bitsongvaloper1h8rncpmlekcjeteyu9zq5np2430f6ptvz4wg70)
 - Ethermint: R&D
 - Big Bang & Stargate testing: done
 
