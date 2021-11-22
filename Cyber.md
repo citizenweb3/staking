@@ -47,33 +47,28 @@ There are 2 ways to stake BOOT:
 2) You know what you're doing, so all you need is Citizen's Cosmos [validator address: bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r](https://cyb.ai/network/bostrom/hero/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r)
 
 ### Keplr
-Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some EUL balance and:
+Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some BOOT on your balance, and:
 
 1) Click the 'stake' button:
 
-[![Untitled.png](https://i.postimg.cc/QdPs0NRV/Untitled.png)](https://postimg.cc/DSqtzhfK)
+[![1.png](https://i.postimg.cc/g0HyWKWB/1.png)](https://postimg.cc/nsM9KBMv)
 
-2) This will open a new browser window, in which you will see the list of the current, active validators. Make sure that in the menu on the left, 'Cyber' is selected (just under the Keplr logo). Find Citizen Cosmos and click 'manage':
+2) This will open a new browser window, in which you will see the list of the current, active validators. 
+Make sure that in the 'chain' menu on the left, 'Bostrom' is selected. Find Citizen Cosmos and click 'manage':
 
-[![Screenshot-from-2020-10-21-20-05-44.png](https://i.postimg.cc/7YhvCGLd/Screenshot-from-2020-10-21-20-05-44.png)](https://postimg.cc/Dm9pHzLP)
+[![2.png](https://i.postimg.cc/c1bR0HpZ/2.png)](https://postimg.cc/Sjc2GyQt)
 
-3) Another new window will appear: make sure it says Citizen Cosmos and click 'delegate':
+3) A pop-up window will appear: make sure it says Citizen Cosmos and click 'delegate':
 
-[![Screenshot-from-2020-10-21-20-07-32.png](https://i.postimg.cc/x1L6qnLB/Screenshot-from-2020-10-21-20-07-32.png)](https://postimg.cc/ZWK8Mk7L)
+[![3.png](https://i.postimg.cc/bNSQJPPn/3.png)](https://postimg.cc/SJqXTwJQ)
 
 4) Input the desired amount you wish to delegate, and click 'delegate':
 
-[![Screenshot-from-2020-10-21-20-08-20.png](https://i.postimg.cc/43Bbhdy2/Screenshot-from-2020-10-21-20-08-20.png)](https://postimg.cc/WDqJBsM0)
+[![Sc[![4.png](https://i.postimg.cc/q7wKYMsP/4.png)](https://postimg.cc/5HHjQJkg)
 
-5) Set the fee in the new window:
+5) Set the fee and click 'approve':
 
-[![Screenshot-from-2020-10-21-20-08-52.png](https://i.postimg.cc/PfBcq6Bp/Screenshot-from-2020-10-21-20-08-52.png)](https://postimg.cc/8smwKbkN)
-
-6) Click 'approve':
-
-[![Screenshot-from-2020-10-21-20-09-25.png](https://i.postimg.cc/N0fCnZrV/Screenshot-from-2020-10-21-20-09-25.png)](https://postimg.cc/CRX4BP7H)
-
-That' it, well done! In the left upper corner of the screen, you will see a pop-up box that says that the tx was successful. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more.
+[![5.png](https://i.postimg.cc/gjX6nVCp/5.png)](https://postimg.cc/PvHq7wfV)
 
 ### cyber.page
 If you have a Ledger device, you can connect to [cyber.page](https://cyber.page/pocket) and use Cyber's native app and staking module.
