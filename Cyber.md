@@ -64,30 +64,33 @@ Make sure that in the 'chain' menu on the left, 'Bostrom' is selected. Find Citi
 
 4) Input the desired amount you wish to delegate, and click 'delegate':
 
-[![Sc[![4.png](https://i.postimg.cc/q7wKYMsP/4.png)](https://postimg.cc/5HHjQJkg)
+[![4.png](https://i.postimg.cc/q7wKYMsP/4.png)](https://postimg.cc/5HHjQJkg)
 
 5) Set the fee and click 'approve':
 
 [![5.png](https://i.postimg.cc/gjX6nVCp/5.png)](https://postimg.cc/PvHq7wfV)
 
-### cyber.page
-If you have a Ledger device, you can connect to [cyber.page](https://cyber.page/pocket) and use Cyber's native app and staking module.
+Congrats!
 
-1) Assuming your Ledger is already pocketed (if not, follow this [guide](https://github.com/cybercongress/congress/blob/master/ecosystem/Cyber%20Homestead%20doc.md#creating-a-cyber-wallet)), i.e. connected to the app, simply go to the [heroes page](https://cyber.page/heroes) and look for Citizen Cosmos:
+### cyb.ai
+If you have a Ledger device, you can connect to [cyb.ai](https://cyb.ai) and use Cyber's native app and staking module.
 
-[![Screenshot-from-2020-10-21-20-11-02.png](https://i.postimg.cc/SN1n8MfM/Screenshot-from-2020-10-21-20-11-02.png)](https://postimg.cc/SJ8Qbj5S)
+1) Assuming your Ledger is already pocketed, i.e. connected to the app, go to Dyson Sphere -> [Active Heroes page](https://cyb.ai/halloffame) and look for Citizen Cosmos:
+
+[![1.png](https://i.postimg.cc/sfYQx40V/1.png)](https://postimg.cc/0rN2HDs3)
 
 2) Click on Citizen Cosmos, this will open a new page:
 
-[![Screenshot-from-2020-10-21-20-11-37.png](https://i.postimg.cc/2j2yRZJK/Screenshot-from-2020-10-21-20-11-37.png)](https://postimg.cc/xqNnLc9v)
+[![2.png](https://i.postimg.cc/28CqZLPn/2.png)](https://postimg.cc/c654qC1J)
 
-3) Click the 'stake' button at the bottom (make sure your Ledger is connected, unlocked and the Cosmos app is open). In the box that appeared at the bottom, enter the desired amount of GEUL you wish to delegate (1 GEUL = 1,000,000,000 EUL):
+3) Click the 'stake' button at the bottom (make sure your Ledger is connected and the Cosmos app is unlocked and the open). In the box that appeared at the bottom, enter the desired amount of BOOT you wish to delegate:
 
-[![Screenshot-from-2020-10-21-20-12-44.png](https://i.postimg.cc/FHchRdWm/Screenshot-from-2020-10-21-20-12-44.png)](https://postimg.cc/rD8BZm2Y)
+[![3.png](https://i.postimg.cc/MTkHKn7M/3.png)](https://postimg.cc/GBQdXhSd)
 
-4) Click `generate tx` and confirm it on youe Ledger device:
+4) Click `generate tx` and confirm it on your Ledger device:
 
 [![Screenshot-from-2020-10-21-20-15-15.png](https://i.postimg.cc/ncfJWcVP/Screenshot-from-2020-10-21-20-15-15.png)](https://postimg.cc/BtpkL3KT)
 
-Congratulations! You are now staking with Citizen Cosmos and recieving rewards. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more. 
+Congratulations! 
 
+You are now staking with Citizen Cosmos and recieving rewards. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more. 
