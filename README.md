@@ -26,7 +26,7 @@ We value security, community & decentralization.
 - Reward [calculator](https://www.stakingrewards.com/earn/cyber)
 - [Citizen Cosmos validator](https://cyb.ai/network/bostrom/hero/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r) address: bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r
 
-### [EVMOS]([https://cyb.ai/](https://evmos.org/))
+### [EVMOS](https://evmos.org/)
 
 - EVMOS step-by-step [staking guide](https://github.com/citizen-cosmos/Staking/blob/main/evmos.md#a-step-by-step-staking-guide=)
 - [What is EVMOS?](https://github.com/citizen-cosmos/Staking/blob/main/evmos.md#what-is-evmos=)
