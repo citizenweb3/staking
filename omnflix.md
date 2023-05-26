@@ -23,5 +23,6 @@ You can always find a community maintained list of FLIX wallets [here](https://f
 
 If you do have a Ledger, then [Cosmostation](https://www.cosmostation.io/) is your best pick, just [connect your device](https://wallet.cosmostation.io/) and start using it.
 
+## [A step-by-step staking guide](https://citizen-cosmos.github.io/manuscripts/how-to-stake-flix/)
 
 
