@@ -24,8 +24,6 @@ and if your crypto holdings exceed this sum, it makes sense to secure your holdi
 hardware devices only from verified vendors and official re-sellers! A list of these can always be found on the official website of the device 
 manufacturers.
 
-Do use [Keplr]()!
+Do use [Keplr](https://www.keplr.app/)!
 
-## A step-by-step staking guide
-
-To add
+## [A step-by-step staking guide](https://citizen-cosmos.github.io/manuscripts/how-to-stake-evmos/)
