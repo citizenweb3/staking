@@ -6,5 +6,4 @@ Token holders can [stake with Citizen Web3](https://www.citizencosmos.space/stak
 2) We think out of the box and proud to be a little crazy
 3) We value security, decentralization, privacy and lack of enforcment.
 
-
-
+![Cw3 logo](https://github.com/citizenweb3/staking/assets/7550961/0d411760-722f-416d-9b6e-21e285a37457)
