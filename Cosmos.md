@@ -39,11 +39,11 @@ Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamc
 
 [![2.png](https://i.postimg.cc/ry1sL6Sn/2.png)](https://postimg.cc/fkbDxrqm)
 
-2) This will open a new browser window, in which you will see the list of the current, active validators. Make sure that in the menu on the left, 'Cosmos' is selected (just under the Keplr logo). Find Citizen Cosmos and click 'manage':
+2) This will open a new browser window, in which you will see the list of the current, active validators. Make sure that in the menu on the left, 'Cosmos' is selected (just under the Keplr logo). Find Citizen Web3 and click 'manage':
 
 [![3.png](https://i.postimg.cc/CKyhBm0r/3.png)](https://postimg.cc/xXRDBGcL)
 
-3) Another new window will appear: make sure it says Citizen Cosmos and click 'delegate':
+3) Another new window will appear: make sure it says Citizen Web3 and click 'delegate':
 
 [![Screenshot-from-2020-10-21-16-30-21.png](https://i.postimg.cc/8CPxKvTB/Screenshot-from-2020-10-21-16-30-21.png)](https://postimg.cc/ZW2f0CBC)
 
@@ -59,7 +59,7 @@ Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamc
 
 [![Screenshot-from-2020-10-21-16-32-42.png](https://i.postimg.cc/3xSHH1Sb/Screenshot-from-2020-10-21-16-32-42.png)](https://postimg.cc/XrCPff0w)
 
-That' it, well done! In the left upper corner of the screen, you will see a pop-up box that says that the tx was successful. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more.
+That' it, well done! In the left upper corner of the screen, you will see a pop-up box that says that the tx was successful. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Web3 to earn more.
 
 #### Cosmostation
 If you're using [Cosmostation](https://wallet.cosmostation.io/) with a ledger device, then - first make sure you have downloaded the Cosmos app. Connect your Ledger, input your pin and open the Cosmos app. Open a browser window and Cosmostation.
