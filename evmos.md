@@ -6,7 +6,7 @@ Always DYOR (do your own research)
 Evmos is bringing the world of Ethereum-based applications and assets to the interoperable networks of the Cosmos ecosystem, all while aligning developer 
 and user incentives. 
 
-To learn more, we suggest to read [this article](https://citizen-cosmos.github.io/blog/#evmos-rule-em-all) and to listen to this 
+To learn more, we suggest to read [these articles]([https://citizen-cosmos.github.io/blog/#evmos-rule-em-all](https://citizenweb3.github.io/manuscripts/tags/evmos/)) and to listen to this 
 [podcast](https://www.citizencosmos.space/evmos).
 
 ## How to obtain EVMOS tokens?
