@@ -28,7 +28,7 @@ If you do have a Ledger, then [Cosmostation](https://www.cosmostation.io/) is yo
 ## A step-by-step staking guide
 Staking ATOM is easy as 1,2,3. It really is. Let's go thorough 2 options:
 
-1) You know what you're doing and how to delegate. Simply use [the Citizen Cosmos validator address: cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) and delegate!
+1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) and delegate!
 
 2) You're using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#keplr) or [Cosmostation](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#cosmostation). You might be using any other wallet. It doesn't really matter. The staking option works more or less the same. The idea is that you need to find the 'reward' or the 'validator' tab and then delegate the desired amount to a desired validator.
 
@@ -78,7 +78,7 @@ If you're using [Cosmostation](https://wallet.cosmostation.io/) with a ledger de
 
 [![Screenshot-from-2020-10-21-16-43-54.png](https://i.postimg.cc/PrZxTPBk/Screenshot-from-2020-10-21-16-43-54.png)](https://postimg.cc/crxZc4xD)
 
-4) You will arrive at a page with a list of the validators. Find Citizen Cosmos and click 'delegate':
+4) You will arrive at a page with a list of the validators. Find the Citizen Web3 validator and click 'delegate':
 
 [![Screenshot-from-2020-10-21-16-45-02.png](https://i.postimg.cc/x1591H5B/Screenshot-from-2020-10-21-16-45-02.png)](https://postimg.cc/FYYMPY2x)
 
@@ -94,5 +94,5 @@ If you're using [Cosmostation](https://wallet.cosmostation.io/) with a ledger de
 
 [![Screenshot-from-2020-10-21-16-48-05.png](https://i.postimg.cc/3R7jCsmk/Screenshot-from-2020-10-21-16-48-05.png)](https://postimg.cc/Z97yJDfm)
 
-Congratulations! You are now staking with Citizen Cosmos. Don't forget to keep re-delegating the rewards you accumulate to get a higher overall reward.
+Congratulations! You are now staking with Citizen Web3. Don't forget to keep re-delegating the rewards you accumulate to get a higher overall reward.
 
