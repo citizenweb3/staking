@@ -44,7 +44,7 @@ There are 2 ways to stake BOOT:
 
 1) Using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#keplr) or a Ledger device connected to [cyb.ai](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#cyberpage)
 
-2) You know what you're doing, so all you need is Citizen's Cosmos [validator address: bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r](https://cyb.ai/network/bostrom/hero/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r)
+2) You know what you're doing, so all you need is the Citizen Web3 [validator address: bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r](https://cyb.ai/network/bostrom/hero/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r)
 
 ### Keplr
 Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some BOOT on your balance, and:
@@ -54,11 +54,11 @@ Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamc
 [![1.png](https://i.postimg.cc/g0HyWKWB/1.png)](https://postimg.cc/nsM9KBMv)
 
 2) This will open a new browser window, in which you will see the list of the current, active validators. 
-Make sure that in the 'chain' menu on the left, 'Bostrom' is selected. Find Citizen Cosmos and click 'manage':
+Make sure that in the 'chain' menu on the left, 'Bostrom' is selected. Find Citizen Web3 and click 'manage':
 
 [![2.png](https://i.postimg.cc/c1bR0HpZ/2.png)](https://postimg.cc/Sjc2GyQt)
 
-3) A pop-up window will appear: make sure it says Citizen Cosmos and click 'delegate':
+3) A pop-up window will appear: make sure it says Citizen Web3 and click 'delegate':
 
 [![3.png](https://i.postimg.cc/bNSQJPPn/3.png)](https://postimg.cc/SJqXTwJQ)
 
@@ -75,11 +75,11 @@ Congrats!
 ### cyb.ai
 If you have a Ledger device, you can connect to [cyb.ai](https://cyb.ai) and use Cyber's native app and staking module.
 
-1) Assuming your Ledger is already pocketed, i.e. connected to the app, go to Dyson Sphere -> [Active Heroes page](https://cyb.ai/halloffame) and look for Citizen Cosmos:
+1) Assuming your Ledger is already pocketed, i.e. connected to the app, go to Dyson Sphere -> [Active Heroes page](https://cyb.ai/halloffame) and look for Citizen Web3:
 
 [![1.png](https://i.postimg.cc/sfYQx40V/1.png)](https://postimg.cc/0rN2HDs3)
 
-2) Click on Citizen Cosmos, this will open a new page:
+2) Click on Citizen Web3, this will open a new page:
 
 [![2.png](https://i.postimg.cc/28CqZLPn/2.png)](https://postimg.cc/c654qC1J)
 
@@ -93,4 +93,4 @@ If you have a Ledger device, you can connect to [cyb.ai](https://cyb.ai) and use
 
 Congratulations! 
 
-You are now staking with Citizen Cosmos and recieving rewards. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Cosmos to earn more. 
+You are now staking with Citizen Web3 and recieving rewards. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Web3 to earn more. 
