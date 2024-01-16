@@ -1,4 +1,4 @@
-# Cosmos
+# Cosmos (hub)
 
 Always DYOR (do your own research)
 
@@ -13,17 +13,13 @@ Often the Cosmos ecosystem, Cosmos hub, Cosmos-SDK, ATOM and Tendermint are mixe
 
 If you want to learn more, we recommend to start [here](https://cosmos.network/intro).
 
-## How to obtain ATOM tokens?
-You can purchase them on an exchange. The list of exchanges can be found [here](https://www.coingecko.com/en/coins/cosmos#markets). Or, you can purchase them using a DEX or a so-called 'swap service'. Please find a list of such services [here](https://github.com/serejandmyself/cryptowiki/blob/master/cryptowiki.md#no-kycaml). Note, that not all of these services list ATOM.
-
-For beginners, we advise to either use [Binance](https://www.binance.com/en/trade/ATOM_BTC) or something like [Simpleswap](https://simpleswap.io/). Please be cautious when using any service listed above and do your own due diligence first. Always and always(!) test the service first using small sums, and if it's ok, then, do your other transaction/s.
+## Where to get ATOM?
+Option 1: an exchange. A list can be found [here](https://www.coingecko.com/en/coins/cosmos#markets). Or, using a DEX or a so-called 'swap service'. Please find a list of such services [here](https://github.com/serejandmyself/cryptowiki/blob/master/cryptowiki.md#no-kycaml). Not all of these services list ATOM.
 
 ## A list of Cosmos wallets
 The best way to store ATOM, or in fact, any other token, is using a hardware device like [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/). We understand that not everyone has the ability to purchase those. We still, however, strongly encourage this. A device like this costs between 50-200 USD and if your crypto holdings exceed this sum, it makes sense to secure your holdings via this method offering an extra level of security. Please, purchase hardware devices only from verified vendors and official re-sellers! A list of these can always be found on the official website of the device manufacturers.
 
-You can always find a community maintained list of Cosmos wallets [here](https://forum.cosmos.network/t/delegators-cosmos-tendermint-guides-wallets-explorers-tools/2168). If you don't have a Ledger, the easiest wallet to use is the [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en) extension on your desktop, or [Cosmostation](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion) on your mobile device (can also be used for desktop). Save your seed on paper and backup your login password twice. Do not store your seed online!
-
-If you do have a Ledger, then [Cosmostation](https://www.cosmostation.io/) is your best pick, just [connect your device](https://wallet.cosmostation.io/) and start using it.
+You will probably need thew [Keplr]((https://www.keplr.app/) extension . Save your seed on paper and backup your login password twice. Do not store your seed online!
 
 ## A step-by-step staking guide
 Staking ATOM is easy as 1,2,3. It really is. Let's go thorough 2 options:
