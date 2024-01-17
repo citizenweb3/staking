@@ -19,76 +19,14 @@ Option 1: an exchange. A list can be found [here](https://www.coingecko.com/en/c
 ## A list of Cosmos wallets
 The best way to store ATOM, or in fact, any other token, is using a hardware device like [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/). We understand that not everyone has the ability to purchase those. We still, however, strongly encourage this. A device like this costs between 50-200 USD and if your crypto holdings exceed this sum, it makes sense to secure your holdings via this method offering an extra level of security. Please, purchase hardware devices only from verified vendors and official re-sellers! A list of these can always be found on the official website of the device manufacturers.
 
-You will probably need thew [Keplr]((https://www.keplr.app/) extension . Save your seed on paper and backup your login password twice. Do not store your seed online!
+You will probably need the [Keplr]((https://www.keplr.app/) extension . Save your seed on paper and backup your login password twice. Do not store your seed online!
 
-## A step-by-step staking guide
-Staking ATOM is easy as 1,2,3. It really is. Let's go thorough 2 options:
+## How to stake ATOM?
+Staking ATOM is easy as 1,2,3. Let's go thorough 2 options:
 
 1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) and delegate!
 
-2) You're using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#keplr) or [Cosmostation](https://github.com/citizen-cosmos/Staking/blob/main/Cosmos.md#cosmostation). You might be using any other wallet. It doesn't really matter. The staking option works more or less the same. The idea is that you need to find the 'reward' or the 'validator' tab and then delegate the desired amount to a desired validator.
+2) You're using an extension with or without a hardware wallet
 
-#### Keplr
-Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some ATOM balance and:
 
-1) Click the blue 'stake' button:
-
-[![2.png](https://i.postimg.cc/ry1sL6Sn/2.png)](https://postimg.cc/fkbDxrqm)
-
-2) This will open a new browser window, in which you will see the list of the current, active validators. Make sure that in the menu on the left, 'Cosmos' is selected (just under the Keplr logo). Find Citizen Web3 and click 'manage':
-
-[![3.png](https://i.postimg.cc/CKyhBm0r/3.png)](https://postimg.cc/xXRDBGcL)
-
-3) Another new window will appear: make sure it says Citizen Web3 and click 'delegate':
-
-[![Screenshot-from-2020-10-21-16-30-21.png](https://i.postimg.cc/8CPxKvTB/Screenshot-from-2020-10-21-16-30-21.png)](https://postimg.cc/ZW2f0CBC)
-
-4) Input the desired amount you wish to delegate, and click 'delegate':
-
-[![Screenshot-from-2020-10-21-16-31-42.png](https://i.postimg.cc/26PkNG6f/Screenshot-from-2020-10-21-16-31-42.png)](https://postimg.cc/5YSdwwLP)
-
-5) Set the fee in the new window:
-
-[![Screenshot-from-2020-10-21-16-32-25.png](https://i.postimg.cc/gjFWT0Sz/Screenshot-from-2020-10-21-16-32-25.png)](https://postimg.cc/475qKXRq)
-
-6) Click 'approve':
-
-[![Screenshot-from-2020-10-21-16-32-42.png](https://i.postimg.cc/3xSHH1Sb/Screenshot-from-2020-10-21-16-32-42.png)](https://postimg.cc/XrCPff0w)
-
-That' it, well done! In the left upper corner of the screen, you will see a pop-up box that says that the tx was successful. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Web3 to earn more.
-
-#### Cosmostation
-If you're using [Cosmostation](https://wallet.cosmostation.io/) with a ledger device, then - first make sure you have downloaded the Cosmos app. Connect your Ledger, input your pin and open the Cosmos app. Open a browser window and Cosmostation.
-
-1) Click on the big 'Connect wallet' button in the middle of the screen:
-
-[![Screenshot-from-2020-10-21-16-40-36.png](https://i.postimg.cc/XYV5pfKb/Screenshot-from-2020-10-21-16-40-36.png)](https://postimg.cc/ykbxGSrQ)
-
-2) You will be prompted to select your device, do so, and click 'connect'.
-
-[![Screenshot-from-2020-10-21-16-41-43.png](https://i.postimg.cc/Bv3Jqp2T/Screenshot-from-2020-10-21-16-41-43.png)](https://postimg.cc/G4XWKk7t)
-
-(Please note that some browsers might have an additional step to confirm the selected device, just make sure the device on screen, matches the connected one)
-
-3) Click 'Reward' on the left:
-
-[![Screenshot-from-2020-10-21-16-43-54.png](https://i.postimg.cc/PrZxTPBk/Screenshot-from-2020-10-21-16-43-54.png)](https://postimg.cc/crxZc4xD)
-
-4) You will arrive at a page with a list of the validators. Find the Citizen Web3 validator and click 'delegate':
-
-[![Screenshot-from-2020-10-21-16-45-02.png](https://i.postimg.cc/x1591H5B/Screenshot-from-2020-10-21-16-45-02.png)](https://postimg.cc/FYYMPY2x)
-
-5) A new window will appear:
-
-[![Screenshot-from-2020-10-21-16-45-55.png](https://i.postimg.cc/QCG2bxSp/Screenshot-from-2020-10-21-16-45-55.png)](https://postimg.cc/cghk1WpH)
-
-6) Choose the amount you wish to delegate and click the 'generate & sign transaction' button. You will be prompted with another window:
-
-[![Screenshot-from-2020-10-21-16-47-42.png](https://i.postimg.cc/vBWqG7LV/Screenshot-from-2020-10-21-16-47-42.png)](https://postimg.cc/R6ZQRHYS)
-
-7) Make sure the information here is correct and sign (approve) the transaction on your device.
-
-[![Screenshot-from-2020-10-21-16-48-05.png](https://i.postimg.cc/3R7jCsmk/Screenshot-from-2020-10-21-16-48-05.png)](https://postimg.cc/Z97yJDfm)
-
-Congratulations! You are now staking with Citizen Web3. Don't forget to keep re-delegating the rewards you accumulate to get a higher overall reward.
 
