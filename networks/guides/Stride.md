@@ -18,6 +18,6 @@ You will probably need the [Keplr]((https://www.keplr.app/) extension . Save you
 ## How to stake STRD?
 Staking STRD is easy as 1,2,3. Let's go thorough 2 options:
 
-1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) and delegate!
+1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: stridevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc5uha7x](https://www.mintscan.io/stride/ics-validators/stridevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc5uha7x) and delegate!
 
 2) You're using an extension with or without a hardware wallet
