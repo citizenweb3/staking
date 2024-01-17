@@ -2,7 +2,7 @@
 
 Always DYOR (do your own research)
 
-## What is Cyber?
+## What is Cyber / Bostrom?
 Cyber is a distributed, self-sustainable computer for answers, managed and governed by its users. Its architecture resembles a superintelligent AI organism, in that it can learn upon the data it's fed by its users and provide them answers without blackbox intermediaries. What this means, is that in essence, Cyber is a general-knowledge layer for creating applications and tools that require provable indexing and ranking of any type of content. These can be decentralized search engines, such as [cyb.ai](https://cyb.ai) or decentralized social media, such as [Quitter](https://cyb.ai/sixthSense).
 
 Cyber's goal is to create an open alternative to the closed semantics core of web2, to be used by AI, machine learning algorithms and users alike. By achieving a higher degree of decentralization to the web infrastructure, Cyber strives to create a universal, innovative search mechanism that can help avoid censorship and prove content verification (via the use of cryptography). By using blockchain and [cyberlinks](https://github.com/cybercongress/congress/blob/master/ecosystem/ELI-5%20FAQ.md#what-is-a-cyberlink) (a simple connection of 2 points, which can be information, data, block number, photo, video, transaction, Geo position, etc.) Cyber strives to provide more resistance to web3, than web2 has ever had.
@@ -21,76 +21,18 @@ To recap: Cyber is a communication layer between the new internet and the user. 
 
 If you want to learn more, we suggest to start [here](https://cyber.page/brain/help).
 
-P.S. Bostrom is just the bootloader network. We propose you [watch this](https://www.youtube.com/watch?v=Qx95oqTW-6M) to learn more.
+## Where to get BOOT?
+Option 1: an exchange. A list can be found [here](https://www.coingecko.com/en/coins/cosmos#markets). Or, using a DEX or a so-called 'swap service'. Please find a list of such services [here](https://github.com/serejandmyself/cryptowiki/blob/master/cryptowiki.md#no-kycaml). Not all of these services list BOOT.
 
-## How to obtain BOOT/CYB tokens?
-BOOT are Cyber's bootloader tokens for the Bostrom network. CYB is the mainet token. These tokens are used to build the semantics core, to transact, to secure the network, to compute the rank, to stake and to receive rewards.
+## A list of Bostrom wallets
+The best way to store BOOT, or in fact, any other token, is using a hardware device like [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/). We understand that not everyone has the ability to purchase those. We still, however, strongly encourage this. A device like this costs between 50-200 USD and if your crypto holdings exceed this sum, it makes sense to secure your holdings via this method offering an extra level of security. Please, purchase hardware devices only from verified vendors and official re-sellers! A list of these can always be found on the official website of the device manufacturers.
 
-You can obtain BOOT tokens by trying to check if you were eligible to receive [a gift](https://datastudio.google.com/u/0/reporting/53e1c28b-9f10-497c-9b5b-9f2a4749450b). Cyber airdropped some of its tokens to ETH & ATOM hodlers. 
+You will probably need the [Keplr]((https://www.keplr.app/) extension . Save your seed on paper and backup your login password twice. Do not store your seed online!
 
-Other ways to get BOOT were to participate in previous test networks and to earn the tokens via community pool, developing tools, etc
+## How to stake BOOT?
+Staking BOOT is easy as 1,2,3. Let's go thorough 2 options:
 
-## A list of Cyber wallets
-There are several wallets that can be used to store, manage, stake and transfer EUL tokens and can help you to create a wallet to start using Cyber. The [Keplr extension](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en) is by far the easiest and the most intuitive to use. 
+1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r](https://cyb.ai/network/bostrom/hero/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r) and delegate!
 
-Cyber's native wallet is on their app: [cyb.ai](https://cyb.ai). It requires you to have a [Ledger](https://www.ledger.com/) device and when you 'pocket' it, you can get an address.
+2) You're using an extension with or without a hardware wallet
 
-And, of course, you can use the [CLI](https://cybercongress.ai/docs/go-cyber/ultimate-commands-guide/) to create a wallet.
-
-Please note, that Cyber is far from the mass adoption stage at the moment and most wallets are developer friendly. We suggest to use Keplr at this stage.
-
-## A step-by-step staking guide
-There are 2 ways to stake BOOT:
-
-1) Using [Keplr](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#keplr) or a Ledger device connected to [cyb.ai](https://github.com/citizen-cosmos/Staking/blob/main/Cyber.md#cyberpage)
-
-2) You know what you're doing, so all you need is the Citizen Web3 [validator address: bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r](https://cyb.ai/network/bostrom/hero/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r)
-
-### Keplr
-Download and open [Keplr](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap) (please find an extended guide to using Keplr [here](https://medium.com/@catdotfish/how-to-use-keplr-wallet-40afc80907f6)), make sure you have some BOOT on your balance, and:
-
-1) Click the 'stake' button:
-
-[![1.png](https://i.postimg.cc/g0HyWKWB/1.png)](https://postimg.cc/nsM9KBMv)
-
-2) This will open a new browser window, in which you will see the list of the current, active validators. 
-Make sure that in the 'chain' menu on the left, 'Bostrom' is selected. Find Citizen Web3 and click 'manage':
-
-[![2.png](https://i.postimg.cc/c1bR0HpZ/2.png)](https://postimg.cc/Sjc2GyQt)
-
-3) A pop-up window will appear: make sure it says Citizen Web3 and click 'delegate':
-
-[![3.png](https://i.postimg.cc/bNSQJPPn/3.png)](https://postimg.cc/SJqXTwJQ)
-
-4) Input the desired amount you wish to delegate, and click 'delegate':
-
-[![4.png](https://i.postimg.cc/q7wKYMsP/4.png)](https://postimg.cc/5HHjQJkg)
-
-5) Set the fee and click 'approve':
-
-[![5.png](https://i.postimg.cc/gjX6nVCp/5.png)](https://postimg.cc/PvHq7wfV)
-
-Congrats!
-
-### cyb.ai
-If you have a Ledger device, you can connect to [cyb.ai](https://cyb.ai) and use Cyber's native app and staking module.
-
-1) Assuming your Ledger is already pocketed, i.e. connected to the app, go to Dyson Sphere -> [Active Heroes page](https://cyb.ai/halloffame) and look for Citizen Web3:
-
-[![1.png](https://i.postimg.cc/sfYQx40V/1.png)](https://postimg.cc/0rN2HDs3)
-
-2) Click on Citizen Web3, this will open a new page:
-
-[![2.png](https://i.postimg.cc/28CqZLPn/2.png)](https://postimg.cc/c654qC1J)
-
-3) Click the 'stake' button at the bottom (make sure your Ledger is connected and the Cosmos app is unlocked and the open). In the box that appeared at the bottom, enter the desired amount of BOOT you wish to delegate:
-
-[![3.png](https://i.postimg.cc/MTkHKn7M/3.png)](https://postimg.cc/GBQdXhSd)
-
-4) Click `generate tx` and confirm it on your Ledger device:
-
-[![Screenshot-from-2020-10-21-20-15-15.png](https://i.postimg.cc/ncfJWcVP/Screenshot-from-2020-10-21-20-15-15.png)](https://postimg.cc/BtpkL3KT)
-
-Congratulations! 
-
-You are now staking with Citizen Web3 and recieving rewards. Don't forget to manage your reward and to re-delegate the accumulated reward back to Citizen Web3 to earn more. 
