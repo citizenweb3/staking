@@ -36,3 +36,9 @@ To bond your NTRN and obtain voting power:
 
 [![n3.png](https://i.postimg.cc/QxPq43Sn/n3.png)](https://postimg.cc/JGNJ0Sfb)
 
+## How to stake NTRN?
+Staking NTRN is easy as 1,2,3. Let's go thorough 2 options:
+
+1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: neutronvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc2qrx6v](https://www.mintscan.io/neutron/ics-validators/neutronvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc2qrx6v) and delegate!
+
+2) You're using an extension with or without a hardware wallet
