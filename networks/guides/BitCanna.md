@@ -17,10 +17,10 @@ Option 1: an exchange. A list can be found [here](https://www.bitcanna.io/#Excha
 ## BitCanna wallets
 The best way to store BCNA, or in fact, any other token, is using a hardware device like [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/). We understand that not everyone has the ability to purchase those. We still, however, strongly encourage this. A device like this costs between 50-200 USD and if your crypto holdings exceed this sum, it makes sense to secure your holdings via this method offering an extra level of security. Please, purchase hardware devices only from verified vendors and official re-sellers! A list of these can always be found on the official website of the device manufacturers.
 
-You will probably need the [Keplr]((https://www.keplr.app/) extension, or the [Bitcanna wallet](https://wallet.bitcanna.io/validators/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye) . Save your seed on paper and backup your login password twice. Do not store your seed online!
+You will probably need the [Keplr]((https://www.keplr.app/) extension, or the [Bitcanna wallet](https://wallet.bitcanna.io/validators/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye). Save your seed on paper and backup your login password twice. Do not store your seed online!
 
 ## How to stake Bitcanna
-Staking BCNA is easy as 1,2,3. Let's go thorough 2 options:
+Staking BCNA is easy as 1,2,3. Let's go through 2 options:
 
 1) You know what you're doing and how to delegate. Simply use [the Citizen Web3 validator address: bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye](https://www.mintscan.io/bitcanna/validators/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye) and delegate!
 

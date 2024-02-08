@@ -21,7 +21,7 @@ Token holders of networks we validate, can stake with us to help secure these ne
 
 ## NETWORKS:
 
-### Mainet:
+### Mainnet:
 * [**Cosmos hub**](https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u)
 * [**Celestia**](https://www.mintscan.io/celestia/address/celestia1m77eksxfz9q50qejnqf720sns7q0xtx8eay2pku)
 * [**Evmos**](https://www.mintscan.io/evmos/validators/evmosvaloper1mtwvpdd57gpkyejd566s24afr9zm5ryq8gwpvj): Genesis Validator
@@ -33,7 +33,7 @@ Token holders of networks we validate, can stake with us to help secure these ne
 * [**Neutron**](https://www.mintscan.io/neutron/ics-validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u) 
 * [**Stride**](https://www.mintscan.io/stride/ics-validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u)
 
-### Incitivez Testnet:
+### Incentivized Testnet:
 * [**Namada**](): Waiting for launch (accepted to Shielded Expedition). Pre-Genesis validator
 
 ### Testnet:
