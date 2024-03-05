@@ -14,6 +14,18 @@
       "grpc": "https://grpc.source.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
     },
+    "generatedServices": [
+      {
+        "name": "state-sync",
+        "params": {
+          "chainName": "Source",
+          "rpcUrl": "https://rpc.source.posthuman.digital",
+          "directory": ".source",
+          "daemonName": "sourced",
+          "serviceName": "source"
+        }
+      }
+    ],
     "services": ["links"]
   },
   {
@@ -78,6 +90,18 @@
       "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@46.39.246.50:56656"
     },
     "contributions": "GovGen",
+    "generatedServices": [
+      {
+        "name": "state-sync",
+        "params": {
+          "chainName": "GovGen",
+          "rpcUrl": "https://rpc.govgen.posthuman.digital",
+          "directory": ".govgen",
+          "daemonName": "govgend",
+          "serviceName": "govgen"
+        }
+      }
+    ],
     "services": ["IBC-Relayers"]
   }
 ]
