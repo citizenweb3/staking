@@ -29,13 +29,13 @@
     "services": []
   },
   {
-    "name": "omniflixhub",
+    "name": "omniflix",
     "chain_id": "omniflixhub-1",
     "title": "OmniFlix",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
     "type": "mainnet",
     "stake": "https://wallet.keplr.app/chains/omniflix?modal=validator&chain=omniflixhub-1&validator_address=omniflixvaloper1s3achxs70ysg8pf9xqyytu0m4had60khpuccxl",
     "contributions": "Omniflix",
-    "services": []
+    "services": ["IBC-Relayers"]
   }
 ]
