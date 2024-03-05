@@ -5,7 +5,7 @@
     "chain_id": "source-1",
     "title": "Source Protocol",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
-    "stake": "https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud",
+    "stake": "",
     "endpoints": {
       "rpc": "https://rpc.source.posthuman.digital",
       "wss": "wss://rpc.source.posthuman.digital",
@@ -21,7 +21,7 @@
     "chain_id": "dymension_1100-1",
     "title": "Dymension Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
-    "stake": "https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud",
+    "stake": "",
     "endpoints": {
       "rpc": "https://rpc.dymension.posthuman.digital",
       "wss": "wss://rpc.dymension.posthuman.digital",
@@ -37,8 +37,8 @@
     "type": "mainnet",
     "chain_id": "humans_1089-1",
     "title": "Humans AI",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg",
-    "stake": "https://explorer.posthuman.digital/humans/staking/humanvaloper1ndnf0cd75nvz56feqy23um3mq22nlhe9ggu0uh",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
+    "stake": "",
     "endpoints": {
       "rpc": "https://rpc.humans.posthuman.digital",
       "rest": "https://rest.humans.posthuman.digital",
@@ -54,7 +54,7 @@
     "chain_id": "govgen-1",
     "title": "GovGen",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg",
-    "stake": "https://wallet.keplr.app/chains/omniflix?modal=validator&chain=omniflixhub-1&validator_address=omniflixvaloper1s3achxs70ysg8pf9xqyytu0m4had60khpuccxl",
+    "stake": "",
     "endpoints": {
       "rpc": "https://rpc.govgen.posthuman.digital:443",
       "rest": "https://rest.govgen.posthuman.digital:443",
