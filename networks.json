@@ -1,38 +1,19 @@
 [
   {
-    "name": "cosmoshub",
+    "name": "source",
     "type": "mainnet",
-    "chain_id": "cosmoshub-4",
-    "title": "Cosmos Hub",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
-    "stake": "https://wallet.keplr.app/chains/cosmos-hub?modal=validator&chain=cosmoshub-4&validator_address=cosmosvaloper157v7tczs40axfgejp2m43kwuzqe0wsy0rv8puv",
-    "contributions": "cosmoshub",
+    "chain_id": "source-1",
+    "title": "Source Protocol",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
+    "stake": "https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud",
     "endpoints": {
-      "rpc": "",
-      "rest": "",
-      "grpc": "",
-      "grpc-web": "",
-      "persistent-peers": "",
-      "wss": ""
+      "rpc": "https://rpc.source.posthuman.digital",
+      "wss": "wss://rpc.source.posthuman.digital",
+      "rest": "https://rest.source.posthuman.digital",
+      "grpc": "https://grpc.source.posthuman.digital",
+      "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
     },
-    "services": ["links", "install-guide", "IBC-Relayers"]
-  },
-  {
-    "name": "osmosis",
-    "type": "mainnet",
-    "chain_id": "osmosis-1",
-    "title": "Osmosis",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
-    "stake": "https://wallet.keplr.app/chains/osmosis?modal=validator&chain=osmosis-1&validator_address=osmovaloper1e8238v24qccht9mqc2w0r4luq462yxttfpaeam",
-    "endpoints": {
-      "rpc": "",
-      "rest": "",
-      "grpc": "",
-      "grpc-web": "",
-      "persistent-peers": ""
-    },
-    "contributions": "osmosis",
-    "services": ["links", "IBC-Relayers"]
+    "services": ["links"]
   },
   {
     "name": "dymension",
@@ -42,44 +23,43 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "stake": "https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud",
     "endpoints": {
-      "rpc": "",
-      "rest": "",
-      "grpc": "",
-      "grpc-web": "",
-      "persistent-peers": ""
+      "rpc": "https://rpc.dymension.posthuman.digital",
+      "wss": "wss://rpc.dymension.posthuman.digital",
+      "rest": "https://rest.dymension.posthuman.digital",
+      "grpc": "https://grpc.dymension.posthuman.digital",
+      "evm-rpc": "https://evm-rpc.dymension.posthuman.digital",
+      "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:36656"
     },
     "services": ["links"]
   },
   {
-    "name": "omniflix",
+    "name": "humans.ai",
     "type": "mainnet",
-    "chain_id": "omniflixhub-1",
-    "title": "OmniFlix",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
-    "stake": "https://wallet.keplr.app/chains/omniflix?modal=validator&chain=omniflixhub-1&validator_address=omniflixvaloper1s3achxs70ysg8pf9xqyytu0m4had60khpuccxl",
+    "chain_id": "humans_1089-1",
+    "title": "Humans AI",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_light.svg",
+    "stake": "https://explorer.posthuman.digital/humans/staking/humanvaloper1ndnf0cd75nvz56feqy23um3mq22nlhe9ggu0uh",
     "endpoints": {
-      "rpc": "",
-      "rest": "",
-      "grpc": "",
-      "grpc-web": "",
-      "persistent-peers": ""
+      "rpc": "https://rpc.humans.posthuman.digital",
+      "rest": "https://rest.humans.posthuman.digital",
+      "wss": "wss://rpc.humans.posthuman.digital",
+      "evm-rpc": "https://evm.humans.posthuman.digital",
+      "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
-    "contributions": "Omniflix",
-    "services": ["IBC-Relayers"]
+    "services": ["links"]
   },
   {
     "name": "govgen",
     "type": "mainnet",
     "chain_id": "govgen-1",
     "title": "GovGen",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg",
     "stake": "https://wallet.keplr.app/chains/omniflix?modal=validator&chain=omniflixhub-1&validator_address=omniflixvaloper1s3achxs70ysg8pf9xqyytu0m4had60khpuccxl",
     "endpoints": {
-      "rpc": "",
-      "rest": "",
-      "grpc": "",
-      "grpc-web": "",
-      "persistent-peers": ""
+      "rpc": "https://rpc.govgen.posthuman.digital:443",
+      "rest": "https://rest.govgen.posthuman.digital:443",
+      "grpc": "https://grpc.govgen.posthuman.digital:443",
+      "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@46.39.246.50:56656"
     },
     "contributions": "GovGen",
     "services": ["IBC-Relayers"]
