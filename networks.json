@@ -8,13 +8,13 @@
     "stake": "https://wallet.keplr.app/chains/cosmos-hub?modal=validator&chain=cosmoshub-4&validator_address=cosmosvaloper157v7tczs40axfgejp2m43kwuzqe0wsy0rv8puv",
     "contributions": "cosmoshub",
     "endpoints": {
-    "rpc": "",
-    "rest": "",
-    "grpc": "",
-    "grpc-web": "",
-    "persistent-peers": ""
+      "rpc": "",
+      "rest": "",
+      "grpc": "",
+      "grpc-web": "",
+      "persistent-peers": ""
     },
-    "services": [ "links", "install-guide", "IBC-Relayers" ]
+    "services": ["links", "install-guide", "IBC-Relayers"]
   },
   {
     "name": "osmosis",
