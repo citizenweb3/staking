@@ -17,7 +17,7 @@
     "type": "mainnet",
     "stake": "https://wallet.keplr.app/chains/osmosis?modal=validator&chain=osmosis-1&validator_address=osmovaloper1e8238v24qccht9mqc2w0r4luq462yxttfpaeam",
     "contributions": "osmosis",
-    "services": []
+    "services": ["IBC-Relayers"]
   },
   {
     "name": "dymension",
