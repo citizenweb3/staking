@@ -12,7 +12,8 @@
       "rest": "",
       "grpc": "",
       "grpc-web": "",
-      "persistent-peers": ""
+      "persistent-peers": "",
+      "wss": ""
     },
     "services": ["links", "install-guide", "IBC-Relayers"]
   },
