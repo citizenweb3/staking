@@ -16,6 +16,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
     "type": "mainnet",
     "stake": "https://wallet.keplr.app/chains/osmosis?modal=validator&chain=osmosis-1&validator_address=osmovaloper1e8238v24qccht9mqc2w0r4luq462yxttfpaeam",
+    "contributions": "osmosis",
     "services": []
   },
   {
@@ -34,6 +35,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
     "type": "mainnet",
     "stake": "https://wallet.keplr.app/chains/omniflix?modal=validator&chain=omniflixhub-1&validator_address=omniflixvaloper1s3achxs70ysg8pf9xqyytu0m4had60khpuccxl",
+    "contributions": "Omniflix",
     "services": []
   }
 ]
