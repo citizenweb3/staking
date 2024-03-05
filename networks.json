@@ -36,8 +36,8 @@
       {
         "name": "state-sync",
         "params": {
-          "name": "Dymension",
-          "rpc": "https://rpc.dymension.posthuman.digital",
+          "chainName": "Dymension",
+          "rpcUrl": "https://rpc.dymension.posthuman.digital",
           "directory": ".dymension",
           "daemonName": "dymd",
           "serviceName": "dymension"
