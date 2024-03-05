@@ -7,7 +7,7 @@
     "type": "mainnet",
     "stake": "https://wallet.keplr.app/chains/cosmos-hub?modal=validator&chain=cosmoshub-4&validator_address=cosmosvaloper157v7tczs40axfgejp2m43kwuzqe0wsy0rv8puv",
     "contributions": "cosmos",
-    "services": [ "links", "install-guide" ]
+    "services": [ "links", "install-guide", "IBC-Relayers" ]
   },
   {
     "name": "osmosis",
