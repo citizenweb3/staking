@@ -32,6 +32,18 @@
       "evm-rpc": "https://evm-rpc.dymension.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:36656"
     },
+    "generatedServices": [
+      {
+        "name": "state-sync",
+        "params": {
+          "name": "Dymension",
+          "rpc": "https://rpc.dymension.posthuman.digital",
+          "directory": ".dymension",
+          "daemonName": "dymd",
+          "serviceName": "dymension"
+        }
+      }
+    ],
     "services": ["links"]
   },
   {
