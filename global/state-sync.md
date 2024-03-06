@@ -1,6 +1,6 @@
 ### Our State-Sync Server Setup
 
-Our ***app.toml*** settings related to state-sync is as follows. This is for you information only. You do not need to follow the same setup on your node.
+Our **_app.toml_** settings related to state-sync is as follows. This is for you information only. You do not need to follow the same setup on your node.
 
 ```
 # Prune Type
@@ -20,12 +20,11 @@ Our state-sync RPC server for {{chainName}} is:
 {{rpcUrl}}
 ```
 
-
 ### Instruction
 
 We assume that you use Cosmovisor to manage your node. If you do not use Cosmovisor, you will need to customize the following instruction slightly.
 
-Create a reusable shell script such as ***state_sync.sh*** with the following code. The code will fetch important state-sync information (such as block height and trust hash) from our server and update your ***config.toml*** file accordingly.
+Create a reusable shell script such as **_state_sync.sh_** with the following code. The code will fetch important state-sync information (such as block height and trust hash) from our server and update your **_config.toml_** file accordingly.
 
 ```
 #!/bin/bash
