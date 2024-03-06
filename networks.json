@@ -33,8 +33,7 @@
           "chainName": "Source",
           "rpcUrl": "https://rpc.source.posthuman.digital",
           "directory": ".source",
-          "daemonName": "sourced",
-          "serviceName": "source"
+          "daemonName": "sourced"
         }
       }
     ],
@@ -75,8 +74,7 @@
           "chainName": "Dymension",
           "rpcUrl": "https://rpc.dymension.posthuman.digital",
           "directory": ".dymension",
-          "daemonName": "dymd",
-          "serviceName": "dymd"
+          "daemonName": "dymd"
         }
       }
     ],
@@ -116,8 +114,7 @@
           "chainName": "Humans.AI",
           "rpcUrl": "https://rpc.humans.posthuman.digital",
           "directory": ".humansd",
-          "daemonName": "humansd",
-          "serviceName": "humansd"
+          "daemonName": "humansd"
         }
       }
     ],
@@ -157,8 +154,7 @@
           "chainName": "GovGen",
           "rpcUrl": "https://rpc.govgen.posthuman.digital",
           "directory": ".govgen",
-          "daemonName": "govgend",
-          "serviceName": "govgend"
+          "daemonName": "govgend"
         }
       }
     ],

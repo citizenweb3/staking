@@ -52,24 +52,24 @@ chmod 700 state_sync.sh
 Stop the node:
 
 ```
-sudo service {{serviceName}} stop
+sudo systemctl stop {{daemonName}}.service
 ```
 
 Reset the node:
 
 ```
 # On some tendermint chains
-{{daemonName}} unsafe-reset-all
+~/go/bin/.{{daemonName}} unsafe-reset-all
 
 # On other tendermint chains
-{{daemonName}} tendermint unsafe-reset-all --home $HOME/{{directory}} --keep-addr-book
+~/go/bin/.{{daemonName}} tendermint unsafe-reset-all --home $HOME/{{directory}} --keep-addr-book
 
 ```
 
 Restart the node:
 
 ```
-sudo service {{serviceName}} start
+sudo systemctl start {{daemonName}}.service
 ```
 
 If everything goes well, your node should start syncing within 10 minutes.
