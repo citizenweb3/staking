@@ -1,24 +1,10 @@
+Before node instalation make sure you have installed go
+Useful guile: https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04
 ### Update system and install build tools
 
 ```
 sudo apt update
 sudo apt-get install git curl build-essential make jq gcc snapd chrony lz4 tmux unzip bc -y
-```
-
-### Install Go
-
-```
-rm -rf $HOME/go
-sudo rm -rf /usr/local/go
-cd $HOME
-curl https://dl.google.com/go/go1.21.0linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
-cat <<'EOF' >>$HOME/.profile
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export GO111MODULE=on
-export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
-source $HOME/.profile
-go version
 ```
 
 ### Install node
