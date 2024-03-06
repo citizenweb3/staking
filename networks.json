@@ -24,6 +24,18 @@
           "daemonName": "sourced",
           "serviceName": "source"
         }
+      },
+      {
+        "name": "istalation-guide",
+        "params": {
+          "gitRepo": "git@github.com:Source-Protocol-Cosmos/source.git",
+          "homeDir": "source",
+          "currentVersion": "v3.0.0",
+          "denomName": "sourced",
+          "chainId": "source-1",
+          "genesisUrl": "https://raw.githubusercontent.com/Source-Protocol-Cosmos/mainnet/master/source-1/genesis.json",
+          "addrbookUrl": "123"
+        }
       }
     ],
     "services": ["links"]
