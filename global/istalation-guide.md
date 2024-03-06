@@ -102,7 +102,7 @@ WantedBy=multi-user.target
 
 #### Simple service file:
 
-et up service:
+Set up service:
 
 ```
 sudo nano /etc/systemd/system/{{denomName}}.service
