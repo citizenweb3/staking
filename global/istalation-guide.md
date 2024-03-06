@@ -1,5 +1,5 @@
 Before node instalation make sure you have installed go
-Useful guile: https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04
+Useful guile: <https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04>
 ### Update system and install build tools
 
 ```
