@@ -25,19 +25,19 @@ gaiad version
 Replace <node_name>
 
 ```
-~/go/bin/.{{denomName}} init <node_name> --chain-id="{{chainId}}"
+~/go/bin/.{{daemonName}} init <node_name> --chain-id="{{chainId}}"
 ```
 
 ### Download genesis.json
 
 ```
-curl -Ls {{genesisUrl}} > $HOME/.{{denomName}}/config/genesis.json
+curl -Ls {{genesisUrl}} > $HOME/.{{daemonName}}/config/genesis.json
 ```
 
 ### Download addrbook.json
 
 ```
-curl -Ls {{addrbookUrl}} > $HOME/.{{denomName}}/config/addrbook.json
+curl -Ls {{addrbookUrl}} > $HOME/.{{daemonName}}/config/addrbook.json
 ```
 
 ### Create Service
@@ -59,14 +59,14 @@ mkdir -p ~/.{{homeDir}}/cosmovisor/genesis/bin && mkdir -p ~/.{{homeDir}}/cosmov
 Set up service:
 
 ```
-sudo nano /etc/systemd/system/{{denomName}}.service
+sudo nano /etc/systemd/system/{{daemonName}}.service
 ```
 
 Replace <your_user>
 
 ```
 [Unit]
-Description={{denomName}} Daemon cosmovisor
+Description={{daemonName}} Daemon cosmovisor
 After=network-online.target
 
 [Service]
@@ -75,8 +75,8 @@ ExecStart=/home/<your_user>/go/bin/cosmovisor run start
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
-Environment="DAEMON_NAME={{denomName}}"
-Environment="DAEMON_HOME=/home/<your_user>/.{{denomName}}"
+Environment="DAEMON_NAME={{daemonName}}"
+Environment="DAEMON_HOME=/home/<your_user>/.{{daemonName}}"
 Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 Environment="DAEMON_LOG_BUFFER_SIZE=512"
@@ -90,18 +90,18 @@ WantedBy=multi-user.target
 Set up service:
 
 ```
-sudo nano /etc/systemd/system/{{denomName}}.service
+sudo nano /etc/systemd/system/{{daemonName}}.service
 ```
 
 Replace <your_user>
 
 ```
 [Unit]
-Description={{denomName}} Daemon
+Description={{daemonName}} Daemon
 After=network-online.target
 [Service]
 User=<your_user>
-ExecStart=/home/<your_user>/go/bin/.{{denomName}}
+ExecStart=/home/<your_user>/go/bin/.{{daemonName}}
 Restart=always
 RestartSec=3
 LimitNOFILE=65535
@@ -109,8 +109,12 @@ LimitNOFILE=65535
 WantedBy=multi-user.target
 ```
 
+### Sync node:
+
+After that you sould sync node. You have 2 ways. State-sync or download snapsot. See this guides in next tabs.
+
 ### Start service
 
 ```
-sudo systemctl enable {{denomName}}.service && sudo systemctl start {{denomName}}.service && journalctl -u {{denomName}}.service -f
+sudo systemctl enable {{daemonName}}.service && sudo systemctl start {{daemonName}}.service && journalctl -u {{daemonName}}.service -f
 ```

@@ -16,6 +16,18 @@
     },
     "generatedServices": [
       {
+        "name": "instalation-guide",
+        "params": {
+          "gitRepo": "git@github.com:Source-Protocol-Cosmos/source.git",
+          "homeDir": "source",
+          "currentVersion": "v3.0.0",
+          "daemonName": "sourced",
+          "chainId": "source-1",
+          "genesisUrl": "https://raw.githubusercontent.com/Source-Protocol-Cosmos/mainnet/master/source-1/genesis.json",
+          "addrbookUrl": "123"
+        }
+      },
+      {
         "name": "state-sync",
         "params": {
           "chainName": "Source",
@@ -23,18 +35,6 @@
           "directory": ".source",
           "daemonName": "sourced",
           "serviceName": "source"
-        }
-      },
-      {
-        "name": "instalation-guide",
-        "params": {
-          "gitRepo": "git@github.com:Source-Protocol-Cosmos/source.git",
-          "homeDir": "source",
-          "currentVersion": "v3.0.0",
-          "denomName": "sourced",
-          "chainId": "source-1",
-          "genesisUrl": "https://raw.githubusercontent.com/Source-Protocol-Cosmos/mainnet/master/source-1/genesis.json",
-          "addrbookUrl": "123"
         }
       }
     ],
@@ -58,13 +58,25 @@
     },
     "generatedServices": [
       {
+        "name": "instalation-guide",
+        "params": {
+          "gitRepo": "git@github.com:dymensionxyz/dymension.git",
+          "homeDir": "dymension",
+          "currentVersion": "v3.0.0",
+          "daemonName": "dymd",
+          "chainId": "dymension_1100-1",
+          "genesisUrl": "https://github.com/dymensionxyz/networks/raw/main/mainnet/dymension/genesis.json",
+          "addrbookUrl": "123"
+        }
+      },
+      {
         "name": "state-sync",
         "params": {
           "chainName": "Dymension",
           "rpcUrl": "https://rpc.dymension.posthuman.digital",
           "directory": ".dymension",
           "daemonName": "dymd",
-          "serviceName": "dymension"
+          "serviceName": "dymd"
         }
       }
     ],
@@ -77,7 +89,7 @@
     "title": "Humans AI",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_dark.svg",
     "stake": "https://explorer.posthuman.digital/humans/staking/humanvaloper1ndnf0cd75nvz56feqy23um3mq22nlhe9ggu0uh",
-    "explorer": "https://explorer.posthuman.digital/humans", 
+    "explorer": "https://explorer.posthuman.digital/humans",
     "endpoints": {
       "rpc": "https://rpc.humans.posthuman.digital",
       "rest": "https://rest.humans.posthuman.digital",
@@ -85,6 +97,30 @@
       "evm-rpc": "https://evm.humans.posthuman.digital",
       "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
+    "generatedServices": [
+      {
+        "name": "instalation-guide",
+        "params": {
+          "gitRepo": "git@github.com:humansdotai/humans.git",
+          "homeDir": "humansd",
+          "currentVersion": "v1.0.0",
+          "daemonName": "humansd",
+          "chainId": "humans_1089-1",
+          "genesisUrl": "https://raw.githubusercontent.com/humansdotai/mainnets/main/mainnet/1/genesis_1089-1.json",
+          "addrbookUrl": "123"
+        }
+      },
+      {
+        "name": "state-sync",
+        "params": {
+          "chainName": "Humans.AI",
+          "rpcUrl": "https://rpc.humans.posthuman.digital",
+          "directory": ".humansd",
+          "daemonName": "humansd",
+          "serviceName": "humansd"
+        }
+      }
+    ],
     "services": ["links"]
   },
   {
@@ -104,13 +140,25 @@
     "contributions": "GovGen",
     "generatedServices": [
       {
+        "name": "instalation-guide",
+        "params": {
+          "gitRepo": "git@github.com:atomone-hub/govgen.git",
+          "homeDir": "govgen",
+          "currentVersion": "v1.0.1",
+          "daemonName": "govgend",
+          "chainId": "govgen-1",
+          "genesisUrl": "https://atomone.fra1.digitaloceanspaces.com/govgen/govgen-1/genesis.json",
+          "addrbookUrl": "123"
+        }
+      },
+      {
         "name": "state-sync",
         "params": {
           "chainName": "GovGen",
           "rpcUrl": "https://rpc.govgen.posthuman.digital",
           "directory": ".govgen",
           "daemonName": "govgend",
-          "serviceName": "govgen"
+          "serviceName": "govgend"
         }
       }
     ],
