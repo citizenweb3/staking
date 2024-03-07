@@ -14,7 +14,7 @@
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
     },
     "generatedServices": ["instalation-guide","state-sync","peers"],
-    "services": ["links"]
+    "services": []
   },
   {
     "name": "dymension",
@@ -34,7 +34,7 @@
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:36656"
     },
     "generatedServices": ["instalation-guide","state-sync","peers"],
-    "services": ["links"]
+    "services": []
   },
   {
     "name": "humans",
@@ -51,7 +51,7 @@
       "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
     "generatedServices": ["instalation-guide","state-sync","peers"],
-    "services": ["links"]
+    "services": []
   },
   {
     "name": "govgen",
