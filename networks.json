@@ -2,13 +2,10 @@
   {
     "name": "source",
     "type": "mainnet",
-    "chain_id": "source-1",
     "title": "Source Protocol",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
     "stake": "https://explorer.posthuman.digital/source/staking/sourcevaloper1srwjhdup98l35vruhyagvmyqpu6cgrhmqystgp",
     "explorer": "https://explorer.posthuman.digital/source",
-    "addrbookUrl": "!TBA!",
-    "posthuman_peer": "!TBA!",
     "endpoints": {
       "rpc": "https://rpc.source.posthuman.digital",
       "wss": "wss://rpc.source.posthuman.digital",
@@ -22,7 +19,6 @@
   {
     "name": "dymension",
     "type": "mainnet",
-    "chain_id": "dymension_1100-1",
     "title": "Dymension Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "stake": "https://wallet.keplr.app/chains/dymension?modal=staking&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud&step_id=2",
@@ -43,12 +39,10 @@
   {
     "name": "humans.ai",
     "type": "mainnet",
-    "chain_id": "humans_1089-1",
     "title": "Humans AI",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_dark.svg",
     "stake": "https://explorer.posthuman.digital/humans/staking/humanvaloper1ndnf0cd75nvz56feqy23um3mq22nlhe9ggu0uh",
     "explorer": "https://explorer.posthuman.digital/humans",
-    "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.humans.posthuman.digital",
       "rest": "https://rest.humans.posthuman.digital",
@@ -62,12 +56,10 @@
   {
     "name": "govgen",
     "type": "mainnet",
-    "chain_id": "govgen-1",
     "title": "GovGen",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg",
     "stake": "https://explorer.posthuman.digital/govgen/staking/govgenvaloper17hkyrkexpzrd2u3erplve4z5am6e0yvhsuyzcn",
     "explorer": "https://explorer.posthuman.digital/govgen",
-    "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.govgen.posthuman.digital:443",
       "rest": "https://rest.govgen.posthuman.digital:443",
