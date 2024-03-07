@@ -7,7 +7,8 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
     "stake": "https://explorer.posthuman.digital/source/staking/sourcevaloper1srwjhdup98l35vruhyagvmyqpu6cgrhmqystgp",
     "explorer": "https://explorer.posthuman.digital/source",
-    "addrbookUrl": "123",
+    "addrbookUrl": "!TBA!",
+    "posthuman_peer": "!TBA!",
     "endpoints": {
       "rpc": "https://rpc.source.posthuman.digital",
       "wss": "wss://rpc.source.posthuman.digital",
@@ -15,7 +16,7 @@
       "grpc": "https://grpc.source.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
     },
-    "generatedServices": ["instalation-guide","state-sync"],
+    "generatedServices": ["instalation-guide","state-sync","peers"],
     "services": ["links"]
   },
   {
@@ -26,6 +27,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "stake": "https://wallet.keplr.app/chains/dymension?modal=staking&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud&step_id=2",
     "explorer": "https://explorer.posthuman.digital/dymension",
+    "node_home": "$HOME/.dymension",
     "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.dymension.posthuman.digital",
