@@ -14,7 +14,7 @@ cd $HOME
 mkdir src
 cd src
 git clone {{codebase.git_repo}}
-cd {{daemon_name}}
+cd {{chain_name}}
 git checkout {{codebase.recommended_version}}
 make install
 gaiad version
