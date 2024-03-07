@@ -37,7 +37,7 @@
     "services": []
   },
   {
-    "name": "humans",
+    "name": "humans.ai",
     "type": "mainnet",
     "title": "Humans AI",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_dark.svg",
