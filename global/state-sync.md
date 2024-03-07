@@ -14,10 +14,10 @@ snapshot-interval = 2000
 snapshot-keep-recent = 5
 ```
 
-Our state-sync RPC server for {{chainName}} is:
+Our state-sync RPC server for {{pretty_name}} is:
 
 ```
-{{rpcUrl}}
+{{endpoints.rpc}}
 ```
 
 ### Instruction
@@ -29,7 +29,7 @@ Create a reusable shell script such as **_state_sync.sh_** with the following co
 ```
 #!/bin/bash
 
-SNAP_RPC="{{rpcUrl}}"
+SNAP_RPC="{{endpoints.rpc}}"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
@@ -38,7 +38,7 @@ TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.bloc
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
-s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/{{directory}}/config/config.toml
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" {{node_home}}/config/config.toml
 
 ```
 
@@ -52,24 +52,24 @@ chmod 700 state_sync.sh
 Stop the node:
 
 ```
-sudo systemctl stop {{daemonName}}.service
+sudo systemctl stop {{daemon_name}}.service
 ```
 
 Reset the node:
 
 ```
 # On some tendermint chains
-~/go/bin/.{{daemonName}} unsafe-reset-all
+~/go/bin/.{{daemon_name}} unsafe-reset-all
 
 # On other tendermint chains
-~/go/bin/.{{daemonName}} tendermint unsafe-reset-all --home $HOME/{{directory}} --keep-addr-book
+~/go/bin/.{{daemon_name}} tendermint unsafe-reset-all --home {{node_home}} --keep-addr-book
 
 ```
 
 Restart the node:
 
 ```
-sudo systemctl start {{daemonName}}.service
+sudo systemctl start {{daemon_name}}.service
 ```
 
 If everything goes well, your node should start syncing within 10 minutes.
