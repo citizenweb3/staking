@@ -1,4 +1,4 @@
-### All Live Peers for Dymension
+### All Live Peers for {{pretty_name}}
 
 Here is a list of peers from registry. Add them to your **config.toml** if you have trouble finding peers.
 
@@ -14,4 +14,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" {{node_h
 ```
 
 When you state-sync, you might also consider adding Posthuman's state-sync peer to your **persistent_peers** setting in **config.toml**.
+
+```
 {{endpoints.seed-node}}
+```
