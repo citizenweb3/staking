@@ -14,4 +14,4 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" {{node_h
 ```
 
 When you state-sync, you might also consider adding Posthuman's state-sync peer to your **persistent_peers** setting in **config.toml**.
-{{endpoints.seed_node}}
+{{endpoints.seed-node}}
