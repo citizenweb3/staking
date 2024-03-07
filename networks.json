@@ -7,6 +7,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
     "stake": "https://explorer.posthuman.digital/source/staking/sourcevaloper1srwjhdup98l35vruhyagvmyqpu6cgrhmqystgp",
     "explorer": "https://explorer.posthuman.digital/source",
+    "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.source.posthuman.digital",
       "wss": "wss://rpc.source.posthuman.digital",
@@ -14,29 +15,7 @@
       "grpc": "https://grpc.source.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
     },
-    "generatedServices": [
-      {
-        "name": "instalation-guide",
-        "params": {
-          "gitRepo": "git@github.com:Source-Protocol-Cosmos/source.git",
-          "homeDir": "source",
-          "currentVersion": "v3.0.0",
-          "daemonName": "sourced",
-          "chainId": "source-1",
-          "genesisUrl": "https://raw.githubusercontent.com/Source-Protocol-Cosmos/mainnet/master/source-1/genesis.json",
-          "addrbookUrl": "123"
-        }
-      },
-      {
-        "name": "state-sync",
-        "params": {
-          "chainName": "Source",
-          "rpcUrl": "https://rpc.source.posthuman.digital",
-          "directory": ".source",
-          "daemonName": "sourced"
-        }
-      }
-    ],
+    "generatedServices": ["instalation-guide", "state-sync"],
     "services": ["links"]
   },
   {
@@ -47,6 +26,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "stake": "https://wallet.keplr.app/chains/dymension?modal=staking&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud&step_id=2",
     "explorer": "https://explorer.posthuman.digital/dymension",
+    "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.dymension.posthuman.digital",
       "wss": "wss://rpc.dymension.posthuman.digital",
@@ -55,29 +35,7 @@
       "evm-rpc": "https://evm-rpc.dymension.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:36656"
     },
-    "generatedServices": [
-      {
-        "name": "instalation-guide",
-        "params": {
-          "gitRepo": "git@github.com:dymensionxyz/dymension.git",
-          "homeDir": "dymension",
-          "currentVersion": "v3.0.0",
-          "daemonName": "dymd",
-          "chainId": "dymension_1100-1",
-          "genesisUrl": "https://github.com/dymensionxyz/networks/raw/main/mainnet/dymension/genesis.json",
-          "addrbookUrl": "123"
-        }
-      },
-      {
-        "name": "state-sync",
-        "params": {
-          "chainName": "Dymension",
-          "rpcUrl": "https://rpc.dymension.posthuman.digital",
-          "directory": ".dymension",
-          "daemonName": "dymd"
-        }
-      }
-    ],
+    "generatedServices": [ "instalation-guide", "state-sync" ],
     "services": ["links"]
   },
   {
@@ -88,6 +46,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/humans_small_dark.svg",
     "stake": "https://explorer.posthuman.digital/humans/staking/humanvaloper1ndnf0cd75nvz56feqy23um3mq22nlhe9ggu0uh",
     "explorer": "https://explorer.posthuman.digital/humans",
+    "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.humans.posthuman.digital",
       "rest": "https://rest.humans.posthuman.digital",
@@ -95,29 +54,7 @@
       "evm-rpc": "https://evm.humans.posthuman.digital",
       "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
-    "generatedServices": [
-      {
-        "name": "instalation-guide",
-        "params": {
-          "gitRepo": "git@github.com:humansdotai/humans.git",
-          "homeDir": "humansd",
-          "currentVersion": "v1.0.0",
-          "daemonName": "humansd",
-          "chainId": "humans_1089-1",
-          "genesisUrl": "https://raw.githubusercontent.com/humansdotai/mainnets/main/mainnet/1/genesis_1089-1.json",
-          "addrbookUrl": "123"
-        }
-      },
-      {
-        "name": "state-sync",
-        "params": {
-          "chainName": "Humans.AI",
-          "rpcUrl": "https://rpc.humans.posthuman.digital",
-          "directory": ".humansd",
-          "daemonName": "humansd"
-        }
-      }
-    ],
+    "generatedServices": [ "instalation-guide", "state-sync" ],
     "services": ["links"]
   },
   {
@@ -128,6 +65,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg",
     "stake": "https://explorer.posthuman.digital/govgen/staking/govgenvaloper17hkyrkexpzrd2u3erplve4z5am6e0yvhsuyzcn",
     "explorer": "https://explorer.posthuman.digital/govgen",
+    "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.govgen.posthuman.digital:443",
       "rest": "https://rest.govgen.posthuman.digital:443",
@@ -135,29 +73,7 @@
       "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@46.39.246.50:56656"
     },
     "contributions": "GovGen",
-    "generatedServices": [
-      {
-        "name": "instalation-guide",
-        "params": {
-          "gitRepo": "git@github.com:atomone-hub/govgen.git",
-          "homeDir": "govgen",
-          "currentVersion": "v1.0.1",
-          "daemonName": "govgend",
-          "chainId": "govgen-1",
-          "genesisUrl": "https://atomone.fra1.digitaloceanspaces.com/govgen/govgen-1/genesis.json",
-          "addrbookUrl": "123"
-        }
-      },
-      {
-        "name": "state-sync",
-        "params": {
-          "chainName": "GovGen",
-          "rpcUrl": "https://rpc.govgen.posthuman.digital",
-          "directory": ".govgen",
-          "daemonName": "govgend"
-        }
-      }
-    ],
+    "generatedServices": [ "instalation-guide", "state-sync" ],
     "services": ["IBC-Relayers"]
   }
 ]
