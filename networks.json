@@ -15,7 +15,7 @@
       "grpc": "https://grpc.source.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
     },
-    "generatedServices": ["instalation-guide", "state-sync"],
+    "generatedServices": ["instalation-guide","state-sync"],
     "services": ["links"]
   },
   {
@@ -35,7 +35,7 @@
       "evm-rpc": "https://evm-rpc.dymension.posthuman.digital",
       "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:36656"
     },
-    "generatedServices": [ "instalation-guide", "state-sync" ],
+    "generatedServices": ["instalation-guide","state-sync"],
     "services": ["links"]
   },
   {
@@ -54,7 +54,7 @@
       "evm-rpc": "https://evm.humans.posthuman.digital",
       "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
-    "generatedServices": [ "instalation-guide", "state-sync" ],
+    "generatedServices": ["instalation-guide","state-sync"],
     "services": ["links"]
   },
   {
@@ -73,7 +73,7 @@
       "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@46.39.246.50:56656"
     },
     "contributions": "GovGen",
-    "generatedServices": [ "instalation-guide", "state-sync" ],
+    "generatedServices": ["instalation-guide","state-sync"],
     "services": ["IBC-Relayers"]
   }
 ]
