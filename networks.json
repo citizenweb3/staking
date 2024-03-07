@@ -50,7 +50,7 @@
       "evm-rpc": "https://evm.humans.posthuman.digital",
       "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
-    "contributions": "humans_ai",
+    "contributions": "humans",
     "generatedServices": ["instalation-guide","state-sync","peers"],
     "services": []
   },
