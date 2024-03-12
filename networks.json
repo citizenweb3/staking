@@ -75,7 +75,7 @@
     "name": "namada",
     "type": "mainnet",
     "title": "Namada",
-    "icon": "https://raw.githubusercontent.com/evgen3000/icons/main/namada.jpeg",
+    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada/namada.svg",
     "stake": "https://namada.me/",
     "explorer": "https://namada.info/",
     "endpoints": {
