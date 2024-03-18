@@ -88,6 +88,6 @@
     },
     "contributions": "namada",
     "generatedServices": [],
-    "services": ["instalation-guide", "state-sync", "peers", "IBC-Relayers"]
+    "services": ["instalation-guide"]
   }
 ]
