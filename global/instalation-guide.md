@@ -101,7 +101,7 @@ Description={{daemon_name}} Daemon
 After=network-online.target
 [Service]
 User=<your_user>
-ExecStart=/home/<your_user>/go/bin/.{{daemon_name}}
+ExecStart=/home/<your_user>/go/bin/{{daemon_name}} start
 Restart=always
 RestartSec=3
 LimitNOFILE=65535
