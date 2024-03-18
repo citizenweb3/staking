@@ -50,9 +50,14 @@
       "evm-rpc": "https://evm.humans.posthuman.digital",
       "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
     },
-    "contributions": "humans",
+    "contributions": "humans_ai",
     "generatedServices": ["instalation-guide","state-sync","peers"],
-    "services": []
+    "services": [],
+    "images": [
+      {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png"
+      }
+    ]
   },
   {
     "name": "govgen",
@@ -67,7 +72,6 @@
       "grpc": "https://grpc.govgen.posthuman.digital:443",
       "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@46.39.246.50:56656"
     },
-    "contributions": "GovGen",
     "generatedServices": ["instalation-guide","state-sync","peers"],
     "services": ["IBC-Relayers"]
   },
