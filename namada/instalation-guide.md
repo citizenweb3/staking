@@ -4,9 +4,9 @@ This section covers the recommended hardware requirements for engaging with Nama
 
 ## Resource Requirements
 
- Validator:   16GB, 1TB*, 4               
- Full Node:   8GB, 1TB, 2               
- Light Node:  TBD, TBD, TBD             
+ Validator:   RAM: 16GB, SSD nvme: 1TB, cores: 4               
+ Full Node:   RAM: 8GB, SSD nvme: 1TB, cores: 2               
+ Light Node:  RAM: TBD, SSD nvme: TBD, cores: TBD             
 
 **Note that storage size will be dependent on level of pruning.*
 
