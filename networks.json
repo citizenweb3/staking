@@ -90,6 +90,6 @@
     },
     "contributions": "namada",
     "generatedServices": [],
-    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service", "contributions"]
+    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   }
 ]
