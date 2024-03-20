@@ -1,5 +1,5 @@
 ## Snapshot Service
-Updated every 4 hours, size: ~14GB. Download and apply the snapshot with the following commands:
+Updates every 4 hours, size: ~14GB
 
 ```bash
 cd $HOME
