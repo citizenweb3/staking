@@ -132,6 +132,8 @@ EOF
 
 This guide is intended for advanced users comfortable with command-line interfaces and system administration.
 
+Use our [snapshot service here](https://github.com/Validator-POSTHUMAN/posthuman-source-data/blob/main/namada/snapshot-service.md) to sync really quick!
+
 ## 🔎 Create and Fund Wallet
 
 ### Create Wallet:
