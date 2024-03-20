@@ -17,7 +17,8 @@ rm -rf $HOME/.local/share/namada/shielded-expedition.88f17d1d14/db $HOME/.local/
 ```
 ###  Decompress the data downloaded and move all to your directory
 ```bash
-tar -xvf $HOME/data.tar.gz -C $HOME/.local/share/namada/shielded-expedition.88f17d1d14/cometbft/
+tar -xvf $HOME/data.tar.gz -C $HOME/.local/share/namada/shielded-expedition.88f17d1d14/
+
 mv $HOME/.local/share/namada/shielded-expedition.88f17d1d14/cometbft/priv_validator_state.json.backup $HOME/.local/share/namada/shielded-expedition.88f17d1d14/cometbft/data/priv_validator_state.json
 ```
 ### Restart the node and check the logs
