@@ -85,7 +85,7 @@
     "chain-id": "shielded-expedition.88f17d1d14",
     "endpoints": {
       "rpc": "https://rpc.namada.posthuman.digital:443",
-      "seed-node": "59976ccee681325acda4c9e2e77e21b085f88826@namada-testnet-seed.itrocket.net:33656",
+      "seed-node": "d630c49e04eb60a2c9e179a1a3001313fbaff061@seed.namada.posthuman.digital:26656",
       "snapshots": "https://snapshots.namada.posthuman.digital/"
     },
     "contributions": "namada",
