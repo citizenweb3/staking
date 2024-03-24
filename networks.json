@@ -82,7 +82,7 @@
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada/namada.svg",
     "stake": "https://namada.me/",
     "explorer": "https://namada.info/",
-    "chain-id": "shielded-expedition.88f17d1d14",
+    "chain_id": "shielded-expedition.88f17d1d14",
     "endpoints": {
       "rpc": "https://rpc.namada.posthuman.digital:443",
       "seed-node": "d630c49e04eb60a2c9e179a1a3001313fbaff061@seed.namada.posthuman.digital:26656",
