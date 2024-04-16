@@ -105,6 +105,6 @@
       "rest": "https://rest.crossfi-testnet.posthuman.digital"
     },
     "contributions": "crossfi",
-    "generatedServices": [["instalation-guide", "state-sync"]]
+    "generatedServices": ["instalation-guide", "state-sync"]
   }
 ]
