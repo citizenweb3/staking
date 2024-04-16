@@ -91,5 +91,20 @@
     "contributions": "namada",
     "generatedServices": [],
     "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
+  },
+  {
+    "name": "crossfi",
+    "type": "testnet",
+    "title": "Crossfi",
+    "icon": "https://avatars.githubusercontent.com/u/141825300?s=200&v=4",
+    "stake": "https://explorer.posthuman.digital/crossfi-testnet",
+    "explorer": "https://explorer.posthuman.digital/crossfi-testnet",
+    "chain_id": "crossfi-evm-testnet-1",
+    "endpoints": {
+      "rpc": "https://rpc.crossfi-testnet.posthuman.digital:443",
+      "rest": "https://rest.crossfi-testnet.posthuman.digital"
+    },
+    "contributions": "crossfi",
+    "generatedServices": [["instalation-guide", "state-sync"]]
   }
 ]
