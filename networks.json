@@ -96,7 +96,7 @@
     "name": "crossfi",
     "type": "testnet",
     "title": "Crossfi",
-    "icon": "https://avatars.githubusercontent.com/u/141825300?s=200&v=4",
+    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/blob/main/crossfi-testnet/crossfi.jpg",
     "stake": "https://explorer.posthuman.digital/crossfi-testnet",
     "explorer": "https://explorer.posthuman.digital/crossfi-testnet",
     "chain_id": "crossfi-evm-testnet-1",
