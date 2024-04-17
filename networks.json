@@ -93,7 +93,7 @@
     "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   },
   {
-    "name": "crossfi",
+    "name": "crossfi-testnet",
     "type": "testnet",
     "title": "Crossfi",
     "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/crossfi-testnet/big-logo.svg",
@@ -106,7 +106,7 @@
       "peer": "d3d6b82ba6500bef124b73b0db8c067673ba9259@95.165.149.118:26656",
       "snapshots": "https://snapshots.crossfi-testnet.posthuman.digital/"
     },
-    "contributions": "crossfi",
+    "contributions": "crossfi-testnet",
     "generatedServices": [],
     "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   }
