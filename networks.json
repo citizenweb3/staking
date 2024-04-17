@@ -96,15 +96,18 @@
     "name": "crossfi",
     "type": "testnet",
     "title": "Crossfi",
-    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/blob/main/crossfi-testnet/crossfi.jpg",
+    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/blob/main/crossfi-testnet/crossfi.png",
     "stake": "https://explorer.posthuman.digital/crossfi-testnet",
     "explorer": "https://explorer.posthuman.digital/crossfi-testnet",
     "chain_id": "crossfi-evm-testnet-1",
     "endpoints": {
       "rpc": "https://rpc.crossfi-testnet.posthuman.digital:443",
-      "rest": "https://rest.crossfi-testnet.posthuman.digital"
+      "rest": "https://rest.crossfi-testnet.posthuman.digital",
+      "peer": "d3d6b82ba6500bef124b73b0db8c067673ba9259@95.165.149.118:26656",
+      "snapshots": "https://snapshots.crossfi-testnet.posthuman.digital/"
     },
     "contributions": "crossfi",
-    "generatedServices": ["instalation-guide", "state-sync"]
+    "generatedServices": ["instalation-guide", "state-sync"],
+    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   }
 ]
