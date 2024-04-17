@@ -107,7 +107,7 @@
       "snapshots": "https://snapshots.crossfi-testnet.posthuman.digital/"
     },
     "contributions": "crossfi",
-    "generatedServices": ["instalation-guide", "state-sync"],
+    "generatedServices": [],
     "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   }
 ]
