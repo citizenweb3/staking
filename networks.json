@@ -108,6 +108,6 @@
     },
     "contributions": "crossfi-testnet",
     "generatedServices": [],
-    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
+    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service", "state-sync"]
   }
 ]
