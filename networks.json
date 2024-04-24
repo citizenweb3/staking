@@ -76,6 +76,22 @@
     "services": ["IBC-Relayers"]
   },
   {
+    "name": "stargaze",
+    "type": "mainnet",
+    "title": "Stargaze",
+    "icon": "https://github.com/cosmos/chain-registry/blob/master/stargaze/images/stars.svg",
+    "stake": "https://explorer.posthuman.digital/stargaze/staking/starsvaloper14ftwwcfvhnp3qvxawesjan5duh8rmrkrzdvquy",
+    "explorer": "https://explorer.posthuman.digital/stargaze",
+    "endpoints": {
+      "rpc": "https://rpc.stargaze.posthuman.digital:443",
+      "rest": "https://rest.stargaze.posthuman.digital:443",
+      "grpc": "https://grpc.stargaze.posthuman.digital:443",
+      "seed-node": "e87e6dc4a941f35b2ad39a75a18fefbccf5d9072@46.39.246.50:10656"
+    },
+    "generatedServices": ["instalation-guide", "state-sync", "peers"],
+    "services": ["IBC-Relayers"]
+  },
+  {
     "name": "namada",
     "type": "testnet",
     "title": "Namada",
