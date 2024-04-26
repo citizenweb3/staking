@@ -79,7 +79,7 @@
     "name": "stargaze",
     "type": "mainnet",
     "title": "Stargaze",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/stargaze/stars.svg",
     "stake": "https://explorer.posthuman.digital/stargaze/staking/starsvaloper14ftwwcfvhnp3qvxawesjan5duh8rmrkrzdvquy",
     "explorer": "https://explorer.posthuman.digital/stargaze",
     "endpoints": {
