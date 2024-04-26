@@ -89,7 +89,7 @@
       "seed-node": "e87e6dc4a941f35b2ad39a75a18fefbccf5d9072@46.39.246.50:10656"
     },
     "generatedServices": ["instalation-guide", "state-sync", "peers"],
-    "services": ["IBC-Relayers"]
+    "services": []
   },
   {
     "name": "namada",
