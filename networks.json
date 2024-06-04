@@ -92,7 +92,7 @@
     "services": []
   },
   {
-    "name": "TheGraph",
+    "name": "the-graph",
     "type": "mainnet",
     "title": "TheGraph",
     "icon": "https://raw.githubusercontent.com/web3validator/TheGraph-Indexer-Setup/main/the-graph-grt-logo.svg",
