@@ -101,7 +101,7 @@
     "endpoints": {
     },
     "generatedServices": [""],
-    "services": ["instalation-guide", "others"]
+    "services": ["installation-guide"]
   },
   {
     "name": "namada",
