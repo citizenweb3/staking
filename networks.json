@@ -137,5 +137,23 @@
     "contributions": "crossfi-testnet",
     "generatedServices": [],
     "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service", "state-sync"]
+  },
+  {
+    "name": "initia-testnet",
+    "type": "testnet",
+    "title": "Initia",
+    "icon": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/initia/images/INIT.svg",
+    "stake": "https://explorer.posthuman.digital/initia-testnet",
+    "explorer": "https://explorer.posthuman.digital/initia-testnet",
+    "chain_id": "nitiation-1",
+    "endpoints": {
+      "rpc": "https://rpc-public.initia.posthuman.digital",
+      "rest": "https://rest.initia.posthuman.digital",
+      "grpc": "grpc.initia.posthuman.digital",
+      "peer": "ce895c7e7bca10a581b132be91fbf119eb8981bc@46.39.246.50:16656",
+    },
+    "contributions": "initia-testnet",
+    "generatedServices": [],
+    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service", "state-sync"]
   }
 ]
