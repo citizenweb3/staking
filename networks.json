@@ -150,7 +150,7 @@
       "rpc": "https://rpc-public.initia.posthuman.digital",
       "rest": "https://rest.initia.posthuman.digital",
       "grpc": "grpc.initia.posthuman.digital",
-      "peer": "ce895c7e7bca10a581b132be91fbf119eb8981bc@46.39.246.50:16656",
+      "peer": "ce895c7e7bca10a581b132be91fbf119eb8981bc@46.39.246.50:16656"
     },
     "contributions": "initia-testnet",
     "generatedServices": [],
