@@ -154,6 +154,6 @@
     },
     "contributions": "initia-testnet",
     "generatedServices": [],
-    "services": ["installation-guide", "genesis-file", "addr-book", "snapshot-service", "state-sync"]
+    "services": ["installation-guide"]
   }
 ]
