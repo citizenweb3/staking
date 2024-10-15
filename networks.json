@@ -108,12 +108,12 @@
     "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada/namada.svg",
-    "stake": "https://namada.me/",
-    "explorer": "https://namada.info/",
-    "chain_id": "shielded-expedition.88f17d1d14",
+    "stake": "https://shielded.live/validators/CC15B17D24019A4FE61279ED30F3DD175ECD814D1E5AF9B9E33F81C888EF93AE",
+    "explorer": "https://shielded.live/",
+    "chain_id": "housefire-reduce.e51ecf4264fc3",
     "endpoints": {
       "rpc": "https://rpc.namada.posthuman.digital:443",
-      "seed-node": "d630c49e04eb60a2c9e179a1a3001313fbaff061@seed.namada.posthuman.digital:26656",
+      "seed-node": "67cdb666f68cfefcd799ac589b2a9b005c067ef3@seed.namada.posthuman.digital:26656",
       "snapshots": "https://snapshots.namada.posthuman.digital/"
     },
     "contributions": "namada",
