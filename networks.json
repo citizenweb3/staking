@@ -155,5 +155,25 @@
     "contributions": "initia-testnet",
     "generatedServices": [],
     "services": ["installation-guide"]
+  },
+  {
+    "name": "story-testnet",
+    "type": "testnet",
+    "title": "Story",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/story/Story_Protocol_Icon.svg",
+    "stake": "https://testnet.storyscan.app/validators/storyvaloper1daxk0lukad4950ga6t2nc939gjvpwranre5dd4",
+    "explorer": "https://testnet.storyscan.app",
+    "chain_id": "iliad-0",
+    "endpoints": {
+      "rpc": "https://rpc-public.initia.posthuman.digital",
+      "rpc_ws": "wss://rpc.story.posthuman.digital/websocket",
+      "rest": "https://rest.story.posthuman.digital",
+      "evm_json_rpc": "https://evm.story.posthuman.digital",
+      "evm_ws": "wss://wss.story.posthuman.digital",
+      "peer": "8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656"
+    },
+    "contributions": "story-testnet",
+    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   }
 ]
