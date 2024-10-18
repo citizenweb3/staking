@@ -18,9 +18,18 @@ sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -
 ---
 
 ## Install Go (Alternative Method)
-Instead of downloading the binary, use the following method to install Go:
+Replace `VERSION` with the desired Go version
 ```bash
-sudo apt install golang -y
+VERSION="1.22.3"
+cd $HOME
+wget "https://golang.org/dl/go$VERSION.linux-amd64.tar.gz"
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf "go$VERSION.linux-amd64.tar.gz"
+rm "go$VERSION.linux-amd64.tar.gz"
+
+# Set Go environment variables
+echo "export PATH=\$PATH:/usr/local/go/bin:\$HOME/go/bin" >> ~/.bash_profile
+source ~/.bash_profile
 ```
 
 ---
