@@ -173,7 +173,7 @@
       "peer": "8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656"
     },
     "contributions": "story-testnet",
-    "generatedServices": ["state-sync"],
+    "generatedServices": [],
     "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
   }
 ]
