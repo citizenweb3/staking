@@ -93,8 +93,8 @@ sed -i -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*seeds *=.*/seeds = "$SEEDS"/}" -e "/^
 ## Download Genesis and Addrbook
 Download the required genesis and address book files:
 ```bash
-wget -O $HOME/.story/story/config/genesis.json https://server-3.itrocket.net/testnet/story/genesis.json
-wget -O $HOME/.story/story/config/addrbook.json https://server-3.itrocket.net/testnet/story/addrbook.json
+wget -O $HOME/.story/story/config/genesis.json https://snapshots.story.posthuman.digital/genesis.json
+wget -O $HOME/.story/story/config/addrbook.json https://snapshots.story.posthuman.digital/addrbook.json
 ```
 
 ---
@@ -162,13 +162,37 @@ EOF
 
 ---
 
-## Download Snapshots
-Backup your current validator state, then download and apply the latest snapshot:
+# Story Node Snapshot Installation Guide
+
+## Pruned Snapshot Installation
+Updated every 24 hours
+
+### Pruned Snapshot 
+
 ```bash
+# Install dependencies, if needed
+sudo apt install curl jq lz4  -y
+
+# Stop node
+sudo systemctl stop story story-geth
+
+# Backup priv_validator_state.json
 cp $HOME/.story/story/data/priv_validator_state.json $HOME/.story/story/priv_validator_state.json.backup
+
+# Remove old data and unpack Story snapshot
 rm -rf $HOME/.story/story/data
-curl https://server-3.itrocket.net/testnet/story/story_2024-10-18_1530515_snap.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.story/story
+curl https://snapshots-pruned.story.posthuman.digital/story_pruned.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.story/story
+
+# Restore priv_validator_state.json
 mv $HOME/.story/story/priv_validator_state.json.backup $HOME/.story/story/data/priv_validator_state.json
+
+# Delete Geth data and unpack Geth snapshot
+rm -rf $HOME/.story/geth/iliad/geth/chaindata
+curl https://snapshots-pruned.story.posthuman.digital/geth_story_pruned.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.story/geth/iliad/geth
+
+# Restart node and check logs
+sudo systemctl restart story story-geth
+sudo journalctl -u story-geth -u story -f
 ```
 
 ---
@@ -178,7 +202,7 @@ Reload systemd, enable and start the services:
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable story story-geth
-sudo systemctl restart story story-geth
+sudo systemctl start story story-geth
 ```
 
 ---
