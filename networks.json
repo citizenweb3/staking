@@ -157,7 +157,7 @@
     "services": ["installation-guide"]
   },
   {
-    "name": "story-testnet",
+    "name": "story",
     "type": "testnet",
     "title": "Story",
     "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/story/Story_Protocol_Icon.svg",
