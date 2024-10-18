@@ -28,7 +28,9 @@ curl https://snapshots-pruned.story.posthuman.digital/geth_story_pruned.tar.lz4 
 # Restart node and check logs
 sudo systemctl restart story story-geth
 sudo journalctl -u story-geth -u story -f
+```bash
 
+```bash
 ## Archive Snapshot Installation
 Updated every 24 hours
 
@@ -57,3 +59,4 @@ curl https://snapshots.story.posthuman.digital/geth_story_archive.tar.lz4 | lz4 
 # Restart node and check logs
 sudo systemctl restart story story-geth
 sudo journalctl -u story-geth -u story -f
+```bash
