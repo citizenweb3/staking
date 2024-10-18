@@ -99,6 +99,12 @@
     "stake": "https://thegraph.com/explorer/profile/0x047739cb42c227489cccd11aa5f28aa4eb46d2cf?view=Indexing&chain=arbitrum-one",
     "explorer": "https://thegraph.com/explorer",
     "endpoints": {
+      "rpc": "https://rpc.story.posthuman.digital",
+      "rpc_ws": "wss://rpc.story.posthuman.digital/websocket",
+      "rest": "https://rest.story.posthuman.digital",
+      "evm_json_rpc": "https://evm.story.posthuman.digital",
+      "evm_ws": "wss://wss.story.posthuman.digital",
+      "peer": "8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656"
     },
     "generatedServices": [""],
     "services": ["installation-guide"]
