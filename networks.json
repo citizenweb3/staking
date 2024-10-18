@@ -165,7 +165,7 @@
     "explorer": "https://testnet.storyscan.app",
     "chain_id": "iliad-0",
     "endpoints": {
-      "rpc": "https://rpc-public.initia.posthuman.digital",
+      "rpc": "https://rpc.story.posthuman.digital",
       "rpc_ws": "wss://rpc.story.posthuman.digital/websocket",
       "rest": "https://rest.story.posthuman.digital",
       "evm_json_rpc": "https://evm.story.posthuman.digital",
