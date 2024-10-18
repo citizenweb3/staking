@@ -35,7 +35,7 @@ sudo journalctl -u story-geth -u story -f
 
 
 ## Archive Snapshot Installation
-Updated every 24 hours
+Updated every 6 hours
 
 ### Archive Snapshot 
 ```bash
