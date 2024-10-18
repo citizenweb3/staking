@@ -12,12 +12,12 @@
 Ensure your system is up to date and has all the necessary tools for the installation:
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
+sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
 ```
 
 ---
 
-## Install Go (Alternative Method)
+## Install Go 
 Replace `VERSION` with the desired Go version
 ```bash
 VERSION="1.22.3"
