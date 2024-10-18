@@ -21,10 +21,6 @@ echo "export PATH=\$PATH:/usr/local/go/bin:\$HOME/go/bin" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-```
-sudo apt update
-sudo apt-get install git curl build-essential make jq gcc snapd chrony lz4 tmux unzip bc -y
-```
 
 ### Install node
 
