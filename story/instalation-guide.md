@@ -83,8 +83,8 @@ story init --moniker test --network iliad
 ## Set Seeds and Peers
 Set the seeds and peers for your node:
 ```bash
-SEEDS="51ff395354c13fab493a03268249a74860b5f9cc@story-testnet-seed.itrocket.net:26656"
-PEERS="2f372238bf86835e8ad68c0db12351833c40e8ad@story-testnet-peer.itrocket.net:26656"
+SEEDS="51ff395354c13fab493a03268249a74860b5f9cc@story-testnet-seed.itrocket.net:26656,b7e9b91c9e8c7e66e46dd15720cbe4f74f005592@galactica.seed-t.stavr.tech:35106,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:29256"
+PEERS="0c9b936f1dc0af34679782d2ce8c80f0f8a106b3@136.243.13.36:29256,72a9d2790b6d3ff21fae0e493b62cca6b4c9f91c@65.109.28.187:26656,8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656,2f372238bf86835e8ad68c0db12351833c40e8ad@story-testnet-peer.itrocket.net:26656"
 sed -i -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*seeds *=.*/seeds = "$SEEDS"/}" -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*persistent_peers *=.*/persistent_peers = "$PEERS"/}" $HOME/.story/story/config/config.toml
 ```
 
