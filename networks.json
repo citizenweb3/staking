@@ -180,6 +180,6 @@
     },
     "contributions": "story-testnet",
     "generatedServices": [],
-    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service","one-liner"]
+    "services": ["instalation-guide", "genesis+addrbook", "snapshot-service","one-liner"]
   }
 ]
