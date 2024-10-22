@@ -32,7 +32,7 @@ git clone {{codebase.git_repo}}
 cd {{chain_name}}
 git checkout {{codebase.recommended_version}}
 make install
-gaiad version
+{{daemon_name}} version
 ```
 
 ### Initialize Node
