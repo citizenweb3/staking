@@ -191,9 +191,9 @@
     "explorer": "https://www.mintscan.io/celestia",
     "chain_id": "celestia",
     "endpoints": {
-      "rpc": "https://rpc.celestia.posthuman.digital",
-      "rest": "https://rest.celestia.posthuman.digital",
-      "grpc": "https://grpc.celestia.posthuman.digital",
+      "rpc": "https://rpc.celestia-mainnet.posthuman.digital",
+      "rest": "https://rest.celestia-mainnet.posthuman.digital",
+      "grpc": "https://grpc.celestiamainnet.posthuman.digital",
       "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
     },
     "generatedServices": ["installation-guide", "state-sync"],
@@ -227,5 +227,28 @@
     },
     "generatedServices": ["installation-guide", "state-sync"],
     "services": []
-  }
+  },
+  {
+    "name": "warden",
+    "type": "testnet",
+    "daemon_name": "wardend",
+    "codebase": {
+      "git_repo": "https://github.com/warden-protocol/wardenprotocol",
+      "recommended_version": "v0.5.2",
+    }
+    "title": "Warden",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/warden/warden.svg",
+    "stake": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
+    "explorer": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
+    "chain_id": "chiado_10010-1",
+    "endpoints": {
+      "rpc": "https://rpc.warden-testnet.posthuman.digital",
+      "rest": "https://rest.warden-testnet.posthuman.digital",
+      "grpc": "https://grpc.warden-testnet.posthuman.digital",
+      "peer": "4ba715e890aeceb9fef100c7c404004d1d711f37@46.4.52.158:656"
+    },
+    "generatedServices": ["installation-guide", "state-sync"],
+    "services": []
+  },
+  
 ]
