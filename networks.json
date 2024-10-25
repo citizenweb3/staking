@@ -181,5 +181,37 @@
     "contributions": "story-testnet",
     "generatedServices": [],
     "services": ["instalation-guide", "genesis-and-addrbook", "snapshot-service","one-liner"]
+  },
+  {
+    "name": "Celestia",
+    "type": "mainnet",
+    "title": "Celestia",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+    "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
+    "explorer": "https://www.mintscan.io/celestia",
+    "endpoints": {
+      "rpc": "https://rpc.celestia.posthuman.digital",
+      "rest": "https://rest.celestia.posthuman.digital",
+      "grpc": "https://grpc.celestia.posthuman.digital",
+      "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
+    },
+    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "services": []
+  },
+  {
+    "name": "Celestia",
+    "type": "testnet",
+    "title": "Celestia",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+    "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
+    "explorer": "https://www.mintscan.io/celestia-testnet",
+    "endpoints": {
+      "rpc": "https://rpc.celestia-testnet.posthuman.digital",
+      "rest": "https://rest.celestia-testnet.posthuman.digital",
+      "grpc": "https://grpc.celestia-testnet.posthuman.digital",
+      "peer": "f57805e824e984467f8b1f2560a5ef4c80077ed5@207.121.49.100:11656"
+    },
+    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "services": []
   }
 ]
