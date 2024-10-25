@@ -203,6 +203,7 @@
     "name": "celestia-testnet",
     "type": "testnet",
     "daemon_name": "celestia-appd",
+    "website": "https://celestia.org/",
     "codebase": {
       "git_repo": "https://github.com/celestiaorg/celestia-app",
       "recommended_version": "v2.3.0-mocha",
@@ -232,6 +233,7 @@
     "name": "warden",
     "type": "testnet",
     "daemon_name": "wardend",
+    "website": "https://wardenprotocol.org/",
     "codebase": {
       "git_repo": "https://github.com/warden-protocol/wardenprotocol",
       "recommended_version": "v0.5.2"
