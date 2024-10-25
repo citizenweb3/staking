@@ -187,7 +187,7 @@
     "type": "mainnet",
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
-    "stake": "",
+    "stake": "https://www.mintscan.io/celestia",
     "explorer": "https://www.mintscan.io/celestia",
     "chain_id": "celestia",
     "endpoints": {
