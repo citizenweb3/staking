@@ -200,7 +200,7 @@
     "services": []
   },
   {
-    "name": "Celestia",
+    "name": "celestia-testnet",
     "type": "testnet",
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
