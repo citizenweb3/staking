@@ -249,6 +249,5 @@
     },
     "generatedServices": ["installation-guide", "state-sync"],
     "services": []
-  }
-  
+  } 
 ]
