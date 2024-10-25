@@ -128,7 +128,7 @@
   },
   {
     "name": "crossfi-testnet",
-    "type": "testnet",
+    "type": "archive",
     "title": "Crossfi",
     "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/crossfi-testnet/big-logo.svg",
     "stake": "https://explorer.posthuman.digital/crossfi-testnet",
@@ -166,7 +166,7 @@
     "name": "story-testnet",
     "type": "testnet",
     "title": "Story",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/story/Story_Protocol_Icon.svg",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/story-testnet/Story_Protocol_Icon.svg",
     "stake": "https://testnet.storyscan.app/validators/storyvaloper1daxk0lukad4950ga6t2nc939gjvpwranre5dd4",
     "explorer": "https://testnet.storyscan.app",
     "chain_id": "iliad-0",
@@ -186,6 +186,9 @@
     "name": "celestia",
     "type": "mainnet",
     "title": "Celestia",
+    "website": "https://celestia.org/",
+    "twitter": "https://x.com/CelestiaOrg",
+    "discord": "https://discord.com/invite/celestiacommunity"
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "https://www.mintscan.io/celestia",
     "explorer": "https://www.mintscan.io/celestia",
@@ -216,6 +219,9 @@
   },
     "chain_name": "celestia-app",
     "title": "Celestia",
+    "website": "https://celestia.org/",
+    "twitter": "https://x.com/CelestiaOrg",
+    "discord": "https://discord.com/invite/celestiacommunity"
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
     "explorer": "https://www.mintscan.io/celestia-testnet",
