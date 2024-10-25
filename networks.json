@@ -110,10 +110,10 @@
     "services": ["installation-guide"]
   },
   {
-    "name": "namada",
+    "name": "namada-testnet",
     "type": "testnet",
     "title": "Namada",
-    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada/namada.svg",
+    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
     "stake": "https://shielded.live/validators/CC15B17D24019A4FE61279ED30F3DD175ECD814D1E5AF9B9E33F81C888EF93AE",
     "explorer": "https://shielded.live/",
     "chain_id": "housefire-reduce.e51ecf4264fc3",
@@ -230,16 +230,18 @@
     "services": []
   },
   {
-    "name": "warden",
+    "name": "warden-testnet",
     "type": "testnet",
     "daemon_name": "wardend",
     "website": "https://wardenprotocol.org/",
+    "discord": "https://discord.com/invite/wardenprotocol",
+    "twitter": "https://x.com/wardenprotocol",
     "codebase": {
       "git_repo": "https://github.com/warden-protocol/wardenprotocol",
       "recommended_version": "v0.5.2"
     },
     "title": "Warden",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/warden/warden.svg",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/warden-testnet/warden.svg",
     "stake": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
     "explorer": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
     "chain_id": "chiado_10010-1",
