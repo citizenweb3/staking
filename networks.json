@@ -183,7 +183,7 @@
     "services": ["instalation-guide", "genesis-and-addrbook", "snapshot-service","one-liner"]
   },
   {
-    "name": "Celestia",
+    "name": "celestia",
     "type": "mainnet",
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
