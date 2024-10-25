@@ -234,8 +234,8 @@
     "daemon_name": "wardend",
     "codebase": {
       "git_repo": "https://github.com/warden-protocol/wardenprotocol",
-      "recommended_version": "v0.5.2",
-    }
+      "recommended_version": "v0.5.2"
+    },
     "title": "Warden",
     "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/warden/warden.svg",
     "stake": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
