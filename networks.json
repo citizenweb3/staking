@@ -203,8 +203,15 @@
     "name": "celestia-testnet",
     "type": "testnet",
     "daemon_name": "celestia-appd",
-    "git_repo": "https://github.com/celestiaorg/celestia-app",
-    "recommended_version": "v2.3.0-mocha",
+    "codebase": {
+      "git_repo": "https://github.com/celestiaorg/celestia-app",
+      "recommended_version": "v2.3.0-mocha",
+      "compatible_versions": [
+        "v2.0.0",
+        "v2.1.0",
+        "v2.1.1",
+        "v2.1.2"
+    ],
     "chain_name": "celestia-app",
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
