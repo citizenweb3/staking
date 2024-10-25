@@ -166,7 +166,7 @@
     "name": "story-testnet",
     "type": "testnet",
     "title": "Story",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/story-testnet/Story_Protocol_Icon.svg",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/story-testnet/Story_Protocol_Icon.svg",
     "stake": "https://testnet.storyscan.app/validators/storyvaloper1daxk0lukad4950ga6t2nc939gjvpwranre5dd4",
     "explorer": "https://testnet.storyscan.app",
     "chain_id": "iliad-0",
