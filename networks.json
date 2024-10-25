@@ -189,6 +189,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
     "explorer": "https://www.mintscan.io/celestia",
+    "chain_id": "celestia",
     "endpoints": {
       "rpc": "https://rpc.celestia.posthuman.digital",
       "rest": "https://rest.celestia.posthuman.digital",
@@ -205,6 +206,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
     "explorer": "https://www.mintscan.io/celestia-testnet",
+    "chain_id": "mocha-4",
     "endpoints": {
       "rpc": "https://rpc.celestia-testnet.posthuman.digital",
       "rest": "https://rest.celestia-testnet.posthuman.digital",
