@@ -1,19 +1,65 @@
 [
   {
-    "name": "source",
+    "name": "cosmoshub",
     "type": "mainnet",
-    "title": "Source Protocol",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.svg",
-    "stake": "https://explorer.posthuman.digital/source/staking/sourcevaloper1srwjhdup98l35vruhyagvmyqpu6cgrhmqystgp",
-    "explorer": "https://explorer.posthuman.digital/source",
+    "title": "Cosmos",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
+    "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
+    "explorer": "https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u/",
     "endpoints": {
-      "rpc": "https://rpc.source.posthuman.digital",
-      "wss": "wss://rpc.source.posthuman.digital",
-      "rest": "https://rest.source.posthuman.digital",
-      "grpc": "https://grpc.source.posthuman.digital",
-      "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:46656"
+      "rpc": "https://rpc.cosmoshub-4.citizenweb3.com",
+      "wss": "wss://rpc.cosmoshub-4.citizenweb3.com",
+      "rest": "https://api.cosmoshub-4.citizenweb3.com",
+      "grpc": "https://grpc.cosmoshub-4.citizenweb3.com",
+      "seed-node": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
     },
-    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "celestia",
+    "type": "mainnet",
+    "title": "Celestia",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+    "stake": "https://www.mintscan.io/wallet/stake?chain=celestia&src=celestiavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8uzxnhs&type=stake",
+    "explorer": "https://www.mintscan.io/celestia",
+    "endpoints": {
+      "rpc": "https://rpc.celestia.citizenweb3.com",
+      "rest": "https://api.celestia.citizenweb3.com",
+      "grpc": "https://grpc.celestia.citizenweb3.com",
+      "peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "stride",
+    "type": "mainnet",
+    "title": "Stride",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
+    "explorer": "https://www.mintscan.io/stride",
+    "endpoints": {
+      "rpc": "https://rpc.stride.citizenweb3.com",
+      "rest": "https://api.stride.citizenweb3.com",
+      "grpc": "https://grpc.stride.citizenweb3.com",
+      "peer": "aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "neutron",
+    "type": "mainnet",
+    "title": "Neutron",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
+    "explorer": "https://www.mintscan.io/neutron",
+    "endpoints": {
+      "rpc": "https://rpc.neutron.citizenweb3.com",
+      "rest": "https://api.neutron.citizenweb3.com",
+      "grpc": "https://grpc.neutron.citizenweb3.com",
+      "peer": "1020d1490712fe3e669658e506b46a5974a430fc@mainnet.seednode.citizenweb3.com:31656"
+    },
+    "generatedServices": ["peers"],
     "services": []
   },
   {
@@ -21,243 +67,182 @@
     "type": "mainnet",
     "title": "Dymension Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
-    "stake": "https://wallet.keplr.app/chains/dymension?modal=staking&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud&step_id=2",
-    "explorer": "https://explorer.posthuman.digital/dymension",
+    "stake": "https://www.mintscan.io/wallet/stake/?chain=dymension&src=dymvaloper1z3et7f750ym0cnvxcp7f8lsyynnmk82ts8ljzg&type=stake",
+    "explorer": "https://www.mintscan.io/dymension/",
     "node_home": "$HOME/.dymension",
     "addrbookUrl": "123",
     "endpoints": {
-      "rpc": "https://rpc.dymension.posthuman.digital",
-      "wss": "wss://rpc.dymension.posthuman.digital",
-      "rest": "https://rest.dymension.posthuman.digital",
-      "grpc": "https://grpc.dymension.posthuman.digital",
-      "evm-rpc": "https://evm-rpc.dymension.posthuman.digital",
-      "seed-node": "82a81ed97ee8fe5a8bfa26446737865333eadca1@46.39.246.50:36656"
+      "rpc": "https://rpc.dym.citizenweb3.com",
+      "wss": "wss://rpc.dym.citizenweb3.com",
+      "rest": "https://api.dym.citizenweb3.com",
+      "grpc": "https://grpc.dym.citizenweb3.com",
+      "seed-node": "8679333e027be05116c388c040d7c45ca1aeeeeb@mainnet.seednode.citizenweb3.com:14656"
     },
-    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "generatedServices": ["peers"],
     "services": []
   },
   {
-    "name": "humans",
+    "name": "quicksilver",
     "type": "mainnet",
-    "title": "Humans AI",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png",
-    "stake": "https://explorer.posthuman.digital/humans/staking/humanvaloper1ndnf0cd75nvz56feqy23um3mq22nlhe9ggu0uh",
-    "explorer": "https://explorer.posthuman.digital/humans",
+    "title": "Quicksilver",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
+    "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
+    "explorer": "https://quicksilver.explorers.guru/validator/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
     "endpoints": {
-      "rpc": "https://rpc.humans.posthuman.digital",
-      "rest": "https://rest.humans.posthuman.digital",
-      "wss": "wss://rpc.humans.posthuman.digital",
-      "evm-rpc": "https://evm.humans.posthuman.digital",
-      "seed-node": "589eaa7656ff1af6c50f32d7b63dda1cf83c7906@46.39.246.50:26656"
+      "rpc": "https://rpc.quicksilver.citizenweb3.com",
+      "rest": "https://api.quicksilver.citizenweb3.com",
+      "wss": "wss://rpc.quicksilver.citizenweb3.com",
+      "seed-node": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
     },
-    "contributions": "humans_ai",
-    "generatedServices": ["installation-guide", "state-sync", "peers"],
-    "services": [],
-    "images": [
-      {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/humans/images/heart-dark-mode.png"
-      }
-    ]
+    "generatedServices": ["peers"],
+    "services": []
   },
   {
     "name": "govgen",
     "type": "mainnet",
     "title": "GovGen",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg",
-    "stake": "https://explorer.posthuman.digital/govgen/staking/govgenvaloper17hkyrkexpzrd2u3erplve4z5am6e0yvhsuyzcn",
-    "explorer": "https://explorer.posthuman.digital/govgen",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/govgen/images/govgen.svg",
+    "stake": "https://explorer.govgen.io/govgen/staking/govgenvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8pv6wce",
+    "explorer": "https://explorer.govgen.io/govgen",
     "endpoints": {
-      "rpc": "https://rpc.govgen.posthuman.digital:443",
-      "rest": "https://rest.govgen.posthuman.digital:443",
-      "grpc": "https://grpc.govgen.posthuman.digital:443",
-      "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@46.39.246.50:56656"
+      "rpc": "https://rpc.govgen.citizenweb3.com",
+      "rest": "https://api.govgen.citizenweb3.com",
+      "grpc": "https://grpc.govgen.citizenweb3.com",
+      "seed-node": "75bb6414e108294ea185bf499552112c6d7c076f@mainnet.seednode.citizenweb3.com:35656"
     },
-    "generatedServices": ["installation-guide", "state-sync", "peers"],
-    "services": ["IBC-Relayers"]
-  },
-  {
-    "name": "stargaze",
-    "type": "mainnet",
-    "title": "Stargaze",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
-    "stake": "https://explorer.posthuman.digital/stargaze/staking/starsvaloper14ftwwcfvhnp3qvxawesjan5duh8rmrkrzdvquy",
-    "explorer": "https://explorer.posthuman.digital/stargaze",
-    "endpoints": {
-      "rpc": "https://rpc.stargaze.posthuman.digital:443",
-      "rest": "https://rest.stargaze.posthuman.digital:443",
-      "grpc": "https://grpc.stargaze.posthuman.digital:443",
-      "seed-node": "e87e6dc4a941f35b2ad39a75a18fefbccf5d9072@46.39.246.50:10656"
-    },
-    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "generatedServices": ["peers"],
     "services": []
   },
   {
-    "name": "the-graph",
+    "name": "atomone",
     "type": "mainnet",
-    "title": "TheGraph",
-    "icon": "https://raw.githubusercontent.com/web3validator/TheGraph-Indexer-Setup/main/the-graph-grt-logo.svg",
-    "stake": "https://thegraph.com/explorer/profile/0x047739cb42c227489cccd11aa5f28aa4eb46d2cf?view=Indexing&chain=arbitrum-one",
-    "explorer": "https://thegraph.com/explorer",
+    "title": "Atom One",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
+    "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
+    "explorer": "https://explorer.allinbits.services/atomone",
     "endpoints": {
-      "rpc": "https://rpc.story.posthuman.digital",
-      "rpc_ws": "wss://rpc.story.posthuman.digital/websocket",
-      "rest": "https://rest.story.posthuman.digital",
-      "evm_json_rpc": "https://evm.story.posthuman.digital",
-      "evm_ws": "wss://wss.story.posthuman.digital",
-      "peer": "8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656"
+      "rpc": "https://rpc.atomone.citizenweb3.com",
+      "rest": "https://api.atomone.citizenweb3.com",
+      "grpc": "https://grpc.atomone.citizenweb3.com",
+      "seed-node": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
     },
-    "generatedServices": [],
-    "services": ["installation-guide"]
+    "generatedServices": ["peers"],
+    "services": []
   },
   {
-    "name": "namada-testnet",
+    "name": "bostrom",
+    "type": "mainnet",
+    "title": "Bostrom",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
+    "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
+    "explorer": "https://cyb.ai/"
+  },
+  {
+    "name": "bitcanna",
+    "type": "mainnet",
+    "title": "Bitcanna",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bitcanna/images/bcna.svg",
+    "stake": "https://explorers.l0vd.com/bitcanna-mainnet/staking/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye",
+    "explorer": "https://explorer.bitcanna.io/",
+    "endpoints": {
+      "rpc": "https://rpc.bitcanna.citizenweb3.com",
+      "rest": "https://api.bitcanna.citizenweb3.com",
+      "grpc": "https://grpc.bitcanna.citizenweb3.com",
+      "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "likecoin",
+    "type": "mainnet",
+    "title": "Likecoin",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/likecoin/images/like.svg",
+    "stake": "https://wallet.keplr.app/?modal=staking&chain=likecoin-mainnet-2&validator_address=likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu&step_id=3&action_id=stake",
+    "explorer": "https://www.mintscan.io/likecoin/validators/likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu/",
+    "endpoints": {
+      "rpc": "https://rpc.likecoin.citizenweb3.com",
+      "rest": "https://api.likecoin.citizenweb3.com",
+      "grpc": "https://grpc.likecoin.citizenweb3.com",
+      "seed-node": "c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "uptick",
+    "type": "mainnet",
+    "title": "Uptick",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
+    "stake": "https://explorer.nodestake.org/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
+    "explorer": "https://explorer.nodestake.org/uptick",
+    "endpoints": {
+      "rpc": "https://rpc.uptick.citizenweb3.com",
+      "rest": "https://api.uptick.citizenweb3.com",
+      "grpc": "https://grpc.uptick.citizenweb3.com",
+      "seed-node": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "gravitybridge",
+    "type": "mainnet",
+    "title": "Gravity Bridge",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
+    "stake": "https://www.mintscan.io/wallet/stake?chain=gravity-bridge&src=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&type=stake",
+    "explorer": "https://www.mintscan.io/gravity-bridge",
+    "endpoints": {
+      "rpc": "https://rpc.gravity.citizenweb3.com",
+      "rest": "https://api.gravity.citizenweb3.com",
+      "grpc": "https://grpc.gravity.citizenweb3.com",
+      "seed-node": "cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "althea",
+    "type": "mainnet",
+    "title": "Althea",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/althea/images/althea.svg",
+    "stake": "",
+    "explorer": "https://althea.explorers.guru/",
+    "endpoints": {
+      "rpc": "https://rpc.althea.citizenweb3.com",
+      "rest": "https://api.althea.citizenweb3.com",
+      "grpc": "https://grpc.althea.citizenweb3.com",
+      "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "namada",
     "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
-    "stake": "https://shielded.live/validators/CC15B17D24019A4FE61279ED30F3DD175ECD814D1E5AF9B9E33F81C888EF93AE",
-    "explorer": "https://shielded.live/",
+    "stake": "",
+    "explorer": "",
     "chain_id": "housefire-reduce.e51ecf4264fc3",
     "endpoints": {
-      "rpc": "https://rpc.namada.posthuman.digital:443",
-      "seed-node": "67cdb666f68cfefcd799ac589b2a9b005c067ef3@seed.namada.posthuman.digital:26656",
-      "snapshots": "https://snapshots.namada.posthuman.digital/"
-    },
-    "contributions": "namada",
-    "generatedServices": [],
-    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
+      "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
+      "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
+      "seed-node": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
+    }
   },
   {
-    "name": "crossfi-testnet",
-    "type": "archive",
-    "title": "Crossfi",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/main/crossfi-testnet/big-logo.svg",
-    "stake": "https://explorer.posthuman.digital/crossfi-testnet",
-    "explorer": "https://explorer.posthuman.digital/crossfi-testnet",
-    "chain_id": "crossfi-evm-testnet-1",
-    "endpoints": {
-      "rpc": "https://rpc.crossfi-testnet.posthuman.digital:443",
-      "rest": "https://rest.crossfi-testnet.posthuman.digital",
-      "peer": "d3d6b82ba6500bef124b73b0db8c067673ba9259@95.165.149.118:26656",
-      "snapshots": "https://snapshots.crossfi-testnet.posthuman.digital/"
-    },
-    "contributions": "crossfi-testnet",
-    "generatedServices": [],
-    "services": ["installation-guide", "genesis-file", "addr-book", "snapshot-service", "state-sync"]
-  },
-  {
-    "name": "initia-testnet",
+    "name": "nomic",
     "type": "testnet",
-    "title": "Initia",
-    "icon": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/initia/images/INIT.svg",
-    "stake": "https://explorer.posthuman.digital/initia-testnet",
-    "explorer": "https://explorer.posthuman.digital/initia-testnet",
-    "chain_id": "nitiation-1",
+    "title": "Nomic",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
+    "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
+    "explorer": "https://nomic-explorer.quokkastake.io/nomic",
     "endpoints": {
-      "rpc": "https://rpc-public.initia.posthuman.digital",
-      "rest": "https://rest.initia.posthuman.digital",
-      "grpc": "grpc.initia.posthuman.digital",
-      "peer": "ce895c7e7bca10a581b132be91fbf119eb8981bc@46.39.246.50:16656"
+      "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
+      "rest": "",
+      "peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
     },
-    "contributions": "initia-testnet",
-    "generatedServices": [],
-    "services": ["installation-guide"]
-  },
-  {
-    "name": "story-testnet",
-    "type": "testnet",
-    "title": "Story",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/story-testnet/Story_Protocol_Icon.svg",
-    "stake": "https://testnet.storyscan.app/validators/storyvaloper1daxk0lukad4950ga6t2nc939gjvpwranre5dd4",
-    "explorer": "https://testnet.storyscan.app",
-    "chain_id": "iliad-0",
-    "endpoints": {
-      "rpc": "https://rpc.story.posthuman.digital",
-      "rpc_ws": "wss://rpc.story.posthuman.digital/websocket",
-      "rest": "https://rest.story.posthuman.digital",
-      "evm_json_rpc": "https://evm.story.posthuman.digital",
-      "evm_ws": "wss://wss.story.posthuman.digital",
-      "peer": "8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656"
-    },
-    "contributions": "story-testnet",
-    "generatedServices": [],
-    "services": ["instalation-guide", "genesis-and-addrbook", "snapshot-service","one-liner"]
-  },
-  {
-    "name": "celestia",
-    "type": "mainnet",
-    "title": "Celestia",
-    "website": "https://celestia.org/",
-    "twitter": "https://x.com/CelestiaOrg",
-    "discord": "https://discord.com/invite/celestiacommunity",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
-    "stake": "https://www.mintscan.io/celestia",
-    "explorer": "https://www.mintscan.io/celestia",
-    "chain_id": "celestia",
-    "endpoints": {
-      "rpc": "https://rpc.celestia-mainnet.posthuman.digital",
-      "rest": "https://rest.celestia-mainnet.posthuman.digital",
-      "grpc": "https://grpc.celestiamainnet.posthuman.digital",
-      "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
-    },
-    "generatedServices": ["installation-guide", "state-sync"],
     "services": []
-  },
-  {
-    "name": "celestia-testnet",
-    "type": "testnet",
-    "daemon_name": "celestia-appd",
-    "website": "https://celestia.org/",
-    "codebase": {
-      "git_repo": "https://github.com/celestiaorg/celestia-app",
-      "recommended_version": "v2.3.0-mocha",
-      "compatible_versions": [
-        "v2.0.0",
-        "v2.1.0",
-        "v2.1.1",
-        "v2.1.2"
-    ]
-  },
-    "chain_name": "celestia-app",
-    "title": "Celestia",
-    "website": "https://celestia.org/",
-    "twitter": "https://x.com/CelestiaOrg",
-    "discord": "https://discord.com/invite/celestiacommunity",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
-    "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
-    "explorer": "https://www.mintscan.io/celestia-testnet",
-    "chain_id": "mocha-4",
-    "endpoints": {
-      "rpc": "https://rpc.celestia-testnet.posthuman.digital",
-      "rest": "https://rest.celestia-testnet.posthuman.digital",
-      "grpc": "https://grpc.celestia-testnet.posthuman.digital",
-      "peer": "f57805e824e984467f8b1f2560a5ef4c80077ed5@207.121.49.100:11656"
-    },
-    "generatedServices": ["installation-guide", "state-sync"],
-    "services": []
-  },
-  {
-    "name": "warden-testnet",
-    "type": "testnet",
-    "daemon_name": "wardend",
-    "website": "https://wardenprotocol.org/",
-    "discord": "https://discord.com/invite/wardenprotocol",
-    "twitter": "https://x.com/wardenprotocol",
-    "codebase": {
-      "git_repo": "https://github.com/warden-protocol/wardenprotocol",
-      "recommended_version": "v0.5.2"
-    },
-    "title": "Warden",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/warden-testnet/warden.svg",
-    "stake": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
-    "explorer": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
-    "chain_id": "chiado_10010-1",
-    "endpoints": {
-      "rpc": "https://rpc.warden-testnet.posthuman.digital",
-      "rest": "https://rest.warden-testnet.posthuman.digital",
-      "grpc": "https://grpc.warden-testnet.posthuman.digital",
-      "peer": "4ba715e890aeceb9fef100c7c404004d1d711f37@46.4.52.158:656"
-    },
-    "generatedServices": ["installation-guide", "state-sync"],
-    "services": ["oracle-slinky-setup-guide"]
-  } 
+  }
 ]
