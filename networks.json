@@ -244,5 +244,44 @@
       "peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
     },
     "services": []
+  },
+  {
+    "name": "pussy",
+    "type": "testnet",
+    "title": "Space-Pussy",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/space-pussy/space-pussy.svg",
+    "stake": "https://spacepussy.ai/network/bostrom/hero/pussyvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqhfj9et",
+    "explorer": "https://spacepussy.ai/cyberver/verses/pussy/graph",
+    "services": []
+  },
+  {
+    "name": "union",
+    "type": "testnet",
+    "title": "Union",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/union-testnet/union.svg",
+    "stake": "https://explorers.l0vd.com/union-testnet/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
+    "explorer": "https://explorers.l0vd.com/union-testnet",
+    "endpoints": {
+      "rpc": "https://rpc.union-testnet.citizenweb3.com",
+      "rest": "https://api.union-testnet.citizenweb3.com",
+      "grpc": "https://grpc.union-testnet.citizenweb3.com",
+      "peer": "6638ffb8127647f02c5df37079a6dd5593659149@testnet.seednode:17156"
+    },
+    "services": []
+  },
+  {
+    "name": "symphony",
+    "type": "testnet",
+    "title": "Symphony",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/symphony-testnet/symphony.svg",
+    "stake": "https://testnet.ping.pub/symphony/staking/symphonyvaloper1wpzkum4902l3978qyl24469ktlmt58u9yy9nsa",
+    "explorer": "https://testnet.ping.pub/symphony/staking",
+    "endpoints": {
+      "rpc": "https://rpc.symphony-testnet.citizenweb3.com",
+      "rest": "https://api.symphony-testnet.citizenweb3.com",
+      "grpc": "https://grpc.symphony-testnet.citizenweb3.com",
+      "peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@testnet.seednode:27056"
+    },
+    "services": []
   }
 ]
