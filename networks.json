@@ -135,9 +135,7 @@
     "title": "Bostrom",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
-    "explorer": "https://cyb.ai/",
-    "generatedServices": ["peers"],
-    "services": []
+    "explorer": "https://cyb.ai/"
   },
   {
     "name": "bitcanna",
@@ -208,7 +206,7 @@
     "type": "mainnet",
     "title": "Althea",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/althea/images/althea.svg",
-    "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
+    "stake": "",
     "explorer": "https://althea.explorers.guru/",
     "endpoints": {
       "rpc": "https://rpc.althea.citizenweb3.com",
@@ -217,21 +215,6 @@
       "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
     "generatedServices": ["peers"],
-    "services": []
-  },
-  {
-    "name": "nomic",
-    "type": "mainnet",
-    "title": "Nomic",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
-    "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
-    "explorer": "https://nomic-explorer.quokkastake.io/nomic",
-    "endpoints": {
-      "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
-      "rest": "",
-      "peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
-    },
-    "generatedServices": [],
     "services": []
   },
   {
@@ -246,6 +229,19 @@
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
       "seed-node": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
+    }
+  },
+  {
+    "name": "nomic",
+    "type": "testnet",
+    "title": "Nomic",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
+    "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
+    "explorer": "https://nomic-explorer.quokkastake.io/nomic",
+    "endpoints": {
+      "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
+      "rest": "",
+      "peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
     },
     "generatedServices": [],
     "services": []
