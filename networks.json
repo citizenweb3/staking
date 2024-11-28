@@ -233,7 +233,7 @@
   },
   {
     "name": "nomic",
-    "type": "testnet",
+    "type": "mainnet",
     "title": "Nomic",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
     "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
