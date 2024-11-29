@@ -220,11 +220,20 @@
     "services": []
   },
   {
+    "name": "interlay",
+    "type": "mainnet",
+    "title": "Interlay",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/Interlay/interlay.svg",
+    "stake": "https://app.interlay.io/vaults/wd7mvsKzX8QaGh268wiqCpu8j7z5pAZhw1VUkcJPxwtNY14jb/DOT/IBTC",
+    "explorer": "https://interlay.subscan.io/",
+    "generatedServices": [],
+    "services": []
+  },
+  {
     "name": "namada",
     "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
-    "stake": "https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F",
     "explorer": "https://shielded.live/",
     "chain_id": "housefire-reduce.e51ecf4264fc3",
     "endpoints": {
@@ -272,7 +281,86 @@
       "rpc": "https://rpc.union-testnet.citizenweb3.com",
       "rest": "https://api.union-testnet.citizenweb3.com",
       "grpc": "https://grpc.union-testnet.citizenweb3.com",
-      "peer": "6638ffb8127647f02c5df37079a6dd5593659149@testnet.seednode:17156"
+      "peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
+    },
+    "services": []
+  },
+  {
+    "name": "artela",
+    "type": "testnet",
+    "title": "Artela",
+    "chain_id": "artela_11822-1",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/artela-testnet/artela.svg",
+    "stake": "https://testnet.artela.explorers.guru/validator/artvaloper1mtmuvpra48uwgdht6wj4pnwp5d89xsc9aadfup",
+    "explorer": "https://testnet.artela.explorers.guru/",
+    "endpoints": {
+      "rpc": "https://rpc.artela-testnet.citizenweb3.com",
+      "rest": "https://api.artela-testnet.citizenweb3.com",
+      "grpc": "https://grpc.artela-testnet.citizenweb3.com",
+      "peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
+    },
+    "services": []
+  },
+  {
+    "name": "axone",
+    "type": "testnet",
+    "title": "Axone",
+    "chain_id": "axone-dentrite-1",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/axone-testnet/axone.svg",
+    "stake": "https://explore.axone.xyz/Axone%20testnet/staking/axonevaloper1c3yfkydn9quv9ns6mkfrcgg489nrlwxd88yu9s",
+    "explorer": "https://explore.axone.xyz/Axone%20testnet",
+    "endpoints": {
+      "rpc": "https://rpc.axone-testnet.citizenweb3.com",
+      "rest": "https://api.axone-testnet.citizenweb3.com",
+      "grpc": "https://grpc.axone-testnet.citizenweb3.com",
+      "peer": "1027bd6727dd50c4878594b7018396ec5a4cf1cf@195.201.197.246:31656"
+    },
+    "services": []
+  },
+  {
+    "name": "nillion",
+    "type": "testnet",
+    "title": "Nillion",
+    "chain_id": "nillion-chain-testnet-1",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/nillion-testnet/nilllion.svg",
+    "stake": "https://testnet.nillion.explorers.guru/validator/nillionvaloper1xhk9ux9y6w0gc3rtc8ksx2gf37mageegadjrp6",
+    "explorer": "https://testnet.nillion.explorers.guru/",
+    "endpoints": {
+      "rpc": "https://rpc.nillion-testnet.citizenweb3.com",
+      "rest": "https://api.nillion-testnet.citizenweb3.com",
+      "grpc": "https://grpc.nillion-testnet.citizenweb3.com",
+      "peer": "3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056"
+    },
+    "services": []
+  },
+  {
+    "name": "cosmostestnet",
+    "type": "testnet",
+    "title": "Cosmos",
+    "chain_id": "provider",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
+    "stake": "https://explorer.polypore.xyz/provider/staking/cosmosvaloper18lz3nz3nyhtewm35npaccnc7javzmyvfake7j7",
+    "explorer": "https://explorer.polypore.xyz/provider",
+    "endpoints": {
+      "rpc": "https://rpc.provider-testnet.citizenweb3.com",
+      "rest": "https://api.provider-testnet.citizenweb3.com",
+      "grpc": "https://grpc.provider-testnet.citizenweb3.com",
+      "peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
+    },
+    "services": []
+  },
+  {
+    "name": "neutrontestnet",
+    "type": "testnet",
+    "title": "Neutron",
+    "chain_id": "pion-1",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
+    "explorer": "https://explorer.polypore.xyz/pion-1",
+    "endpoints": {
+      "rpc": "https://rpc.pion-1-testnet.citizenweb3.com",
+      "rest": "https://api.pion-1-testnet.citizenweb3.com",
+      "grpc": "https://grpc.pion-1-testnet.citizenweb3.com",
+      "peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
     },
     "services": []
   },
@@ -288,7 +376,7 @@
       "rpc": "https://rpc.symphony-testnet.citizenweb3.com",
       "rest": "https://api.symphony-testnet.citizenweb3.com",
       "grpc": "https://grpc.symphony-testnet.citizenweb3.com",
-      "peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@testnet.seednode:27056"
+      "peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
     },
     "services": []
   }
