@@ -224,8 +224,8 @@
     "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
-    "stake": "",
-    "explorer": "",
+    "stake": "https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F",
+    "explorer": "https://shielded.live/",
     "chain_id": "housefire-reduce.e51ecf4264fc3",
     "endpoints": {
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
@@ -259,9 +259,10 @@
     "services": []
   },
   {
-    "name": "testnets/uniontsetnet",
+    "name": "union",
     "type": "testnet",
     "title": "Union",
+    "chain_id": "union-testnet-8",
     "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/union-testnet/union.svg",
     "stake": "https://explorers.l0vd.com/union-testnet/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
     "explorer": "https://explorers.l0vd.com/union-testnet",
@@ -277,6 +278,7 @@
     "name": "symphony",
     "type": "testnet",
     "title": "Symphony",
+    "chain_id": "symphony-testnet-4",
     "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/symphony-testnet/symphony.svg",
     "stake": "https://testnet.ping.pub/symphony/staking/symphonyvaloper1wpzkum4902l3978qyl24469ktlmt58u9yy9nsa",
     "explorer": "https://testnet.ping.pub/symphony/staking",
