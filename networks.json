@@ -259,7 +259,7 @@
     "services": []
   },
   {
-    "name": "uniontsetnet",
+    "name": "testnets/uniontsetnet",
     "type": "testnet",
     "title": "Union",
     "icon": "https://raw.githubusercontent.com/citizenweb3/chain-images/refs/heads/main/union-testnet/union.svg",
