@@ -216,7 +216,7 @@
       "grpc": "https://grpc.althea.citizenweb3.com",
       "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
-    "generatedServices": ["peers"],
+    "generatedServices": [],
     "services": []
   },
   {
