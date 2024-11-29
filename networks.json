@@ -135,7 +135,9 @@
     "title": "Bostrom",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
-    "explorer": "https://cyb.ai/"
+    "explorer": "https://cyb.ai/",
+    "generatedServices": ["peers"],
+    "services": []
   },
   {
     "name": "bitcanna",
@@ -206,7 +208,6 @@
     "type": "mainnet",
     "title": "Althea",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/althea/images/althea.svg",
-    "stake": "",
     "explorer": "https://althea.explorers.guru/",
     "endpoints": {
       "rpc": "https://rpc.althea.citizenweb3.com",
