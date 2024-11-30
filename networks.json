@@ -214,6 +214,9 @@
       "rpc": "https://rpc.althea.citizenweb3.com",
       "rest": "https://api.althea.citizenweb3.com",
       "grpc": "https://grpc.althea.citizenweb3.com",
+      "archive rpc": "https://rpc.althea-archive.citizenweb3.com",
+      "archive api": "api.althea-archive.citizenweb3.com",
+      "archive grpc": "grp.althea-archive.citizenweb3.com",
       "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
     "generatedServices": [],
@@ -239,6 +242,8 @@
     "endpoints": {
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
+      "archive rpc": "rpc.namada-campfire.citizenweb.com",
+      "archive indexer": "indexer.namada-campfire.citizenweb3.com",
       "seed-node": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
     },
     "generatedServices": [],
