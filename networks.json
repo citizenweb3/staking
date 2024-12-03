@@ -256,7 +256,7 @@
     "services": []
   },
   {
-    "name": "namada",
+    "name": "namada-testnet",
     "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
