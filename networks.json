@@ -23,12 +23,12 @@
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
     "stake": "https://namadillo.5elementsnodes.com/staking",
     "explorer": "https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F",
+    "chain_id": "housefire-reduce.e51ecf4264fc3",
     "endpoints": {
       "rpc": "https://rpc.namada.citizenweb3.com",
-      "wss": "wss://rpc.namada.citizenweb3.com",
       "seed/peer": "tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656"
     },
-    "generatedServices": ["peers"],
+    "generatedServices": [],
     "services": []
   },
   {
@@ -257,7 +257,7 @@
   },
   {
     "name": "namada",
-    "type": "mainnet",
+    "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
     "stake": "https://namadillo.5elementsnodes.com/staking",
