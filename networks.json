@@ -257,7 +257,7 @@
   },
   {
     "name": "namada",
-    "type": "testnet",
+    "type": "mainnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
     "stake": "https://namadillo.5elementsnodes.com/staking",
