@@ -11,7 +11,22 @@
       "wss": "wss://rpc.cosmoshub-4.citizenweb3.com",
       "rest": "https://api.cosmoshub-4.citizenweb3.com",
       "grpc": "https://grpc.cosmoshub-4.citizenweb3.com",
-      "seed-node": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
+      "seed/peer": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
+    },
+    "generatedServices": ["peers"],
+    "services": []
+  },
+  {
+    "name": "namada",
+    "type": "mainnet",
+    "title": "Namada",
+    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
+    "stake": "https://namadillo.5elementsnodes.com/staking",
+    "explorer": "https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F",
+    "endpoints": {
+      "rpc": "https://rpc.namada.citizenweb3.com",
+      "wss": "wss://rpc.namada.citizenweb3.com",
+      "seed/peer": "tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -27,7 +42,8 @@
       "rpc": "https://rpc.celestia.citizenweb3.com",
       "rest": "https://api.celestia.citizenweb3.com",
       "grpc": "https://grpc.celestia.citizenweb3.com",
-      "peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
+      "grpcweb": "https://grpcweb.celestia.citizenweb3.com",
+      "seed/peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -42,7 +58,8 @@
       "rpc": "https://rpc.stride.citizenweb3.com",
       "rest": "https://api.stride.citizenweb3.com",
       "grpc": "https://grpc.stride.citizenweb3.com",
-      "peer": "aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656"
+      "grpcweb": "https://grpcweb.strdie.citizenweb3.com",
+      "seed/peer": "aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -57,7 +74,7 @@
       "rpc": "https://rpc.neutron.citizenweb3.com",
       "rest": "https://api.neutron.citizenweb3.com",
       "grpc": "https://grpc.neutron.citizenweb3.com",
-      "peer": "1020d1490712fe3e669658e506b46a5974a430fc@mainnet.seednode.citizenweb3.com:31656"
+      "seed/peer": "1020d1490712fe3e669658e506b46a5974a430fc@mainnet.seednode.citizenweb3.com:31656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -73,10 +90,10 @@
     "addrbookUrl": "123",
     "endpoints": {
       "rpc": "https://rpc.dym.citizenweb3.com",
-      "wss": "wss://rpc.dym.citizenweb3.com",
       "rest": "https://api.dym.citizenweb3.com",
       "grpc": "https://grpc.dym.citizenweb3.com",
-      "seed-node": "8679333e027be05116c388c040d7c45ca1aeeeeb@mainnet.seednode.citizenweb3.com:14656"
+      "grpcweb": "https://grpcweb.dym.citizenweb3.com",
+      "seed/peer": "8679333e027be05116c388c040d7c45ca1aeeeeb@mainnet.seednode.citizenweb3.com:14656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -91,8 +108,9 @@
     "endpoints": {
       "rpc": "https://rpc.quicksilver.citizenweb3.com",
       "rest": "https://api.quicksilver.citizenweb3.com",
-      "wss": "wss://rpc.quicksilver.citizenweb3.com",
-      "seed-node": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
+      "grpc": "https://grpc.quicksilver.citizenweb3.com",
+      "grpcweb": "https://grpcweb.quicksilver.citizenweb3.com",
+      "seed/peer": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -108,7 +126,8 @@
       "rpc": "https://rpc.govgen.citizenweb3.com",
       "rest": "https://api.govgen.citizenweb3.com",
       "grpc": "https://grpc.govgen.citizenweb3.com",
-      "seed-node": "75bb6414e108294ea185bf499552112c6d7c076f@mainnet.seednode.citizenweb3.com:35656"
+      "grpcweb": "https://grpcweb.govgen.citizenweb3.com",
+      "seed/peer": "75bb6414e108294ea185bf499552112c6d7c076f@mainnet.seednode.citizenweb3.com:35656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -124,7 +143,7 @@
       "rpc": "https://rpc.atomone.citizenweb3.com",
       "rest": "https://api.atomone.citizenweb3.com",
       "grpc": "https://grpc.atomone.citizenweb3.com",
-      "seed-node": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
+      "seed/peer": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -150,7 +169,8 @@
       "rpc": "https://rpc.bitcanna.citizenweb3.com",
       "rest": "https://api.bitcanna.citizenweb3.com",
       "grpc": "https://grpc.bitcanna.citizenweb3.com",
-      "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656"
+      "grpcweb": "https://grpcweb.bitcanna.citizenweb3.com",
+      "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -166,7 +186,8 @@
       "rpc": "https://rpc.likecoin.citizenweb3.com",
       "rest": "https://api.likecoin.citizenweb3.com",
       "grpc": "https://grpc.likecoin.citizenweb3.com",
-      "seed-node": "c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656"
+      "grpcweb": "https://grpcweb.likecoin.citizenweb3.com",
+      "seed/peer": "c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -182,7 +203,8 @@
       "rpc": "https://rpc.uptick.citizenweb3.com",
       "rest": "https://api.uptick.citizenweb3.com",
       "grpc": "https://grpc.uptick.citizenweb3.com",
-      "seed-node": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
+      "grpcweb": "https://grpcweb.uptick.citizenweb3.com",
+      "seed/peer": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -198,7 +220,8 @@
       "rpc": "https://rpc.gravity.citizenweb3.com",
       "rest": "https://api.gravity.citizenweb3.com",
       "grpc": "https://grpc.gravity.citizenweb3.com",
-      "seed-node": "cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656"
+      "grpcweb": "https://grpcweb.gravity.citizenweb3.com",
+      "seed/peer": "cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -217,7 +240,7 @@
       "archive rpc": "https://rpc.althea-archive.citizenweb3.com",
       "archive api": "api.althea-archive.citizenweb3.com",
       "archive grpc": "grp.althea-archive.citizenweb3.com",
-      "seed-node": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
+      "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
     "generatedServices": [],
     "services": []
@@ -237,6 +260,7 @@
     "type": "testnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
+    "stake": "https://namadillo.5elementsnodes.com/staking",
     "explorer": "https://shielded.live/",
     "chain_id": "housefire-reduce.e51ecf4264fc3",
     "endpoints": {
@@ -244,7 +268,7 @@
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
       "archive rpc": "rpc.namada-campfire.citizenweb.com",
       "archive indexer": "indexer.namada-campfire.citizenweb3.com",
-      "seed-node": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
+      "seed/peer": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
     },
     "generatedServices": [],
     "services": []
@@ -259,7 +283,7 @@
     "endpoints": {
       "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
       "rest": "",
-      "peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
+      "seed/peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
     },
     "generatedServices": ["peers"],
     "services": []
@@ -286,7 +310,7 @@
       "rpc": "https://rpc.union-testnet.citizenweb3.com",
       "rest": "https://api.union-testnet.citizenweb3.com",
       "grpc": "https://grpc.union-testnet.citizenweb3.com",
-      "peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
+      "seed/peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
     },
     "services": []
   },
@@ -302,7 +326,8 @@
       "rpc": "https://rpc.artela-testnet.citizenweb3.com",
       "rest": "https://api.artela-testnet.citizenweb3.com",
       "grpc": "https://grpc.artela-testnet.citizenweb3.com",
-      "peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
+      "grpcweb": "https://grpcweb.artela-testnet.citizenweb3.com",
+      "seed/peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
     },
     "services": []
   },
@@ -318,7 +343,7 @@
       "rpc": "https://rpc.axone-testnet.citizenweb3.com",
       "rest": "https://api.axone-testnet.citizenweb3.com",
       "grpc": "https://grpc.axone-testnet.citizenweb3.com",
-      "peer": "1027bd6727dd50c4878594b7018396ec5a4cf1cf@195.201.197.246:31656"
+      "seed/peer": "1027bd6727dd50c4878594b7018396ec5a4cf1cf@195.201.197.246:31656"
     },
     "services": []
   },
@@ -334,7 +359,7 @@
       "rpc": "https://rpc.nillion-testnet.citizenweb3.com",
       "rest": "https://api.nillion-testnet.citizenweb3.com",
       "grpc": "https://grpc.nillion-testnet.citizenweb3.com",
-      "peer": "3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056"
+      "seed/peer": "3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056"
     },
     "services": []
   },
@@ -350,7 +375,7 @@
       "rpc": "https://rpc.provider-testnet.citizenweb3.com",
       "rest": "https://api.provider-testnet.citizenweb3.com",
       "grpc": "https://grpc.provider-testnet.citizenweb3.com",
-      "peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
+      "seed/peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
     },
     "services": []
   },
@@ -365,7 +390,7 @@
       "rpc": "https://rpc.pion-1-testnet.citizenweb3.com",
       "rest": "https://api.pion-1-testnet.citizenweb3.com",
       "grpc": "https://grpc.pion-1-testnet.citizenweb3.com",
-      "peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
+      "seed/peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
     },
     "services": []
   },
@@ -381,7 +406,7 @@
       "rpc": "https://rpc.symphony-testnet.citizenweb3.com",
       "rest": "https://api.symphony-testnet.citizenweb3.com",
       "grpc": "https://grpc.symphony-testnet.citizenweb3.com",
-      "peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
+      "seed/peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
     },
     "services": []
   }
