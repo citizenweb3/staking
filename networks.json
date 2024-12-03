@@ -17,7 +17,7 @@
     "services": []
   },
   {
-    "name": "namada",
+    "name": "namada-mmainnet",
     "type": "mainnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
