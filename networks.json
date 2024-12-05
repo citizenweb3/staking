@@ -266,8 +266,6 @@
     "endpoints": {
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
-      "archive rpc": "rpc.namada-campfire.citizenweb.com",
-      "archive indexer": "indexer.namada-campfire.citizenweb3.com",
       "seed/peer": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
     },
     "generatedServices": [],
