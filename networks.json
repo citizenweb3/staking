@@ -13,7 +13,7 @@
       "grpc": "https://grpc.cosmoshub-4.citizenweb3.com",
       "seed/peer": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
     },
-    "generatedServices": ["peers"],
+    "generatedServices": ["peers", "snapshot"],
     "services": []
   },
   {
