@@ -21,7 +21,7 @@
     "type": "mainnet",
     "title": "Namada",
     "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
-    "stake": "https://namadillo.5elementsnodes.com/staking",
+    "stake": "https://namadillo.citizenweb3.com/staking",
     "explorer": "https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F",
     "chain_id": "namada.5f5de2dd1b88cba30586420",
     "endpoints": {
