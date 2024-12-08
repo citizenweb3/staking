@@ -27,6 +27,7 @@
     "endpoints": {
       "rpc": "https://rpc.namada.citizenweb3.com",
       "archive rpc": "https://rpc.namada-archive.citizenweb3.com/",
+      "archive grpc": "https://grpc.namada-archive.citizenweb3.com/",
       "indexer": "https://indexer.namada.citizenweb3.com/",
       "MASP indexer": "https://masp-indexer.namada.citizenweb3.com/",
       "namadillo": "https://namadillo.citizenweb3.com/",
