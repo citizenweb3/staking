@@ -16,5 +16,5 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" {{node_h
 Add Citizen Web3 state-sync peer to **persistent_peers** in **config.toml**:
 
 ```
-{{endpoints.seed-node}}
+{{endpoints.seed/peer}}
 ```
