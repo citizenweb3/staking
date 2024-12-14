@@ -243,8 +243,8 @@
       "rest": "https://api.althea.citizenweb3.com",
       "grpc": "https://grpc.althea.citizenweb3.com",
       "archive rpc": "https://rpc.althea-archive.citizenweb3.com",
-      "archive api": "api.althea-archive.citizenweb3.com",
-      "archive grpc": "grpc.althea-archive.citizenweb3.com",
+      "archive api": "https://api.althea-archive.citizenweb3.com",
+      "archive grpc": "https://grpc.althea-archive.citizenweb3.com",
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
     "generatedServices": ["peers", "snapshot", "public goods", "relayers"],
