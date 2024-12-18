@@ -56,7 +56,7 @@
     "type": "mainnet",
     "title": "Stride",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
-    "stake": "https://explorer.stride.zone/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
+    "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
     "explorer": "https://www.mintscan.io/stride",
     "endpoints": {
       "rpc": "https://rpc.stride.citizenweb3.com",
