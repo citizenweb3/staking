@@ -12,6 +12,7 @@ export interface IChainConfig {
   discord?: string;
   services: string[];
   generatedServices: string[];
+  showTopChainEndpoints?: boolean;
   endpoints: {
     rpc?: string;
     rest?: string;
