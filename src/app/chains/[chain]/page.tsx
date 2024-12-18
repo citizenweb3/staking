@@ -88,7 +88,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
           <div className="mt-2 space-y-0.5">
             <TxtCopyStr title="type" value={data.type} key={data.type} />
             <TxtCopyStr title="chain id" value={data.chain_id} key={data.chain_id} />
-            {data.endpoints && Object.entries(data.endpoints).map(([key, val]) => (
+            {data.showTopChainEndpoints && data.endpoints && Object.entries(data.endpoints).map(([key, val]) => (
               <TxtCopyStr title={key} value={val} key={key} />
             ))}
           </div>
