@@ -81,7 +81,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                 />
               </Link>
             )}
-            {!data.horcrux && (
+            {data.horcrux && (
               <div
                 className="transition-all duration-150 hover:scale-105"
               >
@@ -94,7 +94,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                 />
               </div>
             )}
-            {!data.restake && (
+            {data.restake && (
               <div
                 className="transition-all duration-150 hover:scale-105"
               >
