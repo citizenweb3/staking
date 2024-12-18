@@ -13,6 +13,8 @@ export interface IChainConfig {
   services: string[];
   generatedServices: string[];
   showTopChainEndpoints?: boolean;
+  horcrux?: boolean;
+  restake?: boolean;
   endpoints: {
     rpc?: string;
     rest?: string;

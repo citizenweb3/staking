@@ -60,7 +60,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                   width={30}
                   height={30}
                   src={'/icons/website.svg'}
-                  alt={data.title + 'website'}
+                  alt={data.title + ' website'}
                   className="h-10 w-10"
                 />
               </Link>
@@ -76,10 +76,36 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                   width={30}
                   height={30}
                   src={'/icons/github.svg'}
-                  alt={data.title + 'website'}
+                  alt={data.title + ' github'}
                   className="h-10 w-10"
                 />
               </Link>
+            )}
+            {!data.horcrux && (
+              <div
+                className="transition-all duration-150 hover:scale-105"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src={'/icons/horcrux.svg'}
+                  alt={data.title + ' horcrux'}
+                  className="h-10 w-10"
+                />
+              </div>
+            )}
+            {!data.restake && (
+              <div
+                className="transition-all duration-150 hover:scale-105"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src={'/icons/restake.svg'}
+                  alt={data.title + ' restake'}
+                  className="h-10 w-10"
+                />
+              </div>
             )}
           </div>
         </div>
