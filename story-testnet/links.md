@@ -1,0 +1,7 @@
+- Explorer: [https://testnet.storyscan.app](https://testnet.storyscan.app/)
+- RPC: [https://rpc.story.posthuman.digital](https://rpc.story.posthuman.digital:443)
+- RPC_ws: [wss://rpc.story.posthuman.digital:443/websocket](wss://rpc.story.posthuman.digital:443/websocket)
+- Snapshot: [https://snapshots.story.posthuman.digital/](https://snapshots.story.posthuman.digital)
+- Evm_json_rpc: [https://evm.story.posthuman.digital](https://evm.story.posthuman.digital:443)
+- Evm_ws: [wss://wss.story.posthuman.digital](wss://wss.story.posthuman.digital:443)
+- REST: [https://rest.story.posthuman.digital](https://rest.story.posthuman.digital:443)

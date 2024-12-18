@@ -1,0 +1,3 @@
+- Explorer: [https://explorer.posthuman.digital/stargaze](https://explorer.posthuman.digital/stargaze)
+- RPC: [https://rpc.stargaze.posthuman.digital](https://rpc.stargaze.posthuman.digital)
+- Snapshot: [https://rpc.stargaze.posthuman.digital](https://snapshot.stargaze.posthuman.digital)
