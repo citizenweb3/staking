@@ -34,7 +34,7 @@
       "namadillo": "https://namadillo.citizenweb3.com/",
       "seed/peer": "tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "snapshot"],
     "services": []
   },
   {
