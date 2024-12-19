@@ -10,5 +10,5 @@
 <br>
 <details>
   <summary>Seed:</summary>
-  <code id="seedValue">{{endpoints.seed}}</code>
+  {{endpoints.seed}}
 </details>
