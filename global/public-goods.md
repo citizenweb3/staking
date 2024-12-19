@@ -1,6 +1,6 @@
 # Public Goods for {{pretty_name}}
 
-<details>
+<details open>
   <summary>Endpoints:</summary>
   <br>
   RPC: <a href="{{endpoints.rpc}}">{{endpoints.rpc}}</a><br>
@@ -12,16 +12,3 @@
   <summary>Seed:</summary>
   <code id="seedValue">{{endpoints.seed}}</code>
 </details>
-
-<script>
-  document.querySelector('summary').onclick = function() {
-    const seedText = document.getElementById('seedValue').innerText;
-    const tempInput = document.createElement('input');
-    tempInput.value = seedText;
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempInput);
-    alert('Сид скопирован: ' + seedText);
-  };
-</script>
