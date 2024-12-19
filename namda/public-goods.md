@@ -1,11 +1,11 @@
-# Public infrastructure for {{pretty_name}}
+# Public infrastructure for Namada
 
 <details open>
   <summary>Endpoints:</summary>
   <br>
   RPC: <a href="{{endpoints.rpc}}">{{endpoints.rpc}}</a><br>
-  REST: <a href="{{endpoints.rest}}">{{endpoints.rest}}</a><br>
-  GRPC: <a href="{{endpoints.grpc}}">{{endpoints.grpc}}</a>
+  Indexer: <a href="{{endpoints.indexer}}">{{endpoints.indexer}}</a><br>
+  MASP Indexer: <a href="{{endpoints.MASP indexer}}">{{endpoints.MASP indexer}}</a>
 </details>
 <br>
 <details>
@@ -19,9 +19,7 @@
 <br>
 <details>
   <summary>Archive endpoints:</summary>
-  RPC: <a href="{{endpoints.rpc}}">{{endpoints.archive rpc}}</a><br>
-  API: <a href="{{endpoints.rpc}}">{{endpoints.archive api}}</a><br>
-  GRPC: <a href="{{endpoints.rpc}}">{{endpoints.archive grpc}}</a><br>
+  RPC: <a href="{{endpoints.archive rpc}}">{{endpoints.archive rpc}}</a><br>
 </details>
 
 # Tools and community
