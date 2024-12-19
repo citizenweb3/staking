@@ -7,3 +7,8 @@
   REST: <a href="{{endpoints.rest}}">{{endpoints.rest}}</a><br>
   GRPC: <a href="{{endpoints.grpc}}">{{endpoints.grpc}}</a>
 </details>
+<br>
+<details>
+  <summary>seed:</summary>
+  ```{{endpoints.seed}}```
+</details>
