@@ -6,13 +6,15 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
     "explorer": "https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u/",
+    "horcrux": true,
+    "restake": true,
     "endpoints": {
       "rpc": "https://rpc.cosmoshub-4.citizenweb3.com",
       "rest": "https://api.cosmoshub-4.citizenweb3.com",
       "grpc": "grpc.cosmoshub-4.citizenweb3.com",
       "seed/peer": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -23,6 +25,7 @@
     "stake": "https://namadillo.citizenweb3.com/staking",
     "explorer": "https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F",
     "chain_id": "namada.5f5de2dd1b88cba30586420",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.namada.citizenweb3.com",
       "archive rpc": "https://rpc.namada-archive.citizenweb3.com/",
@@ -31,7 +34,7 @@
       "namadillo": "https://namadillo.citizenweb3.com/",
       "seed/peer": "tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -41,6 +44,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "https://www.mintscan.io/wallet/stake?chain=celestia&src=celestiavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8uzxnhs&type=stake",
     "explorer": "https://www.mintscan.io/celestia",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.celestia.citizenweb3.com",
       "rest": "https://api.celestia.citizenweb3.com",
@@ -48,7 +52,7 @@
       "grpcweb": "grpcweb.celestia.citizenweb3.com",
       "seed/peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -58,6 +62,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
     "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
     "explorer": "https://www.mintscan.io/stride",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.stride.citizenweb3.com",
       "rest": "https://api.stride.citizenweb3.com",
@@ -65,7 +70,7 @@
       "grpcweb": "grpcweb.strdie.citizenweb3.com",
       "seed/peer": "aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -74,13 +79,14 @@
     "title": "Neutron",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
     "explorer": "https://www.mintscan.io/neutron",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.neutron.citizenweb3.com",
       "rest": "https://api.neutron.citizenweb3.com",
       "grpc": "grpc.neutron.citizenweb3.com",
       "seed/peer": "1020d1490712fe3e669658e506b46a5974a430fc@mainnet.seednode.citizenweb3.com:31656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -90,8 +96,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "stake": "https://www.mintscan.io/wallet/stake/?chain=dymension&src=dymvaloper1z3et7f750ym0cnvxcp7f8lsyynnmk82ts8ljzg&type=stake",
     "explorer": "https://www.mintscan.io/dymension/",
-    "node_home": "$HOME/.dymension",
-    "addrbookUrl": "123",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.dym.citizenweb3.com",
       "rest": "https://api.dym.citizenweb3.com",
@@ -99,7 +104,7 @@
       "grpcweb": "grpcweb.dym.citizenweb3.com",
       "seed/peer": "8679333e027be05116c388c040d7c45ca1aeeeeb@mainnet.seednode.citizenweb3.com:14656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -109,6 +114,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
     "explorer": "https://quicksilver.explorers.guru/validator/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.quicksilver.citizenweb3.com",
       "rest": "https://api.quicksilver.citizenweb3.com",
@@ -116,7 +122,7 @@
       "grpcweb": "grpcweb.quicksilver.citizenweb3.com",
       "seed/peer": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -126,6 +132,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/govgen/images/govgen.svg",
     "stake": "https://explorer.govgen.io/govgen/staking/govgenvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8pv6wce",
     "explorer": "https://explorer.govgen.io/govgen",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.govgen.citizenweb3.com",
       "rest": "https://api.govgen.citizenweb3.com",
@@ -133,7 +140,7 @@
       "grpcweb": "grpcweb.govgen.citizenweb3.com",
       "seed/peer": "75bb6414e108294ea185bf499552112c6d7c076f@mainnet.seednode.citizenweb3.com:35656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -143,13 +150,14 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
     "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
     "explorer": "https://explorer.allinbits.services/atomone",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.atomone.citizenweb3.com",
       "rest": "https://api.atomone.citizenweb3.com",
       "grpc": "grpc.atomone.citizenweb3.com",
       "seed/peer": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -159,7 +167,9 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
     "explorer": "https://cyb.ai/",
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "horcrux": true,
+    "restake": true,
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -169,6 +179,8 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bitcanna/images/bcna.svg",
     "stake": "https://explorers.l0vd.com/bitcanna-mainnet/staking/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye",
     "explorer": "https://explorer.bitcanna.io/",
+    "horcrux": true,
+    "restake": true,
     "endpoints": {
       "rpc": "https://rpc.bitcanna.citizenweb3.com",
       "rest": "https://api.bitcanna.citizenweb3.com",
@@ -176,7 +188,7 @@
       "grpcweb": "grpcweb.bitcanna.citizenweb3.com",
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -186,6 +198,8 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/likecoin/images/like.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=likecoin-mainnet-2&validator_address=likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu&step_id=3&action_id=stake",
     "explorer": "https://www.mintscan.io/likecoin/validators/likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu/",
+    "horcrux": true,
+    "restake": true,
     "endpoints": {
       "rpc": "https://rpc.likecoin.citizenweb3.com",
       "rest": "https://api.likecoin.citizenweb3.com",
@@ -193,7 +207,7 @@
       "grpcweb": "grpcweb.likecoin.citizenweb3.com",
       "seed/peer": "c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -203,6 +217,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
     "stake": "https://explorer.nodestake.org/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
     "explorer": "https://explorer.nodestake.org/uptick",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.uptick.citizenweb3.com",
       "rest": "https://api.uptick.citizenweb3.com",
@@ -210,7 +225,7 @@
       "grpcweb": "grpcweb.uptick.citizenweb3.com",
       "seed/peer": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -220,6 +235,8 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
     "stake": "https://www.mintscan.io/wallet/stake?chain=gravity-bridge&src=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&type=stake",
     "explorer": "https://www.mintscan.io/gravity-bridge",
+    "horcrux": true,
+    "restake": true,
     "endpoints": {
       "rpc": "https://rpc.gravity.citizenweb3.com",
       "rest": "https://api.gravity.citizenweb3.com",
@@ -227,7 +244,7 @@
       "grpcweb": "grpcweb.gravity.citizenweb3.com",
       "seed/peer": "cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -237,6 +254,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.svg",
     "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
     "explorer": "https://althea.explorers.guru/",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.althea.citizenweb3.com",
       "rest": "https://api.althea.citizenweb3.com",
@@ -246,7 +264,7 @@
       "archive grpc": "grpc.althea-archive.citizenweb3.com",
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -257,7 +275,7 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/Interlay/interlay.svg",
     "stake": "https://app.interlay.io/vaults/wd7mvsKzX8QaGh268wiqCpu8j7z5pAZhw1VUkcJPxwtNY14jb/DOT/IBTC",
     "explorer": "https://interlay.subscan.io/",
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -273,7 +291,7 @@
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
       "seed/peer": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -283,11 +301,12 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
     "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
     "explorer": "https://nomic-explorer.quokkastake.io/nomic",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
       "seed/peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
     },
-    "generatedServices": ["public goods", "peers", "snapshot"],
+    "generatedServices": ["public-goods", "peers", "snapshot"],
     "services": []
   },
   {
@@ -298,7 +317,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/space-pussy/space-pussy.svg",
     "stake": "https://spacepussy.ai/network/bostrom/hero/pussyvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqhfj9et",
     "explorer": "https://spacepussy.ai/cyberver/verses/pussy/graph",
-    "generatedServices": ["public goods"],
+    "horcrux": true,
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -315,7 +335,7 @@
       "grpc": "grpc.union-testnet.citizenweb3.com",
       "seed/peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -333,7 +353,7 @@
       "grpcweb": "grpcweb.artela-testnet.citizenweb3.com",
       "seed/peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -350,7 +370,7 @@
       "grpc": "grpc.axone-testnet.citizenweb3.com",
       "seed/peer": "1027bd6727dd50c4878594b7018396ec5a4cf1cf@195.201.197.246:31656"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -367,7 +387,7 @@
       "grpc": "grpc.nillion-testnet.citizenweb3.com",
       "seed/peer": "3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -378,13 +398,14 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://explorer.polypore.xyz/provider/staking/cosmosvaloper18lz3nz3nyhtewm35npaccnc7javzmyvfake7j7",
     "explorer": "https://explorer.polypore.xyz/provider",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.provider-testnet.citizenweb3.com",
       "rest": "https://api.provider-testnet.citizenweb3.com",
       "grpc": "grpc.provider-testnet.citizenweb3.com",
       "seed/peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -394,13 +415,14 @@
     "chain_id": "pion-1",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
     "explorer": "https://explorer.polypore.xyz/pion-1",
+    "horcrux": true,
     "endpoints": {
       "rpc": "https://rpc.pion-1-testnet.citizenweb3.com",
       "rest": "https://api.pion-1-testnet.citizenweb3.com",
       "grpc": "grpc.pion-1-testnet.citizenweb3.com",
       "seed/peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   },
   {
@@ -417,7 +439,7 @@
       "grpc": "grpc.symphony-testnet.citizenweb3.com",
       "seed/peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
     },
-    "generatedServices": ["public goods"],
+    "generatedServices": ["public-goods"],
     "services": []
   }
 ]
