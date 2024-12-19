@@ -1,7 +1,7 @@
 # Public Goods for {{pretty_name}}
 
-<details open>
-<summary>## Endpoints:</summary>
+<details>
+<summary>Endpoints:</summary>
 <br>
 RPC: [{{endpoints.rpc}}]({{endpoints.rpc}})<br>
 REST: [{{endpoints.rest}}]({{endpoints.rest}})<br>
