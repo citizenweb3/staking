@@ -57,6 +57,7 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
     <html lang="en" className={`${zonaPro.variable} ${hisqaida.variable}`}>
       <head>
         <title>Citizen Web3 staking page</title>
+        <script defer data-domain="staking.citizenweb3.com" src="https://plausible.io/js/script.js"></script>
       </head>
       <body className={`${zonaPro.className} scrollbar-track-scroll-bg scrollbar-thumb-scroll-item`}>
         <div className="flex min-h-screen w-full flex-col justify-between bg-black px-8 py-4 text-white">
