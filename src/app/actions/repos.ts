@@ -76,7 +76,7 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
     if (param[0] === ':') {
       const [_, path, template, separator] = param.split(':');
       const arr: any = deepValue(chain, path);
-      return arr.map((item: any) => template.replace(/{(.+?)}/g, (_, subParam) => item[subParam])).join(separator);
+      return arr.map?.((item: any) => template.replace(/{(.+?)}/g, (_, subParam) => item[subParam])).join(separator) ?? `<${path}> - Not found in config`;
     }
 
     return deepValue(chain, param) as string;
