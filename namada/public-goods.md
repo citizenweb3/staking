@@ -29,9 +29,17 @@
 
 # Tools and community
 
-<details open>
-  <summary>Explorer</summary>
-  <br>
-  <a href="https://validatorinfo.com/networks">https://validatorinfo.com/networks</a><br>
-</details>
-<br>
+## Explorer
+[https://validatorinfo.com/networks](https://validatorinfo.com/networks)
+
+## Governance
+[https://shielded.live/governance](https://shielded.live/governance)
+
+## Podcast
+[https://www.citizenweb3.com/chrisgoes](https://www.citizenweb3.com/chrisgoes)
+
+## Debates
+
+## Forum participant
+
+## Pre-genesis validator

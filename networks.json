@@ -14,8 +14,8 @@
       "grpc": "grpc.cosmoshub-4.citizenweb3.com",
       "seed/peer": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "namada",
@@ -34,8 +34,8 @@
       "namadillo": "https://namadillo.citizenweb3.com/",
       "seed/peer": "tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656"
     },
-    "generatedServices": ["snapshot"],
-    "services": ["public-goods"]
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "celestia",
