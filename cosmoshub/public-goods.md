@@ -1,16 +1,16 @@
-# Public infrastructure for {{pretty_name}}
+# Public infrastructure for Cosmos Hub
 
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="{{endpoints.rpc}}">{{endpoints.rpc}}</a><br>
-  REST: <a href="{{endpoints.rest}}">{{endpoints.rest}}</a><br>
-  GRPC: <a href="{{endpoints.grpc}}">{{endpoints.grpc}}</a>
+  RPC: <a href="https://rpc.cosmoshub-4.citizenweb3.com/">https://rpc.cosmoshub-4.citizenweb3.com/</a><br>
+  REST: <a href="https://api.cosmoshub-4.citizenweb3.com/">https://api.cosmoshub-4.citizenweb3.com/</a><br>
+  GRPC: <a href="https://grpc.cosmoshub-4.citizenweb3.com/">https://grpc.cosmoshub-4.citizenweb3.com/</a>
 </details>
 <br>
 <details>
   <summary>Seed</summary>
-  {{endpoints.seed/peer}}
+  d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656
 </details>
 <br>
 <details>
@@ -19,9 +19,9 @@
 <br>
 <details>
   <summary>Archive endpoints</summary>
-  RPC: <a href="{{endpoints.archhive rpc}}">{{endpoints.archive rpc}}</a><br>
-  API: <a href="{{endpoints.archive api}}">{{endpoints.archive api}}</a><br>
-  GRPC: <a href="{{endpoints.archive grpc}}">{{endpoints.archive grpc}}</a><br>
+  RPC: <br>
+  API: <br>
+  GRPC: <br>
 </details>
 
 # Tools and community
@@ -44,6 +44,6 @@
 
 ## Active Forum Participation
 
-## Early Contributions
+## Early Contributor
 
 ## Posts
