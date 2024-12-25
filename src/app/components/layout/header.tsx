@@ -9,7 +9,7 @@ const Header = () => (
       <span className={`text-lg`}> web3</span>
     </Link>
 
-    <Link href={`https://dev.validatorinfo.com/`} target="_blank" rel="nofollow" className="text-base">
+    <Link href={`https://validatorinfo.com/`} target="_blank" rel="nofollow" className="text-base">
       <Button external>Open App</Button>
     </Link>
   </div>
