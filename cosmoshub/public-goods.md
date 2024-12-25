@@ -30,7 +30,20 @@
 [https://validatorinfo.com/networks](https://validatorinfo.com/networks)
 
 ## Governance
-[{{governance}}]({{governance}})
+
+## Events
 
 ## Podcast
-[{{podcast}}]({{podcast}})
+[https://www.citizenweb3.com/search?utf8=%E2%9C%93&term=cosmos](https://www.citizenweb3.com/search?utf8=%E2%9C%93&term=cosmos)
+
+## Spaces
+
+## Debates
+
+## Docs
+
+## Active Forum Participation
+
+## Early Contributions
+
+## Posts
