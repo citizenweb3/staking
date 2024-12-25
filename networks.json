@@ -255,6 +255,7 @@
     "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
     "explorer": "https://althea.explorers.guru/",
     "horcrux": true,
+    "podcast": "https://www.citizenweb3.com/tags/althea",
     "endpoints": {
       "rpc": "https://rpc.althea.citizenweb3.com",
       "rest": "https://api.althea.citizenweb3.com",
