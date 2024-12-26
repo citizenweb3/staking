@@ -44,35 +44,44 @@
 <details>
   <summary>Podcasts</summary>
   <a href="https://www.citizenweb3.com/figment-network-governance">Governance and the Cosmos ecosystem with Gavin Birch</a><br>
-  <a href="">https://www.citizenweb3.com/game-of-zones</a>Bow ties and IBC with Jack Zampolin <br>
-  <a href="">https://www.citizenweb3.com/ethan-buchman-cosmos</a>https://www.citizenweb3.com/ethan-buchman-cosmos<br>
-  <a href="">https://www.citizenweb3.com/peng-tendermint</a>Management, power abuse and naming with Peng Zhong<br>
-  <a href="">https://www.citizenweb3.com/dogemos-keplr</a>Community, Dogecoin and privacy issues with Josh Lee<br>
-  <a href="">https://www.citizenweb3.com/billy-icf</a>DNA, funding and tattoo machines with Billy Rennekamp<br>
-  <a href="">https://www.citizenweb3.com/zarko</a>Research, consensus and verification with Zarko Milosevic<br>
-  <a href="">https://www.citizenweb3.com/dinezen-xmas</a>Denizen Cosmos: Xmas special 2020<br>
-  <a href="">https://www.citizenweb3.com/chjango</a>https://www.citizenweb3.com/chjango<br>
-  <a href="">https://www.citizenweb3.com/tess</a>Software development, databases and cycling with Tess Rinearson<br>
-  <a href="">https://www.citizenweb3.com/cryptocito</a>The Cosmos, it's Might and Economics with Cryptocito<br>
-  <a href="">https://www.citizenweb3.com/emeris</a>Marketplaces, Motivation and Intuition with Gautier Marin<br>
-  <a href="">https://www.citizenweb3.com/sommelier</a>Cypherpunks, Product Management and Jack's Dog with Jack Zampolin<br>
-  <a href=""></a><br>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/game-of-zones">Bow ties and IBC with Jack Zampolin</a><br>
+  <a href="https://www.citizenweb3.com/ethan-buchman-cosmos">The Now and Then of Cosmos with Ethan Buchman</a><br>
+  <a href="https://www.citizenweb3.com/peng-tendermint">Management, power abuse and naming with Peng Zhong</a><br>
+  <a href="https://www.citizenweb3.com/dogemos-keplr">Community, Dogecoin and privacy issues with Josh Lee</a><br>
+  <a href="https://www.citizenweb3.com/billy-icf">DNA, funding and tattoo machines with Billy Rennekamp</a><br>
+  <a href="https://www.citizenweb3.com/zarko">Research, consensus and verification with Zarko Milosevic</a><br>
+  <a href="https://www.citizenweb3.com/dinezen-xmas">Denizen Cosmos: Xmas special 2020</a><br>
+  <a href="https://www.citizenweb3.com/chjango">Memes, Wall Street and community marketing with Chjango Unchained</a><br>
+  <a href="https://www.citizenweb3.com/tess">Software development, databases and cycling with Tess Rinearson</a><br>
+  <a href="https://www.citizenweb3.com/cryptocito">The Cosmos, it's Might and Economics with Cryptocito</a><br>
+  <a href="https://www.citizenweb3.com/emeris">Marketplaces, Motivation and Intuition with Gautier Marin</a><br>
+  <a href="https://www.citizenweb3.com/sommelier">Cypherpunks, Product Management and Jack's Dog with Jack Zampolin</a><br>
+  <a href="https://www.citizenweb3.com/coneydaddy">Tequila, Rock 'n' Roll and Cosmos with Coney Daddy</a><br>
+  <a href="https://www.citizenweb3.com/jelena">Human Nature, Cencorship and the Free Market with Jelena Djuric</a><br>
+  <a href="https://www.citizenweb3.com/youssefamrani">Social Capital, Consenus and Rewards with Youssef Amrani</a><br>
+  <a href="https://www.citizenweb3.com/samhart">Perfect Governance, Art and Ethics with Sam Hart</a><br>
+  <a href="https://www.citizenweb3.com/informal">Formal Verification, Innovation and Consensus with Zarko Milosevic</a><br>
+  <a href="https://www.citizenweb3.com/ericwaisanen">Inflation, Game Theory and Token Value with Eric Waisanen</a><br>
+  <a href="https://www.citizenweb3.com/jaekwon">Organised Censorship, the Society and the Truth with Jae Kwon</a><br>
+  <a href="https://www.citizenweb3.com/denisfadeev">Tribalism, Cosmos and Tutorials with Denis Fadeev</a><br>
 </details>
 <br>
 <details>
   <summary>Events</summary>
-  <a href=""></a><br>
+  <a href="https://blog.cosmos.network/hackatom-ru-2021-congratulations-to-the-winners-7632ae195517">HackAtom RU</a><br>
+  <a href="https://www.youtube.com/watch?v=NZd3UUUWIpw">Cosmos po Ruski 2</a><br>
 </details>
 <br>
 <details>
-  <summary>Spaces</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Debates</summary>
-  <a href=""></a><br>
+  <summary>Spaces, Lives and Debates</summary>
+  <a href="https://twitter.com/i/spaces/1jMJgLQZOyPxL">Securing your node with Horcrux</a><br>
+  <a href="https://www.youtube.com/watch?v=eLSS4wqkOj4&t">Atom 2.0</a><br>
+  <a href="​https://www.youtube.com/watch?v=IuYFNmK0ZxY">Liquid Staking</a><br>
+  <a href="https://www.youtube.com/watch?v=nf9Ty8JoTYc">Stablecoins</a><br>
+  <a href="https://www.youtube.com/watch?v=peDRA7kEq0U&t">CosmWasm</a><br>
+  <a href="https://www.youtube.com/watch?v=phrbilaLmPA&t">Cosmoverse</a><br>
+  <a href="https://www.youtube.com/watch?v=RXMoF18bckU">Game of Chains</a><br>
+  <a href="https://www.youtube.com/watch?v=RD0YQxhOQR4&t">Quality and Assurance, Testing</a><br>
 </details>
 <br>
 <details>
