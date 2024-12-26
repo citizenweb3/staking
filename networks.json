@@ -169,8 +169,8 @@
     "explorer": "https://cyb.ai/",
     "horcrux": true,
     "restake": true,
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "bitcanna",
@@ -320,8 +320,8 @@
     "stake": "https://spacepussy.ai/network/bostrom/hero/pussyvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqhfj9et",
     "explorer": "https://spacepussy.ai/cyberver/verses/pussy/graph",
     "horcrux": true,
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "union",
