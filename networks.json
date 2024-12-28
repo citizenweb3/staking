@@ -48,12 +48,12 @@
     "endpoints": {
       "rpc": "https://rpc.celestia.citizenweb3.com",
       "rest": "https://api.celestia.citizenweb3.com",
-      "grpc": "https://grpc.celestia.citizenweb3.com",
+      "grpc": "grpc.celestia.citizenweb3.com",
       "grpcweb": "grpcweb.celestia.citizenweb3.com",
       "seed/peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "stride",
@@ -66,12 +66,12 @@
     "endpoints": {
       "rpc": "https://rpc.stride.citizenweb3.com",
       "rest": "https://api.stride.citizenweb3.com",
-      "grpc": "https://grpc.stride.citizenweb3.com",
+      "grpc": "grpc.stride.citizenweb3.com",
       "grpcweb": "grpcweb.strdie.citizenweb3.com",
       "seed/peer": "aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "neutron",
@@ -86,8 +86,8 @@
       "grpc": "grpc.neutron.citizenweb3.com",
       "seed/peer": "1020d1490712fe3e669658e506b46a5974a430fc@mainnet.seednode.citizenweb3.com:31656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "dymension",
@@ -100,12 +100,12 @@
     "endpoints": {
       "rpc": "https://rpc.dym.citizenweb3.com",
       "rest": "https://api.dym.citizenweb3.com",
-      "grpc": "https://grpc.dym.citizenweb3.com",
+      "grpc": "grpc.dym.citizenweb3.com",
       "grpcweb": "grpcweb.dym.citizenweb3.com",
       "seed/peer": "8679333e027be05116c388c040d7c45ca1aeeeeb@mainnet.seednode.citizenweb3.com:14656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "quicksilver",
@@ -118,12 +118,12 @@
     "endpoints": {
       "rpc": "https://rpc.quicksilver.citizenweb3.com",
       "rest": "https://api.quicksilver.citizenweb3.com",
-      "grpc": "https://grpc.quicksilver.citizenweb3.com",
+      "grpc": "grpc.quicksilver.citizenweb3.com",
       "grpcweb": "grpcweb.quicksilver.citizenweb3.com",
       "seed/peer": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "govgen",
@@ -136,12 +136,12 @@
     "endpoints": {
       "rpc": "https://rpc.govgen.citizenweb3.com",
       "rest": "https://api.govgen.citizenweb3.com",
-      "grpc": "https://grpc.govgen.citizenweb3.com",
+      "grpc": "grpc.govgen.citizenweb3.com",
       "grpcweb": "grpcweb.govgen.citizenweb3.com",
       "seed/peer": "75bb6414e108294ea185bf499552112c6d7c076f@mainnet.seednode.citizenweb3.com:35656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "atomone",
@@ -157,8 +157,8 @@
       "grpc": "grpc.atomone.citizenweb3.com",
       "seed/peer": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "bostrom",
@@ -184,12 +184,12 @@
     "endpoints": {
       "rpc": "https://rpc.bitcanna.citizenweb3.com",
       "rest": "https://api.bitcanna.citizenweb3.com",
-      "grpc": "https://grpc.bitcanna.citizenweb3.com",
+      "grpc": "grpc.bitcanna.citizenweb3.com",
       "grpcweb": "grpcweb.bitcanna.citizenweb3.com",
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "likecoin",
@@ -203,12 +203,12 @@
     "endpoints": {
       "rpc": "https://rpc.likecoin.citizenweb3.com",
       "rest": "https://api.likecoin.citizenweb3.com",
-      "grpc": "https://grpc.likecoin.citizenweb3.com",
+      "grpc": "grpc.likecoin.citizenweb3.com",
       "grpcweb": "grpcweb.likecoin.citizenweb3.com",
       "seed/peer": "c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "uptick",
@@ -221,12 +221,12 @@
     "endpoints": {
       "rpc": "https://rpc.uptick.citizenweb3.com",
       "rest": "https://api.uptick.citizenweb3.com",
-      "grpc": "https://grpc.uptick.citizenweb3.com",
+      "grpc": "grpc.uptick.citizenweb3.com",
       "grpcweb": "grpcweb.uptick.citizenweb3.com",
       "seed/peer": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "gravitybridge",
@@ -240,12 +240,12 @@
     "endpoints": {
       "rpc": "https://rpc.gravity.citizenweb3.com",
       "rest": "https://api.gravity.citizenweb3.com",
-      "grpc": "https://grpc.gravity.citizenweb3.com",
+      "grpc": "grpc.gravity.citizenweb3.com",
       "grpcweb": "grpcweb.gravity.citizenweb3.com",
       "seed/peer": "cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "althea",
@@ -266,8 +266,8 @@
       "archive grpc": "grpc.althea-archive.citizenweb3.com",
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "interlay",
@@ -308,8 +308,8 @@
       "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
       "seed/peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "pussy",

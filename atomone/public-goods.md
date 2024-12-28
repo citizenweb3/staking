@@ -1,0 +1,59 @@
+# Public infrastructure 
+
+<details open>
+  <summary>Endpoints</summary>
+  <br>
+  RPC: <a href="https://rpc.atomone.citizenweb3.com/">https://rpc.atomone.citizenweb3.com/</a><br>
+  REST: <a href="https://api.atomone.citizenweb3.com/">https://api.atomone.citizenweb3.com/</a><br>
+  GRPC: <a href="grpc.atomone.citizenweb3.com/">grpc.atomone.citizenweb3.com/</a><br>
+  GRPCWEB: <a href="grpcweb.atomone.citizenweb3.com/">grpcweb.atomone.citizenweb3.com/</a>
+</details>
+<br>
+<details>
+  <summary>Seed</summary>
+57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756
+</details>
+<br>
+<details>
+  <summary>Relayers</summary>
+</details>
+<br>
+<details>
+  <summary>Archive endpoints</summary>
+  RPC: <br>
+  API: <br>
+  GRPC: <br>
+</details>
+<br>
+
+# Tools and community
+
+<details>
+  <summary>Explorer</summary>
+  <a href="https://validatorinfo.com/networks">Validator Info</a><br>
+</details>
+<br>
+<details>
+  <summary>Governance</summary>
+  <a href="https://gov.atom.one/">Voting History</a><br>
+</details>
+<br>
+<details>
+  <summary>Podcasts</summary>
+  <a href=""></a><br>
+</details>
+<br>
+<details>
+  <summary>Events</summary>
+  <a href=""></a><br>
+</details>
+<br>
+<details>
+  <summary>Spaces, Lives and Debates</summary>
+  <a href=""></a><br>
+</details>
+<br>
+<details>
+  <summary>Docs and Posts</summary>
+  <a href=""></a><br>
+</details>
