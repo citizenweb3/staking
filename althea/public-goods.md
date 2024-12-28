@@ -40,17 +40,14 @@ c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/althea">Internet quality, mesh networks and the radio with Deborah Simpier </a><br>
+  <a href="https://www.citizenweb3.com/altheajourney">Mesh Networks, Working Nights and Web3 with Althea core team</a><br>
 </details>
 <br>
 <details>
   <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
+  <a href="https://twitter.com/i/spaces/1nAJErYpbnOxL">Althea</a><br>
+  <a href="https://x.com/i/spaces/1mrGmMdmPvgGy">Citizen Web3 on ALthea</a><br>
 </details>
 <br>
 <details>
