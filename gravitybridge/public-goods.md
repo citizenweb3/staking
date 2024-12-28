@@ -40,20 +40,5 @@ cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/altheajourney">Mesh Netowrks, Working Nights and Web3 with Althea core team</a><br>
 </details>
