@@ -9,11 +9,6 @@
 </details>
 <br>
 <details>
-  <summary>Staking interface</summary>
-<a href="https://namadillo.citizenweb3.com/">https://namadillo.citizenweb3.com/</a><br>
-</details>
-<br>
-<details>
   <summary>Seed</summary>
   tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656
 </details>
@@ -29,17 +24,27 @@
 
 # Tools and community
 
-## Explorer
-[https://validatorinfo.com/networks](https://validatorinfo.com/networks)
+<details>
+  <summary>Staking interface</summary>
+<a href="https://namadillo.citizenweb3.com/">https://namadillo.citizenweb3.com/</a><br>
+</details>
+<details>
+  <summary>Governance</summary>
+  <a href="">Voting History</a><br>
+</details>
+<br>
+<details>
+  <summary>Podcasts</summary>
+  <a href="https://www.citizenweb3.com/chrisgoes">Privacy Semantics, the Conception of Law and Money with Chris Goes </a><br>
+</details>
+<br>
+<details>
+  <summary>Spaces, Lives and Debates</summary>
+  <a href="https://www.youtube.com/watch?v=n4ZvhwsCfNg">Privacy</a><br>
+</details>
+<br>
+<details>
+  <summary>Docs and Posts</summary>
+  <a href=""></a><br>
+</details>
 
-## Governance
-[https://shielded.live/governance](https://shielded.live/governance)
-
-## Podcast
-[https://www.citizenweb3.com/chrisgoes](https://www.citizenweb3.com/chrisgoes)
-
-## Debates
-
-## Forum participant
-
-## Pre-genesis validator
