@@ -14,14 +14,7 @@ bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656
 <details>
   <summary>Relayers</summary>
 </details>
-<br>
-<details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
+
 
 # Tools and community
 
@@ -32,24 +25,5 @@ bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656
 <br>
 <details>
   <summary>Governance</summary>
-</details>
-<br>
-<details>
-  <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+   <a href="">Voting History</a><br>
 </details>
