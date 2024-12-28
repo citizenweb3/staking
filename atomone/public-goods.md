@@ -45,5 +45,5 @@
 <br>
 <details>
   <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://github.com/atomone-hub/assets/issues/3">Pre Genesis Logo Competition Contributor</a><br>
 </details>
