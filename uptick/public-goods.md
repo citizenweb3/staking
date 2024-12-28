@@ -40,20 +40,5 @@ bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/brianxin">The Web3 Mindset, Adoption and Monopolies with Brian Xin</a><br>
 </details>
