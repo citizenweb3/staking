@@ -21,6 +21,11 @@
   <summary>Archive endpoints</summary>
   RPC: <a href="https://rpc.namada-archive.citizenweb3.com/">https://rpc.namada-archive.citizenweb3.com/</a><br>
 </details>
+<br>
+<details>
+  <summary>Testnet Node</summary>
+  RPC: <a href="https://staking.citizenweb3.com/chains/namadatestnet">Testnet Validator + Peers + Endpoints</a><br>
+</details>
 
 # Tools and community
 
