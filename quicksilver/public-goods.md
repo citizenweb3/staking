@@ -17,14 +17,6 @@
 <details>
   <summary>Relayers</summary>
 </details>
-<br>
-<details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
 
 # Tools and community
 
@@ -40,20 +32,13 @@
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/vishmodali">Liquid Staking, Privacy and Revolutionizing Money with Vish Modali</a><br>
+  <a href="https://www.citizenweb3.com/quicksilver">Capital Efficiency, Staking and DeFi with Joe Bowman</a><br>
 </details>
 <br>
 <details>
   <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
+  <a href="https://www.youtube.com/watch?v=IuYFNmK0ZxY">Liquid Staking</a><br>
 </details>
-<br>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
-</details>
+
+debate liquid staking
