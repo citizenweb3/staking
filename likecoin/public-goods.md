@@ -40,20 +40,10 @@ c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/likecoin">Democrats, Historical Content and Community with Phoebe Poon</a><br>
 </details>
 <br>
 <details>
   <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://citizenweb3.github.io/manuscripts/how-to-stake-like/">How to Stake Likecoin</a><br>
 </details>
