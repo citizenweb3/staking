@@ -25,6 +25,10 @@ aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656
   GRPC: <br>
 </details>
 <br>
+<details>
+  <summary>Governor Node</summary>
+  <a href="https://www.mintscan.io/stride/governors">Governor Node</a><br>
+</details>
 
 # Tools and community
 
@@ -40,20 +44,15 @@ aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/stride">Liquid Staking, Berkeley and Tokenomics with Riley Edmund</a><br>
 </details>
 <br>
 <details>
   <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
+  <a href="https://www.youtube.com/watch?v=IuYFNmK0ZxY">Liquid Staking</a><br>
 </details>
 <br>
 <details>
   <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://citizenweb3.github.io/manuscripts/striderecap/">Stride Lab</a><br>
 </details>
