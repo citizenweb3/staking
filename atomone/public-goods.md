@@ -40,17 +40,7 @@
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/jaekwon">Organised Censorship, the Society and the Truth with Jae Kwon</a><br>
 </details>
 <br>
 <details>
