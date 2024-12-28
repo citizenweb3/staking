@@ -24,6 +24,10 @@
   GRPC: <br>
 </details>
 <br>
+<details>
+  <summary>Testnet Node</summary>
+  <a href="https://staking.citizenweb3.com/chains/neutrontestnet">Testnet Validator + Peers + Endpoints + Explorer</a><br>
+</details>
 
 # Tools and community
 
@@ -39,20 +43,6 @@
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/neutron">Bitcoin in School, Incintives and Governance with Spaydh</a><br>
 </details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
-</details>
+
