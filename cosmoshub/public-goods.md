@@ -26,7 +26,7 @@
 <br>
 <details>
   <summary>Testnet Node</summary>
-  <a href=" https://staking.citizenweb3.com/chains/cosmostestnet">Testnet Validator + Peers + </a>
+  <a href=" https://staking.citizenweb3.com/chains/cosmostestnet">Testnet Validator + Peers + Endpoints</a>
 </details>
 
 # Tools and community
@@ -83,7 +83,6 @@
   <a href="https://www.youtube.com/watch?v=RXMoF18bckU">Game of Chains</a><br>
   <a href="https://www.youtube.com/watch?v=RD0YQxhOQR4&t">Quality and Assurance, Testing</a><br>
   <a href="https://www.youtube.com/watch?v=Kb2BtzFCVGs&t">HackAtom</a><br>
-  <a href=""></a><br>
 </details>
 <br>
 <details>
@@ -92,5 +91,6 @@
   <a href="https://citizenweb3.github.io/manuscripts/gocstream/">Game of Chains stream</a><br>
   <a href="https://citizenweb3.github.io/manuscripts/game-of-chains/">What is the Game of Chains?</a><br>
   <a href="https://citizenweb3.github.io/manuscripts/hackatom-7/">HackAtom VII 2022</a><br>
+  <a href="https://citizenweb3.github.io/manuscripts/ics/">Interchain Security</a><br>
 </details>
 
