@@ -37,22 +37,6 @@
   <summary>Governance</summary>
   <a href="https://dymension.explorers.guru/proposals">Voting History</a><br>
 </details>
-<br>
-<details>
-  <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
-</details>
-<br>
 <details>
   <summary>Docs and Posts</summary>
   <a href=""></a><br>
