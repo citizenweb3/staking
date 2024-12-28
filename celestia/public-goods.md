@@ -18,13 +18,6 @@
   <summary>Relayers</summary>
 </details>
 <br>
-<details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
 
 # Tools and community
 
@@ -40,20 +33,10 @@
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Events</summary>
-  <a href=""></a><br>
-</details>
-<br>
-<details>
-  <summary>Spaces, Lives and Debates</summary>
-  <a href=""></a><br>
+  <a href="https://www.citizenweb3.com/celestia">Mathematics, Rollups and Adoption with Ismail Khoffi</a><br>
 </details>
 <br>
 <details>
   <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://citizenweb3.github.io/manuscripts/celestia-guide/">Celestia</a><br>
 </details>
