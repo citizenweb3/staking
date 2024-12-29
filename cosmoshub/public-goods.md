@@ -26,7 +26,7 @@
 <br>
 <details>
   <summary>Testnet Node</summary>
-  <a href=" https://staking.citizenweb3.com/chains/cosmostestnet">Testnet Validator + Peers + Endpoints</a>
+  <a href="https://staking.citizenweb3.com/chains/cosmostestnet">Testnet Validator + Peers + Endpoints</a>
 </details>
 
 # Tools and community
