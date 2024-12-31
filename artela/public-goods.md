@@ -16,14 +16,6 @@ ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656
 <details>
   <summary>Relayers</summary>
 </details>
-<br>
-<details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
 
 # Tools and community
 
@@ -35,8 +27,4 @@ ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656
 <details>
   <summary>Governance</summary>
   <a href="">Voting History</a><br>
-</details>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
 </details>

@@ -18,15 +18,8 @@ c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656
 </details>
 <br>
 <details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
-<details>
-  <summary>Testnet Node</summary>
-  <a href="https://staking.citizenweb3.com/chains/neutrontestnet">Testnet Validator + Peers + Endpoints + Explorer</a><br>
+  <summary>Testing</summary>
+  Testnet Wednesday Participant
 </details>
 
 # Tools and community
@@ -38,7 +31,7 @@ c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://www.mintscan.io/neutron/dao/vault?sector=proposals">Voting History</a><br>
+  <a href="">Voting History</a><br>
 </details>
 <br>
 <details>

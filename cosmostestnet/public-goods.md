@@ -18,15 +18,8 @@
 </details>
 <br>
 <details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
-<details>
-  <summary>Testnet Node</summary>
-  <a href="https://staking.citizenweb3.com/chains/cosmostestnet">Testnet Validator + Peers + Endpoints</a>
+  <summary>Testing</summary>
+  Testnet Wednesday Participant
 </details>
 
 # Tools and community
