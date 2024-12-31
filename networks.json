@@ -372,8 +372,8 @@
       "grpc": "grpc.axone-testnet.citizenweb3.com",
       "seed/peer": "1027bd6727dd50c4878594b7018396ec5a4cf1cf@195.201.197.246:31656"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "nillion",
@@ -389,8 +389,8 @@
       "grpc": "grpc.nillion-testnet.citizenweb3.com",
       "seed/peer": "3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "cosmostestnet",
@@ -407,7 +407,7 @@
       "grpc": "grpc.provider-testnet.citizenweb3.com",
       "seed/peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
     },
-    "generatedServices": ["public-goods", "peers", "snapshot"],
+    "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
@@ -441,7 +441,7 @@
       "grpc": "grpc.symphony-testnet.citizenweb3.com",
       "seed/peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   }
 ]

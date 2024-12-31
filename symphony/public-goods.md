@@ -1,0 +1,42 @@
+# Public infrastructure 
+
+<details open>
+  <summary>Endpoints</summary>
+  <br>
+  RPC: <a href="https://rpc.symphony-testnet.citizenweb3.com/">https://rpc.symphony-testnet.citizenweb3.com/</a><br>
+  REST: <a href="https://api.symphony-testnet.citizenweb3.com/">https://api.symphony-testnet.citizenweb3.com/</a><br>
+  GRPC: <a href="grpc.symphony-testnet.citizenweb3.com/">grpc.symphony-testnet.citizenweb3.com/</a>
+</details>
+<br>
+<details>
+  <summary>Seed</summary>
+3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056
+</details>
+<br>
+<details>
+  <summary>Relayers</summary>
+</details>
+<br>
+<details>
+  <summary>Archive endpoints</summary>
+  RPC: <br>
+  API: <br>
+  GRPC: <br>
+</details>
+<br>
+
+# Tools and community
+
+<details>
+  <summary>Explorer</summary>
+  <a href="https://validatorinfo.com/networks">Validator Info</a><br>
+</details>
+<br>
+<details>
+  <summary>Governance</summary>
+  <a href="">Voting History</a><br>
+</details>
+<details>
+  <summary>Docs and Posts</summary>
+  <a href=""></a><br>
+</details>
