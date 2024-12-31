@@ -35,7 +35,7 @@
 </details>
 <details>
   <summary>Governance</summary>
-  <a href="">Voting History</a><br>
+  <a href="https://shielded.live/validators/67D341A6B729CA050CB555E2378B03FB602CE1977C901EDE986F43D3B7573F4F#:~:text=367299B65AB6D5200E243089BAE5F231A08FC42CB3926D17AACBC146551A2E21-,Votes,-ID">Voting History</a><br>
 </details>
 <br>
 <details>

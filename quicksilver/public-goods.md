@@ -27,7 +27,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://quicksilver.explorers.guru/proposals">Voting History</a><br>
+  <a href="https://quicksilver.explorers.guru/account/quick1m77eksxfz9q50qejnqf720sns7q0xtx8rn9gzf#:~:text=Rewards-,Votes,-Hash">Voting History</a><br>
 </details>
 <br>
 <details>

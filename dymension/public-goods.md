@@ -35,7 +35,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://dymension.explorers.guru/proposals">Voting History</a><br>
+  <a href="https://dymension.explorers.guru/account/dym1z3et7f750ym0cnvxcp7f8lsyynnmk82tnvrsuj#:~:text=Rewards-,Votes,-Hash">Voting History</a><br>
 </details>
 <details>
   <summary>Docs and Posts</summary>

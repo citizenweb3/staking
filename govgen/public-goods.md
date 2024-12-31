@@ -35,7 +35,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://app.govgen.io/">Voting History</a><br>
+  <a href="https://www.mintscan.io/govgen/validators/govgenvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8pv6wce?sector=votes">Voting History</a><br>
 </details>
 <br>
 <details>
