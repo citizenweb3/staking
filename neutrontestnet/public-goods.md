@@ -16,6 +16,11 @@ c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656
 <details>
   <summary>Relayers</summary>
 </details>
+<br>
+<details>
+  <summary>Testing</summary>
+  Testnet Wednesday Participant
+</details>
 
 # Tools and community
 
