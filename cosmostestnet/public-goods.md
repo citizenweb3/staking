@@ -16,6 +16,11 @@
 <details>
   <summary>Relayers</summary>
 </details>
+<br>
+<details>
+  <summary>Testing</summary>
+  Testnet Wednesday Participant
+</details>
 
 # Tools and community
 
