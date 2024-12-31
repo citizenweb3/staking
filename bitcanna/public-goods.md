@@ -35,7 +35,7 @@ c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://atomscan.com/bitcanna/votes">Voting History</a><br>
+  <a href="https://bitcanna.valopers.com/validators/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye#:~:text=833.00-,Votes,-All">Voting History</a><br>
 </details>
 <br>
 <details>

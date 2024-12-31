@@ -35,7 +35,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://gov.atom.one/">Voting History</a><br>
+  <a href="https://www.mintscan.io/atomone/validators/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60?sector=votes">Voting History</a><br>
 </details>
 <br>
 <details>

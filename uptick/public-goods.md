@@ -35,7 +35,7 @@ bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://uptick.explorers.guru/proposals">Voting History</a><br>
+  <a href="https://uptick.explorers.guru/account/uptick1ke3qlvuhcn537m47l3y3hj0v7jm48ka4dtress#:~:text=Rewards-,Votes,-Hash">Voting History</a><br>
 </details>
 <br>
 <details>

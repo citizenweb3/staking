@@ -277,8 +277,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/Interlay/interlay.svg",
     "stake": "https://app.interlay.io/vaults/wd7mvsKzX8QaGh268wiqCpu8j7z5pAZhw1VUkcJPxwtNY14jb/DOT/IBTC",
     "explorer": "https://interlay.subscan.io/",
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods"]
   },
   {
     "name": "namadatestnet",
@@ -287,14 +287,14 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo.5elementsnodes.com/staking",
     "explorer": "https://shielded.live/",
-    "chain_id": "housefire-reduce.e51ecf4264fc3",
+    "chain_id": "housefire--alpaca.cc0d3e0c033be",
     "endpoints": {
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
       "seed/peer": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "nomic",
@@ -337,8 +337,8 @@
       "grpc": "grpc.union-testnet.citizenweb3.com",
       "seed/peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "artela",
@@ -355,8 +355,8 @@
       "grpcweb": "grpcweb.artela-testnet.citizenweb3.com",
       "seed/peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "axone",
@@ -407,8 +407,8 @@
       "grpc": "grpc.provider-testnet.citizenweb3.com",
       "seed/peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": ["public-goods", "peers", "snapshot"],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "neutrontestnet",
@@ -424,8 +424,8 @@
       "grpc": "grpc.pion-1-testnet.citizenweb3.com",
       "seed/peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
     },
-    "generatedServices": ["public-goods"],
-    "services": []
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "symphony",
