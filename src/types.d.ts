@@ -15,6 +15,8 @@ export interface IChainConfig {
   showTopChainEndpoints?: boolean;
   horcrux?: boolean;
   restake?: boolean;
+  shi?: boolean;
+  otgi?: boolean;
   endpoints: {
     rpc?: string;
     rest?: string;
