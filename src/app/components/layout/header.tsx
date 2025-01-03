@@ -12,6 +12,9 @@ const Header = () => (
     <Link href={`https://validatorinfo.com/`} target="_blank" rel="nofollow" className="text-base">
       <Button external>Open App</Button>
     </Link>
+    <Link href={``} target="_blank" rel="nofollow" className="text-base">
+      <Button external>Public Monitoring Page</Button>
+    </Link>
   </div>
 );
 

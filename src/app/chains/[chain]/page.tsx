@@ -94,6 +94,31 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                 />
               </div>
             )}
+            {data.shi && (
+              <div
+                className="transition-all duration-150 hover:scale-105"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src={'/icons/shi.svg'}
+                  alt={data.title + ' horcruxsef-hosted infrastructure'}
+                  className="h-10 w-10"
+                />
+              </div>
+            )}
+            {data.otgi && (
+              <div
+                className="transition-all duration-150 hover:scale-105"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src={'/icons/otgi.svg'}
+                  alt={data.title + ' off-the-grid infrastructure'}
+                  className="h-10 w-10"
+                />
+              </div>
             {data.restake && (
               <div
                 className="transition-all duration-150 hover:scale-105"
