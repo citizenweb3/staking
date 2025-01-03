@@ -119,6 +119,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                   className="h-10 w-10"
                 />
               </div>
+            )}
             {data.restake && (
               <div
                 className="transition-all duration-150 hover:scale-105"
