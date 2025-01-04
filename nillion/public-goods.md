@@ -34,9 +34,5 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="">Voting History</a><br>
-</details>
-<details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <a href="https://testnet.ping.pub/nillion/gov">Voting History</a><br>
 </details>

@@ -34,9 +34,10 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="">Voting History</a><br>
+  <a href="https://testnet.explorer.nodeshub.online/symphony/gov">Voting History</a><br>
 </details>
+<br>
 <details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <summary>Podcasts</summary>
+  <a href="https://www.citizenweb3.com/davidblackstone">The Orchestra, Decentralization and Macroeconomics with David Blackstone</a>
 </details>

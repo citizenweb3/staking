@@ -8,6 +8,8 @@
     "explorer": "https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u/",
     "horcrux": true,
     "restake": true,
+    "self-hosted infrastructure": true,
+    "off-the-grid infrastructure": true,
     "endpoints": {
       "rpc": "https://rpc.cosmoshub-4.citizenweb3.com",
       "rest": "https://api.cosmoshub-4.citizenweb3.com",
@@ -281,6 +283,15 @@
     "services": ["public-goods"]
   },
   {
+    "name": "bitcoin",
+    "type": "mainnet",
+    "title": "Bitcoin",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/bitcoin/bitcoin.svg",
+    "explorer": "https://www.blockchain.com/explorer/blocks/btc?page=1",
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
     "name": "namadatestnet",
     "type": "testnet",
     "title": "Namada",
@@ -291,7 +302,7 @@
     "endpoints": {
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
       "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
-      "seed/peer": "tcp://fb6f004f247913b248e71f405f11f2e1c785ce08@@testnet.seednode:31656"
+      "seed/peer": "tcp://1dae6535bf5e4663ccb7c7294c129221b6018d22@168.119.37.164:31656"
     },
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
@@ -351,7 +362,7 @@
     "endpoints": {
       "rpc": "https://rpc.artela-testnet.citizenweb3.com",
       "rest": "https://api.artela-testnet.citizenweb3.com",
-      "grpc": "https://grpc.artela-testnet.citizenweb3.com",
+      "grpc": "grpc.artela-testnet.citizenweb3.com",
       "grpcweb": "grpcweb.artela-testnet.citizenweb3.com",
       "seed/peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
     },
@@ -374,6 +385,16 @@
     },
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
+    "name": "citrea",
+    "type": "testnet",
+    "title": "Citrea",
+    "chain_id": "5115",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/citrea/citrea.svg",
+    "explorer": "https://explorer.testnet.citrea.xyz/",
+    "generatedServices": [],
+    "services": ["public-goods"]
   },
   {
     "name": "nillion",

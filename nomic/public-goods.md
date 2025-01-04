@@ -25,5 +25,5 @@ bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656
 <br>
 <details>
   <summary>Governance</summary>
-   <a href="">Voting History</a><br>
+   <a href="https://app.nomic.io/governance">Voting History</a><br>
 </details>

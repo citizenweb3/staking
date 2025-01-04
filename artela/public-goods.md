@@ -5,7 +5,8 @@
   <br>
   RPC: <a href="https://rpc.artela-testnet.citizenweb3.com/">https://rpc.artela-testnet.citizenweb3.com/</a><br>
   REST: <a href="https://api.artela-testnet.citizenweb3.com/">https://api.dartela-testnetym.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.artela-testnet.citizenweb3.com/">grpc.artela-testnet.citizenweb3.com/</a>
+  GRPC: <a href="grpc.artela-testnet.citizenweb3.com/">grpc.artela-testnet.citizenweb3.com/</a><br>
+  GRPCWEB: <a href="grpcweb.artela-testnet.citizenweb3.com/">grpcweb.artela-testnet.citizenweb3.com/</a>
 </details>
 <br>
 <details>
@@ -26,5 +27,5 @@ ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="">Voting History</a><br>
+  <a href="https://testnet.artela.explorers.guru/proposals">Voting History</a><br>
 </details>

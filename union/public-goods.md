@@ -34,9 +34,10 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="">Voting History</a><br>
+  <a href="https://testnet.union.explorers.guru/proposals">Voting History</a><br>
 </details>
+<br>
 <details>
-  <summary>Docs and Posts</summary>
-  <a href=""></a><br>
+  <summary>Podcasts</summary>
+  <a href="https://www.citizenweb3.com/karelkubat">A Giant Anthill, Humanity's Future and ZK with Karel Kubat</a>
 </details>

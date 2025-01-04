@@ -31,7 +31,7 @@ c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="">Voting History</a><br>
+  <a href="https://www.mintscan.io/neutron-testnet/dao/vault/?sector=proposals">Voting History</a><br>
 </details>
 <br>
 <details>
@@ -51,4 +51,3 @@ c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656
   <a href="https://citizenweb3.github.io/manuscripts/neutron-guide/">Neutron Guide</a><br>
   <a href="https://citizenweb3.github.io/manuscripts/neutron-airdrop-staking/">Neutron: Airdrop and Staking</a><br>
 </details>
-

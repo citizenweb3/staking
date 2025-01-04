@@ -31,7 +31,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u?sector=votes">Voting History</a><br>
+  <a href="https://www.mintscan.io/ics-testnet-provider/validators/cosmosvaloper18lz3nz3nyhtewm35npaccnc7javzmyvfake7j7/?sector=votes">Voting History</a><br>
 </details>
 <br>
 <details>
