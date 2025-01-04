@@ -49,6 +49,8 @@
     "stake": "https://www.mintscan.io/wallet/stake?chain=celestia&src=celestiavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8uzxnhs&type=stake",
     "explorer": "https://www.mintscan.io/celestia",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.celestia.citizenweb3.com",
       "rest": "https://api.celestia.citizenweb3.com",
@@ -67,6 +69,8 @@
     "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
     "explorer": "https://www.mintscan.io/stride",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.stride.citizenweb3.com",
       "rest": "https://api.stride.citizenweb3.com",
@@ -84,6 +88,8 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
     "explorer": "https://www.mintscan.io/neutron",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.neutron.citizenweb3.com",
       "rest": "https://api.neutron.citizenweb3.com",
@@ -101,6 +107,8 @@
     "stake": "https://www.mintscan.io/wallet/stake/?chain=dymension&src=dymvaloper1z3et7f750ym0cnvxcp7f8lsyynnmk82ts8ljzg&type=stake",
     "explorer": "https://www.mintscan.io/dymension/",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.dym.citizenweb3.com",
       "rest": "https://api.dym.citizenweb3.com",
@@ -119,6 +127,8 @@
     "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
     "explorer": "https://quicksilver.explorers.guru/validator/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.quicksilver.citizenweb3.com",
       "rest": "https://api.quicksilver.citizenweb3.com",
@@ -137,6 +147,8 @@
     "stake": "https://explorer.govgen.io/govgen/staking/govgenvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8pv6wce",
     "explorer": "https://explorer.govgen.io/govgen",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.govgen.citizenweb3.com",
       "rest": "https://api.govgen.citizenweb3.com",
@@ -155,6 +167,8 @@
     "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
     "explorer": "https://explorer.allinbits.services/atomone",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.atomone.citizenweb3.com",
       "rest": "https://api.atomone.citizenweb3.com",
@@ -173,6 +187,8 @@
     "explorer": "https://cyb.ai/",
     "horcrux": true,
     "restake": true,
+    "shi": true,
+    "otgi": true,
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
   },
@@ -185,6 +201,8 @@
     "explorer": "https://explorer.bitcanna.io/",
     "horcrux": true,
     "restake": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.bitcanna.citizenweb3.com",
       "rest": "https://api.bitcanna.citizenweb3.com",
@@ -204,6 +222,8 @@
     "explorer": "https://www.mintscan.io/likecoin/validators/likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu/",
     "horcrux": true,
     "restake": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.likecoin.citizenweb3.com",
       "rest": "https://api.likecoin.citizenweb3.com",
@@ -222,6 +242,8 @@
     "stake": "https://explorer.nodestake.org/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
     "explorer": "https://explorer.nodestake.org/uptick",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.uptick.citizenweb3.com",
       "rest": "https://api.uptick.citizenweb3.com",
@@ -241,6 +263,8 @@
     "explorer": "https://www.mintscan.io/gravity-bridge",
     "horcrux": true,
     "restake": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.gravity.citizenweb3.com",
       "rest": "https://api.gravity.citizenweb3.com",
@@ -259,6 +283,8 @@
     "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
     "explorer": "https://althea.explorers.guru/",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "podcast": "https://www.citizenweb3.com/tags/althea",
     "governance": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm?sector=votes",
     "endpoints": {
@@ -281,6 +307,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/Interlay/interlay.svg",
     "stake": "https://app.interlay.io/vaults/wd7mvsKzX8QaGh268wiqCpu8j7z5pAZhw1VUkcJPxwtNY14jb/DOT/IBTC",
     "explorer": "https://interlay.subscan.io/",
+    "shi": true,
+    "otgi": true,
     "generatedServices": [],
     "services": ["public-goods"]
   },
@@ -290,6 +318,8 @@
     "title": "Bitcoin",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/bitcoin/bitcoin.svg",
     "explorer": "https://www.blockchain.com/explorer/blocks/btc?page=1",
+    "shi": true,
+    "otgi": true,
     "generatedServices": [],
     "services": ["public-goods"]
   },
@@ -300,6 +330,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo.5elementsnodes.com/staking",
     "explorer": "https://shielded.live/",
+    "shi": true,
+    "otgi": true,
     "chain_id": "housefire--alpaca.cc0d3e0c033be",
     "endpoints": {
       "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
@@ -317,6 +349,8 @@
     "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
     "explorer": "https://nomic-explorer.quokkastake.io/nomic",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
       "seed/peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
@@ -333,6 +367,8 @@
     "stake": "https://spacepussy.ai/network/bostrom/hero/pussyvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqhfj9et",
     "explorer": "https://spacepussy.ai/cyberver/verses/pussy/graph",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
   },
@@ -344,6 +380,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/union-testnet/union.svg",
     "stake": "https://explorers.l0vd.com/union-testnet/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
     "explorer": "https://explorers.l0vd.com/union-testnet",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.union-testnet.citizenweb3.com",
       "rest": "https://api.union-testnet.citizenweb3.com",
@@ -361,6 +399,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/artela-testnet/artela.svg",
     "stake": "https://testnet.artela.explorers.guru/validator/artvaloper1mtmuvpra48uwgdht6wj4pnwp5d89xsc9aadfup",
     "explorer": "https://testnet.artela.explorers.guru/",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.artela-testnet.citizenweb3.com",
       "rest": "https://api.artela-testnet.citizenweb3.com",
@@ -379,6 +419,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/axone-testnet/axone.svg",
     "stake": "https://explore.axone.xyz/Axone%20testnet/staking/axonevaloper1c3yfkydn9quv9ns6mkfrcgg489nrlwxd88yu9s",
     "explorer": "https://explore.axone.xyz/Axone%20testnet",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.axone-testnet.citizenweb3.com",
       "rest": "https://api.axone-testnet.citizenweb3.com",
@@ -395,6 +437,8 @@
     "chain_id": "5115",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/citrea/citrea.svg",
     "explorer": "https://explorer.testnet.citrea.xyz/",
+    "shi": true,
+    "otgi": true,
     "generatedServices": [],
     "services": ["public-goods"]
   },
@@ -406,6 +450,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/nillion-testnet/nilllion.svg",
     "stake": "https://testnet.nillion.explorers.guru/validator/nillionvaloper1xhk9ux9y6w0gc3rtc8ksx2gf37mageegadjrp6",
     "explorer": "https://testnet.nillion.explorers.guru/",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.nillion-testnet.citizenweb3.com",
       "rest": "https://api.nillion-testnet.citizenweb3.com",
@@ -424,6 +470,8 @@
     "stake": "https://explorer.polypore.xyz/provider/staking/cosmosvaloper18lz3nz3nyhtewm35npaccnc7javzmyvfake7j7",
     "explorer": "https://explorer.polypore.xyz/provider",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.provider-testnet.citizenweb3.com",
       "rest": "https://api.provider-testnet.citizenweb3.com",
@@ -441,6 +489,8 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
     "explorer": "https://explorer.polypore.xyz/pion-1",
     "horcrux": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.pion-1-testnet.citizenweb3.com",
       "rest": "https://api.pion-1-testnet.citizenweb3.com",
@@ -458,6 +508,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/symphony-testnet/symphony.svg",
     "stake": "https://testnet.ping.pub/symphony/staking/symphonyvaloper1wpzkum4902l3978qyl24469ktlmt58u9yy9nsa",
     "explorer": "https://testnet.ping.pub/symphony/staking",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.symphony-testnet.citizenweb3.com",
       "rest": "https://api.symphony-testnet.citizenweb3.com",
