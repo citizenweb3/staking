@@ -8,8 +8,8 @@
     "explorer": "https://www.mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u/",
     "horcrux": true,
     "restake": true,
-    "shi": true,
-    "otgi": true,
+    "self-hosted infrastructure": true,
+    "off-the-grid off-the-grid infrastructure": true,
     "endpoints": {
       "rpc": "https://rpc.cosmoshub-4.citizenweb3.com",
       "rest": "https://api.cosmoshub-4.citizenweb3.com",
