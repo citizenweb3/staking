@@ -102,7 +102,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
                   width={30}
                   height={30}
                   src={'/icons/shi.svg'}
-                  alt={data.title + ' horcruxsef-hosted infrastructure'}
+                  alt={data.title + ' self-hosted infrastructure'}
                   className="h-10 w-10"
                 />
               </div>
