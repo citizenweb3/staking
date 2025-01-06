@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.cosmoshub-4.citizenweb3.com/">https://rpc.cosmoshub-4.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4.citizenweb3.com/">https://api.cosmoshub-4.citizenweb3.com/</a><br>
-  GRPC: <a href="https://grpc.cosmoshub-4.citizenweb3.com/">https://grpc.cosmoshub-4.citizenweb3.com/</a>
+  GRPC: <a href="grpc.cosmoshub-4.citizenweb3.com/">grpc.cosmoshub-4.citizenweb3.com/</a>
 </details>
 <br>
 <details>
@@ -17,11 +17,11 @@
   <summary>Relayers</summary>
 </details>
 <br>
-<details>
+<details open>
   <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
+  RPC: <a href="https://rpc.cosmoshub-4-archive.citizenweb3.com/">https://rpc.cosmoshub-4-archive.citizenweb3.com/</a><br>
+  REST: <a href="https://api.cosmoshub-4-archive.citizenweb3.com/">https://api.cosmoshub-4-archive.citizenweb3.com/</a><br>
+  GRPC: <a href="grpc.cosmoshub-4-archive.citizenweb3.com/">grpc.cosmoshub-4-archive.citizenweb3.com/</a>
 </details>
 <br>
 <details>
