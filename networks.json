@@ -100,26 +100,6 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "dymension",
-    "type": "mainnet",
-    "title": "Dymension Hub",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
-    "stake": "https://www.mintscan.io/wallet/stake/?chain=dymension&src=dymvaloper1z3et7f750ym0cnvxcp7f8lsyynnmk82ts8ljzg&type=stake",
-    "explorer": "https://www.mintscan.io/dymension/",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.dym.citizenweb3.com",
-      "rest": "https://api.dym.citizenweb3.com",
-      "grpc": "grpc.dym.citizenweb3.com",
-      "grpcweb": "grpcweb.dym.citizenweb3.com",
-      "seed/peer": "8679333e027be05116c388c040d7c45ca1aeeeeb@mainnet.seednode.citizenweb3.com:14656"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "quicksilver",
     "type": "mainnet",
     "title": "Quicksilver",
