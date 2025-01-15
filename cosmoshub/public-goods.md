@@ -17,7 +17,7 @@
   <summary>Relayers</summary>
 </details>
 <br>
-<details open>
+<details>
   <summary>Archive endpoints</summary>
   RPC: <a href="https://rpc.cosmoshub-4-archive.citizenweb3.com/">https://rpc.cosmoshub-4-archive.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4-archive.citizenweb3.com/">https://api.cosmoshub-4-archive.citizenweb3.com/</a><br>
