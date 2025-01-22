@@ -83,6 +83,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
             )}
             {data.horcrux && (
               <div
+                title="Key Sharding via Horcrux"
                 className="transition-all duration-150 hover:scale-105"
               >
                 <Image
@@ -96,6 +97,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
             )}
             {data.shi && (
               <div
+                title="Self-Hosted Infrastructure"
                 className="transition-all duration-150 hover:scale-105"
               >
                 <Image
@@ -109,6 +111,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
             )}
             {data.otgi && (
               <div
+                title="Self-Hosted Infrastructure"
                 className="transition-all duration-150 hover:scale-105"
               >
                 <Image
@@ -122,6 +125,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
             )}
             {data.restake && (
               <div
+                title="Auto Reward Re-Stake x2 p/day"
                 className="transition-all duration-150 hover:scale-105"
               >
                 <Image
