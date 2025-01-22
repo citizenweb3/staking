@@ -4,7 +4,7 @@
   <summary>Endpoints</summary>
   <br>
   RPC: <a href="https://rpc.artela-testnet.citizenweb3.com/">https://rpc.artela-testnet.citizenweb3.com/</a><br>
-  REST: <a href="https://api.artela-testnet.citizenweb3.com/">https://api.dartela-testnetym.citizenweb3.com/</a><br>
+  REST: <a href="https://api.artela-testnet.citizenweb3.com/">https://api.artela-testnetym.citizenweb3.com/</a><br>
   GRPC: <a href="grpc.artela-testnet.citizenweb3.com/">grpc.artela-testnet.citizenweb3.com/</a><br>
   GRPCWEB: <a href="grpcweb.artela-testnet.citizenweb3.com/">grpcweb.artela-testnet.citizenweb3.com/</a>
 </details>
