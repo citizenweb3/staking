@@ -111,7 +111,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
             )}
             {data.otgi && (
               <div
-                title="Self-Hosted Infrastructure"
+                title="Off the Grid Infrastructure"
                 className="transition-all duration-150 hover:scale-105"
               >
                 <Image
