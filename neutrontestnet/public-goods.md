@@ -3,9 +3,9 @@
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="https://rpc.pion-1-testnet.citizenweb3.com/">https://rpc.pion-1-testnet.citizenweb3.com/</a><br>
-  REST: <a href="https://api.pion-1-testnet.citizenweb3.com/">https://api.pion-1-testnet.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.pion-1-testnet.citizenweb3.com/">grpc.pion-1-testnet.citizenweb3.com/</a>
+  RPC: <a href="https://rpc.pion-1.citizenweb3.com/">https://rpc.pion-1.citizenweb3.com/</a><br>
+  REST: <a href="https://api.pion-1.citizenweb3.com/">https://api.pion-1.citizenweb3.com/</a><br>
+  GRPC: <a href="grpc.pion-1.citizenweb3.com/">grpc.pion-1.citizenweb3.com/</a>
 </details>
 <br>
 <details>
