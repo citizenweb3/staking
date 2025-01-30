@@ -19,7 +19,7 @@
 </details>
 <details>
   <summary>Testnet Node</summary>
-  <a href="https://staking.citizenweb3.com/chains/quickislvertestnet">Testnet Validator + Peers + Endpoints</a>
+  <a href="https://staking.citizenweb3.com/chains/quicksilvertestnet">Testnet Validator + Peers + Endpoints</a>
 </details>
 
 # Tools and community
