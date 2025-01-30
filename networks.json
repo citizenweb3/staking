@@ -62,6 +62,22 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
+    "name": "osmosis",
+    "type": "mainnet",
+    "title": "Osmosis",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/osmosis/images/osmo.svg",
+    "stake": "",
+    "explorer": "https://www.mintscan.io/osmosis",
+    "endpoints": {
+      "rpc": "https://rpc.osmosis.citizenweb3.com",
+      "rest": "https://api.osmosis.citizenweb3.com",
+      "grpc": "grpc.osmosis.citizenweb3.com",
+      "seed/peer": "039e0725baf0b7eb79dcb5b4245e0b9049c6c91a@168.119.37.164:12956"
+    },
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
     "name": "stride",
     "type": "mainnet",
     "title": "Stride",
@@ -169,27 +185,6 @@
     "restake": true,
     "shi": true,
     "otgi": true,
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
-    "name": "bitcanna",
-    "type": "mainnet",
-    "title": "Bitcanna",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bitcanna/images/bcna.svg",
-    "stake": "https://explorers.l0vd.com/bitcanna-mainnet/staking/bcnavaloper1ngt4atd3qlgcwfv7fkjdjxhz7k0vl2rejrvzye",
-    "explorer": "https://explorer.bitcanna.io/",
-    "horcrux": true,
-    "restake": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.bitcanna.citizenweb3.com",
-      "rest": "https://api.bitcanna.citizenweb3.com",
-      "grpc": "grpc.bitcanna.citizenweb3.com",
-      "grpcweb": "grpcweb.bitcanna.citizenweb3.com",
-      "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:32656"
-    },
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
   },
@@ -476,6 +471,27 @@
       "rest": "https://api.pion-1-testnet.citizenweb3.com",
       "grpc": "grpc.pion-1-testnet.citizenweb3.com",
       "seed/peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
+    },
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
+    "name": "quicksilvertestnet",
+    "type": "testnet",
+    "title": "Quicksilver",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
+    "stake": "https://testnet-explorer.konsortech.xyz/quicksilver/staking/quickvaloper1pd6yhpkt557d85mwdmvgt0mxpcc24kv7w0xh8n",
+    "explorer": "https://testnet-explorer.konsortech.xyz/quicksilver",
+    "chain_id": "rhye-3",
+    "horcrux": true,
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.quicksilver-testnet.citizenweb3.com",
+      "rest": "https://api.quicksilver-testnet.citizenweb3.com",
+      "grpc": "grpc.quicksilver-testnet.citizenweb3.com",
+      "grpcweb": "grpcweb.quicksilver-testnet.citizenweb3.com",
+      "seed/peer": "25fff0b03188a1bda4ae87a64a8b43b5b241df38@195.201.197.246:33656"
     },
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]

@@ -3,15 +3,15 @@
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="https://rpc.quicksilver.citizenweb3.com/">https://rpc.quicksilver.citizenweb3.com/</a><br>
-  REST: <a href="https://api.quicksilver.citizenweb3.com/">https://api.quicksilver.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.quicksilver.citizenweb3.com/">grpc.quicksilver.citizenweb3.com/</a><br>
-  GRPCWEB: <a href="grpcweb.quicksilver.citizenweb3.com/">grpcweb.quicksilver.citizenweb3.com/</a>
+  RPC: <a href="https://rpc.quicksilver-testnet.citizenweb3.com/">https://rpc.quicksilver-testnet.citizenweb3.com/</a><br>
+  REST: <a href="https://api.quicksilver-testnet.citizenweb3.com/">https://api.quicksilver-testnet.citizenweb3.com/</a><br>
+  GRPC: <a href="grpc.quicksilver-testnet.citizenweb3.com/">grpc.quicksilver-testnet.citizenweb3.com/</a><br>
+  GRPCWEB: <a href="grpcweb.quicksilver-testnet.citizenweb3.com/">grpcweb.quicksilver-testnet.citizenweb3.com/</a>
 </details>
 <br>
 <details>
   <summary>Seed</summary>
-719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656
+25fff0b03188a1bda4ae87a64a8b43b5b241df38@195.201.197.246:33656
 </details>
 <br>
 <details>
@@ -27,7 +27,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://quicksilver.explorers.guru/account/quick1m77eksxfz9q50qejnqf720sns7q0xtx8rn9gzf#:~:text=Rewards-,Votes,-Hash">Voting History</a><br>
+  <a href="">Voting History</a><br>
 </details>
 <br>
 <details>
