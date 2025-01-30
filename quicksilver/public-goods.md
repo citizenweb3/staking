@@ -17,6 +17,10 @@
 <details>
   <summary>Relayers</summary>
 </details>
+<details>
+  <summary>Testnet Node</summary>
+  <a href="https://staking.citizenweb3.com/chains/quickislvertestnet">Testnet Validator + Peers + Endpoints</a>
+</details>
 
 # Tools and community
 
@@ -39,4 +43,8 @@
 <details>
   <summary>Spaces, Lives and Debates</summary>
   <a href="https://www.youtube.com/watch?v=IuYFNmK0ZxY">Liquid Staking</a><br>
+</details>
+<details>
+  <summary>Code commits</summary>
+  <a href="https://github.com/quicksilver-zone/quicksilver/pull/1804">Update Ledger Libraries</a><br>
 </details>

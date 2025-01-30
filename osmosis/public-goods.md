@@ -19,21 +19,9 @@
 
 # Tools and community
 
-<details>
-  <summary>Explorer</summary>
-  <a href="">Validator Info</a><br>
-</details>
-<br>
-<details>
-  <summary>Governance</summary>
-  <a href="">Voting History</a><br>
-</details>
-<br>
-<details>
   <summary>Podcasts</summary>
-  <a href="https://www.citizenweb3.com/cryptocrew">Baremetal, Security Configurations and Drama with Clemens Crypto Crew</a><br>
-  <a href="https://www.citizenweb3.com/notional1">The Heart of a Project, Bare Metal and Rugs with Jacob Gadikan</a><br>
-  <a href="https://www.citizenweb3.com/emeris">Marketplaces, Motivation and Intuition with Gautier Marin</a><br>
+  <a href="https://www.youtube.com/watch?v=peDRA7kEq0U">CosmWasm</a><br>
+  <a href="https://www.citizenweb3.com/sunny-tendermint">Money as a religion and validating with Sunny Aggarwal</a><br>
   <a href="https://www.citizenweb3.com/cryptocito">The Cosmos, it's Might and Economics with Cryptocito</a><br>
   <a href="https://www.citizenweb3.com/osmosis">DeFi, AMM & the future with Sunny Aggarwal</a><br>
 </details>
