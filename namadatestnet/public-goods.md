@@ -3,9 +3,9 @@
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="https://rpc.namada-housefire.citizenweb3.com">https://rpc.namada.citizenweb3.com</a><br>
-  Indexer: <a href="https://indexer.namada-housefire.citizenweb3.com/">https://indexer.namada.citizenweb3.com/</a><br>
-  MASP Indexer: <a href="https://masp-indexer.namada-housefire.citizenweb3.com/">https://masp-indexer.namada.citizenweb3.com/</a>
+  RPC: <a href="https://rpc.namada-housefire.citizenweb3.com">https://rpc.namada-hhousefire.citizenweb3.com</a><br>
+  Indexer: <a href="https://indexer.namada-housefire.citizenweb3.com/">https://indexer.namada-hhousefire.citizenweb3.com/</a><br>
+  MASP Indexer: <a href="https://masp-indexer.namada-housefire.citizenweb3.com/">https://masp-indexer.namada-housefire.citizenweb3.com/</a>
 </details>
 <br>
 <details>
