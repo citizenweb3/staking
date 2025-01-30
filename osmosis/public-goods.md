@@ -18,7 +18,7 @@
 </details>
 
 # Tools and community
-
+<details>
   <summary>Podcasts</summary>
   <a href="https://www.youtube.com/watch?v=peDRA7kEq0U">CosmWasm</a><br>
   <a href="https://www.citizenweb3.com/sunny-tendermint">Money as a religion and validating with Sunny Aggarwal</a><br>

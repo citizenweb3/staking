@@ -45,6 +45,7 @@
   <summary>Spaces, Lives and Debates</summary>
   <a href="https://www.youtube.com/watch?v=IuYFNmK0ZxY">Liquid Staking</a><br>
 </details>
+<br>
 <details>
   <summary>Code commits</summary>
   <a href="https://github.com/quicksilver-zone/quicksilver/pull/1804">Update Ledger Libraries</a><br>
