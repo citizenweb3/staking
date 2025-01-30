@@ -17,6 +17,7 @@
 <details>
   <summary>Relayers</summary>
 </details>
+<br>
 <details>
   <summary>Testnet Node</summary>
   <a href="https://staking.citizenweb3.com/chains/quicksilvertestnet">Testnet Validator + Peers + Endpoints</a>
