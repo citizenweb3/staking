@@ -66,12 +66,12 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Stake with Citizen Web3 Validator. Our public goods, tools and infrastructure" />
       <meta property="og:description" content="Citizen Web3 - Non-Custodial, Self-Hosted, Bare-Metal Validator. Stake with us to earn rewards" />
-      <meta property="og:image" content="https://staking.citizenweb3.com/logo.png" />
+      <meta property="og:image" content="https://staking.citizenweb3.com/cw3black.png" />
       <meta property="og:url" content="https://staking.citizenweb3.com" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Stake with Citizen Web3 Validator. Our public goods, tools and infrastructure" />
       <meta name="twitter:description" content="Citizen Web3 - Non-Custodial, Self-Hosted, Bare-Metal Validator. Stake with us to earn rewards" />
-      <meta name="twitter:image" content="https://staking.citizenweb3.com/logo.png" />
+      <meta name="twitter:image" content="https://staking.citizenweb3.com/cw3black.png" />
       <meta name="twitter:url" content="https://https://staking.citizenweb3.com" />
     </head>
     <body className={`${zonaPro.className} scrollbar-track-scroll-bg scrollbar-thumb-scroll-item`}>
