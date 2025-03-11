@@ -5,8 +5,8 @@
   <br>
   RPC: <a href="https://rpc.likecoin.citizenweb3.com/">https://rpc.likecoin.citizenweb3.com/</a><br>
   REST: <a href="https://api.likecoin.citizenweb3.com/">https://api.likecoin.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.likecoin.citizenweb3.com/">grpc.likecoin.citizenweb3.com/</a><br>
-  GRPCWEB: <a href="grpcweb.likecoin.citizenweb3.com/">grpcweb.likecoin.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.likecoin.citizenweb3.com">grpc.likecoin.citizenweb3.com</span><br>
+  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.likecoin.citizenweb3.com">grpcweb.likecoin.citizenweb3.com</span>
 </details>
 <br>
 <details>
