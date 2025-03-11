@@ -3,6 +3,7 @@ import Markdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 
 import MdnLink from '@/app/components/mdn/mdn-link';
+import MdnCopyLink from '@/app/components/mdn/mdn-copy-link';
 import Pre from '@/app/components/mdn/pre';
 
 interface OwnProps {
@@ -18,6 +19,8 @@ const Mdn: FC<OwnProps> = ({ content }) => {
         pre: Pre,
         // @ts-ignore
         a: MdnLink,
+        // @ts-ignore
+        span: MdnCopyLink,
       }}
     >
       {content}
