@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.cosmoshub-4.citizenweb3.com/">https://rpc.cosmoshub-4.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4.citizenweb3.com/">https://api.cosmoshub-4.citizenweb3.com/</a><br>
-  GRPC: <span class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" onClick="navigator.clipboard.writeText('grpc.cosmoshub-4.citizenweb3.com');">grpc.cosmoshub-4.citizenweb3.com</span>
+  GRPC: <span class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" onClick="navigator.clipboard.write(data).then(()=>console.log('copied html to clipboard'),()=>console.log('failed to copy html to clipboard'));">grpc.cosmoshub-4.citizenweb3.com</span>
 </details>
 <br>
 <details>
