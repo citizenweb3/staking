@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.cosmoshub-4.citizenweb3.com/">https://rpc.cosmoshub-4.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4.citizenweb3.com/">https://api.cosmoshub-4.citizenweb3.com/</a><br>
-  GRPC: <div class="cursor-copy text-nowrap text-base text-primary hover:font-semibold">grpc.cosmoshub-4.citizenweb3.com</div>
+  GRPC: <span class="cursor-copy text-nowrap text-base text-primary hover:font-semibold">grpc.cosmoshub-4.citizenweb3.com</span>
 </details>
 <br>
 <details>
