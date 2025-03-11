@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.althea.citizenweb3.com/">https://rpc.althea.citizenweb3.com/</a><br>
   REST: <a href="https://api.althea.citizenweb3.com/">https://api.althea.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.althea.citizenweb3.com/">grpc.althea.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.althea.citizenweb3.com">grpc.althea.citizenweb3.com</span>
 </details>
 <br>
 <details>
@@ -22,7 +22,7 @@ c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656
   <br>
   RPC: <a href="https://rpc.althea-archive.citizenweb3.com">https://rpc.althea-archive.citizenweb3.com</a><br>
   REST: <a href="https://api.althea-archive.citizenweb3.com/">https://api.althea-archive.citizenweb3.com</a><br>
-  GRPC: <a href="grpc.althea-archive.citizenweb3.com">grpc.althea-archive.citizenweb3.com</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.althea-archive.citizenweb3.com">grpc.althea-archive.citizenweb3.com</span>
 </details>
 <br>
 

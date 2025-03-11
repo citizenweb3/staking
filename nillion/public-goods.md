@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.nillion-testnet.citizenweb3.com/">https://rpc.nillion-testnet.citizenweb3.com/</a><br>
   REST: <a href="https://api.nillion-testnet.citizenweb3.com/">https://api.nillion-testnet.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.nillion-testnet.citizenweb3.com/">grpc.nillion-testnet.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.nillion-testnet.citizenweb3.com">grpc.nillion-testnet.citizenweb3.com</span>
 </details>
 <br>
 <details>

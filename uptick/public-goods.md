@@ -5,8 +5,8 @@
   <br>
   RPC: <a href="https://rpc.uptick.citizenweb3.com/">https://rpc.uptick.citizenweb3.com/</a><br>
   REST: <a href="https://api.uptick.citizenweb3.com/">https://api.uptick.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.uptick.citizenweb3.com/">grpc.uptick.citizenweb3.com/</a><br>
-  GRPCWEB: <a href="grpcweb.uptick.citizenweb3.com/">grpcweb.uptick.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.uptick.citizenweb3.com">grpc.uptick.citizenweb3.com</span><br>
+  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.uptick.citizenweb3.com">grpcweb.uptick.citizenweb3.com</span>
 </details>
 <br>
 <details>

@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.union-testnet.citizenweb3.com/">https://rpc.union-testnet.citizenweb3.com/</a><br>
   REST: <a href="https://api.union-testnet.citizenweb3.com/">https://api.union-testnet.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.union-testnet.citizenweb3.com/">grpc.union-testnet.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.union-testnet.citizenweb3.com">grpc.union-testnet.citizenweb3.com</span>
 </details>
 <br>
 <details>

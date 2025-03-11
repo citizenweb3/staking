@@ -5,8 +5,8 @@
   <br>
   RPC: <a href="https://rpc.gravity.citizenweb3.com/">https://rpc.gravity.citizenweb3.com/</a><br>
   REST: <a href="https://api.gravity.citizenweb3.com/">https://api.gravity.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.gravity.citizenweb3.com/">grpc.gravity.citizenweb3.com/</a><br>
-  GRPCWEB: <a href="grpcweb.gravity.citizenweb3.com/">grpcweb.gravity.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.gravity.citizenweb3.com">grpc.gravity.citizenweb3.com</span><br>
+  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.gravity.citizenweb3.com">grpcweb.gravity.citizenweb3.com</span>
 </details>
 <br>
 <details>

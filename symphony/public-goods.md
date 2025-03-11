@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.symphony-testnet.citizenweb3.com/">https://rpc.symphony-testnet.citizenweb3.com/</a><br>
   REST: <a href="https://api.symphony-testnet.citizenweb3.com/">https://api.symphony-testnet.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.symphony-testnet.citizenweb3.com/">grpc.symphony-testnet.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.symphony-testnet.citizenweb3.com">grpc.symphony-testnet.citizenweb3.com</span>
 </details>
 <br>
 <details>

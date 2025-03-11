@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.neutron.citizenweb3.com/">https://rpc.neutron.citizenweb3.com/</a><br>
   REST: <a href="https://api.neutron.citizenweb3.com/">https://api.neutron.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.neutron.citizenweb3.com/">grpc.neutron.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.neutron.citizenweb3.com">grpc.neutron.citizenweb3.com</span>
 </details>
 <br>
 <details>

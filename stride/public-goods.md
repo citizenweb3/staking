@@ -5,8 +5,8 @@
   <br>
   RPC: <a href="https://rpc.stride.citizenweb3.com/">https://rpc.stride.citizenweb3.com/</a><br>
   REST: <a href="https://api.strdie.citizenweb3.com/">https://api.stride.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.strdie.citizenweb3.com/">grpc.stride.citizenweb3.com/</a><br>
-  GRPCWEB: <a href="grpcweb.strdie.citizenweb3.com/">grpcweb.stride.citizenweb3.com/</a>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.strdie.citizenweb3.com">grpc.strdie.citizenweb3.com</span><br>
+  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.strdie.citizenweb3.com">grpcweb.strdie.citizenweb3.com</span>
 </details>
 <br>
 <details>
