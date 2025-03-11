@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.cosmoshub-4.citizenweb3.com/">https://rpc.cosmoshub-4.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4.citizenweb3.com/">https://api.cosmoshub-4.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.cosmoshub-4.citizenweb3.com/">grpc.cosmoshub-4.citizenweb3.com/</a>
+  GRPC: <span onclick="navigator.clipboard.writeText('grpc.cosmoshub-4.citizenweb3.com');alert('Copied to clipboard!');" style="cursor: pointer;">grpc.cosmoshub-4.citizenweb3.com</span>
 </details>
 <br>
 <details>
@@ -15,13 +15,22 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Cosmoshub <-> Osmosis
+  Cosmoshub <-> Neutron
+  Cosmoshub <-> Stride
+  Cosmoshub <-> Gravity-Bridge
+  Cosmoshub <-> Quicksilver
+  Cosmoshub <-> Bostrom
+  Cosmoshub <-> Namada
+  <a href="https://www.mintscan.io/cosmos/address/cosmos12mchf67y67y3xnk2tkzkxa67w3vmhxjsuhq6tz">Our wallet</a><br>
+  <a href="https://www.mintscan.io/cosmos/address/cosmos1fl92605jdx79tu0hcynzy0fxmvrjaehvvkce03">Our wallet on Namada relayer</a>
 </details>
 <br>
 <details>
   <summary>Archive endpoints</summary>
   RPC: <a href="https://rpc.cosmoshub-4-archive.citizenweb3.com/">https://rpc.cosmoshub-4-archive.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4-archive.citizenweb3.com/">https://api.cosmoshub-4-archive.citizenweb3.com/</a><br>
-  GRPC: <a href="grpc.cosmoshub-4-archive.citizenweb3.com/">grpc.cosmoshub-4-archive.citizenweb3.com/</a>
+  GRPC: <span onclick="navigator.clipboard.writeText('grpc.cosmoshub-4-archive.citizenweb3.com');alert('Copied to clipboard!');" style="cursor: pointer;">grpc.cosmoshub-4-archive.citizenweb3.com</span>
 </details>
 <br>
 <details>
