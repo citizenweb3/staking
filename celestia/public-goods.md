@@ -6,7 +6,7 @@
   RPC: <a href="https://rpc.celestia.citizenweb3.com/">https://rpc.celestia.citizenweb3.com/</a><br>
   REST: <a href="https://api.celestia.citizenweb3.com/">https://api.celestia.citizenweb3.com/</a><br>
   GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.celestia.citizenweb3.com">grpc.celestia.citizenweb3.com</span><br>
-  GRPCWEB: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.celestia.citizenweb3.com">grpcweb.celestia.citizenweb3.com</span>
+  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.celestia.citizenweb3.com">grpcweb.celestia.citizenweb3.com</span>
 </details>
 <br>
 <details>
