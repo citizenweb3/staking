@@ -16,6 +16,8 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Atomone <-> Osmosis<br>
+  <a href="https://www.mintscan.io/atomone/address/atone12mchf67y67y3xnk2tkzkxa67w3vmhxjsjhuaa6">Our wallet</a>
 </details>
 <br>
 <details>

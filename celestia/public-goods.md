@@ -16,6 +16,13 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Celestia <-> Stride<br>
+  Celestia <-> Quicksilver<br>
+  Celestia <-> Neutron<br>
+  Celestia <-> Osmosis<br>
+  Celestia <-> Namada<br>
+  <a href="https://www.mintscan.io/celestia/address/celestia12mchf67y67y3xnk2tkzkxa67w3vmhxjsda3230">Our wallet</a><br>
+  <a href="https://www.mintscan.io/celestia/address/celestia1fl92605jdx79tu0hcynzy0fxmvrjaehvauff4u">Our wallet on Namada relayer</a>
 </details>
 <br>
 

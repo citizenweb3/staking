@@ -15,6 +15,18 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Osmosis <-> Cosmoshub<br>
+  Osmosis <-> Celestia<br>
+  Osmosis <-> Atomone<br>
+  Osmosis <-> Gravity-Bridge<br>
+  Osmosis <-> Quicksilver<br>
+  Osmosis <-> Bostrom<br>
+  Osmosis <-> Neutron<br>
+  Osmosis <-> Stride<br>
+  Osmosis <-> Likecoin<br>
+  Osmosis <-> Namada<br>
+  <a href="https://www.mintscan.io/osmosis/address/osmo12mchf67y67y3xnk2tkzkxa67w3vmhxjs5vn2as">Our wallet</a><br>
+  <a href="https://www.mintscan.io/osmosis/address/osmo1fl92605jdx79tu0hcynzy0fxmvrjaehvydtfer">Our wallet on Namada relayer</a>
 </details>
 
 # Tools and community

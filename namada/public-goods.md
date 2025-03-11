@@ -15,6 +15,11 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Namada <-> Osmosis<br>
+  Namada <-> Cosmoshub<br>
+  Namada <-> Stride<br>
+  Namada <-> Celestia<br>
+  <a href="https://explorer75.org/namada/accounts/tnam1qzxw2ls5vene79qlelves5ukaqykldm00gec8xt0">Our wallet</a>
 </details>
 <br>
 <details>

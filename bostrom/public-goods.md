@@ -14,6 +14,9 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Bostrom <-> Osmosis<br>
+  Bostrom <-> Cosmoshub<br>
+  <a href="https://ping.pub/bostrom/account/bostrom12mchf67y67y3xnk2tkzkxa67w3vmhxjsly5f49">Our wallet</a>
 </details>
 <br>
 <details>

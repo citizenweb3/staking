@@ -15,6 +15,10 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Namada <-> Osmosis<br>
+  Namada <-> Cosmoshub<br>
+  Namada <-> Stride<br>
+  Namada <-> Celestia
 </details>
 <br>
 

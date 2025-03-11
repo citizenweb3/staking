@@ -16,6 +16,8 @@ c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656
 <br>
 <details>
   <summary>Relayers</summary>
+  Likecoin <-> Osmosis<br>
+  <a href="https://atomscan.com/likecoin/accounts/like12mchf67y67y3xnk2tkzkxa67w3vmhxjs0tucge">Our wallet</a>
 </details>
 <br>
 <details>

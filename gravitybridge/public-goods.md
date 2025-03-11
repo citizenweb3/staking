@@ -16,6 +16,10 @@ cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656
 <br>
 <details>
   <summary>Relayers</summary>
+  Gravity-Bridge <-> Osmosis<br>
+  Gravity-Bridge <-> Cosmoshub<br>
+  Gravity-Bridge <-> Bostrom<br>
+  <a href="https://www.mintscan.io/gravity-bridge/address/gravity12mchf67y67y3xnk2tkzkxa67w3vmhxjsc8jzw2">Our wallet</a>
 </details>
 <br>
 <details>

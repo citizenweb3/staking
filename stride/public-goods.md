@@ -16,6 +16,13 @@ aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656
 <br>
 <details>
   <summary>Relayers</summary>
+  Stride <-> Cosmoshub<br>
+  Stride <-> Celestia<br>
+  Stride <-> Neutron<br>
+  Stride <-> Osmosis<br>
+  Stride <-> Namada<br>
+  <a href="https://www.mintscan.io/stride/address/stride12mchf67y67y3xnk2tkzkxa67w3vmhxjsluqxlw">Our wallet</a><br>
+  <a href="https://www.mintscan.io/stride/address/stride1fl92605jdx79tu0hcynzy0fxmvrjaehv0ac9ma">Our wallet on Namada relayer</a>
 </details>
 <br>
 <details>

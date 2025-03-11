@@ -15,6 +15,11 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Neutron <-> Osmosis<br>
+  Neutron <-> Cosmoshub<br>
+  Neutron <-> Stride<br>
+  Neutron <-> Celestia<br>
+  <a href="https://www.mintscan.io/neutron/address/neutron12mchf67y67y3xnk2tkzkxa67w3vmhxjscgfc39">Our wallet</a>
 </details>
 <br>
 <details>
