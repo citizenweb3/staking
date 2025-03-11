@@ -10,7 +10,7 @@ const MdnCopyLink: FC<PropsWithChildren<{ title: string; text: string }>> = ({ t
   return (
     <span
       onClick={() => (text ? handleCopy(text) : null)}
-      className="inline-block max-w-full overflow-hidden truncate align-bottom cursor-pointer text-primary hover:underline"
+      className={`${text && 'cursor-pointer text-primary hover:underline'} inline-block max-w-full overflow-hidden truncate align-bottom`}
     >
       {children}
     </span>
