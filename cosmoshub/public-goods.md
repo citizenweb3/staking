@@ -5,7 +5,7 @@
   <br>
   RPC: <a href="https://rpc.cosmoshub-4.citizenweb3.com/">https://rpc.cosmoshub-4.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4.citizenweb3.com/">https://api.cosmoshub-4.citizenweb3.com/</a><br>
-  GRPC: <span class="cursor-copy text-nowrap text-base text-primary hover:font-semibold">grpc.cosmoshub-4.citizenweb3.com</span>
+  GRPC: <div class="cursor-copy text-nowrap text-base text-primary hover:font-semibold" style="display: inline;">grpc.cosmoshub-4.citizenweb3.com</div>
 </details>
 <br>
 <details>
@@ -30,7 +30,7 @@
   <summary>Archive endpoints</summary>
   RPC: <a href="https://rpc.cosmoshub-4-archive.citizenweb3.com/">https://rpc.cosmoshub-4-archive.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4-archive.citizenweb3.com/">https://api.cosmoshub-4-archive.citizenweb3.com/</a><br>
-  GRPC: <div class="cursor-copy text-nowrap text-base text-primary hover:font-semibold">grpc.cosmoshub-4-archive.citizenweb3.com</div>
+  GRPC: <div class="cursor-copy text-nowrap text-base text-primary hover:font-semibold" style="display: inline;">grpc.cosmoshub-4-archive.citizenweb3.com</div>
 </details>
 <br>
 <details>
