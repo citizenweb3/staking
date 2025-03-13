@@ -16,6 +16,11 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  <summary>Relayers</summary>
+  Quicksilver <-> Cosmoshub<br>
+  Quicksilver <-> Celestia<br>
+  Quicksilver <-> Osmosis<br>
+  <a href="https://explorer.quicksilver.zone/account/quick12mchf67y67y3xnk2tkzkxa67w3vmhxjshnsgjs">Our wallet</a>
 </details>
 <br>
 <details>
