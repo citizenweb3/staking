@@ -3,14 +3,14 @@
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="https://rpc.nillion-testnet.citizenweb3.com/">https://rpc.nillion-testnet.citizenweb3.com/</a><br>
-  REST: <a href="https://api.nillion-testnet.citizenweb3.com/">https://api.nillion-testnet.citizenweb3.com/</a><br>
-  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.nillion-testnet.citizenweb3.com">grpc.nillion-testnet.citizenweb3.com</span>
+  RPC: <a href="https://rpc.nillion.citizenweb3.com/">https://rpc.nillion.citizenweb3.com/</a><br>
+  REST: <a href="https://api.nillion.citizenweb3.com/">https://api.nillion.citizenweb3.com/</a><br>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.nillion.citizenweb3.com">grpc.nillion.citizenweb3.com</span>
 </details>
 <br>
 <details>
   <summary>Seed</summary>
-3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056
+0e31070d51997952d06a5fc1b0506e7d5c2d4de8@78.46.79.242:18056
 </details>
 <br>
 <details>
@@ -34,5 +34,5 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://testnet.ping.pub/nillion/gov">Voting History</a><br>
+  <a href="https://explorer.kjnodes.com/nillion/gov">Voting History</a><br>
 </details>

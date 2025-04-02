@@ -275,6 +275,26 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
+    "name": "nillion",
+    "type": "mainnet",
+    "title": "Nillion",
+    "chain_id": "nillion-1",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/nillion-testnet/nilllion.svg",
+    "stake": "https://explorer.kjnodes.com/nillion/staking/nillionvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8ap67kx",
+    "explorer": "https://explorer.kjnodes.com/nillion",
+    "horcrux": true,
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.nillion.citizenweb3.com",
+      "rest": "https://api.nillion.citizenweb3.com",
+      "grpc": "grpc.nillion.citizenweb3.com",
+      "seed/peer": "0e31070d51997952d06a5fc1b0506e7d5c2d4de8@78.46.79.242:18056"
+    },
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
     "name": "interlay",
     "type": "mainnet",
     "title": "Interlay",
@@ -416,25 +436,6 @@
     "otgi": true,
     "generatedServices": [],
     "services": ["public-goods"]
-  },
-  {
-    "name": "nillion",
-    "type": "testnet",
-    "title": "Nillion",
-    "chain_id": "nillion-chain-testnet-1",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking-page/refs/heads/chain-images/nillion-testnet/nilllion.svg",
-    "stake": "https://testnet.nillion.explorers.guru/validator/nillionvaloper1xhk9ux9y6w0gc3rtc8ksx2gf37mageegadjrp6",
-    "explorer": "https://testnet.nillion.explorers.guru/",
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.nillion-testnet.citizenweb3.com",
-      "rest": "https://api.nillion-testnet.citizenweb3.com",
-      "grpc": "grpc.nillion-testnet.citizenweb3.com",
-      "seed/peer": "3fbe2c2416d343911ab2de764a7fbd799dc998d1@195.201.197.246:18056"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
   },
   {
     "name": "cosmostestnet",
