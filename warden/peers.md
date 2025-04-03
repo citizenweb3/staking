@@ -1,0 +1,20 @@
+### Live Peers for Warden
+
+Add this peers, from the registry, to your **config.toml**:
+
+```
+d5c6b1d38c4b8d0a0189f419d9c014c491970e89@38.242.146.0:22656,7e886df20e746a360ddc22e622ae9448089bde40@49.12.129.31:26656,4eebb0b81c59639f9c82de3525de18fcfc55318e@5.9.116.21:27356,613618d03df1d0ba758a96e5147582061d3c23af@168.119.31.198:56296,138bad4352cf479948c180e04f350a1bf7366c33@194.163.181.101:41656,3571bdcc38d70fae8fd042cd83988df4119da4b9@152.53.121.42:27656,17e3cf06667e1a32892c7f191cbd10dfafff27e6@45.145.42.149:18656,00c0b45d650def885fcbcc0f86ca515eceede537@152.53.18.245:19656,cb77ec96c1755c600f07ea057b0b8bd9b637c0e3@81.31.197.120:50656
+```
+
+Update **persistent_peers** setting in **config.toml**. Stale peers can cause node inefficiency over time. This script selects up to 5 random live peers:
+
+```
+PEERS=adc3ce9502f19fb585a807e45541bf4bc8172519@185.230.138.142:50656,8405984f8a96676bce6f45fee80ca65e42ae6511@65.109.69.117:10656,8a3bde424363d40264f5ea7fc4626108472cd9fd@65.108.227.207:16656,29f4d620e763800883e0a1cd9484ae13c26edd60@95.217.35.179:50156,3a01ed56372852ff30576d39a2b624b3d047932f@65.108.100.31:27756,1b364274f2327ff55c1e5a11566b4e9789dcef82@94.130.143.122:30656
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.warden/config/config.toml
+```
+
+Add Citizen Web3 state-sync peer to **persistent_peers** in **config.toml**:
+
+```
+81ce7b70b2fbef5c33fa2d7c1898512cd1ae5ba7@195.201.197.246:17856
+```
