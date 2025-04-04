@@ -18,7 +18,8 @@ cp $HOME/.nyxd/data/priv_validator_state.json $HOME/.nyxd/priv_validator_state.j
 
 ### Reset your node state
 ```bash
-quicksilverd tendermint unsafe-reset-all --home $HOME/.nyxd --keep-addr-book
+nyxd tendermint unsafe-reset-all --home $HOME/.nyxd --keep-addr-book
+rm -r $HOME/.nyxd/wasm
 ```
 
 ### Download and decompress the snapshot

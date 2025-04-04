@@ -18,7 +18,7 @@ cp $HOME/.nillionapp/data/priv_validator_state.json $HOME/.nillionapp/priv_valid
 
 ### Reset your node state
 ```bash
-quicksilverd tendermint unsafe-reset-all --home $HOME/.nillionapp --keep-addr-book
+nilchaind tendermint unsafe-reset-all --home $HOME/.nillionapp --keep-addr-book
 ```
 
 ### Download and decompress the snapshot

@@ -18,7 +18,7 @@ cp $HOME/.artelad/data/priv_validator_state.json $HOME/.artelad/priv_validator_s
 
 ### Reset your node state
 ```bash
-axoned tendermint unsafe-reset-all --home $HOME/.artelad --keep-addr-book
+artelad tendermint unsafe-reset-all --home $HOME/.artelad --keep-addr-book
 ```
 
 ### Download and decompress the snapshot
