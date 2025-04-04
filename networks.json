@@ -295,6 +295,26 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
+    "name": "nym",
+    "type": "mainnet",
+    "title": "Nym",
+    "chain_id": "nyx",
+    "icon": "https://raw.githubusercontent.com/nymtech/nym/257e36ddcb408d301307b8ddf542b5275704e7d9/assets/logo/logo-bw.svg",
+    "stake": "",
+    "explorer": "https://nym.explorers.guru",
+    "horcrux": true,
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.nym.citizenweb3.com",
+      "rest": "https://api.nym.citizenweb3.com",
+      "grpc": "grpc.nym.citizenweb3.com",
+      "seed/peer": "853895754a25d5a09617f304fc1b43e1645c9fa1@78.46.79.242:19056"
+    },
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
     "name": "interlay",
     "type": "mainnet",
     "title": "Interlay",
