@@ -22,9 +22,10 @@
 <br>
 <details>
   <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
+  RPC: <a href="https://rpc.atomone-archive.citizenweb3.com/">https://rpc.atomone-archive.citizenweb3.com/</a><br>
+  REST: <a href="https://api.atomone-archive.citizenweb3.com/">https://api.atomone-archive.citizenweb3.com/</a><br>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.atomone-archive.citizenweb3.com">grpc.atomone-archive.citizenweb3.com</span><br>
+  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.atomone-archhive.citizenweb3.com">grpcweb.atomone-archive.citizenweb3.com</span>
 </details>
 <br>
 

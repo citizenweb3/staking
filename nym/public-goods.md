@@ -39,13 +39,10 @@
 <br>
 <details>
   <summary>Podcasts</summary>
-  <a href="https://www.citizenweb3.com/ian">Nothing is Unbreakable, Orchestrators and Politicians with PFC Ian</a><br>
-  <a href="https://www.citizenweb3.com/monero">War on Privacy, Blockchain surveillance and Bitcoin WP with Francisco Cabanas</a><br>
-  <a href="https://www.citizenweb3.com/mathnodes">Monopoly on Privacy, Passive Income and Community with FreQniK</a><br>
-  <a href="https://www.citizenweb3.com/bronbro">Validator Tools and the Importance of Anonymity with the Bros</a><br>
-  <a href="https://www.citizenweb3.com/isaaczarb">Hardware, Data Centers and Life Cycles with Isaac Zarb</a><br>
   <a href="https://www.citizenweb3.com/jaya">Privacy, Drone Strikes and Systemic Corruption with Jaya Klara Brekke</a><br>
-  <a href="https://www.citizenweb3.com/orbitalapes">NFT, Blockchain Gaming and Validating with CO</a><br>
-  <a href="https://www.citizenweb3.com/darkfi">Digital Dictatorship, DeFi and Social Credit with Amir Taaki</a><br>
-  <a href="https://www.citizenweb3.com/peng-tendermint">Management, power abuse and naming with Peng Zhong</a><br>
+</details>
+<br>
+<details>
+  <summary>Spaces, Lives and Debates</summary>
+  <a href="https://www.youtube.com/watch?v=n4ZvhwsCfNg&list=PLem9m7LMmHUcefEY7vDBB_Wl_X08OnHWO&index=22">Interchain debates: Privacy</a><br>
 </details>
