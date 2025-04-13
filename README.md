@@ -15,7 +15,7 @@ A full list of networks we support, and our services as a validator can be found
 
 --------------------------------------
 
-## Our Architecture 
+## Citizen Web3 Validator: Architecture 
 We focus heavily on security, modularity and privacy. Our "final vision" of a setup (if such a thing exists) is still being built. We are constantly working on twitches and improvements to it. Currently, this is what we are trying to achieve:
 
 - Our external network, consists of 3 traffic servers, hosted in the cloud. All 3 act as a mesh failover for our internal network.
