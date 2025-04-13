@@ -8,7 +8,7 @@ Token holders of networks we validate, can stake with us to help secure these ne
 ---------------------------------------
 
 ## Delegating / Staking with Citizen Web3 Validator and Services
-A full list of networks we support, and our services as a validator can be found [here](https://staking.citizenweb3.com)
+A full list of networks we support, and our services as a validator can be found **[here](https://staking.citizenweb3.com)** :point_left:
 
 
 ![Heather-2](https://github.com/user-attachments/assets/2733f0d3-24c6-41b6-89e7-a34b0c725c56)
