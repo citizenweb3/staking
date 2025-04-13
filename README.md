@@ -18,20 +18,21 @@ A full list of networks we support, and our services as a validator can be found
 ## Citizen Web3 Validator: Architecture 
 We focus heavily on security, modularity and privacy. Our "final vision" of a setup (if such a thing exists) is still being built. We are constantly working on twitches and improvements to it. Currently, this is what we are trying to achieve:
 
-- Our external network, consists of 3 traffic servers, hosted in the cloud. All 3 act as a mesh failover for our internal network.
-- The job of these servers is to improve ping with networks, which are mainly hosted in DCs, improve liveliness and several other efficiency related reasons.
-- Our network includes Horcrux, Multi-party computation software, and signers that help to improve key security and liveliness of nodes
-- Keys are not stored on nodes and are mostly (if the network allows for it) are stored in cold storage
-- Key hierarchy is maintained. Where validator key isn't used unless absolutely necessary. Each operation is performed by an assigned key via authz
+- Our external network, consists of 3 traffic servers, hosted in the cloud. All 3 act as a mesh failover for our internal network
+- The function of these servers is to improve `ping` with networks, which are mainly hosted in DCs, improve liveliness and several other efficiency twitches
+- Our network includes Horcrux, multi-party computation software, and signers that help improve key security and liveliness of nodes
+- Keys are not stored on nodes and are mostly (if the network allows for it) stored in cold storage
+- Key hierarchy is maintained. Validator key isn't used unless absolutely necessary. Each operation is performed by an assigned key via authz module
 - Our internal network consists of several layers, and includes internal onion routing of traffic for privacy and security reasons
-- Most communication is performed via WireGuard. All services are isolated. Virtualization is applied for management and traffic rules. Firewalls are set up on each step of the traffic
-- Traffic is managed internally by enterprise grade routers, with entry and exit nodes that also act as an additional failover
+- Most communication is performed via WireGuard. All services are isolated. Virtualization is applied for management and traffic rules. Firewalls are set up on each step
+- Traffic is managed internally by enterprise grade routers, with entry and exit nodes, which too, act as an additional failover
 - Failover is set up via Starlink, with a third, mobile operator planned in the future
 - All access is done via SHH. Whitelisted. Servers are accessed only via a Bastion device with additional 2FA to each further server
 - Additionally, we plan to introduce zerotier as a final layer for the setup
 - We use both, enterprise grade and retail equipment. Where 90% is enterprise
+- Due to projects values, such as, sustainability and anti-consumerism, we purchase only second hand equipment. Network devices and disks are always used new
 - Setups contain numerous modular UPS, main entry batteries. PDUs. Charge protectors. Backup generators
-- We are already utilizing solar panels for networking equipment. In plans to expand solar energy as a primary / secondary source for all servers
+- We are already utilizing solar panels for networking equipment. In plans to expand solar energy as a secondary source for all servers, and as a primary source for all network devices 
 
 --------------------------------------
 
