@@ -1,4 +1,4 @@
 - Cosmoshub: [Forum](https://forum.cosmos.network/) | Discord 
 - Namada: [Forum](https://forum.namada.net/) | Discord
-- Atom1: Discord | [Common](https://common.xyz/atomone/discussions?tab=overview)
-- Stride: Stride Governors TG | Discord | [Common](https://common.xyz/stride/discussions)
+- Atom1: Discord | [Common](https://common.xyz/atomone/discussions?tab=overview) | [GitHub](https://github.com/atomone-hub/govgen-proposals/discussions)
+- Stride: Stride Governors TG | [Discord](https://discord.com/channels/988945059783278602/1040745849329819708) | [Common](https://common.xyz/stride/discussions)
