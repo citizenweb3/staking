@@ -19,9 +19,9 @@
 <br>
 <details>
   <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
+  RPC: <a href="https://rpc.nillion-archive.citizenweb3.com/">https://rpc.nillion-archive.citizenweb3.com/</a><br>
+  REST: <a href="https://api.nillion-archive.citizenweb3.com/">https://api.nillion-archive.citizenweb3.com/</a><br>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.nillion-archive.citizenweb3.com">grpc.nillion-archive.citizenweb3.com</span>
 </details>
 <br>
 
