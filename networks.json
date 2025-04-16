@@ -189,27 +189,6 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "likecoin",
-    "type": "mainnet",
-    "title": "Likecoin",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/likecoin/images/like.svg",
-    "stake": "https://wallet.keplr.app/?modal=staking&chain=likecoin-mainnet-2&validator_address=likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu&step_id=3&action_id=stake",
-    "explorer": "https://www.mintscan.io/likecoin/validators/likevaloper136r5phdpc02gmtmyampl9qkv0mdq385xxsaadu/",
-    "horcrux": true,
-    "restake": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.likecoin.citizenweb3.com",
-      "rest": "https://api.likecoin.citizenweb3.com",
-      "grpc": "grpc.likecoin.citizenweb3.com",
-      "grpcweb": "grpcweb.likecoin.citizenweb3.com",
-      "seed/peer": "c46842036cfd8b956f0969e25f0a6599ad98e2a9@mainnet.seednode.citizenweb3.com:33656"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "uptick",
     "type": "mainnet",
     "title": "Uptick",
