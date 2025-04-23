@@ -30,7 +30,10 @@
   <summary>Archive endpoints</summary>
   RPC: <a href="https://rpc.cosmoshub-4-archive.citizenweb3.com/">https://rpc.cosmoshub-4-archive.citizenweb3.com/</a><br>
   REST: <a href="https://api.cosmoshub-4-archive.citizenweb3.com/">https://api.cosmoshub-4-archive.citizenweb3.com/</a><br>
-  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.cosmoshub-4-archive.citizenweb3.com">grpc.cosmoshub-4-archive.citizenweb3.com</span>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.cosmoshub-4-archive.citizenweb3.com">grpc.cosmoshub-4-archive.citizenweb3.com</span><br>
+  RPC: <a href="https://rpc.cosmoshub-3-archive.citizenweb3.com/">https://rpc.cosmoshub-3-archive.citizenweb3.com/</a><br>
+  RPC: <a href="https://rpc.cosmoshub-2-archive.citizenweb3.com/">https://rpc.cosmoshub-2-archive.citizenweb3.com/</a><br>
+  RPC: <a href="https://rpc.cosmoshub-1-archive.citizenweb3.com/">https://rpc.cosmoshub-1-archive.citizenweb3.com/</a><br>
 </details>
 <br>
 <details>
