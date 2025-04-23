@@ -1,5 +1,11 @@
 pipeline {
-    agent any
+    // Добавлено: Настройка агента с указанием customWorkspace
+    agent {
+        node {
+            label 'valinfo'  // Указываем, на каком агенте запускать (valinfo — твой агент)
+            customWorkspace "${WORKSPACE}/../staking-multibranch_source-main"  // Указываем общую рабочую директорию
+        }
+    }
 
     environment {
         IMAGE_NAME = "staking"
