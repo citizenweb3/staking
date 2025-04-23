@@ -3,7 +3,7 @@ pipeline {
     agent {
         node {
             label 'valinfo'  // Указываем, на каком агенте запускать (valinfo — твой агент)
-            customWorkspace "${env.HOME}/jenkins/workspace/staking-multibranch_source-main"  // Указываем общую рабочую директорию
+            customWorkspace "staking-multibranch_source-main"  // Указываем общую рабочую директорию
         }
     }
 
