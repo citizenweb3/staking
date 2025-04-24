@@ -1,11 +1,5 @@
 pipeline {
-    // Добавлено: Настройка агента с указанием customWorkspace
-    agent {
-        node {
-            label 'valinfo'  // Указываем, на каком агенте запускать (valinfo — твой агент)
-            customWorkspace "staking-multibranch_source-main"  // Указываем общую рабочую директорию
-        }
-    }
+    agent any
 
     environment {
         IMAGE_NAME = "staking"
@@ -20,10 +14,18 @@ pipeline {
     }
 
     stages {
-        stage('Checkout Code') {
+        stage('Checkout source-main') {
             steps {
                 script {
                     git branch: "${BRANCH_TO_BUILD}", url: "${REPO_URL}", credentialsId: 'github-credentials'
+                }
+            }
+        }
+
+        stage('Inject env.local') {
+            steps {
+                withCredentials([file(credentialsId: 'staking-env-local', variable: 'ENV_FILE')]) {
+                    sh 'cp "$ENV_FILE" env.local'
                 }
             }
         }
