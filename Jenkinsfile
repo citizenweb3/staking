@@ -22,10 +22,10 @@ pipeline {
             }
         }
 
-        stage('Inject env.local') {
+        stage('Inject .env.local') {
             steps {
                 withCredentials([file(credentialsId: 'staking-env-local', variable: 'ENV_FILE')]) {
-                    sh 'cp "$ENV_FILE" env.local'
+                    sh 'cp "$ENV_FILE" .env.local'
                 }
             }
         }
