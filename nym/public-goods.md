@@ -15,6 +15,8 @@
 <br>
 <details>
   <summary>Relayers</summary>
+  Nym <-> Namada<br>
+  <a href="https://nym.explorers.guru/account/n1fl92605jdx79tu0hcynzy0fxmvrjaehv7j0ms5">Our wallet on Namada relayer</a>
 </details>
 <br>
 <details>

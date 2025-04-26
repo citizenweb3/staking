@@ -19,7 +19,9 @@
   Neutron <-> Cosmoshub<br>
   Neutron <-> Stride<br>
   Neutron <-> Celestia<br>
-  <a href="https://www.mintscan.io/neutron/address/neutron12mchf67y67y3xnk2tkzkxa67w3vmhxjscgfc39">Our wallet</a>
+  Neutron <-> Namada<br>
+  <a href="https://www.mintscan.io/neutron/address/neutron12mchf67y67y3xnk2tkzkxa67w3vmhxjscgfc39">Our wallet</a><br>
+  <a href="https://www.mintscan.io/cosmos/address/neutron1fl92605jdx79tu0hcynzy0fxmvrjaehvgf3m4k">Our wallet on Namada relayer</a>
 </details>
 <br>
 <details>
