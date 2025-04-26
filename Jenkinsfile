@@ -20,7 +20,6 @@ pipeline {
             }
         }
     
-    stages {
         stage('Checkout source-main') {
             steps {
                 script {
