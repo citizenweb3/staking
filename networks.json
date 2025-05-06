@@ -121,7 +121,7 @@
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
-    "explorer": "https://quicksilver.explorers.guru/validator/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
+    "explorer": "https://explorer.quicksilver.zone/validators/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
     "horcrux": true,
     "shi": true,
     "otgi": true,
