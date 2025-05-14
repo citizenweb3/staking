@@ -1,6 +1,7 @@
 export interface IChainConfig {
   name: string;
   chain_id: string;
+  category: string;
   title: string;
   icon: string;
   type: 'mainnet' | 'testnet';
