@@ -2,6 +2,7 @@
   {
     "name": "cosmoshub",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Cosmos",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
@@ -22,6 +23,7 @@
   {
     "name": "namada",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Namada",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo.citizenweb3.com/staking",
@@ -44,6 +46,7 @@
   {
     "name": "celestia",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "https://www.mintscan.io/wallet/stake?chain=celestia&src=celestiavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8uzxnhs&type=stake",
@@ -64,6 +67,7 @@
   {
     "name": "osmosis",
     "type": "mainnet",
+    "category": "infra",
     "title": "Osmosis",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/osmosis/images/osmo.svg",
     "stake": "",
@@ -80,6 +84,7 @@
   {
     "name": "stride",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Stride",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
     "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
@@ -98,26 +103,9 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "neutron",
-    "type": "mainnet",
-    "title": "Neutron",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
-    "explorer": "https://www.mintscan.io/neutron",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.neutron.citizenweb3.com",
-      "rest": "https://api.neutron.citizenweb3.com",
-      "grpc": "grpc.neutron.citizenweb3.com",
-      "seed/peer": "1020d1490712fe3e669658e506b46a5974a430fc@mainnet.seednode.citizenweb3.com:31656"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "quicksilver",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
@@ -138,6 +126,7 @@
   {
     "name": "govgen",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "GovGen",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/govgen/images/govgen.svg",
     "stake": "https://explorer.govgen.io/govgen/staking/govgenvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8pv6wce",
@@ -158,6 +147,7 @@
   {
     "name": "atomone",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Atom One",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
     "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
@@ -177,6 +167,7 @@
   {
     "name": "bostrom",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Bostrom",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
@@ -191,6 +182,7 @@
   {
     "name": "uptick",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Uptick",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
     "stake": "https://explorer.nodestake.org/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
@@ -211,6 +203,7 @@
   {
     "name": "gravitybridge",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Gravity Bridge",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
     "stake": "https://www.mintscan.io/wallet/stake?chain=gravity-bridge&src=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&type=stake",
@@ -232,6 +225,7 @@
   {
     "name": "althea",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Althea",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.svg",
     "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
@@ -256,6 +250,7 @@
   {
     "name": "nillion",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Nillion",
     "chain_id": "nillion-1",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nillion/images/nil.svg",
@@ -277,6 +272,7 @@
     "name": "nym",
     "type": "mainnet",
     "title": "Nym",
+    "category": "mainnet",
     "chain_id": "nyx",
     "icon": "https://raw.githubusercontent.com/nymtech/nym/257e36ddcb408d301307b8ddf542b5275704e7d9/assets/logo/logo-bw.svg",
     "stake": "",
@@ -296,6 +292,7 @@
   {
     "name": "interlay",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Interlay",
     "chain_id": "Interlay",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/Interlay/interlay.svg",
@@ -309,6 +306,7 @@
   {
     "name": "bitcoin",
     "type": "mainnet",
+    "category": "infra",
     "title": "Bitcoin",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/bitcoin/bitcoin.svg",
     "explorer": "https://www.blockchain.com/explorer/blocks/btc?page=1",
@@ -320,6 +318,7 @@
   {
     "name": "namadatestnet",
     "type": "testnet",
+    "category": "testnet",
     "title": "Namada",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo-housefire.citizenweb3.com",
@@ -338,6 +337,7 @@
   {
     "name": "nomic",
     "type": "mainnet",
+    "category": "mainnet",
     "title": "Nomic",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
     "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
@@ -355,6 +355,7 @@
   {
     "name": "pussy",
     "type": "testnet",
+    "category": "testnet",
     "title": "Space-Pussy",
     "chain_id": "space-pussy",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/space-pussy/space-pussy.svg",
@@ -369,6 +370,7 @@
   {
     "name": "union",
     "type": "testnet",
+    "category": "testnet",
     "title": "Union",
     "chain_id": "union-testnet-9",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/union-testnet/union.svg",
@@ -388,6 +390,7 @@
   {
     "name": "artela",
     "type": "testnet",
+    "category": "testnet",
     "title": "Artela",
     "chain_id": "artela_11822-1",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/artela-testnet/artela.svg",
@@ -408,6 +411,7 @@
   {
     "name": "axone",
     "type": "testnet",
+    "category": "testnet",
     "title": "Axone",
     "chain_id": "axone-dentrite-1",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/axone-testnet/axone.svg",
@@ -427,6 +431,7 @@
   {
     "name": "citrea",
     "type": "testnet",
+    "category": "infra",
     "title": "Citrea",
     "chain_id": "5115",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/citrea/citrea.svg",
@@ -439,6 +444,7 @@
   {
     "name": "cosmostestnet",
     "type": "testnet",
+    "category": "testnet",
     "title": "Cosmos",
     "chain_id": "provider",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
@@ -457,27 +463,9 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "neutrontestnet",
-    "type": "testnet",
-    "title": "Neutron",
-    "chain_id": "pion-1",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/neutron/images/ntrn.svg",
-    "explorer": "https://explorer.polypore.xyz/pion-1",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.pion-1-testnet.citizenweb3.com",
-      "rest": "https://api.pion-1-testnet.citizenweb3.com",
-      "grpc": "grpc.pion-1-testnet.citizenweb3.com",
-      "seed/peer": "c2ef6ab230e8a25c8e56a97aa2ca80ee867c8cb9@195.201.197.246:28656"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "quicksilvertestnet",
     "type": "testnet",
+    "category": "testnet",
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
     "stake": "https://testnet-explorer.konsortech.xyz/quicksilver/staking/quickvaloper1pd6yhpkt557d85mwdmvgt0mxpcc24kv7w0xh8n",
@@ -499,6 +487,7 @@
   {
     "name": "symphony",
     "type": "testnet",
+    "category": "testnet",
     "title": "Symphony",
     "chain_id": "symphony-testnet-4",
     "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
@@ -518,6 +507,7 @@
   {
     "name": "warden",
     "type": "testnet",
+    "category": "testnet",
     "title": "Warden",
     "chain_id": "chiado_10010-1",
     "icon": "https://raw.githubusercontent.com/warden-protocol/wardenprotocol/2362af8fd4d344b757e03295600c812d5f320921/snap/images/icon.svg",
