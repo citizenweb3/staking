@@ -5,7 +5,9 @@
   <br>
   RPC: <a href="https://rpc.nym.citizenweb3.com/">https://rpc.nym.citizenweb3.com/</a><br>
   REST: <a href="https://api.nym.citizenweb3.com/">https://api.nym.citizenweb3.com/</a><br>
-  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.nym.citizenweb3.com">grpc.nym.citizenweb3.com</span>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.nym.citizenweb3.com">grpc.nym.citizenweb3.com</span><br>
+  Entry-Gateway: <a href="https://nym-entry.citizenweb3.com/">https://rpc.nym.citizenweb3.com/</a><br>
+  Exit-Gateway: <a href="https://nym-exit.citizenweb3.com/">https://rpc.nym.citizenweb3.com/</a>
 </details>
 <br>
 <details>

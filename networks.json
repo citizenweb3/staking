@@ -332,7 +332,24 @@
       "seed/peer": "tcp://1dae6535bf5e4663ccb7c7294c129221b6018d22@168.119.37.164:31656"
     },
     "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
+    "services": ["public-goods", "peers", "snapshot", "indexer-snapshot", "masp-snapshot"]
+  },
+  {
+    "name": "aztectestnet",
+    "type": "testnet",
+    "category": "testnet",
+    "title": "Aztec",
+    "icon": "hthttps://raw.githubusercontent.com/AztecProtocol/aztec-connect-explorer/03f59e5b3109a658e39f9fa53fa2bf830197e55a/src/images/logo.svg",
+    "stake": "",
+    "explorer": "https://aztecscan.xyz",
+    "shi": true,
+    "otgi": true,
+    "chain_id": "11155111",
+    "endpoints": {
+      "rpc": "https://rpc.aztec-testnet.citizenweb3.com"
+    },
+    "generatedServices": [],
+    "services": ["public-goods"]
   },
   {
     "name": "nomic",
