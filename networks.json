@@ -339,7 +339,7 @@
     "type": "testnet",
     "category": "testnet",
     "title": "Aztec",
-    "icon": "hthttps://raw.githubusercontent.com/AztecProtocol/aztec-connect-explorer/03f59e5b3109a658e39f9fa53fa2bf830197e55a/src/images/logo.svg",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "",
     "explorer": "https://aztecscan.xyz",
     "shi": true,
