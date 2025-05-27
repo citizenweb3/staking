@@ -389,7 +389,7 @@
     "type": "testnet",
     "category": "testnet",
     "title": "Union",
-    "chain_id": "union-testnet-9",
+    "chain_id": "union-testnet-10",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/union-testnet/union.svg",
     "stake": "https://explorer.testnet-9.union.build/union/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
     "explorer": "https://explorers.l0vd.com/union-testnet",
