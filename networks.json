@@ -340,11 +340,11 @@
     "category": "testnet",
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
-    "stake": "",
+    "stake": "https://aztecscan.xyz/l1/validators/0x7C5c8C46cbf3403E262d7da263E9d632fD32a07D",
     "explorer": "https://aztecscan.xyz",
     "shi": true,
     "otgi": true,
-    "chain_id": "11155111",
+    "chain_id": "alpha-testnet",
     "endpoints": {
       "rpc": "https://rpc.aztec-testnet.citizenweb3.com"
     },
@@ -391,8 +391,8 @@
     "title": "Union",
     "chain_id": "union-testnet-10",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/union-testnet/union.svg",
-    "stake": "https://explorer.testnet-9.union.build/union/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
-    "explorer": "https://explorers.l0vd.com/union-testnet",
+    "stake": "https://testnet.explorer.union.build/union/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
+    "explorer": "https://testnet.explorer.union.build/union",
     "shi": true,
     "otgi": true,
     "endpoints": {
