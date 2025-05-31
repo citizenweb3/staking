@@ -124,27 +124,6 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "govgen",
-    "type": "mainnet",
-    "category": "mainnet",
-    "title": "GovGen",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/govgen/images/govgen.svg",
-    "stake": "https://explorer.govgen.io/govgen/staking/govgenvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8pv6wce",
-    "explorer": "https://explorer.govgen.io/govgen",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.govgen.citizenweb3.com",
-      "rest": "https://api.govgen.citizenweb3.com",
-      "grpc": "grpc.govgen.citizenweb3.com",
-      "grpcweb": "grpcweb.govgen.citizenweb3.com",
-      "seed/peer": "75bb6414e108294ea185bf499552112c6d7c076f@mainnet.seednode.citizenweb3.com:35656"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "atomone",
     "type": "mainnet",
     "category": "mainnet",

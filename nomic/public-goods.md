@@ -3,7 +3,7 @@
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="https://rpc.nomic.citizenweb3.com/">https://rpc.nomic.citizenweb3.com/</a>
+  RPC: <a href="https://rpc.nomic-stakenet.citizenweb3.com/">https://rpc.nomic-stakenet.citizenweb3.com/</a>
 </details>
 <br>
 <details>
