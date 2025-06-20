@@ -20,9 +20,9 @@ cp $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420/cometbft/data/priv_v
 ```bash
 rm -rf $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420/cometbft/data
 rm -rf $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420/db
-rm -rf $HOME/.local/share/namada.5f5de2dd1b88cba30586420/wasm
-rm -rf $HOME/.local/share/namada.5f5de2dd1b88cba30586420/tx_wasm_cache
-rm -rf $HOME/.local/share/namada.5f5de2dd1b88cba30586420/vp_wasm_cache
+rm -rf $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420/wasm
+rm -rf $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420/tx_wasm_cache
+rm -rf $HOME/.local/share/namada/namada.5f5de2dd1b88cba30586420/vp_wasm_cache
 ```
 
 ### Download and decompress the snapshot
