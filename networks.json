@@ -275,7 +275,7 @@
     "title": "Symphony",
     "chain_id": "symphony-1",
     "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
-    "stake": "",
+    "stake": "https://explorer.corenodehq.xyz/symphony-mainnet/staking/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d",
     "explorer": "https://explorer.corenodehq.xyz/symphony-mainnet",
     "shi": true,
     "otgi": true,
