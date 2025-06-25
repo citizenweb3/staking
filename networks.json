@@ -269,6 +269,26 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
+    "name": "symphony-mainnet",
+    "type": "mainnet",
+    "category": "mainnet",
+    "title": "Symphony",
+    "chain_id": "symphony-1",
+    "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
+    "stake": "",
+    "explorer": "https://explorer.corenodehq.xyz/symphony-mainnet",
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.symphony.citizenweb3.com",
+      "rest": "https://api.symphony.citizenweb3.com",
+      "grpc": "grpc.symphony.citizenweb3.com",
+      "seed/peer": "3f934b3a5def38b1810d370b1aac9f2205713eeb@78.46.79.242:32756"
+    },
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
     "name": "interlay",
     "type": "mainnet",
     "category": "mainnet",
