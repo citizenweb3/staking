@@ -20,6 +20,9 @@ cp $HOME/.local/share/namada/housefire-alpaca.cc0d3e0c033be/cometbft/data/priv_v
 ```bash
 rm -rf $HOME/.local/share/namada/housefire-alpaca.cc0d3e0c033be/cometbft/data
 rm -rf $HOME/.local/share/namada/housefire-alpaca.cc0d3e0c033be/db
+rm -rf $HOME/.local/share/namada/housefire-alpaca.cc0d3e0c033be/wasm
+rm -rf $HOME/.local/share/namada/housefire-alpaca.cc0d3e0c033be/tx_wasm_cache
+rm -rf $HOME/.local/share/namada/housefire-alpaca.cc0d3e0c033be/vp_wasm_cache
 ```
 
 ### Download and decompress the snapshot
