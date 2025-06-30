@@ -269,20 +269,6 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "interlay",
-    "type": "mainnet",
-    "category": "mainnet",
-    "title": "Interlay",
-    "chain_id": "Interlay",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/Interlay/interlay.svg",
-    "stake": "https://app.interlay.io/vaults/wd7mvsKzX8QaGh268wiqCpu8j7z5pAZhw1VUkcJPxwtNY14jb/DOT/IBTC",
-    "explorer": "https://interlay.subscan.io/",
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "services": ["public-goods"]
-  },
-  {
     "name": "bitcoin",
     "type": "mainnet",
     "category": "infra",
@@ -379,27 +365,6 @@
       "rest": "https://api.union-testnet.citizenweb3.com",
       "grpc": "grpc.union-testnet.citizenweb3.com",
       "seed/peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
-    "name": "artela",
-    "type": "testnet",
-    "category": "testnet",
-    "title": "Artela",
-    "chain_id": "artela_11822-1",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/artela-testnet/artela.svg",
-    "stake": "https://testnet.artela.explorers.guru/validator/artvaloper1mtmuvpra48uwgdht6wj4pnwp5d89xsc9aadfup",
-    "explorer": "https://testnet.artela.explorers.guru/",
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.artela-testnet.citizenweb3.com",
-      "rest": "https://api.artela-testnet.citizenweb3.com",
-      "grpc": "grpc.artela-testnet.citizenweb3.com",
-      "grpcweb": "grpcweb.artela-testnet.citizenweb3.com",
-      "seed/peer": "ba1f2da8696e55c4a647a064447e1866cd81ebba@195.201.197.246:29656"
     },
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
