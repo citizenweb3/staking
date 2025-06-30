@@ -289,20 +289,6 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "interlay",
-    "type": "mainnet",
-    "category": "mainnet",
-    "title": "Interlay",
-    "chain_id": "Interlay",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/Interlay/interlay.svg",
-    "stake": "https://app.interlay.io/vaults/wd7mvsKzX8QaGh268wiqCpu8j7z5pAZhw1VUkcJPxwtNY14jb/DOT/IBTC",
-    "explorer": "https://interlay.subscan.io/",
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "services": ["public-goods"]
-  },
-  {
     "name": "bitcoin",
     "type": "mainnet",
     "category": "infra",
