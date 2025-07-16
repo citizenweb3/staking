@@ -227,6 +227,27 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
+    "name": "axone-mainnet",
+    "type": "mainnet",
+    "category": "mainnet",
+    "title": "Axone",
+    "chain_id": "axone-1",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/axone-testnet/axone.svg",
+    "stake": "https://explorer.aknodes.com/AXONE-MAINNET/staking/axonevaloper1wnpak7sfawsfv9c8vqe7naxfa4g99lv7wd2wl6",
+    "explorer": "https://explorer.aknodes.com/AXONE-MAINNET",
+    "horcrux": true,
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.axone.citizenweb3.com",
+      "rest": "https://api.axone.citizenweb3.com",
+      "grpc": "grpc.axone.citizenweb3.com",
+      "seed/peer": "b4629105b507792188a79fdb70f03262507cb5fc@78.46.79.242:17656"
+    },
+    "generatedServices": [],
+    "services": ["public-goods", "peers", "snapshot"]
+  },
+  {
     "name": "nillion",
     "type": "mainnet",
     "category": "mainnet",
