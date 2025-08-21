@@ -272,7 +272,7 @@
     "name": "nym",
     "type": "mainnet",
     "title": "Nym",
-    "category": "mainnet",
+    "category": "infra",
     "chain_id": "nyx",
     "icon": "https://raw.githubusercontent.com/nymtech/nym/257e36ddcb408d301307b8ddf542b5275704e7d9/assets/logo/logo-bw.svg",
     "stake": "",
