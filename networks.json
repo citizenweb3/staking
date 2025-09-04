@@ -424,19 +424,6 @@
     "services": ["public-goods"]
   },
   {
-    "name": "acurast",
-    "type": "testnet",
-    "category": "infra",
-    "title": "Acurast",
-    "chain_id": "",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/acurast/acurast.svg",
-    "explorer": "",
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "services": ["public-goods"]
-  },
-  {
     "name": "darkfi",
     "type": "testnet",
     "category": "infra",
