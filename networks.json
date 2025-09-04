@@ -398,6 +398,32 @@
     "services": ["public-goods"]
   },
   {
+    "name": "linera",
+    "type": "testnet",
+    "category": "infra",
+    "title": "Linera",
+    "chain_id": "testnet-babbage",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/linera/linera.svg",
+    "explorer": "",
+    "shi": true,
+    "otgi": true,
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
+    "name": "waku",
+    "type": "testnet",
+    "category": "infra",
+    "title": "Waku",
+    "chain_id": "",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/waku/waku.svg",
+    "explorer": "",
+    "shi": true,
+    "otgi": true,
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
     "name": "cosmostestnet",
     "type": "testnet",
     "category": "testnet",
