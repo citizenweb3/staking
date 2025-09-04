@@ -385,6 +385,19 @@
     "services": ["public-goods"]
   },
   {
+    "name": "zkverify",
+    "type": "testnet",
+    "category": "infra",
+    "title": "zkVerify",
+    "chain_id": "zkVerify-testnet",
+    "icon": "https://raw.githubusercontent.com/zkVerify/zkverify-docs/3f67506460071d0321c2f462be2bded39cedebbd/static/img/favicon.ico",
+    "explorer": "https://zkverify-testnet.subscan.io",
+    "shi": true,
+    "otgi": true,
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
     "name": "cosmostestnet",
     "type": "testnet",
     "category": "testnet",
