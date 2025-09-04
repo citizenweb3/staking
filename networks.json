@@ -46,10 +46,10 @@
   {
     "name": "celestia",
     "type": "mainnet",
-    "category": "mainnet",
+    "category": "infra",
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
-    "stake": "https://www.mintscan.io/wallet/stake?chain=celestia&src=celestiavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8uzxnhs&type=stake",
+    "stake": "",
     "explorer": "https://www.mintscan.io/celestia",
     "horcrux": true,
     "shi": true,
@@ -248,27 +248,6 @@
     "services": ["public-goods", "peers", "snapshot"]
   },
   {
-    "name": "nillion",
-    "type": "mainnet",
-    "category": "mainnet",
-    "title": "Nillion",
-    "chain_id": "nillion-1",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nillion/images/nil.svg",
-    "stake": "https://explorer.kjnodes.com/nillion/staking/nillionvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8ap67kx",
-    "explorer": "https://explorer.kjnodes.com/nillion",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.nillion.citizenweb3.com",
-      "rest": "https://api.nillion.citizenweb3.com",
-      "grpc": "grpc.nillion.citizenweb3.com",
-      "seed/peer": "0e31070d51997952d06a5fc1b0506e7d5c2d4de8@78.46.79.242:18056"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "nym",
     "type": "mainnet",
     "title": "Nym",
@@ -358,24 +337,6 @@
     "services": ["public-goods"]
   },
   {
-    "name": "nomic",
-    "type": "mainnet",
-    "category": "mainnet",
-    "title": "Nomic",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/nomic/images/nom.svg",
-    "stake": "https://nomic-explorer.quokkastake.io/nomic/staking/nomic1mk05ju8jq0mxzx3kfr0wcct8an2htjh53m4yk5",
-    "explorer": "https://nomic-explorer.quokkastake.io/nomic",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.nomic-stakenet.citizenweb3.com/",
-      "seed/peer": "bbc08b38a7fb1fdc03c7f28fc5196ed534c37625@testnet.seednode:26656"
-    },
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
     "name": "pussy",
     "type": "testnet",
     "category": "testnet",
@@ -387,26 +348,6 @@
     "horcrux": true,
     "shi": true,
     "otgi": true,
-    "generatedServices": [],
-    "services": ["public-goods", "peers", "snapshot"]
-  },
-  {
-    "name": "union",
-    "type": "testnet",
-    "category": "testnet",
-    "title": "Union",
-    "chain_id": "union-testnet-10",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/union-testnet/union.svg",
-    "stake": "https://testnet.explorer.union.build/union/staking/unionvaloper1kvr0mlfevhgrxvsxj8h4c9xrf9f90lmhgnpurg",
-    "explorer": "https://testnet.explorer.union.build/union",
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.union-testnet.citizenweb3.com",
-      "rest": "https://api.union-testnet.citizenweb3.com",
-      "grpc": "grpc.union-testnet.citizenweb3.com",
-      "seed/peer": "6638ffb8127647f02c5df37079a6dd5593659149@195.201.197.246:17156"
-    },
     "generatedServices": [],
     "services": ["public-goods", "peers", "snapshot"]
   },
