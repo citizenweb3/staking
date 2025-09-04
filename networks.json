@@ -424,6 +424,45 @@
     "services": ["public-goods"]
   },
   {
+    "name": "acurast",
+    "type": "testnet",
+    "category": "infra",
+    "title": "Acurast",
+    "chain_id": "",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/acurast/acurast.svg",
+    "explorer": "",
+    "shi": true,
+    "otgi": true,
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
+    "name": "darkfi",
+    "type": "testnet",
+    "category": "infra",
+    "title": "DarkFi",
+    "chain_id": "",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/darkfi/darkfi.svg",
+    "explorer": "https://explorer.testnet.dark.fi",
+    "shi": true,
+    "otgi": true,
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
+    "name": "nesa",
+    "type": "testnet",
+    "category": "infra",
+    "title": "Nesa",
+    "chain_id": "",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/nesa/nesa-logo.svg",
+    "explorer": "",
+    "shi": true,
+    "otgi": true,
+    "generatedServices": [],
+    "services": ["public-goods"]
+  },
+  {
     "name": "cosmostestnet",
     "type": "testnet",
     "category": "testnet",
