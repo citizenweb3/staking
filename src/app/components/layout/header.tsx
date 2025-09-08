@@ -16,15 +16,6 @@ const Header = () => (
     </Link>
 
     <div className="flex space-x-2">
-      <Link href="/#mainnets" className="text-base">
-        <Button>Mainnets</Button>
-      </Link>
-      <Link href="/#testnets" className="text-base">
-        <Button>Testnets</Button>
-      </Link>
-      <Link href="/#infra" className="text-base">
-        <Button>Infra</Button>
-      </Link>
       <Link href={``} target="_blank" rel="nofollow" className="text-base">
         <Button external>Monitor</Button>
       </Link>

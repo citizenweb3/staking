@@ -1,8 +1,6 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
-import { FC, useState } from 'react';
+import { FC } from 'react';
 
 import { IChainConfig } from '@/types';
 
@@ -11,8 +9,6 @@ interface OwnProps {
 }
 
 const ChainCard: FC<OwnProps> = ({ chain }) => {
-  const [status, setStatus] = useState<boolean>(true);
-
   // useEffect(() => {
   //   const getHealth = async () => {
   //     try {
@@ -38,7 +34,7 @@ const ChainCard: FC<OwnProps> = ({ chain }) => {
     >
       <div
         key={chain.name + 'status'}
-        className={`border-1 ml-auto animate-ping rounded-full border-black ${status ? 'bg-green' : 'bg-red'} bg-green p-0.5`}
+        className={`border-1 ml-auto animate-ping rounded-full border-black bg-green p-0.5`}
       />
       <Image src={chain.icon} alt={chain.title} width={100} height={100} className="h-24 w-24" />
       <div className="mt-4 text-2xl font-semibold">{chain.title}</div>
