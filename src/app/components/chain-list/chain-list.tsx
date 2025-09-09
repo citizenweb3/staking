@@ -3,13 +3,12 @@ import {FC} from 'react';
 import ChainCard from '@/app/components/chain-list/chain-card';
 import {applyFacetFilter, Selected} from '@/app/utils/chain-list/filters-utils';
 import type {IChainConfig} from '@/types';
+import {CATEGORIES} from "@/app/config";
 
 type OwnProps = {
     chains: IChainConfig[];
     selected: Selected;
 };
-
-const categories = ['Privacy', 'Networks', 'AI+DePin', 'DeFi'];
 
 const ChainList: FC<OwnProps> = ({chains, selected}) => {
     const filtered = applyFacetFilter(chains, selected);
@@ -23,7 +22,7 @@ const ChainList: FC<OwnProps> = ({chains, selected}) => {
         );
     }
 
-    return categories.map((category) => (
+    return CATEGORIES.map((category) => (
         <div key={category} className="mb-8">
             <h1 className="mb-4 text-3xl font-bold">{category}</h1>
             <div className="mt-4 grid grid-cols-1 gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">

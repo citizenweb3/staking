@@ -12,6 +12,7 @@ import {
   uniqueStable,
 } from '@/app/utils/chain-list/filters-utils';
 import type { IChainConfig } from '@/types';
+import {CATEGORIES} from "@/app/config";
 
 type PageProps = { searchParams: Record<string, string | string[] | undefined> };
 
@@ -33,7 +34,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const order = new Map(provisionUniverseCanon.map((v, i) => [v, i]));
 
   const typeOptionsCanon = optionsForFacet(chains, 'type', selected);
-  const categoryOptionsCanon = optionsForFacet(chains, 'category', selected);
+  const categoryOptionsCanon = CATEGORIES; //optionsForFacet(chains, 'category', selected);
   const rawProvisionOptionsCanon = optionsForFacet(chains, 'provision', selected);
 
   const provisionOptionsCanon = rawProvisionOptionsCanon.slice().sort((a, b) => {
