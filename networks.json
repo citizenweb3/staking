@@ -456,28 +456,6 @@
     ]
   },
   {
-    "name": "pussy",
-    "type": "testnet",
-    "category": [
-      "Networks"
-    ],
-    "provision": ["Validator", "Explorer"],
-    "title": "Space-Pussy",
-    "chain_id": "space-pussy",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/space-pussy/space-pussy.svg",
-    "stake": "https://spacepussy.ai/network/bostrom/hero/pussyvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqhfj9et",
-    "explorer": "https://spacepussy.ai/cyberver/verses/pussy/graph",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
-  },
-  {
     "name": "axone",
     "type": "testnet",
     "category": [
