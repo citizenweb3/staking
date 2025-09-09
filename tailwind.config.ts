@@ -11,6 +11,8 @@ const config: Config = {
     colors: {
       black: colors.black,
       white: colors.white,
+      gray: colors.gray['500'],
+      grayLight: colors.gray['700'],
       green: colors.green['500'],
       red: colors.red['500'],
       transparent: colors.transparent,

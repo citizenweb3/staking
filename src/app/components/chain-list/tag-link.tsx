@@ -18,6 +18,8 @@ const TagLink: FC<OwnProps> = ({ facet, value }) => {
 
   const onClick = (e: React.MouseEvent) => {
     e.preventDefault();
+    e.stopPropagation();
+
     const set = new Set(selectedCanon);
     active ? set.delete(key) : set.add(key);
 
@@ -34,7 +36,7 @@ const TagLink: FC<OwnProps> = ({ facet, value }) => {
     <button
       type="button"
       aria-pressed={active}
-      className={`rounded-md px-2 py-0.5 text-xs font-semibold capitalize ${active ? 'hover:bg-gray-500 bg-white text-black' : 'text-white'}`}
+      className={`rounded-md px-2 py-0.5 text-xs font-semibold capitalize border border-grayLight hover:bg-grayLight ${active ? 'hover:bg-gray bg-white text-black' : 'text-white'}`}
       onClick={onClick}
     >
       {value}
