@@ -7,7 +7,7 @@ const Header = () => (
   <div className="flex flex-row items-center justify-between">
     <Link href={'/'} className="font-hisqaida">
       <div className="flex flex-row items-center">
-        <Image width={30} height={30} src={'/cw3logo.png'} alt={'Logo'} className="h-12 w-12" />
+        <Image width={100} height={100} src={'/cw3logo.png'} alt={'Logo'} className="h-12 w-12" />
         <div className="flex flex-row items-end">
           <div className="text-3xl">citizen</div>
           <div className={`text-lg`}> web3</div>
