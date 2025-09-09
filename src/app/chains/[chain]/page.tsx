@@ -51,7 +51,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
           <div className="mt-8 flex space-x-4">
             {data.website && (
               <Link
-                title="Our website"
+                title={`${data.title} Website`}
                 href={data.website}
                 target="_blank"
                 rel="nofollow"
@@ -68,7 +68,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
             )}
             {data.codebase?.git_repo && (
               <Link
-                title="Our GitHub repo"
+                title="GitHub repo"
                 href={data.codebase.git_repo}
                 target="_blank"
                 rel="nofollow"
