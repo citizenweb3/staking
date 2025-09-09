@@ -22,6 +22,23 @@ pipeline {
             }
         }
 
+        stage('Prepare Env') {
+            steps {
+                script {
+                    // Copy .env.example to .env.local if the example file exists.
+                    // This will not fail the build if .env.example is missing.
+                    sh '''
+                    if [ -f .env.example ]; then
+                      echo "Copying .env.example to .env.local"
+                      cp .env.example .env.local
+                    else
+                      echo ".env.example not found; skipping copy"
+                    fi
+                    '''
+                }
+            }
+        }
+
         stage('Build Docker Image') {
             steps {
                 script {
