@@ -1,37 +1,63 @@
+import { FC, Suspense } from 'react';
+
 import { getRepoChains } from '@/app/actions/repos';
-import ChainCard from '@/app/components/chain-card';
-import { IChainConfig } from '@/types';
-import { FC } from 'react';
+import ChainList from '@/app/components/chain-list/chain-list';
+import NetworksFilters from '@/app/components/chain-list/networks-filters';
+import {
+  type Selected,
+  buildCanonMaps,
+  getAllCanonFromPage,
+  normalizeArray,
+  optionsForFacet,
+  uniqueStable,
+} from '@/app/utils/chain-list/filters-utils';
+import type { IChainConfig } from '@/types';
 
-interface Props {
-  chains: IChainConfig[]
-  category: string
-}
-const ChainList: FC<Props> = async ({chains, category}) => {
-  return (
-    <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-      {chains
-        .filter((chain) => chain.category === category)
-        .map((chain) => {
-          return <ChainCard key={chain.name} chain={chain} />;
-        })}
-    </div>
-  )
-}
+type PageProps = { searchParams: Record<string, string | string[] | undefined> };
 
-const Home = async () => {
-  const chains = await getRepoChains();
+const MainPage: FC<PageProps> = async ({ searchParams }) => {
+  const selected: Selected = {
+    types: getAllCanonFromPage(searchParams, 'type'),
+    categories: getAllCanonFromPage(searchParams, 'category'),
+    provisions: getAllCanonFromPage(searchParams, 'provision'),
+  };
+
+  const chains: IChainConfig[] = await getRepoChains();
+
+  const { typeMap, catMap, provMap } = buildCanonMaps(chains);
+
+  const provisionUniverseCanon = uniqueStable(
+    chains.flatMap((c) => normalizeArray((c as any).provision).map((v) => v.trim().toLowerCase())),
+  );
+
+  const order = new Map(provisionUniverseCanon.map((v, i) => [v, i]));
+
+  const typeOptionsCanon = optionsForFacet(chains, 'type', selected);
+  const categoryOptionsCanon = optionsForFacet(chains, 'category', selected);
+  const rawProvisionOptionsCanon = optionsForFacet(chains, 'provision', selected);
+
+  const provisionOptionsCanon = rawProvisionOptionsCanon.slice().sort((a, b) => {
+    const ia = order.has(a) ? order.get(a)! : Number.MAX_SAFE_INTEGER;
+    const ib = order.has(b) ? order.get(b)! : Number.MAX_SAFE_INTEGER;
+    return ia - ib;
+  });
+
+  const typeOptions = typeOptionsCanon.map((k) => typeMap.get(k) ?? k);
+  const categoryOptions = categoryOptionsCanon.map((k) => catMap.get(k) ?? k);
+  const provisionOptions = provisionOptionsCanon.map((k) => provMap.get(k) ?? k);
 
   return (
     <div>
-      <h2 className="text-3xl font-semibold">Mainnets</h2>
-      <ChainList chains={chains} category={'mainnet'} />
-      <h2 className="mt-12 text-3xl font-semibold">Testnets</h2>
-      <ChainList chains={chains} category={'testnet'} />
-      <h2 className="mt-12 text-3xl font-semibold">Only infra</h2>
-      <ChainList chains={chains} category={'infra'} />
+      <div className="mb-10">
+        <NetworksFilters selected={selected.types} options={typeOptions} tag="type" title="Network Status" />
+        <NetworksFilters selected={selected.categories} options={categoryOptions} tag="category" title="Category" />
+        <NetworksFilters selected={selected.provisions} options={provisionOptions} tag="provision" title="Provisions" />
+      </div>
+      <Suspense fallback={<ChainList chains={chains} selected={selected} />}>
+        <ChainList chains={chains} selected={selected} />
+      </Suspense>
     </div>
   );
 };
 
-export default Home;
+export default MainPage;
