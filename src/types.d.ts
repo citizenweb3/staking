@@ -2,6 +2,7 @@ export interface IChainConfig {
   name: string;
   chain_id: string;
   category: string;
+  provision: string[];
   title: string;
   icon: string;
   type: 'mainnet' | 'testnet';
@@ -256,4 +257,5 @@ export interface IChain {
     }[];
   };
 }
+
 export type IChains = Chain[];

@@ -2,43 +2,52 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FC } from 'react';
 
-import { IChainConfig } from '@/types';
+import TagLink from '@/app/components/chain-list/tag-link';
+import { normalizeArray } from '@/app/utils/chain-list/filters-utils';
+import type { IChainConfig } from '@/types';
 
 interface OwnProps {
   chain: IChainConfig;
 }
 
 const ChainCard: FC<OwnProps> = ({ chain }) => {
-  // useEffect(() => {
-  //   const getHealth = async () => {
-  //     try {
-  //       const response = await fetch(`/api/health/${chain.name}`);
-  //       const data = await response.json();
-  //       setStatus(data.status);
-  //     } catch (error) {
-  //       console.error('Error fetching health:', error);
-  //     }
-  //   };
-  //
-  //   const intervalId = setInterval(getHealth, 2500);
-  //
-  //   return () => {
-  //     clearInterval(intervalId);
-  //   };
-  // }, [chain.name]);
+  const typeTag = chain.type ? String(chain.type) : '';
+  const categoryTags = normalizeArray((chain as any).category);
+  const provisionTags = normalizeArray((chain as any).provision);
 
   return (
-    <Link
-      href={`/chains/${chain.name}`}
-      className="flex w-full cursor-pointer flex-col items-center rounded-3xl bg-paper p-4 shadow transition-all duration-300 hover:scale-105 hover:brightness-150"
-    >
-      <div
-        key={chain.name + 'status'}
-        className={`border-1 ml-auto animate-ping rounded-full border-black bg-green p-0.5`}
-      />
-      <Image src={chain.icon} alt={chain.title} width={100} height={100} className="h-24 w-24" />
-      <div className="mt-4 text-2xl font-semibold">{chain.title}</div>
-    </Link>
+    <div className="flex w-full flex-row rounded-3xl bg-paper p-4 shadow transition-all duration-300 hover:brightness-150">
+      <div className="mb-2 flex items-start gap-2">
+        <div className="ml-auto h-1 w-1 animate-ping rounded-full bg-green" />
+      </div>
+      <Link href={`/chains/${chain.name}`} className="flex flex-col items-center">
+        <Image src={chain.icon} alt={chain.title} width={100} height={100} className="h-24 w-24" />
+        <div className="mt-4 text-center text-lg font-semibold">{chain.title}</div>
+      </Link>
+      <div className="ml-6">
+        <div className="flex flex-col gap-2">
+          {typeTag && (
+            <div className="flex flex-wrap items-center gap-2">
+              <TagLink facet="type" value={typeTag} />
+            </div>
+          )}
+          {categoryTags.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2">
+              {categoryTags.map((t) => (
+                <TagLink key={`c-${chain.name}-${t}`} facet="category" value={t} />
+              ))}
+            </div>
+          )}
+          {provisionTags.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2">
+              {provisionTags.map((s) => (
+                <TagLink key={`s-${chain.name}-${s}`} facet="provision" value={s} />
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
   );
 };
 
