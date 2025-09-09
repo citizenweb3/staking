@@ -16,7 +16,7 @@ const ChainCard: FC<OwnProps> = ({ chain }) => {
   const provisionTags = normalizeArray((chain as any).provision);
 
   return (
-    <div className="flex w-full flex-row rounded-3xl bg-paper p-4 shadow transition-all duration-300 hover:brightness-150">
+    <div className="group flex w-full flex-row rounded-3xl bg-paper p-4 shadow transition-all duration-300 hover:brightness-150 hover:scale-105 active:brightness-75 active:scale-90">
       {/*<div className="mb-2 flex items-start gap-2">*/}
       {/*  <div className="ml-auto h-1 w-1 animate-ping rounded-full bg-green" />*/}
       {/*</div>*/}
