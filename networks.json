@@ -198,7 +198,7 @@
     "name": "bostrom",
     "type": "mainnet",
     "category": [
-      "AI+DePin"
+      "AI"
     ],
     "provision": ["Validator", "Explorer", "Relayers"],
     "title": "Bostrom",
@@ -277,7 +277,7 @@
     "name": "althea",
     "type": "mainnet",
     "category": [
-      "AI+DePin"
+      "DePin"
     ],
     "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seeds/Peers"],
     "title": "Althea",
@@ -309,7 +309,7 @@
     "name": "axone-mainnet",
     "type": "mainnet",
     "category": [
-      "AI+DePin"
+      "AI"
     ],
     "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seeds/Peers"],
     "title": "Axone",
@@ -459,7 +459,7 @@
     "name": "axone",
     "type": "testnet",
     "category": [
-      "AI+DePin"
+      "AI"
     ],
     "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seeds/Peers"],
     "title": "Axone",
@@ -522,7 +522,7 @@
     "name": "linera",
     "type": "testnet",
     "category": [
-      "AI+DePin"
+      "AI"
     ],
     "provision": ["Endpoints"],
     "title": "Linera",
@@ -678,7 +678,7 @@
     "name": "warden",
     "type": "testnet",
     "category": [
-      "AI+DePin"
+      "AI"
     ],
     "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seeds/Peers"],
     "title": "Warden",
