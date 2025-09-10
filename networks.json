@@ -5,7 +5,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator", "Explorer", "Indexer"],
+    "provision": ["Validator", "Explorer", "Indexer", "Peers/Seeds"],
     "title": "Cosmos",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
