@@ -14,18 +14,19 @@ pipeline {
     }
 
     stages {
-        stage('Checkout Code') {
+        stage('Clean Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
+        stage('Checkout source-main') {
             steps {
                 script {
                     // Принудительно используем source-main независимо от того, какая ветка вызвала сборку
-                    checkout([
-                        $class: 'GitSCM',
-                        branches: [[name: 'source-main']],
-                        userRemoteConfigs: [[
-                            url: "${REPO_URL}",
-                            credentialsId: 'github-credentials'
-                        ]]
-                    ])
+                    git branch: 'source-main', 
+                        url: "${REPO_URL}",
+                        changelog: false, 
+                        poll: false
                 }
             }
         }
@@ -35,14 +36,16 @@ pipeline {
                 script {
                     // Проверяем и копируем env файлы из ветки source-main
                     sh '''
-                    echo "Preparing environment files from source-main branch..."
-                    if [ -f .env.local ]; then
-                        echo "Found .env.local in source-main branch"
-                    elif [ -f .env.example ]; then
-                        echo "No .env.local found in source-main branch, copying from .env.example"
+                    echo "Checking .env files from source-main branch..."
+                    if [ -f .env.example ]; then
+                        echo "Found .env.example in source-main branch"
+                        echo "Copying .env.example to .env.local"
                         cp .env.example .env.local
+                        echo "Content of .env.local:"
+                        cat .env.local
                     else
-                        echo "WARNING: Neither .env.local nor .env.example found in source-main branch!"
+                        echo "ERROR: .env.example not found in source-main branch!"
+                        exit 1
                     fi
                     '''
                 }
