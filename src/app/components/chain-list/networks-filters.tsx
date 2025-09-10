@@ -3,7 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { FC } from 'react';
 
-import { FacetKeys, makeCanon } from '@/app/utils/chain-list/filters-utils';
+import { FacetKeys, toSlug } from '@/app/utils/chain-list/filters-utils';
 
 type OwnProps = {
   selected: string[];
@@ -26,8 +26,8 @@ const NetworksFilters: FC<OwnProps> = ({ selected, options, tag, title }) => {
   };
 
   const onToggle = (label: string) => {
-    const val = makeCanon(label);
-    const curr = (searchParams?.getAll(tag) ?? []).map(makeCanon);
+    const val = toSlug(label);
+    const curr = (searchParams?.getAll(tag) ?? []).map(toSlug);
     const set = new Set(curr);
     set.has(val) ? set.delete(val) : set.add(val);
 
@@ -54,7 +54,7 @@ const NetworksFilters: FC<OwnProps> = ({ selected, options, tag, title }) => {
           all
         </button>
         {options.map((label) => {
-          const val = makeCanon(label);
+          const val = toSlug(label);
           const active = selected.includes(val);
           return (
             <button

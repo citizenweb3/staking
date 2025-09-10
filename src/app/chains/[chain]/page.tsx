@@ -48,115 +48,108 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
       <div className="ml-11 mt-16 flex flex-row">
         <div className="mr-10">
           <Image src={data.icon} alt={data.title} width={200} height={200} />
-          <div className="mt-8 flex space-x-4">
-            {data.website && (
-              <Link
-                title={`${data.title} Website`}
-                href={data.website}
-                target="_blank"
-                rel="nofollow"
-                className="transition-all duration-150 hover:scale-105"
-              >
-                <Image
-                  width={30}
-                  height={30}
-                  src={'/icons/website.svg'}
-                  alt={data.title + ' website'}
-                  className="h-10 w-10"
-                />
-              </Link>
-            )}
-            {data.codebase?.git_repo && (
-              <Link
-                title="GitHub repo"
-                href={data.codebase.git_repo}
-                target="_blank"
-                rel="nofollow"
-                className="transition-all duration-150 hover:scale-105"
-              >
-                <Image
-                  width={30}
-                  height={30}
-                  src={'/icons/github.svg'}
-                  alt={data.title + ' github'}
-                  className="h-10 w-10"
-                />
-              </Link>
-            )}
-            {data.horcrux && (
-              <div
-                title="Key Sharding via Horcrux"
-                className="transition-all duration-150 hover:scale-105"
-              >
-                <Image
-                  width={30}
-                  height={30}
-                  src={'/icons/horcrux.svg'}
-                  alt={data.title + ' horcrux'}
-                  className="h-10 w-10"
-                />
-              </div>
-            )}
-            {data.shi && (
-              <div
-                title="Self-Hosted Infrastructure"
-                className="transition-all duration-150 hover:scale-105"
-              >
-                <Image
-                  width={30}
-                  height={30}
-                  src={'/icons/shi.svg'}
-                  alt={data.title + ' self-hosted infrastructure'}
-                  className="h-10 w-10"
-                />
-              </div>
-            )}
-            {data.otgi && (
-              <div
-                title="Off the Grid Infrastructure"
-                className="transition-all duration-150 hover:scale-105"
-              >
-                <Image
-                  width={30}
-                  height={30}
-                  src={'/icons/otgi.svg'}
-                  alt={data.title + ' off-the-grid infrastructure'}
-                  className="h-10 w-10"
-                />
-              </div>
-            )}
-            {data.restake && (
-              <div
-                title="Auto Reward Re-Stake x2 p/day"
-                className="transition-all duration-150 hover:scale-105"
-              >
-                <Image
-                  width={30}
-                  height={30}
-                  src={'/icons/restake.svg'}
-                  alt={data.title + ' restake'}
-                  className="h-10 w-10"
-                />
-              </div>
-            )}
+          <div className="flex">
+            <div className="text-xl font-semibold self-end mr-4">Medals:</div>
+            <div className="mt-8 flex space-x-4">
+              {data.website && (
+                <Link
+                  title={`${data.title} Website`}
+                  href={data.website}
+                  target="_blank"
+                  rel="nofollow"
+                  className="transition-all duration-150 hover:scale-105"
+                >
+                  <Image
+                    width={30}
+                    height={30}
+                    src={'/icons/website.svg'}
+                    alt={data.title + ' website'}
+                    className="h-10 w-10"
+                  />
+                </Link>
+              )}
+              {data.codebase?.git_repo && (
+                <Link
+                  title="GitHub repo"
+                  href={data.codebase.git_repo}
+                  target="_blank"
+                  rel="nofollow"
+                  className="transition-all duration-150 hover:scale-105"
+                >
+                  <Image
+                    width={30}
+                    height={30}
+                    src={'/icons/github.svg'}
+                    alt={data.title + ' github'}
+                    className="h-10 w-10"
+                  />
+                </Link>
+              )}
+              {data.horcrux && (
+                <div title="Key Sharding via Horcrux" className="transition-all duration-150 hover:scale-105">
+                  <Image
+                    width={30}
+                    height={30}
+                    src={'/icons/horcrux.svg'}
+                    alt={data.title + ' horcrux'}
+                    className="h-10 w-10"
+                  />
+                </div>
+              )}
+              {data.shi && (
+                <div title="Self-Hosted Infrastructure" className="transition-all duration-150 hover:scale-105">
+                  <Image
+                    width={30}
+                    height={30}
+                    src={'/icons/shi.svg'}
+                    alt={data.title + ' self-hosted infrastructure'}
+                    className="h-10 w-10"
+                  />
+                </div>
+              )}
+              {data.otgi && (
+                <div title="Off the Grid Infrastructure" className="transition-all duration-150 hover:scale-105">
+                  <Image
+                    width={30}
+                    height={30}
+                    src={'/icons/otgi.svg'}
+                    alt={data.title + ' off-the-grid infrastructure'}
+                    className="h-10 w-10"
+                  />
+                </div>
+              )}
+              {data.restake && (
+                <div title="Auto Reward Re-Stake x2 p/day" className="transition-all duration-150 hover:scale-105">
+                  <Image
+                    width={30}
+                    height={30}
+                    src={'/icons/restake.svg'}
+                    alt={data.title + ' restake'}
+                    className="h-10 w-10"
+                  />
+                </div>
+              )}
+            </div>
           </div>
         </div>
         <div>
           <h1 className="text-nowrap text-3xl font-semibold">{data.title}</h1>
           <div className="mt-2 space-y-0.5">
-            <TxtCopyStr title="type" value={data.type} key={data.type} />
+            {/*<TxtCopyStr title="type" value={data.type} key={data.type} />*/}
             <TxtCopyStr title="chain id" value={data.chain_id} key={data.chain_id} />
-            {data.showTopChainEndpoints && data.endpoints && Object.entries(data.endpoints).map(([key, val]) => (
-              <TxtCopyStr title={key} value={val} key={key} />
-            ))}
+            {data.showTopChainEndpoints &&
+              data.endpoints &&
+              Object.entries(data.endpoints).map(([key, val]) => <TxtCopyStr title={key} value={val} key={key} />)}
           </div>
           <div className="mt-4 flex space-x-4">
-            <Link className="" href={data.explorer} rel="nofollow" target="_blank">
+            <Link className="" href={'https://validatorinfo.com/networks'} rel="nofollow" target="_blank">
               <Button external>Explorer</Button>
             </Link>
-            {data.stake && <Link className="" href={data.stake} rel="nofollow" target="_blank">
-              <Button external>Stake with Citizen Web3</Button>
-            </Link>}
+            {data.stake && (
+              <Link className="" href={data.stake} rel="nofollow" target="_blank">
+                <Button external>Stake with Citizen Web3</Button>
+              </Link>
+            )}
           </div>
         </div>
       </div>

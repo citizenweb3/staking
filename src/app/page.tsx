@@ -3,6 +3,8 @@ import { FC, Suspense } from 'react';
 import { getRepoChains } from '@/app/actions/repos';
 import ChainList from '@/app/components/chain-list/chain-list';
 import NetworksFilters from '@/app/components/chain-list/networks-filters';
+import ResetFilters from '@/app/components/chain-list/reset-filters';
+import { CATEGORIES } from '@/app/config';
 import {
   type Selected,
   buildCanonMaps,
@@ -12,7 +14,6 @@ import {
   uniqueStable,
 } from '@/app/utils/chain-list/filters-utils';
 import type { IChainConfig } from '@/types';
-import {CATEGORIES} from "@/app/config";
 
 type PageProps = { searchParams: Record<string, string | string[] | undefined> };
 
@@ -48,12 +49,16 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const provisionOptions = provisionOptionsCanon.map((k) => provMap.get(k) ?? k);
 
   return (
-    <div>
-      <div className="mb-10">
-        <NetworksFilters selected={selected.types} options={typeOptions} tag="type" title="Network Status" />
-        <NetworksFilters selected={selected.categories} options={categoryOptions} tag="category" title="Category" />
-        <NetworksFilters selected={selected.provisions} options={provisionOptions} tag="provision" title="Provisions" />
-      </div>
+    <div className="font-semibold">
+      <h1 className="text-center text-2xl ">Non Custodial Staking with Citizen Web3 Validator</h1>
+      <h2 className="mb-12 mt-6 text-center text-xl">
+        CW3 is a privacy-focused, self-hosted bare-metal validator.&nbsp;Located in the middle of the Atlantic ocean with off
+        the grid capabilities.
+      </h2>
+      <ResetFilters />
+      <NetworksFilters selected={selected.types} options={typeOptions} tag="type" title="Network Status" />
+      <NetworksFilters selected={selected.categories} options={categoryOptions} tag="category" title="Category" />
+      <NetworksFilters selected={selected.provisions} options={provisionOptions} tag="provision" title="Provisions" />
       <Suspense fallback={<ChainList chains={chains} selected={selected} />}>
         <ChainList chains={chains} selected={selected} />
       </Suspense>
