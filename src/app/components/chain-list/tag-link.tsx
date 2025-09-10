@@ -3,7 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { FC } from 'react';
 
-import { FacetKeys, makeCanon } from '@/app/utils/chain-list/filters-utils';
+import { FacetKeys, toSlug } from '@/app/utils/chain-list/filters-utils';
 
 type OwnProps = { facet: FacetKeys; value: string };
 
@@ -12,8 +12,8 @@ const TagLink: FC<OwnProps> = ({ facet, value }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const selectedCanon = (searchParams?.getAll(facet) ?? []).map(makeCanon);
-  const key = makeCanon(value);
+  const selectedCanon = (searchParams?.getAll(facet) ?? []).map(toSlug);
+  const key = toSlug(value);
   const active = selectedCanon.includes(key);
 
   const onClick = (e: React.MouseEvent) => {
