@@ -17,7 +17,15 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 script {
-                    git branch: "${BRANCH_TO_BUILD}", url: "${REPO_URL}", credentialsId: 'github-credentials'
+                    // Принудительно используем source-main независимо от того, какая ветка вызвала сборку
+                    checkout([
+                        $class: 'GitSCM',
+                        branches: [[name: 'source-main']],
+                        userRemoteConfigs: [[
+                            url: "${REPO_URL}",
+                            credentialsId: 'github-credentials'
+                        ]]
+                    ])
                 }
             }
         }
@@ -25,14 +33,16 @@ pipeline {
         stage('Prepare Env') {
             steps {
                 script {
-                    // Copy .env.example to .env.local if the example file exists.
-                    // This will not fail the build if .env.example is missing.
+                    // Проверяем и копируем env файлы из ветки source-main
                     sh '''
-                    if [ -f .env.example ]; then
-                      echo "Copying .env.example to .env.local"
-                      cp .env.example .env.local
+                    echo "Preparing environment files from source-main branch..."
+                    if [ -f .env.local ]; then
+                        echo "Found .env.local in source-main branch"
+                    elif [ -f .env.example ]; then
+                        echo "No .env.local found in source-main branch, copying from .env.example"
+                        cp .env.example .env.local
                     else
-                      echo ".env.example not found; skipping copy"
+                        echo "WARNING: Neither .env.local nor .env.example found in source-main branch!"
                     fi
                     '''
                 }
