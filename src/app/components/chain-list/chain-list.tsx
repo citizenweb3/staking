@@ -12,7 +12,6 @@ type OwnProps = {
 
 const ChainList: FC<OwnProps> = ({ chains, selected }) => {
   const filtered = applyFacetFilter(chains, selected);
-  const combinedCategory = 'AI+DePin';
 
   if (filtered.length === 0) {
     return (
@@ -27,23 +26,11 @@ const ChainList: FC<OwnProps> = ({ chains, selected }) => {
   let combined = false;
 
   for (const category of CATEGORIES) {
-    const cat = category.trim().toLowerCase();
-    if (cat === 'ai' || cat === 'depin') {
-      if (!combined) {
-        displayCategories.push(combinedCategory);
-        combined = true;
-      }
-      continue;
-    }
     displayCategories.push(category);
   }
 
   const inDisplaySection = (chain: IChainConfig, displayCategory: string) => {
     const originalCategories = normalizeArray((chain as any).category);
-    if (displayCategory === combinedCategory) {
-      const lower = originalCategories.map((c) => c.trim().toLowerCase());
-      return lower.includes('ai') || lower.includes('depin');
-    }
     return originalCategories.includes(displayCategory);
   };
 
