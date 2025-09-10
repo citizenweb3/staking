@@ -5,7 +5,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator", "Explorer", "Indexer", "Peers/Seeds"],
+    "provision": ["Validator", "Explorer", "Indexer", "Snapshot", "Archive", "Relayers"],
     "title": "Cosmos",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
@@ -33,7 +33,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator", "Explorer"],
+    "provision": ["Validator", "Explorer", "Indexer", "Staking-Interface", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Namada",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo.citizenweb3.com/staking",
@@ -65,7 +65,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator"],
+    "provision": ["Explorer", "Endpoints", "Snapshot", "Relayers", "Seed/Peers"],
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "",
@@ -93,7 +93,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Osmosis",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/osmosis/images/osmo.svg",
     "stake": "",
@@ -117,7 +117,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Governer", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Stride",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
     "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
@@ -145,7 +145,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
@@ -173,7 +173,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Atom One",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
     "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
@@ -200,7 +200,7 @@
     "category": [
       "AI+DePin"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Relayers"],
     "title": "Bostrom",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
@@ -222,7 +222,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Uptick",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
     "stake": "https://explorer.nodestake.org/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
@@ -250,7 +250,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Gravity Bridge",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
     "stake": "https://www.mintscan.io/wallet/stake?chain=gravity-bridge&src=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&type=stake",
@@ -279,7 +279,7 @@
     "category": [
       "AI+DePin"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Althea",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.svg",
     "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
@@ -311,7 +311,7 @@
     "category": [
       "AI+DePin"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Axone",
     "chain_id": "axone-1",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/axone-testnet/axone.svg",
@@ -340,7 +340,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["dVPN", "Explorer"],
     "chain_id": "nyx",
     "icon": "https://raw.githubusercontent.com/nymtech/nym/257e36ddcb408d301307b8ddf542b5275704e7d9/assets/logo/logo-bw.svg",
     "stake": "",
@@ -367,7 +367,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Oracle-Voter", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Symphony",
     "chain_id": "symphony-1",
     "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
@@ -394,7 +394,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator"],
+    "provision": ["RPC"],
     "title": "Bitcoin",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/bitcoin/bitcoin.svg",
     "explorer": "https://www.blockchain.com/explorer/blocks/btc?page=1",
@@ -411,7 +411,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator" ,"Explorer", "Indexer", "Staking-Interface", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Namada",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo-housefire.citizenweb3.com",
@@ -439,7 +439,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["Sequencer", "Prover", "Endpoints"],
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "https://aztecscan.xyz/l1/validators/0x7C5c8C46cbf3403E262d7da263E9d632fD32a07D",
@@ -456,34 +456,12 @@
     ]
   },
   {
-    "name": "pussy",
-    "type": "testnet",
-    "category": [
-      "Networks"
-    ],
-    "provision": ["Validator"],
-    "title": "Space-Pussy",
-    "chain_id": "space-pussy",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/space-pussy/space-pussy.svg",
-    "stake": "https://spacepussy.ai/network/bostrom/hero/pussyvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqhfj9et",
-    "explorer": "https://spacepussy.ai/cyberver/verses/pussy/graph",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
-  },
-  {
     "name": "axone",
     "type": "testnet",
     "category": [
       "AI+DePin"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Axone",
     "chain_id": "axone-dentrite-1",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/axone-testnet/axone.svg",
@@ -510,7 +488,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["Endpoints"],
     "title": "Citrea",
     "chain_id": "5115",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/citrea/citrea.svg",
@@ -528,7 +506,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Endpoints"],
     "title": "zkVerify",
     "chain_id": "zkVerify-testnet",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/zkverify/zkverify.svg",
@@ -546,7 +524,7 @@
     "category": [
       "AI+DePin"
     ],
-    "provision": ["Validator"],
+    "provision": ["Endpoints"],
     "title": "Linera",
     "chain_id": "testnet-babbage",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/linera/linera.svg",
@@ -564,7 +542,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["Store"],
     "title": "Waku",
     "chain_id": "",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/waku/waku.svg",
@@ -582,7 +560,7 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator"],
+    "provision": ["Endpoints"],
     "title": "DarkFi",
     "chain_id": "",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/darkfi/darkfi.svg",
@@ -600,7 +578,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator"],
+    "provision": ["Endpoints"],
     "title": "Nesa",
     "chain_id": "",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/nesa/nesa-logo.svg",
@@ -618,7 +596,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/wPeers"],
     "title": "Cosmos",
     "chain_id": "provider",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
@@ -646,7 +624,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/quicksilver/images/quicksilver-chain-logo.svg",
     "stake": "https://testnet-explorer.konsortech.xyz/quicksilver/staking/quickvaloper1pd6yhpkt557d85mwdmvgt0mxpcc24kv7w0xh8n",
@@ -675,7 +653,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer"],
     "title": "Symphony",
     "chain_id": "symphony-testnet-4",
     "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
@@ -702,7 +680,7 @@
     "category": [
       "AI+DePin"
     ],
-    "provision": ["Validator"],
+    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Warden",
     "chain_id": "chiado_10010-1",
     "icon": "https://raw.githubusercontent.com/warden-protocol/wardenprotocol/2362af8fd4d344b757e03295600c812d5f320921/snap/images/icon.svg",
