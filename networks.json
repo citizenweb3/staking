@@ -117,7 +117,7 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Governer", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": ["Validator", "Governor", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Stride",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
     "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
