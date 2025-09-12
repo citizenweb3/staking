@@ -49,42 +49,8 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
         <div className="mr-10">
           <Image src={data.icon} alt={data.title} width={200} height={200} />
           <div className="flex">
-            <div className="text-xl font-semibold self-end mr-4">Medals:</div>
+            <div className="mr-4 self-end text-xl font-semibold">Medals:</div>
             <div className="mt-8 flex space-x-4">
-              {data.website && (
-                <Link
-                  title={`${data.title} Website`}
-                  href={data.website}
-                  target="_blank"
-                  rel="nofollow"
-                  className="transition-all duration-150 hover:scale-105"
-                >
-                  <Image
-                    width={30}
-                    height={30}
-                    src={'/icons/website.svg'}
-                    alt={data.title + ' website'}
-                    className="h-10 w-10"
-                  />
-                </Link>
-              )}
-              {data.codebase?.git_repo && (
-                <Link
-                  title="GitHub repo"
-                  href={data.codebase.git_repo}
-                  target="_blank"
-                  rel="nofollow"
-                  className="transition-all duration-150 hover:scale-105"
-                >
-                  <Image
-                    width={30}
-                    height={30}
-                    src={'/icons/github.svg'}
-                    alt={data.title + ' github'}
-                    className="h-10 w-10"
-                  />
-                </Link>
-              )}
               {data.horcrux && (
                 <div title="Key Sharding via Horcrux" className="transition-all duration-150 hover:scale-105">
                   <Image
@@ -136,7 +102,7 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
           <h1 className="text-nowrap text-3xl font-semibold">{data.title}</h1>
           <div className="mt-2 space-y-0.5">
             {/*<TxtCopyStr title="type" value={data.type} key={data.type} />*/}
-            <TxtCopyStr title="chain id" value={data.chain_id} key={data.chain_id} />
+            {/*<TxtCopyStr title="chain id" value={data.chain_id} key={data.chain_id} />*/}
             {data.showTopChainEndpoints &&
               data.endpoints &&
               Object.entries(data.endpoints).map(([key, val]) => <TxtCopyStr title={key} value={val} key={key} />)}
@@ -151,6 +117,34 @@ const MainnetPage: FC<OwnProps> = async ({ params }) => {
               </Link>
             )}
           </div>
+          {data.website && (
+            <div className="mt-5 flex">
+              <div className="mr-3 font-semibold">Website:</div>
+              <Link
+                title={`${data.title} Website`}
+                href={data.website}
+                target="_blank"
+                rel="nofollow"
+                className="hover:underline"
+              >
+                {data.website}
+              </Link>
+            </div>
+          )}
+          {data.codebase?.git_repo && (
+            <div className="mt-5 flex">
+              <div className="mr-3 font-semibold">Github:</div>
+              <Link
+                title="GitHub repo"
+                href={data.codebase.git_repo}
+                target="_blank"
+                rel="nofollow"
+                className="hover:underline"
+              >
+                {data.codebase.git_repo}
+              </Link>
+            </div>
+          )}
         </div>
       </div>
       <div className="markdown mt-4">
