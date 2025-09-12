@@ -12,6 +12,7 @@ type OwnProps = {
 
 const ChainList: FC<OwnProps> = ({ chains, selected }) => {
   const filtered = applyFacetFilter(chains, selected);
+  const combinedCategory = 'AI + DePin';
 
   if (filtered.length === 0) {
     return (
@@ -26,19 +27,37 @@ const ChainList: FC<OwnProps> = ({ chains, selected }) => {
   let combined = false;
 
   for (const category of CATEGORIES) {
+    const cat = category.trim().toLowerCase();
+    if (cat === 'ai' || cat === 'depin') {
+      if (!combined) {
+        displayCategories.push(combinedCategory);
+        combined = true;
+      }
+      continue;
+    }
     displayCategories.push(category);
   }
 
   const inDisplaySection = (chain: IChainConfig, displayCategory: string) => {
     const originalCategories = normalizeArray((chain as any).category);
+    if (displayCategory === combinedCategory) {
+      const lower = originalCategories.map((c) => c.trim().toLowerCase());
+      return lower.includes('ai') || lower.includes('depin');
+    }
     return originalCategories.includes(displayCategory);
   };
 
   return (
     <>
       {displayCategories.map((displayCategory) => {
-        const items = filtered.filter((chain) => inDisplaySection(chain, displayCategory));
+        let items = filtered.filter((chain) => inDisplaySection(chain, displayCategory));
         if (items.length === 0) return null;
+
+        if (displayCategory === combinedCategory) {
+          const isAI = (c: IChainConfig) =>
+            normalizeArray((c as any).category).some((x) => x.trim().toLowerCase() === 'ai');
+          items = items.slice().sort((a, b) => +!isAI(a) - +!isAI(b));
+        }
 
         return (
           <div key={displayCategory} className="mb-8">
