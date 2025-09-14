@@ -5,7 +5,7 @@ export interface IChainConfig {
   provision: string[];
   title: string;
   icon: string;
-  type: 'mainnet' | 'testnet';
+  type?: 'mainnet' | 'testnet'| '';
   stake: string;
   explorer: string;
   contributions?: string;

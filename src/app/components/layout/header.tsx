@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Button from '@/app/components/common/button';
 
 const Header = () => (
-  <div className="group flex flex-row items-center justify-between">
+  <div className="flex flex-row items-center justify-between">
     <Link href={'/'} className="font-hisqaida">
-      <div className="flex flex-row items-center">
+      <div className="group flex flex-row items-center">
         <Image
           width={100}
           height={100}

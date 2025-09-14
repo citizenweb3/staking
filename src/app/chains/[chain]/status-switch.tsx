@@ -4,13 +4,18 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { FC } from 'react';
 
 import Switch from '@/app/components/common/switch';
-import { findOppositeByTitle } from '@/app/utils/chain-status-switcher';
 import type { IChainConfig } from '@/types';
 
 interface OwnProps {
   current: IChainConfig;
   allChains: IChainConfig[];
 }
+
+const findOppositeByTitle = (chains: IChainConfig[], current: IChainConfig) => {
+  if (!current?.title || !current?.type) return null;
+  const other = current.type === 'mainnet' ? 'testnet' : 'mainnet';
+  return chains.find((c) => c.title === current.title && c.type === other) ?? null;
+};
 
 const StatusSwitch: FC<OwnProps> = ({ current, allChains }) => {
   const router = useRouter();
@@ -33,14 +38,14 @@ const StatusSwitch: FC<OwnProps> = ({ current, allChains }) => {
 
   return (
     <div className="flex justify-self-center">
-      <div className="text-3xl font-semibold">Mainnet</div>
+      <div className="text-2xl font-semibold">Mainnet</div>
       <Switch
         checked={checked}
         onChange={onChange}
         className={`mx-8 self-center`}
         ariaLabel={checked ? 'Switch to mainnet' : 'Switch to testnet'}
       />
-      <div className="text-3xl font-semibold">Testnet</div>
+      <div className="text-2xl font-semibold">Testnet</div>
     </div>
   );
 };
