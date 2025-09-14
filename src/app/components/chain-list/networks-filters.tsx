@@ -47,9 +47,8 @@ const NetworksFilters: FC<OwnProps> = ({ selected, options, tag, title }) => {
         <button
           onClick={onClickAll}
           aria-pressed={isAll}
-          className={`rounded-md border px-3 py-1.5 text-sm font-semibold capitalize transition ${
-            isAll ? 'hover:bg-gray-100 border-gray-300 bg-white text-black' : 'border-black bg-black text-white'
-          }`}
+          className={`mx-1 my-1 rounded-md border border-grayLight px-2 py-0.5 text-sm font-semibold capitalize hover:bg-grayLight 
+          ${isAll ? 'bg-white text-black hover:bg-gray' : 'text-white'}`}
         >
           all
         </button>
@@ -61,9 +60,8 @@ const NetworksFilters: FC<OwnProps> = ({ selected, options, tag, title }) => {
               key={val}
               onClick={() => onToggle(label)}
               aria-pressed={active}
-              className={`rounded-md border px-3 py-1.5 text-sm font-semibold capitalize transition ${
-                active ? 'hover:bg-gray-100 border-gray-300 bg-white text-black' : 'border-black bg-black text-white'
-              }`}
+              className={`mx-1 my-1 rounded-md border border-grayLight px-2 py-0.5 text-sm font-semibold capitalize hover:bg-grayLight 
+              ${active ? 'bg-white text-black hover:bg-gray' : 'text-white'}`}
             >
               {label}
             </button>
