@@ -278,7 +278,6 @@
     "type": "mainnet",
     "category": [
       "DePin"
-      "DePin"
     ],
     "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
     "title": "Althea",
@@ -679,7 +678,6 @@
     "name": "warden",
     "type": "testnet",
     "category": [
-      "AI"
       "AI"
     ],
     "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
