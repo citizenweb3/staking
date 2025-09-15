@@ -49,7 +49,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const provisionOptions = provisionOptionsCanon.map((k) => provMap.get(k) ?? k);
 
   return (
-    <div className="font-semibold">
+    <div className="flex flex-col font-semibold">
       <h1 className="text-center text-2xl ">Non Custodial Staking with Citizen Web3 Validator</h1>
       <div className="mx-auto my-6 w-1/12 border-b text-center"></div>
       <h2 className="mb-2 mt-6 text-center text-xl">CW3 is a privacy-focused, self-hosted bare-metal validator.</h2>
