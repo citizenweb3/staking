@@ -102,7 +102,7 @@ const ChainList: FC<OwnProps> = ({ chains, selected }) => {
 
         return (
           <div key={displayCategory} className="mb-8">
-            <h1 className="mb-4 text-3xl font-bold">{displayCategory}</h1>
+            <h2 className="mb-4 text-3xl font-bold">{displayCategory}</h2>
             <div className="mt-4 grid grid-cols-1 gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
               {items.map((g) => (
                 <ChainCard
