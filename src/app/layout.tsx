@@ -9,31 +9,9 @@ import Header from '@/app/components/layout/header';
 
 import './globals.css';
 
-const zonaPro = localFont({
-  src: [
-    {
-      path: '../../public/fonts/ZonaPro-Regular.woff2',
-
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/ZonaPro-Bold.woff2',
-      weight: '700',
-      style: 'bold',
-    },
-    {
-      path: '../../public/fonts/ZonaPro-SemiBold.woff2',
-      weight: '600',
-      style: 'bold',
-    },
-    {
-      path: '../../public/fonts/ZonaPro-Black.woff2',
-      weight: '900',
-      style: 'black',
-    },
-  ],
-  variable: '--font-zp',
+const fontMain = localFont({
+  src: '../../public/fonts/RedHatDisplay.ttf',
+  variable: '--font-main',
 });
 
 const hisqaida = localFont({
@@ -48,13 +26,13 @@ const hisqaida = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Citizen Web3 staking',
-  description: 'Fast links to Citizen Web3 staking',
+  title: 'Non Custodial Staking with Citizen Web3 Validator',
+  description: 'Stake securely with Citizen Web3, a non-custodial, self-hosted bare-metal validator. Focused on Privacy networks. Offering public endpoints, archives, snapshots, and relayers. Off-the-grid infrastructure in the Atlantic Ocean for decentralized blockchain validation and rewards.',
 };
 
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <html lang="en" className={`${zonaPro.variable} ${hisqaida.variable}`}>
+    <html lang="en" className={`${fontMain.variable} ${hisqaida.variable}`}>
     <head>
       <title>Non Custodial Staking with Citizen Web3 Validator</title>
       <script defer data-domain="staking.citizenweb3.com" src="https://plausible.io/js/script.js"></script>
@@ -84,7 +62,7 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
 
       <link rel="canonical" href="https://staking.citizenweb3.com/"/>
     </head>
-    <body className={`${zonaPro.className} scrollbar-track-scroll-bg scrollbar-thumb-scroll-item`}>
+    <body className={`${fontMain.className} scrollbar-track-scroll-bg scrollbar-thumb-scroll-item`}>
     <div className="flex min-h-screen w-full flex-col justify-between bg-black px-8 py-4 text-white">
       <Header />
       <main className="flex-1 pt-10">{children}</main>

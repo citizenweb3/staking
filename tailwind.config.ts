@@ -82,7 +82,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        zp: ['var(--font-zp)'],
+        main: ['var(--font-main)'],
         hisqaida: ['var(--font-hisqaida)'],
       },
     },
