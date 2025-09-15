@@ -38,6 +38,8 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo.citizenweb3.com/staking",
     "explorer": "https://validatorinfo.com/networks/17/overview",
+    "website": "https://namada.net",
+    "codebase": { "git_repo": "https://github.com/namada-net/namada" },
     "chain_id": "namada.5f5de2dd1b88cba30586420",
     "horcrux": true,
     "shi": true,
