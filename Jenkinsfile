@@ -19,19 +19,35 @@ pipeline {
                 cleanWs()
             }
         }
-    
         stage('Checkout source-main') {
             steps {
                 script {
-                    git branch: "${BRANCH_TO_BUILD}", url: "${REPO_URL}", credentialsId: 'github-credentials'
+                    // Принудительно используем source-main независимо от того, какая ветка вызвала сборку
+                    git branch: 'source-main', 
+                        url: "${REPO_URL}",
+                        changelog: false, 
+                        poll: false
                 }
             }
         }
 
-        stage('Inject .env.local') {
+        stage('Prepare Env') {
             steps {
-                withCredentials([file(credentialsId: 'staking-env-local', variable: 'ENV_FILE')]) {
-                    sh 'cp "$ENV_FILE" .env.local'
+                script {
+                    // Проверяем и копируем env файлы из ветки source-main
+                    sh '''
+                    echo "Checking .env files from source-main branch..."
+                    if [ -f .env.example ]; then
+                        echo "Found .env.example in source-main branch"
+                        echo "Copying .env.example to .env.local"
+                        cp .env.example .env.local
+                        echo "Content of .env.local:"
+                        cat .env.local
+                    else
+                        echo "ERROR: .env.example not found in source-main branch!"
+                        exit 1
+                    fi
+                    '''
                 }
             }
         }
