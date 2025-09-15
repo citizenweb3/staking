@@ -70,34 +70,42 @@ const ChainPage: FC<OwnProps> = async ({ params }) => {
                 </Link>
               )}
             </div>
+            <div className="mt-4 flex space-x-4">
             {data.website && (
-              <div className="mt-5 flex">
-                <div className="mr-3 font-semibold">Website:</div>
                 <Link
-                  title={`${data.title} Website`}
-                  href={data.website}
-                  target="_blank"
-                  rel="nofollow"
-                  className="hover:underline"
+                    title={`${data.title} Website`}
+                    href={data.website}
+                    target="_blank"
+                    rel="nofollow"
+                    className="transition-all duration-150 hover:scale-105"
                 >
-                  {data.website}
+                  <Image
+                      width={30}
+                      height={30}
+                      src={'/icons/website.svg'}
+                      alt={data.title + ' website'}
+                      className="h-10 w-10"
+                  />
                 </Link>
-              </div>
             )}
             {data.codebase?.git_repo && (
-              <div className="mt-5 flex">
-                <div className="mr-3 font-semibold">Github:</div>
                 <Link
-                  title="GitHub repo"
-                  href={data.codebase.git_repo}
-                  target="_blank"
-                  rel="nofollow"
-                  className="hover:underline"
+                    title="GitHub repo"
+                    href={data.codebase.git_repo}
+                    target="_blank"
+                    rel="nofollow"
+                    className="transition-all duration-150 hover:scale-105"
                 >
-                  {data.codebase.git_repo}
+                  <Image
+                      width={30}
+                      height={30}
+                      src={'/icons/github.svg'}
+                      alt={data.title + ' github'}
+                      className="h-10 w-10"
+                  />
                 </Link>
-              </div>
             )}
+          </div>
           </div>
         </div>
       </div>
