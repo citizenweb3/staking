@@ -176,7 +176,7 @@
       "Networks"
     ],
     "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Relayers", "Endpoints", "Seed-Peers"],
-    "title": "Atom1",
+    "title": "AtomOne",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
     "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
     "explorer": "https://validatorinfo.com/networks/14/overview",
