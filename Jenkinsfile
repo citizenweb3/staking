@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "staking"
-        CONTAINER_NAME = "staking"
+        IMAGE_NAME = "monitor"
+        CONTAINER_NAME = "monitor"
         REPO_URL = "https://github.com/citizenweb3/staking.git"
-        BRANCH_TO_BUILD = "source-main"
+        BRANCH_TO_BUILD = "monitor-dev"
         DOCKER_REGISTRY = ""
     }
 
@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     // Принудительно используем source-main независимо от того, какая ветка вызвала сборку
-                    git branch: 'source-main', 
+                    git branch: 'monitor-dev', 
                         url: "${REPO_URL}",
                         changelog: false, 
                         poll: false
@@ -68,7 +68,7 @@ pipeline {
                     sh """
                     docker stop ${CONTAINER_NAME} || true
                     docker rm ${CONTAINER_NAME} || true
-                    docker run -d --name ${CONTAINER_NAME} -p 10000:3000 ${IMAGE_NAME}:latest
+                    docker run -d --name ${CONTAINER_NAME} -p 11000:3000 ${IMAGE_NAME}:latest
                     """
                 }
             }
