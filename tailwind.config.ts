@@ -21,6 +21,7 @@ const config: Config = {
       button: {
         bg: '#393939',
         bgHover: '#5e5e5e',
+        mainGray: '#4D4D50'
       },
       scroll: {
         item: '#1A1A1B',
@@ -84,6 +85,7 @@ const config: Config = {
       fontFamily: {
         main: ['var(--font-main)'],
         hisqaida: ['var(--font-hisqaida)'],
+        inter: ['var(--font-inter)'],
       },
     },
   },

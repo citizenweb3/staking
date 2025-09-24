@@ -17,6 +17,7 @@ const ChartLine: FC = () => {
       setChartType('Daily');
     }
   };
+
   return (
     <div className="mt-6">
       <div className="mr-28 flex justify-end">

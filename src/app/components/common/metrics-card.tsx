@@ -10,7 +10,7 @@ interface OwnProps {
   addLineClassName?: string;
 }
 
-const MetricsCard: FC<OwnProps> = ({ title, data, className = '', titleClassName = '', dataClassName = '' }) => {
+const ProjectCard: FC<OwnProps> = ({ title, data, className = '', titleClassName = '', dataClassName = '' }) => {
   return (
     <div
       className={`${className}     
@@ -28,4 +28,4 @@ const MetricsCard: FC<OwnProps> = ({ title, data, className = '', titleClassName
   );
 };
 
-export default MetricsCard;
+export default ProjectCard;
