@@ -259,3 +259,32 @@ export interface IChain {
 }
 
 export type IChains = Chain[];
+
+// Matches exactly the provided JSON structure.
+
+export interface ApiResponse {
+  identity: string;
+  moniker: string;
+  nodes: NodeItem[];
+}
+
+export interface NodeItem {
+  operatorAddress: string;
+  jailed: boolean | null; // widened
+  delegatorShares: string;
+  moniker: string;
+  identity: string;
+  rate: string | null; // widened
+  outstandingRewards: string | null;
+  delegatorsAmount: number | null;
+  missedBlocks: number | null;
+  uptime: number | null;
+  chain: {
+    chainId: string;
+    name: string;
+    prettyName: string;
+    params: { denom: string; minimalDenom: string; coinDecimals: number };
+    prices: { value: number; createdAt: string }[];
+    tokenomics: { apr: number | null; };
+  };
+}

@@ -1,8 +1,8 @@
 import NodeCache from 'node-cache';
 
-import { CONFIG_REPO, CONTRIBUTIONS_REPO } from '@/app/config';
+import { API_URL, CONFIG_REPO, CONTRIBUTIONS_REPO, VALIDATOR_IDENTITY } from '@/app/config';
 import deepValue from '@/app/utils/deep-value';
-import { IChain, IChainConfig, TChainItem } from '@/types';
+import { ApiResponse, IChain, IChainConfig, TChainItem } from '@/types';
 
 const cache = new NodeCache();
 
@@ -85,4 +85,17 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
   cache.set(`github/global-service/${chain.name}/${serviceName}`, globalService, 10);
 
   return globalService;
+};
+
+
+export const getValidatorData = async (): Promise<ApiResponse> => {
+  const cachedData = cache.get('api/validator');
+  if (cachedData) return cachedData as ApiResponse;
+
+  const res = (await fetch(`${API_URL}/api/monitor_api?identity=${VALIDATOR_IDENTITY}`).then((r) => {
+    return r.json();
+  })) as ApiResponse;
+
+  cache.set('api/validator', res, 10);
+  return res;
 };
