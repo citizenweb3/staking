@@ -3,17 +3,17 @@ import { FC } from 'react';
 import SortControls from '@/app/components/monitor/validator-networks/sort-controls';
 import ValidatorNetworksItem from '@/app/components/monitor/validator-networks/validator-networks-item';
 import { SortDir, SortKey, buildRows, sortRows } from '@/app/utils/monitor-table/prepare-table-data';
-import { IChainConfig, NodeItem } from '@/types';
+import { ApiResponse, IChainConfig, NodeItem } from '@/types';
 
 interface OwnProps {
   chains: IChainConfig[];
-  validatorData: NodeItem[];
+  validatorData: ApiResponse;
   sortKey: SortKey;
   sortDir: SortDir;
 }
 
 const ValidatorNetworks: FC<OwnProps> = ({ chains, validatorData, sortKey, sortDir }) => {
-  const rows = buildRows(chains, validatorData);
+  const rows = buildRows(chains, validatorData.nodes);
   const sorted = sortRows(rows, sortKey, sortDir);
 
   const thBtn =
@@ -21,7 +21,7 @@ const ValidatorNetworks: FC<OwnProps> = ({ chains, validatorData, sortKey, sortD
 
   return (
     <div>
-      <table className="mt-10 w-full table-auto">
+      <table className="mt-4 w-full table-auto">
         <thead>
           <tr className="bg-button-bg">
             <th>
@@ -54,10 +54,10 @@ const ValidatorNetworks: FC<OwnProps> = ({ chains, validatorData, sortKey, sortD
                 row.node ?? {
                   operatorAddress: '',
                   jailed: false,
-                  delegatorShares: '0',
+                  delegatorShares: null,
                   moniker: '',
                   identity: '',
-                  rate: '0',
+                  rate: null,
                   outstandingRewards: null,
                   delegatorsAmount: null,
                   missedBlocks: null,
@@ -73,6 +73,7 @@ const ValidatorNetworks: FC<OwnProps> = ({ chains, validatorData, sortKey, sortD
                 }
               }
               totalSecure={row.totalSecure}
+              validatorInfoId={validatorData.id}
             />
           ))}
         </tbody>

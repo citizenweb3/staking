@@ -9,8 +9,8 @@ import Player from '@/app/components/monitor/player';
 import SocialIcons from '@/app/components/monitor/social-icons';
 import ValidatorLinks from '@/app/components/monitor/validator-links';
 import ValidatorNetworks from '@/app/components/monitor/validator-networks/validator-networks';
-import { IChainConfig } from '@/types';
 import { SortDir, SortKey } from '@/app/utils/monitor-table/prepare-table-data';
+import { IChainConfig } from '@/types';
 
 type PageProps = { searchParams: Record<string, string | string[] | undefined> };
 
@@ -23,22 +23,27 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
 
   return (
     <div>
-      <div className="mb-10 flex flex-row items-end justify-between">
-        <div className="ml-7 flex flex-col">
-          <ValidatorLinks />
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="mb-4 flex text-2xl font-semibold">Citizen Web3 Validator and Public Projects Monitor</h1>
+        <ValidatorLinks />
+      </div>
+      <div className="-mt-14 mb-12 flex flex-row justify-between">
+        <div className="">
           <Player />
         </div>
-        <SocialIcons />
+        <div className="">
+          <SocialIcons />
+        </div>
       </div>
-      <Subtitle text={'Title'} size={'h2'} />
+      <Subtitle text={'Citizen Web3 Validator Total Value Secured and Total Delegators'} size={'h2'} />
       <ChartLine />
-      <Subtitle text={'Title'} size={'h2'} />
+      <Subtitle text={'Operator Rewards Statistics and Infrastructure Perks'} size={'h2'} />
       <div className="mb-8 mt-10 flex flex-col items-center justify-center">
         <Medals />
         <MetricsCards />
       </div>
-      <Subtitle text={'Title'} size={'h2'} />
-      <ValidatorNetworks chains={chains} validatorData={validatorData.nodes} sortKey={sortKey} sortDir={sortDir} />
+      <Subtitle text={'Citizen Web3 Validator Supported Networks and Tokens'} size={'h2'} />
+      <ValidatorNetworks chains={chains} validatorData={validatorData} sortKey={sortKey} sortDir={sortDir} />
     </div>
   );
 };

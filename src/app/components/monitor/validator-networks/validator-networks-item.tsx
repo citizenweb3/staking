@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FC } from 'react';
 
 import { fmt } from '@/app/utils/format-money';
@@ -6,9 +7,10 @@ import { NodeItem } from '@/types';
 interface OwnProps {
   node: NodeItem;
   totalSecure: number | null;
+  validatorInfoId: number | null;
 }
 
-const ValidatorNetworksItem: FC<OwnProps> = ({ node, totalSecure }) => {
+const ValidatorNetworksItem: FC<OwnProps> = ({ node, totalSecure, validatorInfoId }) => {
   const cn = 'rounded-md border border-solid border-white/40 py-3 -m-0.5';
 
   const dailyCommission =
@@ -20,12 +22,21 @@ const ValidatorNetworksItem: FC<OwnProps> = ({ node, totalSecure }) => {
     <tr className="">
       <td className="text-center">
         <div className={`relative ${cn}`}>
-          <div className="relative capitalize">{node.chain.name}</div>
+          <Link
+            href={
+              validatorInfoId && node.operatorAddress
+                ? `https://validatorinfo.com/validators/${validatorInfoId}/${node.operatorAddress}/validator_passport/authz/withdraw_rewards`
+                : '/'
+            }
+            target={'_blank'}
+          >
+            <div className="relative capitalize">{node.chain.name}</div>
+          </Link>
           <div className={`absolute right-1.5 top-1.5 h-2 w-2 rounded-full ${node.jailed ? 'bg-red' : 'bg-green'} `} />
         </div>
       </td>
       <td className="text-center">
-        <div className={cn}>{node.rate ? +node.rate * 100 : '-'}</div>
+        <div className={cn}>{node.rate ? `${+node.rate * 100}%` : '-'}</div>
       </td>
       <td className="text-center">
         <div className={cn}>{dailyCommission ? `$${fmt.format(dailyCommission)}` : '-'}</div>

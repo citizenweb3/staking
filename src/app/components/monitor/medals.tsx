@@ -21,7 +21,7 @@ const Medals = async () => {
       <div title="Github" className="transition-all duration-150 hover:scale-105">
         <Image width={30} height={30} src="/icons/medals/github.svg" alt={`github`} className="h-20 w-20" />
       </div>
-      <div title="Off the Grid Infrastructure" className="transition-all duration-150 hover:scale-105">
+      <div title="Key Sharding via Horcrux" className="transition-all duration-150 hover:scale-105">
         <Image
           width={30}
           height={30}

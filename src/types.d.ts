@@ -263,6 +263,7 @@ export type IChains = Chain[];
 // Matches exactly the provided JSON structure.
 
 export interface ApiResponse {
+  id: number;
   identity: string;
   moniker: string;
   nodes: NodeItem[];
@@ -270,11 +271,11 @@ export interface ApiResponse {
 
 export interface NodeItem {
   operatorAddress: string;
-  jailed: boolean | null; // widened
-  delegatorShares: string;
+  jailed: boolean | null;
+  delegatorShares: string | null;
   moniker: string;
   identity: string;
-  rate: string | null; // widened
+  rate: string | null;
   outstandingRewards: string | null;
   delegatorsAmount: number | null;
   missedBlocks: number | null;
