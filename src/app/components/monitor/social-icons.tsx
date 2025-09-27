@@ -8,7 +8,7 @@ const logoWrap = 'relative aspect-square w-14 rounded-full';
 
 const SocialIcons: FC = () => {
   return (
-    <div className="flex flex-row items-center justify-between gap-x-12">
+    <div className="flex flex-row items-center justify-between gap-x-4">
       <Link href="https://validatorinfo.com" className={cardBase} aria-label="validatorinfo.com">
         <div className={logoWrap}>
           <Image src="/img/logo/valinfo.png" alt="validatorinfo.com logo" fill className="object-contain" />

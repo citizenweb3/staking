@@ -4,7 +4,7 @@ import { FC } from 'react';
 
 const ValidatorLinks: FC = () => {
   return (
-    <div className="flex my-2">
+    <div className="flex flex-row my-2 gap-x-4">
       <Link
         title="Website"
         href="https://citizenweb3.com"
@@ -12,7 +12,7 @@ const ValidatorLinks: FC = () => {
         rel="nofollow"
         className="transition-all duration-150 hover:scale-105"
       >
-        <Image width={30} height={30} src={'/icons/web.png'} alt="website" className="h-10 w-10" />
+        <Image width={30} height={30} src={'/icons/web.png'} alt="website" className="h-14 w-14" />
       </Link>
       <Link
         title="Github"
@@ -21,7 +21,7 @@ const ValidatorLinks: FC = () => {
         rel="nofollow"
         className="transition-all duration-150 hover:scale-105"
       >
-        <Image width={30} height={30} src={'/icons/github.png'} alt="github" className="h-10 w-10" />
+        <Image width={30} height={30} src={'/icons/github.png'} alt="github" className="h-14 w-14" />
       </Link>
       <Link
         title="Twitter (X)"
@@ -30,7 +30,7 @@ const ValidatorLinks: FC = () => {
         rel="nofollow"
         className="transition-all duration-150 hover:scale-105"
       >
-        <Image width={30} height={30} src={'/icons/x.png'} alt="Twitter (X)" className="h-10 w-10" />
+        <Image width={30} height={30} src={'/icons/x.png'} alt="Twitter (X)" className="h-14 w-14" />
       </Link>
     </div>
   );
