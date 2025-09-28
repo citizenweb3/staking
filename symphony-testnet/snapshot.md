@@ -24,7 +24,7 @@ rm -r $HOME/.symphonyd/wasm
 
 ### Download and decompress the snapshot
 ```bash
-curl https://mainnet-snapshots.citizenweb3.com/symphony/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.symphonyd
+curl https://testnet-snapshots.citizenweb3.com/symphony/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.symphonyd
 ```
 
 ### Replace the backed-up validator state (for validators only)

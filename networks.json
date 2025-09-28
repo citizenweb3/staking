@@ -308,7 +308,7 @@
     ]
   },
   {
-    "name": "axone-mainnet",
+    "name": "axone",
     "type": "mainnet",
     "category": [
       "AI"
@@ -368,7 +368,7 @@
     ]
   },
   {
-    "name": "symphony-mainnet",
+    "name": "symphony",
     "type": "mainnet",
     "category": [
       "DeFi"
@@ -416,7 +416,7 @@
     ]
   },
   {
-    "name": "namadatestnet",
+    "name": "namada-testnet",
     "type": "testnet",
     "category": [
       "Privacy"
@@ -446,7 +446,7 @@
     ]
   },
   {
-    "name": "aztectestnet",
+    "name": "aztec-testnet",
     "type": "testnet",
     "category": [
       "Privacy"
@@ -470,7 +470,7 @@
     ]
   },
   {
-    "name": "axone",
+    "name": "axone-testnet",
     "type": "testnet",
     "category": [
       "AI"
@@ -649,7 +649,7 @@
     ]
   },
   {
-    "name": "quicksilvertestnet",
+    "name": "quicksilver-testnet",
     "type": "testnet",
     "category": [
       "DeFi"
@@ -680,7 +680,7 @@
     ]
   },
   {
-    "name": "symphony",
+    "name": "symphony-testnet",
     "type": "testnet",
     "category": [
       "DeFi"

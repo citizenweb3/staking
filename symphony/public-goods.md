@@ -3,14 +3,14 @@
 <details open>
   <summary>Endpoints</summary>
   <br>
-  RPC: <a href="https://rpc.symphony-testnet.citizenweb3.com/">https://rpc.symphony-testnet.citizenweb3.com/</a><br>
-  REST: <a href="https://api.symphony-testnet.citizenweb3.com/">https://api.symphony-testnet.citizenweb3.com/</a><br>
-  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.symphony-testnet.citizenweb3.com">grpc.symphony-testnet.citizenweb3.com</span>
+  RPC: <a href="https://rpc.symphony.citizenweb3.com/">https://rpc.symphony.citizenweb3.com/</a><br>
+  REST: <a href="https://api.symphony.citizenweb3.com/">https://api.symphony.citizenweb3.com/</a><br>
+  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.symphony.citizenweb3.com">grpc.symphony.citizenweb3.com</span>
 </details>
 <br>
 <details>
   <summary>Seed</summary>
-3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056
+3f934b3a5def38b1810d370b1aac9f2205713eeb@78.46.79.242:32756
 </details>
 <br>
 <details>
@@ -34,7 +34,7 @@
 <br>
 <details>
   <summary>Governance</summary>
-  <a href="https://testnet.explorer.nodeshub.online/symphony/gov">Voting History</a><br>
+  <a href="https://explorer.corenodehq.xyz/symphony-mainnet/gov">Voting History</a><br>
 </details>
 <br>
 <details>

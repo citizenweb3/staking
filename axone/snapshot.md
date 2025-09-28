@@ -24,7 +24,7 @@ rm -r $HOME/.axoned/wasm
 
 ### Download and decompress the snapshot
 ```bash
-curl https://testnet-snapshots.citizenweb3.com/axone/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.axoned
+curl https://mainnet-snapshots.citizenweb3.com/axone/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.axoned
 ```
 
 ### Replace the backed-up validator state (for validators only)
