@@ -254,7 +254,7 @@
     ],
     "provision": ["Validator", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Gravity Bridge",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
     "stake": "https://www.mintscan.io/wallet/stake?chain=gravity-bridge&src=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&type=stake",
     "explorer": "https://validatorinfo.com/networks/9/overview",
     "horcrux": true,
