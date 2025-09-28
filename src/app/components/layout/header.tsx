@@ -22,10 +22,10 @@ const Header = () => (
     </Link>
 
     <div className="flex space-x-2">
-      <Link href={``} target="_blank" rel="nofollow" className="text-base">
+      <Link href={`https://monitor.citizenweb3.com`} target="_blank" rel="nofollow" className="text-base">
         <Button external>Monitor</Button>
       </Link>
-      <Link href={`https://validatorinfo.com/networks`} target="_blank" rel="nofollow" className="text-base">
+      <Link href={`https://validatorinfo.com`} target="_blank" rel="nofollow" className="text-base">
         <Button external>Val Info</Button>
       </Link>
       <Link href={`https://www.citizenweb3.com/episodes`} target="_blank" rel="nofollow" className="text-base">
