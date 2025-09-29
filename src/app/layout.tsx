@@ -65,7 +65,7 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
     <body className={`${fontMain.className} scrollbar-track-scroll-bg scrollbar-thumb-scroll-item`}>
     <div className="flex min-h-screen w-full flex-col justify-between bg-black px-8 py-4 text-white">
       <Header />
-      <main className="flex-1 pt-10">{children}</main>
+      <main className="flex-1 pt-6">{children}</main>
       <Footer />
     </div>
     <ToastContainer
