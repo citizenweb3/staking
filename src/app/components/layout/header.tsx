@@ -25,9 +25,6 @@ const Header = () => (
       <Link href={`https://monitor.citizenweb3.com`} target="_blank" rel="nofollow" className="text-base">
         <Button external>Monitor</Button>
       </Link>
-      <Link href={`https://validatorinfo.com`} target="_blank" rel="nofollow" className="text-base">
-        <Button external>Val Info</Button>
-      </Link>
       <Link href={`https://www.citizenweb3.com/episodes`} target="_blank" rel="nofollow" className="text-base">
         <Button external>Podcast</Button>
       </Link>
