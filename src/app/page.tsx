@@ -5,7 +5,7 @@ import ChainList from '@/app/components/chain-list/chain-list';
 import NetworksFilters from '@/app/components/chain-list/networks-filters';
 import Player from '@/app/components/chain-list/player';
 import ResetFilters from '@/app/components/chain-list/reset-filters';
-import SocialIcons from '@/app/components/chain-list/socia-icons';
+import SocialIcons from '@/app/components/chain-list/social-icons';
 import ValidatorLinks from '@/app/components/chain-list/validator-links';
 import { CATEGORIES } from '@/app/config';
 import {
