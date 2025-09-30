@@ -11,21 +11,21 @@ const SocialIcons: FC = () => {
     <div className="flex flex-row items-center justify-between gap-x-4">
       <Link href="https://validatorinfo.com" className={cardBase} aria-label="validatorinfo.com">
         <div className={logoWrap}>
-          <Image src="/img/logo/valinfo.png" alt="validatorinfo.com logo" fill className="object-contain" />
+          <Image src="/img/icons/logo/valinfo.png" alt="validatorinfo.com logo" fill className="object-contain" />
         </div>
         <span className={dot} />
       </Link>
 
       <Link href="https://bvc.citizenweb3.com" className={cardBase} aria-label="BVC">
         <div className={logoWrap}>
-          <Image src="/img/logo/bvc.png" alt="bvc logo" fill className="object-contain" />
+          <Image src="/img/icons/logo/bvc.png" alt="bvc logo" fill className="object-contain" />
         </div>
         <span className={dot} />
       </Link>
 
       <Link href="https://t.me/web_3_society" className={cardBase} aria-label="Web3 Society">
         <div className={logoWrap}>
-          <Image src="/img/logo/web3c.png" alt="web society logo" fill className="object-contain" />
+          <Image src="/img/icons/logo/web3c.png" alt="web society logo" fill className="object-contain" />
         </div>
         <span className={dot} />
       </Link>
