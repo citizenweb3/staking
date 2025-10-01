@@ -61,7 +61,7 @@ const ChainPage: FC<OwnProps> = async ({ params }) => {
                 Object.entries(data.endpoints).map(([key, val]) => <TxtCopyStr title={key} value={val} key={key} />)}
             </div>
             <div className="mt-4 flex space-x-4">
-              <Link href="https://validatorinfo.com/networks" rel="nofollow" target="_blank">
+              <Link href={`https://validatorinfo.com/networks/${data.name}/overview`} rel="nofollow" target="_blank">
                 <Button external>Explorer</Button>
               </Link>
               {data.stake && (
