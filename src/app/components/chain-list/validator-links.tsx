@@ -12,7 +12,7 @@ const ValidatorLinks: FC = () => {
         rel="nofollow"
         className="transition-all duration-150 hover:scale-105"
       >
-        <Image width={30} height={30} src={'/icons/web.png'} alt="website" className="h-14 w-14" />
+        <Image width={30} height={30} src={'/icons/website.svg'} alt="website" className="h-14 w-14" />
       </Link>
       <Link
         title="Github"
@@ -21,7 +21,7 @@ const ValidatorLinks: FC = () => {
         rel="nofollow"
         className="transition-all duration-150 hover:scale-105"
       >
-        <Image width={30} height={30} src={'/icons/github.png'} alt="github" className="h-14 w-14" />
+        <Image width={30} height={30} src={'/icons/github.svg'} alt="github" className="h-14 w-14" />
       </Link>
       <Link
         title="Twitter (X)"

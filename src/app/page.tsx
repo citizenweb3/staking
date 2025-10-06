@@ -53,14 +53,6 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
 
   return (
     <div className="flex flex-col font-semibold">
-      <div className="mb-8 flex flex-row justify-between">
-        <div>
-          <Player />
-        </div>
-        <div>
-          <SocialIcons />
-        </div>
-      </div>
       <h1 className="text-center text-2xl ">Non Custodial Staking with Citizen Web3 Validator</h1>
       <div className="mx-auto my-6 w-1/12 border-b text-center"></div>
       <h2 className="mb-2 text-center text-xl">CW3 is a privacy-focused, self-hosted bare-metal validator.</h2>
