@@ -2,7 +2,7 @@ import NodeCache from 'node-cache';
 
 import { API_URL, CONFIG_REPO, CONTRIBUTIONS_REPO, VALIDATOR_IDENTITY } from '@/app/config';
 import deepValue from '@/app/utils/deep-value';
-import { ApiResponse, IChain, IChainConfig, TChainItem } from '@/types';
+import { ApiResponse, IChain, IChainConfig, NodeItem, TChainItem } from '@/types';
 
 const cache = new NodeCache();
 
@@ -76,7 +76,10 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
     if (param[0] === ':') {
       const [_, path, template, separator] = param.split(':');
       const arr: any = deepValue(chain, path);
-      return arr.map?.((item: any) => template.replace(/{(.+?)}/g, (_, subParam) => item[subParam])).join(separator) ?? `<${path}> - Not found in config`;
+      return (
+        arr.map?.((item: any) => template.replace(/{(.+?)}/g, (_, subParam) => item[subParam])).join(separator) ??
+        `<${path}> - Not found in config`
+      );
     }
 
     return deepValue(chain, param) as string;
@@ -87,15 +90,14 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
   return globalService;
 };
 
+export const getValidatorData = async (): Promise<NodeItem[]> => {
+  const all: NodeItem[] = [];
 
-export const getValidatorData = async (): Promise<ApiResponse> => {
-  const cachedData = cache.get('api/validator');
-  if (cachedData) return cachedData as ApiResponse;
-
-  const res = (await fetch(`${API_URL}/api/monitor_api?identity=${VALIDATOR_IDENTITY}`).then((r) => {
-    return r.json();
-  })) as ApiResponse;
-
-  cache.set('api/validator', res, 10);
-  return res;
+  for (const identity of VALIDATOR_IDENTITY) {
+    const res = (await fetch(`${API_URL}/api/monitor_api?identity=${identity}`).then((r) => r.json())) as ApiResponse;
+    if (Array.isArray(res.nodes) && res.nodes.length) {
+      all.push(...res.nodes.map((n) => ({ ...n, validatorId: res.id })));
+    }
+  }
+  return all;
 };

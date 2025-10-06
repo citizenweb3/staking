@@ -8,25 +8,41 @@ const Medals = async () => {
           width={30}
           height={30}
           src="/icons/medals/otgi.svg"
-          alt={`off-the-grid infrastructure`}
+          alt={`Off-the-grid Infrastructure`}
           className="h-20 w-20"
         />
-      </div>
-      <div title="Keyhole" className="transition-all duration-150 hover:scale-105">
-        <Image width={30} height={30} src="/icons/medals/keyhole.svg" alt={`keyhole`} className="h-20 w-20" />
-      </div>
-      <div title="Eco" className="transition-all duration-150 hover:scale-105">
-        <Image width={30} height={30} src="/icons/medals/eco.svg" alt={`eco`} className="h-20 w-20" />
-      </div>
-      <div title="Github" className="transition-all duration-150 hover:scale-105">
-        <Image width={30} height={30} src="/icons/medals/github.svg" alt={`github`} className="h-20 w-20" />
       </div>
       <div title="Key Sharding via Horcrux" className="transition-all duration-150 hover:scale-105">
         <Image
           width={30}
           height={30}
+          src="/icons/medals/keyhole.svg"
+          alt={`Key Sharding via Horcrux`}
+          className="h-20 w-20"
+        />
+      </div>
+      <div title="Green Energy" className="transition-all duration-150 hover:scale-105">
+        <Image
+          width={30}
+          height={30}
+          src="/icons/medals/eco.svg"
+          alt={`Green Energy`}
+          className="h-20 w-20" />
+      </div>
+      <div title="Github" className="transition-all duration-150 hover:scale-105">
+        <Image
+          width={30}
+          height={30}
+          src="/icons/medals/github.svg"
+          alt={`Github`}
+          className="h-20 w-20" />
+      </div>
+      <div title="Self-hosted Infrastructure" className="transition-all duration-150 hover:scale-105">
+        <Image
+          width={30}
+          height={30}
           src="/icons/medals/horcrux.svg"
-          alt={`off-the-grid-infrastructure`}
+          alt={`Self-hosted Infrastructure`}
           className="h-20 w-20"
         />
       </div>

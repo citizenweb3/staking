@@ -4,33 +4,33 @@ import { FC } from 'react';
 
 const ValidatorLinks: FC = () => {
   return (
-    <div className="flex flex-row my-2 gap-x-4">
+    <div className="flex flex-row my-2 gap-x-10">
       <Link
         title="Website"
         href="https://citizenweb3.com"
         target="_blank"
         rel="nofollow"
-        className="transition-all duration-150 hover:scale-105"
+        className="transition-all duration-150 hover:scale-110"
       >
-        <Image width={30} height={30} src={'/icons/web.png'} alt="website" className="h-14 w-14" />
+        <Image width={60} height={60} src={'/icons/website.svg'} alt="website" className="h-8 w-8" />
       </Link>
       <Link
         title="Github"
         href="https://github.com/citizenweb3"
         target="_blank"
         rel="nofollow"
-        className="transition-all duration-150 hover:scale-105"
+        className="transition-all duration-150 hover:scale-110"
       >
-        <Image width={30} height={30} src={'/icons/github.png'} alt="github" className="h-14 w-14" />
+        <Image width={60} height={60} src={'/icons/github.svg'} alt="github" className="h-8 w-8" />
       </Link>
       <Link
         title="Twitter (X)"
         href="https://x.com/citizen_web3"
         target="_blank"
         rel="nofollow"
-        className="transition-all duration-150 hover:scale-105"
+        className="transition-all duration-150 hover:scale-110"
       >
-        <Image width={30} height={30} src={'/icons/x.png'} alt="Twitter (X)" className="h-14 w-14" />
+        <Image width={60} height={60} src={'/icons/x.svg'} alt="Twitter (X)" className="h-8 w-8" />
       </Link>
     </div>
   );

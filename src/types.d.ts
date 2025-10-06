@@ -270,6 +270,8 @@ export interface ApiResponse {
 }
 
 export interface NodeItem {
+  totalSecure: number | null;
+  validatorId: number;
   operatorAddress: string;
   jailed: boolean | null;
   delegatorShares: string | null;
@@ -288,4 +290,9 @@ export interface NodeItem {
     prices: { value: number; createdAt: string }[];
     tokenomics: { apr: number | null; };
   };
+}
+
+export interface InfrastructureItem {
+  name: string;
+  infrastructure: string[];
 }
