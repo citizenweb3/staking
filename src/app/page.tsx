@@ -53,21 +53,13 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
 
   return (
     <div className="flex flex-col font-semibold">
-      <div className="mb-8 flex flex-row justify-between">
-        <div>
-          <Player />
-        </div>
-        <div>
-          <SocialIcons />
-        </div>
-      </div>
       <h1 className="text-center text-2xl ">Non Custodial Staking with Citizen Web3 Validator</h1>
       <div className="mx-auto my-6 w-1/12 border-b text-center"></div>
       <h2 className="mb-2 text-center text-xl">CW3 is a privacy-focused, self-hosted bare-metal validator.</h2>
       <h2 className="text-center text-xl">
         Located in the middle of the Atlantic ocean with off the grid capabilities.
       </h2>
-      <div className="mb-6 flex flex-col items-center justify-center">
+      <div className="mb-8 mt-2 flex flex-col items-center justify-center">
         <ValidatorLinks />
       </div>
       <NetworksFilters selected={selected.types} options={typeOptions} tag="type" title="Network Status" />

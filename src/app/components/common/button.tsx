@@ -14,6 +14,7 @@ interface OwnProps {
   variant?: TVariants;
   pulse?: boolean;
   external?: boolean;
+  className?: string;
 }
 const Button: FC<PropsWithChildren<OwnProps>> = ({
   children,
@@ -22,11 +23,12 @@ const Button: FC<PropsWithChildren<OwnProps>> = ({
   variant = 'filled',
   pulse = false,
   external = false,
+  className = ''
 }) => {
   return (
     <button
       type={type}
-      className={`${variantClasses[variant]} ${pulse ? 'animate-pulse' : ''} relative cursor-pointer rounded-md px-8 py-2 uppercase text-white transition-all duration-150 hover:scale-105`}
+      className={`${variantClasses[variant]} ${className} ${pulse ? 'animate-pulse' : ''} font-semibold relative cursor-pointer uppercase rounded-md px-8 py-2 text-white transition-all duration-150 hover:scale-105`}
       onClick={onClick}
     >
       {external && (
