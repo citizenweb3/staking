@@ -21,6 +21,7 @@
       "seed/peer": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/cosmos",
     "services": [
       "public-goods",
       "peers",
@@ -53,6 +54,7 @@
       "seed/peer": "tcp://509f1e843cf881650a4151aa804ddd7a7188e88f@195.201.197.246:32656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/namada",
     "services": [
       "public-goods",
       "peers",
@@ -83,6 +85,7 @@
       "seed/peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
     },
     "generatedServices": [],
+    "twitter": "https://x.com/celestia",
     "services": [
       "public-goods",
       "peers",
@@ -107,6 +110,7 @@
       "seed/peer": "039e0725baf0b7eb79dcb5b4245e0b9049c6c91a@168.119.37.164:12956"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/osmosiszone",
     "services": [
       "public-goods",
       "peers",
@@ -135,6 +139,7 @@
       "seed/peer": "aab3f03bfb030244e018f20681b2ac6b9ad0d0f7@mainnet.seednode.citizenweb3.com:30656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/stride_zone",
     "services": [
       "public-goods",
       "peers",
@@ -163,6 +168,7 @@
       "seed/peer": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/quicksilverzone",
     "services": [
       "public-goods",
       "peers",
@@ -190,6 +196,7 @@
       "seed/peer": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
     },
     "generatedServices": [],
+    "twitter": "https://x.com/_atomone",
     "services": [
       "public-goods",
       "peers",
@@ -212,6 +219,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://twitter.com/BostromNet",
     "services": [
       "public-goods",
       "peers",
@@ -240,6 +248,7 @@
       "seed/peer": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
     },
     "generatedServices": [],
+    "twitter": "https://x.com/uptickproject",
     "services": [
       "public-goods",
       "peers",
@@ -269,6 +278,7 @@
       "seed/peer": "cba79db1bb3a5438fb293da0a627a8450f053941@mainnet.seednode.citizenweb3.com:34656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/gravity_bridge",
     "services": [
       "public-goods",
       "peers",
@@ -301,6 +311,7 @@
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/althea",
     "services": [
       "public-goods",
       "peers",
@@ -331,6 +342,7 @@
       "seed/peer": "b4629105b507792188a79fdb70f03262507cb5fc@78.46.79.242:17656"
     },
     "generatedServices": [],
+    "twitter": "https://x.com/axonexyz",
     "services": [
       "public-goods",
       "peers",
@@ -361,6 +373,7 @@
       "seed/peer": "853895754a25d5a09617f304fc1b43e1645c9fa1@78.46.79.242:19056"
     },
     "generatedServices": [],
+    "twitter": "https://nym.com/go/x",
     "services": [
       "public-goods",
       "peers",
@@ -390,6 +403,7 @@
       "seed/peer": "3f934b3a5def38b1810d370b1aac9f2205713eeb@78.46.79.242:32756"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/OrchestraLabs",
     "services": [
       "public-goods",
       "peers",
@@ -411,6 +425,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://twitter.com/Bitcoin",
     "services": [
       "public-goods"
     ]
@@ -437,6 +452,7 @@
       "seed/peer": "tcp://1dae6535bf5e4663ccb7c7294c129221b6018d22@168.119.37.164:31656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/namada",
     "services": [
       "public-goods",
       "peers",
@@ -465,6 +481,7 @@
       "rpc": "https://rpc.aztec-testnet.citizenweb3.com"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/AztecNetwork",
     "services": [
       "public-goods"
     ]
@@ -492,6 +509,7 @@
       "seed/peer": "1027bd6727dd50c4878594b7018396ec5a4cf1cf@195.201.197.246:31656"
     },
     "generatedServices": [],
+    "twitter": "https://x.com/axonexyz",
     "services": [
       "public-goods",
       "peers",
@@ -514,6 +532,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://twitter.com/citrea_xyz",
     "services": [
       "public-goods"
     ]
@@ -534,6 +553,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://x.com/ZKVProtocol",
     "services": [
       "public-goods"
     ]
@@ -554,6 +574,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://x.com/linera_io",
     "services": [
       "public-goods"
     ]
@@ -574,6 +595,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://twitter.com/waku_org",
     "services": [
       "public-goods"
     ]
@@ -594,6 +616,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://twitter.com/DarkFiSquad",
     "services": [
       "public-goods"
     ]
@@ -614,6 +637,7 @@
     "shi": true,
     "otgi": true,
     "generatedServices": [],
+    "twitter": "https://x.com/nesaorg",
     "services": [
       "public-goods"
     ]
@@ -642,6 +666,7 @@
       "seed/peer": "736e65e94044b3c7fb158777223dce48047441fd@195.201.197.246:30656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/cosmos",
     "services": [
       "public-goods",
       "peers",
@@ -673,6 +698,7 @@
       "seed/peer": "25fff0b03188a1bda4ae87a64a8b43b5b241df38@195.201.197.246:33656"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/quicksilverzone",
     "services": [
       "public-goods",
       "peers",
@@ -702,6 +728,7 @@
       "seed/peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
     },
     "generatedServices": [],
+    "twitter": "https://twitter.com/OrchestraLabs",
     "services": [
       "public-goods",
       "peers",
@@ -731,6 +758,7 @@
       "seed/peer": "81ce7b70b2fbef5c33fa2d7c1898512cd1ae5ba7@195.201.197.246:17856"
     },
     "generatedServices": [],
+    "twitter": "https://x.com/wardenprotocol",
     "services": [
       "public-goods",
       "peers",
