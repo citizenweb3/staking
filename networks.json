@@ -643,7 +643,7 @@
     ]
   },
   {
-    "name": "cosmostestnet",
+    "name": "cosmoshub-testnet",
     "type": "testnet",
     "category": [
       "Networks"
