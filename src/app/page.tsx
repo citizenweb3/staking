@@ -24,10 +24,10 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-4 flex text-2xl font-semibold">Citizen Web3 Validator and Public Projects Monitor</h1>
+        <h1 className="mb-6 flex text-2xl font-semibold">Citizen Web3 Validator and Public Projects Monitor</h1>
         <ValidatorLinks />
       </div>
-      <div className="-mt-14 mb-12 flex flex-row justify-between">
+      <div className="-mt-10 mb-12 flex flex-row justify-between">
         <div className="">
           <Player />
         </div>
@@ -40,7 +40,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
       <Subtitle text={'Operator Rewards Statistics and Infrastructure Perks'} size={'h2'} />
       <div className="mb-8 mt-10 flex flex-col items-center justify-center">
         <Medals />
-        <MetricsCards />
+        <MetricsCards networksAmount={chains.length} />
       </div>
       <Subtitle text={'Citizen Web3 Validator Supported Networks and Tokens'} size={'h2'} />
       <ValidatorNetworks chains={chains} validatorData={validatorData} sortKey={sortKey} sortDir={sortDir} />

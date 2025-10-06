@@ -9,21 +9,21 @@ const logoWrap = 'relative aspect-square w-14 rounded-full';
 const SocialIcons: FC = () => {
   return (
     <div className="flex flex-row items-center justify-between gap-x-4">
-      <Link href="https://validatorinfo.com" className={cardBase} aria-label="validatorinfo.com">
+      <Link href="https://validatorinfo.com" className={cardBase} aria-label="validatorinfo.com" title="validatorinfo.com">
         <div className={logoWrap}>
           <Image src="/img/logo/valinfo.png" alt="validatorinfo.com logo" fill className="object-contain" />
         </div>
         <span className={dot} />
       </Link>
 
-      <Link href="https://bvc.citizenweb3.com" className={cardBase} aria-label="BVC">
+      <Link href="https://bvc.citizenweb3.com" className={cardBase} aria-label="BVC" title="BVC">
         <div className={logoWrap}>
           <Image src="/img/logo/bvc.png" alt="bvc logo" fill className="object-contain" />
         </div>
         <span className={dot} />
       </Link>
 
-      <Link href="https://t.me/web_3_society" className={cardBase} aria-label="Web3 Society">
+      <Link href="https://t.me/web_3_society" className={cardBase} aria-label="Web3 Society" title="Web3 Society">
         <div className={logoWrap}>
           <Image src="/img/logo/web3c.png" alt="web society logo" fill className="object-contain" />
         </div>
