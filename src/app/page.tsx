@@ -59,7 +59,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
       <h2 className="text-center text-xl">
         Located in the middle of the Atlantic ocean with off the grid capabilities.
       </h2>
-      <div className="mb-6 flex flex-col items-center justify-center">
+      <div className="mb-8 mt-2 flex flex-col items-center justify-center">
         <ValidatorLinks />
       </div>
       <NetworksFilters selected={selected.types} options={typeOptions} tag="type" title="Network Status" />

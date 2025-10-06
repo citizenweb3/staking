@@ -13,7 +13,6 @@ import NotFound from '@/app/chains/[chain]/not-found';
 import StatusSwitch from '@/app/chains/[chain]/status-switch';
 import Tabs from '@/app/chains/[chain]/tabs';
 import Button from '@/app/components/common/button';
-import TxtCopyStr from '@/app/components/mdn/txt-copy-str';
 import type { IChainConfig } from '@/types';
 
 interface OwnProps {
@@ -45,119 +44,166 @@ const ChainPage: FC<OwnProps> = async ({ params }) => {
     tabs.push({ title: 'contributions', content: contributions });
   }
 
+  const chainLinksSizes = 'h-9 w-9';
+  const medalsSizes = 'h-8 w-8';
+
   return (
     <div>
       <StatusSwitch current={data} allChains={allChains} />
-      <div className="ml-11 mt-16 flex flex-row">
-        <div className="mr-10">
-          <Image src={data.icon} alt={data.title} width={200} height={200} />
-        </div>
-        <div className="flex">
-          <div>
-            <h1 className="text-nowrap text-3xl font-semibold">{data.title}</h1>
-            <div className="mt-2 space-y-0.5">
-              {data.showTopChainEndpoints &&
-                data.endpoints &&
-                Object.entries(data.endpoints).map(([key, val]) => <TxtCopyStr title={key} value={val} key={key} />)}
+      <div className="ml-11 mt-8 flex flex-row">
+        <div className="mr-10 flex flex-col">
+          <h1 className="mb-10 ml-10 text-nowrap text-3xl font-semibold">{data.title}</h1>
+          <div className="flex flex-row">
+            <Image src={data.icon} alt={data.title} width={180} height={180} />
+            <div className="ml-12 flex flex-col items-center justify-center">
+              <div>
+                <div className="mt-4 flex space-x-8">
+                  {data.stake && (
+                    <Link href={data.stake} rel="nofollow" target="_blank">
+                      <Button external className="text-lg capitalize">
+                        Stake with Citizen Web3
+                      </Button>
+                    </Link>
+                  )}
+                </div>
+                <div className="flex flex-row items-center justify-center">
+                  <div className="mt-6 flex space-x-4">
+                    <Link
+                      title={`${data.title} explorer`}
+                      href={`https://validatorinfo.com/networks/${data.name}/overview`}
+                      target="_blank"
+                      rel="nofollow"
+                      className="transition-all duration-150 hover:scale-105"
+                    >
+                      <Image
+                        width={30}
+                        height={30}
+                        src={'/icons/validator-info.svg'}
+                        alt={data.title + ' validator-info'}
+                        className={chainLinksSizes}
+                      />
+                    </Link>
+                    {data.codebase?.git_repo && (
+                      <Link
+                        title={`${data.title} Github repo`}
+                        href={data.codebase.git_repo}
+                        target="_blank"
+                        rel="nofollow"
+                        className="transition-all duration-150 hover:scale-105"
+                      >
+                        <Image
+                          width={30}
+                          height={30}
+                          src={'/icons/github.svg'}
+                          alt={data.title + ' github'}
+                          className={chainLinksSizes}
+                        />
+                      </Link>
+                    )}
+                    {data.twitter && (
+                      <Link
+                        title={`${data.title} Twitter (X)`}
+                        href={data.twitter}
+                        target="_blank"
+                        rel="nofollow"
+                        className="transition-all duration-150 hover:scale-105"
+                      >
+                        <Image
+                          width={30}
+                          height={30}
+                          src={'/icons/x.svg'}
+                          alt={data.title + ' Twitter (X)'}
+                          className={chainLinksSizes}
+                        />
+                      </Link>
+                    )}
+                    {data.website && (
+                      <Link
+                        title={`${data.title} Website`}
+                        href={data.website}
+                        target="_blank"
+                        rel="nofollow"
+                        className="transition-all duration-150 hover:scale-105"
+                      >
+                        <Image
+                          width={30}
+                          height={30}
+                          src={'/icons/website.svg'}
+                          alt={data.title + ' website'}
+                          className={chainLinksSizes}
+                        />
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="mt-4 flex space-x-4">
-              <Link href={`https://validatorinfo.com/networks/${data.name}/overview`} rel="nofollow" target="_blank">
-                <Button external>Explorer</Button>
-              </Link>
-              {data.stake && (
-                <Link href={data.stake} rel="nofollow" target="_blank">
-                  <Button external>Stake with Citizen Web3</Button>
-                </Link>
-              )}
-            </div>
-            <div className="mt-4 flex space-x-4">
-            {data.website && (
-                <Link
-                    title={`${data.title} Website`}
-                    href={data.website}
-                    target="_blank"
-                    rel="nofollow"
-                    className="transition-all duration-150 hover:scale-105"
-                >
-                  <Image
-                      width={30}
-                      height={30}
-                      src={'/icons/website.svg'}
-                      alt={data.title + ' website'}
-                      className="h-10 w-10"
-                  />
-                </Link>
-            )}
-            {data.codebase?.git_repo && (
-                <Link
-                    title="GitHub repo"
-                    href={data.codebase.git_repo}
-                    target="_blank"
-                    rel="nofollow"
-                    className="transition-all duration-150 hover:scale-105"
-                >
-                  <Image
-                      width={30}
-                      height={30}
-                      src={'/icons/github.svg'}
-                      alt={data.title + ' github'}
-                      className="h-10 w-10"
-                  />
-                </Link>
-            )}
-          </div>
           </div>
         </div>
       </div>
-      <div className="flex">
-        <div className="mr-4 self-end text-xl font-semibold">Medals:</div>
-        <div className="mt-8 flex space-x-4">
-          {data.horcrux && (
-            <div title="Key Sharding via Horcrux" className="transition-all duration-150 hover:scale-105">
-              <Image
-                width={30}
-                height={30}
-                src="/icons/horcrux.svg"
-                alt={`${data.title} horcrux`}
-                className="h-10 w-10"
-              />
-            </div>
-          )}
-          {data.shi && (
-            <div title="Self-Hosted Infrastructure" className="transition-all duration-150 hover:scale-105">
-              <Image
-                width={30}
-                height={30}
-                src="/icons/shi.svg"
-                alt={`${data.title} self-hosted infrastructure`}
-                className="h-10 w-10"
-              />
-            </div>
-          )}
-          {data.otgi && (
-            <div title="Off the Grid Infrastructure" className="transition-all duration-150 hover:scale-105">
-              <Image
-                width={30}
-                height={30}
-                src="/icons/otgi.svg"
-                alt={`${data.title} off-the-grid infrastructure`}
-                className="h-10 w-10"
-              />
-            </div>
-          )}
-          {data.restake && (
-            <div title="Auto Reward Re-Stake x2 p/day" className="transition-all duration-150 hover:scale-105">
-              <Image
-                width={30}
-                height={30}
-                src="/icons/restake.svg"
-                alt={`${data.title} restake`}
-                className="h-10 w-10"
-              />
-            </div>
-          )}
+      {(data?.horcrux || data?.shi || data?.otgi || data?.restake) && (
+        <div className="ml-12 flex flex-row items-center">
+          <div className="mr-4 self-end text-xl font-semibold">Medals:</div>
+          <div className="mt-8 flex space-x-4">
+            {data?.horcrux && (
+              <div
+                title="Key Sharding via Horcrux"
+                className="brightness-50 transition-all duration-150 hover:scale-105 hover:brightness-100"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src="/icons/horcrux.svg"
+                  alt={`${data.title} horcrux`}
+                  className={medalsSizes}
+                />
+              </div>
+            )}
+            {data?.shi && (
+              <div
+                title="Self-Hosted Infrastructure"
+                className="brightness-50 transition-all duration-150 hover:scale-105 hover:brightness-100"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src="/icons/shi.svg"
+                  alt={`${data.title} self-hosted infrastructure`}
+                  className={medalsSizes}
+                />
+              </div>
+            )}
+            {data?.otgi && (
+              <div
+                title="Off the Grid Infrastructure"
+                className="brightness-50 transition-all duration-150 hover:scale-105 hover:brightness-100"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src="/icons/otgi.svg"
+                  alt={`${data.title} off-the-grid infrastructure`}
+                  className={medalsSizes}
+                />
+              </div>
+            )}
+            {data?.restake && (
+              <div
+                title="Auto Reward Re-Stake x2 p/day"
+                className="brightness-50 transition-all duration-150 hover:scale-105 hover:brightness-100"
+              >
+                <Image
+                  width={30}
+                  height={30}
+                  src="/icons/restake.svg"
+                  alt={`${data.title} restake`}
+                  className={medalsSizes}
+                />
+              </div>
+            )}
+          </div>
         </div>
-      </div>
+      )}
       <div className="markdown mt-4">
         <Tabs items={tabs} />
       </div>
