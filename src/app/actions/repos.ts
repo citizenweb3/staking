@@ -91,6 +91,9 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
 };
 
 export const getValidatorData = async (): Promise<NodeItem[]> => {
+  const cachedData = cache.get(`validators`);
+  if (cachedData) return cachedData as NodeItem[];
+
   const all: NodeItem[] = [];
 
   for (const identity of VALIDATOR_IDENTITY) {
@@ -99,5 +102,6 @@ export const getValidatorData = async (): Promise<NodeItem[]> => {
       all.push(...res.nodes.map((n) => ({ ...n, validatorId: res.id })));
     }
   }
+  cache.set(`validators`, all, 10);
   return all;
 };
