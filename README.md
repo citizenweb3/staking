@@ -1,4 +1,4 @@
-## Citizen Web3 Validator: Staking
+## Citizen Web3 Validator: [Staking](https://staking.citizenweb3.com/)
 Citizen Web3 is a self-hosted, independent off the grid, baremetal validator. We use a mixture of cloud (public infra) and self-hosted infrastructure, which works on a mixture of broadband and Starlink internet connections, and partially runs off solar energy. We strongly believe in decentralized infrastructure, independent of the grid, and that's our end goal.
 
 We use Multi-party computation software [(Horcrux)](https://github.com/strangelove-ventures/horcrux) on all our nodes, to further secure funds, and protect stakers from double signing. We use [Re-Stake](https://restake.app/) on all of our mainnet nodes, set to restake twice per day, so users can compound their staking rewards more efficiently.
