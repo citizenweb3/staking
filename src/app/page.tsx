@@ -3,10 +3,7 @@ import { FC, Suspense } from 'react';
 import { getRepoChains } from '@/app/actions/repos';
 import ChainList from '@/app/components/chain-list/chain-list';
 import NetworksFilters from '@/app/components/chain-list/networks-filters';
-import Player from '@/app/components/chain-list/player';
 import ResetFilters from '@/app/components/chain-list/reset-filters';
-import SocialIcons from '@/app/components/chain-list/social-icons';
-import ValidatorLinks from '@/app/components/chain-list/validator-links';
 import { CATEGORIES } from '@/app/config';
 import {
   type Selected,
@@ -55,13 +52,10 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
     <div className="flex flex-col font-semibold">
       <h1 className="text-center text-2xl ">Non Custodial Staking with Citizen Web3 Validator</h1>
       <div className="mx-auto my-6 w-1/12 border-b text-center"></div>
-      <h2 className="mb-2 text-center text-xl">CW3 is a privacy-focused, self-hosted bare-metal validator.</h2>
-      <h2 className="text-center text-xl">
+      <h2 className="mb-2 text-center text-xl">Citizen Web3 is a privacy-focused, self-hosted bare-metal validator.</h2>
+      <h2 className="text-center text-xl mb-8">
         Located in the middle of the Atlantic ocean with off the grid capabilities.
       </h2>
-      <div className="mb-8 mt-2 flex flex-col items-center justify-center">
-        <ValidatorLinks />
-      </div>
       <NetworksFilters selected={selected.types} options={typeOptions} tag="type" title="Network Status" />
       <NetworksFilters selected={selected.categories} options={categoryOptions} tag="category" title="Category" />
       <NetworksFilters selected={selected.provisions} options={provisionOptions} tag="provision" title="Provisions" />
