@@ -4,7 +4,7 @@ import { FC } from 'react';
 
 const ValidatorLinks: FC = () => {
   return (
-    <div className="flex flex-row my-2 gap-x-10">
+    <div className="flex flex-row my-2 gap-x-4 sm:gap-x-10">
       <Link
         title="Website"
         href="https://citizenweb3.com"
