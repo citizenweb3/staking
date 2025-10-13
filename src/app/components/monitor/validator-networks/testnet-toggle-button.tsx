@@ -20,7 +20,7 @@ const TestnetToggleButton: FC = () => {
       params.set('testnets', 'true');
     }
 
-    const newUrl = params.toString() ? `?${params.toString()}` : '';
+    const newUrl = params.toString() ? `?${params.toString()}` : '/';
     router.replace(newUrl, { scroll: false });
   };
 

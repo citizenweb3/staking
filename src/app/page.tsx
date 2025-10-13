@@ -7,7 +7,6 @@ import Medals from '@/app/components/monitor/medals';
 import MetricsCards from '@/app/components/monitor/metrics-cards';
 import Player from '@/app/components/monitor/player';
 import SocialIcons from '@/app/components/monitor/social-icons';
-import ValidatorLinks from '@/app/components/monitor/validator-links';
 import ValidatorNetworks from '@/app/components/monitor/validator-networks/validator-networks';
 import { SortDir, SortKey } from '@/app/utils/monitor-table/prepare-table-data';
 import { IChainConfig } from '@/types';
@@ -17,7 +16,11 @@ type PageProps = { searchParams: Record<string, string | string[] | undefined> }
 const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const sortKey: SortKey = (searchParams.sort as SortKey) ?? 'network';
   const sortDir: SortDir = (searchParams.dir as SortDir) ?? 'asc';
-  const showTestnets = searchParams.testnets === 'true';
+
+  const testnetsParam = searchParams.testnets;
+  const showTestnets = Array.isArray(testnetsParam) 
+    ? testnetsParam.includes('true') 
+    : testnetsParam === 'true';
 
   const chains: IChainConfig[] = await getRepoChains();
   const validatorData = await getValidatorData();
@@ -26,7 +29,6 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
     <div>
       <div className="flex flex-col items-center justify-center">
         <h1 className="mb-6 flex text-2xl font-semibold">Citizen Web3 Validator Public Projects Monitor</h1>
-        <ValidatorLinks />
       </div>
       <div className="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex justify-center lg:justify-start">
