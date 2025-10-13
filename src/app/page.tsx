@@ -9,7 +9,7 @@ import Player from '@/app/components/monitor/player';
 import SocialIcons from '@/app/components/monitor/social-icons';
 import ValidatorNetworks from '@/app/components/monitor/validator-networks/validator-networks';
 import { SortDir, SortKey } from '@/app/utils/monitor-table/prepare-table-data';
-import { IChainConfig } from '@/types';
+import { IChainConfig, NodeItem } from '@/types';
 
 type PageProps = { searchParams: Record<string, string | string[] | undefined> };
 
@@ -23,7 +23,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
     : testnetsParam === 'true';
 
   const chains: IChainConfig[] = await getRepoChains();
-  const validatorData = await getValidatorData();
+  const validatorData: NodeItem[] = await getValidatorData();
 
   return (
     <div>
@@ -40,10 +40,10 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
           <SocialIcons />
         </div>
       </div>
-      <Subtitle text={'Operator Rewards Statistics and Infrastructure Perks'} size={'h2'} />
+      <Subtitle text={'Citizen Web3 Validator Rewards Statistics and Infrastructure Perks'} size={'h2'} />
       <div className="mb-8 mt-10 flex flex-col items-center justify-center">
         <Medals />
-        <MetricsCards networksAmount={chains.length} />
+        <MetricsCards chains={chains} validatorData={validatorData} />
       </div>
       <Subtitle text={'Citizen Web3 Validator Supported Networks and Tokens'} size={'h2'} />
       <ValidatorNetworks

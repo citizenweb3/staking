@@ -12,12 +12,12 @@ const Medals = async () => {
           className="h-16 w-16 lg:h-20 lg:w-20"
         />
       </div>
-      <div title="Key Sharding via Horcrux" className="transition-all duration-150 hover:scale-105">
+      <div title="Open Source" className="transition-all duration-150 hover:scale-105">
         <Image
           width={30}
           height={30}
           src="/icons/medals/keyhole.svg"
-          alt={`Key Sharding via Horcrux`}
+          alt={`Open Source`}
           className="h-16 w-16 lg:h-20 lg:w-20" />
       </div>
       <div title="Green Energy" className="transition-all duration-150 hover:scale-105">
