@@ -10,12 +10,17 @@ interface OwnProps {
   chains: IChainConfig[];
   sortKey: SortKey;
   sortDir: SortDir;
+  showTestnets: boolean;
 }
 
-const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortDir }) => {
+const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortDir, showTestnets }) => {
   let chainsWithValidator: string[] = [];
 
   for (const chain of chains) {
+    if (!showTestnets && chain.name.includes('-testnet')) {
+      continue;
+    }
+
     if (chain.provision.includes('Validator') || chain.provision.includes('Sequencer')) {
       chainsWithValidator.push(chain.name);
     }
@@ -57,6 +62,10 @@ const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortD
   let infrastructureItems: InfrastructureItem[] = [];
 
   for (const chain of chains) {
+    if (!showTestnets && chain.name.includes('-testnet')) {
+      continue;
+    }
+
     if (!chainsWithValidator.includes(chain.name) || chain.name === 'zkverify') {
       infrastructureItems.push({ name: chain.name, infrastructure: chain.provision });
     }

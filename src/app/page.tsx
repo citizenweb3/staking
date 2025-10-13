@@ -17,6 +17,7 @@ type PageProps = { searchParams: Record<string, string | string[] | undefined> }
 const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const sortKey: SortKey = (searchParams.sort as SortKey) ?? 'network';
   const sortDir: SortDir = (searchParams.dir as SortDir) ?? 'asc';
+  const showTestnets = searchParams.testnets === 'true';
 
   const chains: IChainConfig[] = await getRepoChains();
   const validatorData = await getValidatorData();
@@ -24,10 +25,10 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-6 flex text-2xl font-semibold">Citizen Web3 Validator and Public Projects Monitor</h1>
+        <h1 className="mb-6 flex text-2xl font-semibold">Citizen Web3 Validator Public Projects Monitor</h1>
         <ValidatorLinks />
       </div>
-      <div className="mb-12 flex flex-col lg:flex-row lg:justify-between lg:items-start gap-8">
+      <div className="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex justify-center lg:justify-start">
           <Player />
         </div>
@@ -43,7 +44,13 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
         <MetricsCards networksAmount={chains.length} />
       </div>
       <Subtitle text={'Citizen Web3 Validator Supported Networks and Tokens'} size={'h2'} />
-      <ValidatorNetworks chains={chains} validatorData={validatorData} sortKey={sortKey} sortDir={sortDir} />
+      <ValidatorNetworks
+        chains={chains}
+        validatorData={validatorData}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        showTestnets={showTestnets}
+      />
     </div>
   );
 };

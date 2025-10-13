@@ -16,10 +16,10 @@ const ValidatorNetworksItem: FC<OwnProps> = ({ node }) => {
       ? ((node.totalSecure * +node.chain.tokenomics.apr) / 365) * +node.rate
       : null;
 
-  const tokensDelegated =
-    node.delegatorShares && node.chain.params.coinDecimals
-      ? +node.delegatorShares / 10 ** node.chain.params.coinDecimals
-      : null;
+  // const tokensDelegated =
+  //   node.delegatorShares && node.chain.params.coinDecimals
+  //     ? +node.delegatorShares / 10 ** node.chain.params.coinDecimals
+  //     : null;
 
   return (
     <tr className="">
@@ -45,18 +45,15 @@ const ValidatorNetworksItem: FC<OwnProps> = ({ node }) => {
         <div className={cn}>{dailyCommission ? `$${fmt.format(dailyCommission)}` : 'N/A'}</div>
       </td>
       <td className="text-center">
-        <div className={cn}>
-          {node.totalSecure
-            ? `$${fmt.format(node.totalSecure)}`
-            : tokensDelegated
-              ? `${fmt.format(tokensDelegated)} ${node.chain.params.denom}`
-              : 'N/A'}
-        </div>
+        <div className={cn}>{node.totalSecure ? `$${fmt.format(node.totalSecure)}` : 'N/A'}</div>
       </td>
       <td className="text-center">
         <div className={cn}>{node.delegatorsAmount ? node.delegatorsAmount : 'N/A'}</div>
       </td>
-      <td className="text-center">
+      <td
+        className="text-center"
+        title={node.chain.prices.length > 0 && node.chain.prices[0].value !== 0 ? 'As per Coingecko API data' : ''}
+      >
         <div className={cn}>
           {node.chain.prices.length > 0 && node.chain.prices[0].value !== 0
             ? `$${node.chain.prices[0].value.toFixed(2)}`

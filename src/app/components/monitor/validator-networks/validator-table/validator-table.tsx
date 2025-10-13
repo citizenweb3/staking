@@ -1,5 +1,6 @@
 import { FC } from 'react';
 
+import TestnetToggleButton from '@/app/components/monitor/validator-networks/testnet-toggle-button';
 import SortControls from '@/app/components/monitor/validator-networks/sort-controls';
 import ValidatorNetworksItem from '@/app/components/monitor/validator-networks/validator-table/validator-networks-item';
 import { SortDir, SortKey } from '@/app/utils/monitor-table/prepare-table-data';
@@ -15,23 +16,29 @@ const ValidatorTable: FC<OwnProps> = ({ data, sortKey, sortDir }) => {
   const thBtn =
     'cursor-pointer select-none py-3 px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 py-3 -m-0.5';
 
+  const th =
+    'py-3 px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 py-3 -m-0.5';
+
   return (
     <div>
-      <table className="mt-4 w-full table-auto">
+      <div className="my-2 flex justify-end">
+        <TestnetToggleButton />
+      </div>
+      <table className="w-full table-auto">
         <thead>
           <tr className="bg-button-bg">
             <th>
               <SortControls label="Network" sortKey="network" currentKey={sortKey} dir={sortDir} className={thBtn} />
             </th>
             <th>
-              <div className={thBtn}>Commission</div>
+              <div className={th}>Commission</div>
             </th>
             <th>
-              <div className={thBtn}>Daily Commission</div>
+              <div className={th}>Daily Commission</div>
             </th>
             <th>
               <SortControls
-                label="Total Secured"
+                label="Total Secured USD"
                 sortKey="totalSecure"
                 currentKey={sortKey}
                 dir={sortDir}
@@ -47,8 +54,8 @@ const ValidatorTable: FC<OwnProps> = ({ data, sortKey, sortDir }) => {
                 className={thBtn}
               />
             </th>
-            <th>
-              <div className={thBtn}>Token Price per Chain</div>
+            <th title={'As per Coingecko API data'}>
+              <div className={th}>Token Price per Chain</div>
             </th>
           </tr>
         </thead>
