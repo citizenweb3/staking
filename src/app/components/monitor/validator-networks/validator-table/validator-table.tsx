@@ -24,7 +24,8 @@ const ValidatorTable: FC<OwnProps> = ({ data, sortKey, sortDir }) => {
       <div className="my-2 flex justify-end">
         <TestnetToggleButton />
       </div>
-      <table className="w-full table-auto">
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[800px] table-auto">
         <thead>
           <tr className="bg-button-bg">
             <th>
@@ -64,7 +65,8 @@ const ValidatorTable: FC<OwnProps> = ({ data, sortKey, sortDir }) => {
             <ValidatorNetworksItem key={row.chain.name} node={row} />
           ))}
         </tbody>
-      </table>
+        </table>
+      </div>
     </div>
   );
 };

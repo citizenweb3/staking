@@ -28,9 +28,11 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-4 flex text-2xl font-semibold">Citizen Web3 Validator Public Projects Monitor</h1>
+        <h1 className="mb-14 text-center text-xl font-semibold leading-tight md:text-2xl my-8 sm:mt-0">
+          Citizen Web3 Validator Public Projects Monitor
+        </h1>
       </div>
-      <div className="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+      <div className="mb-8 flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex justify-center lg:justify-start">
           <Player />
         </div>
