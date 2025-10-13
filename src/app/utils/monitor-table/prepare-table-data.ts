@@ -1,13 +1,5 @@
 import { NodeItem } from '@/types';
 
-type Row = {
-  networkName: string;
-  chainName: string;
-  totalDelegators: number | null;
-  totalSecure: number | null;
-  node: NodeItem;
-};
-
 export type SortKey = 'network' | 'totalSecure' | 'totalDelegators';
 export type SortDir = 'asc' | 'desc';
 

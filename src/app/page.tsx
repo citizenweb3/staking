@@ -2,7 +2,6 @@ import { FC } from 'react';
 
 import { getRepoChains, getValidatorData } from '@/app/actions/repos';
 import Subtitle from '@/app/components/common/subtitle';
-import ChartLine from '@/app/components/monitor/chart-line';
 import Medals from '@/app/components/monitor/medals';
 import MetricsCards from '@/app/components/monitor/metrics-cards';
 import Player from '@/app/components/monitor/player';
@@ -18,9 +17,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const sortDir: SortDir = (searchParams.dir as SortDir) ?? 'asc';
 
   const testnetsParam = searchParams.testnets;
-  const showTestnets = Array.isArray(testnetsParam) 
-    ? testnetsParam.includes('true') 
-    : testnetsParam === 'true';
+  const showTestnets = Array.isArray(testnetsParam) ? testnetsParam.includes('true') : testnetsParam === 'true';
 
   const chains: IChainConfig[] = await getRepoChains();
   const validatorData: NodeItem[] = await getValidatorData();
@@ -28,7 +25,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-14 text-center text-xl font-semibold leading-tight md:text-2xl my-8 sm:mt-0">
+        <h1 className="my-8 mb-14 text-center text-xl font-semibold leading-tight sm:mt-0 md:text-2xl">
           Citizen Web3 Validator Public Projects Monitor
         </h1>
       </div>
