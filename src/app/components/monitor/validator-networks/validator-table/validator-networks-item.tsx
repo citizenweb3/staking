@@ -9,7 +9,7 @@ interface OwnProps {
 }
 
 const ValidatorNetworksItem: FC<OwnProps> = ({ node }) => {
-  const cn = 'rounded-md border border-solid border-white/40 py-2 px-1 sm:py-3 sm:px-2 -m-0.5 text-xs sm:text-sm';
+  const cn = 'rounded-md border border-solid border-white/40 py-2 px-1 sm:py-3 sm:px-2 -m-0.5 text-xs sm:text-base';
 
   const dailyCommission =
     node.totalSecure && node.chain.tokenomics.apr && node.rate

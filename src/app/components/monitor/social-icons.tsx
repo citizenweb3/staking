@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FC } from 'react';
 
 const cardBase =
-  'relative flex h-20 w-36 sm:h-20 sm:w-36 md:h-20 md:w-36 lg:h-20 lg:w-48 items-center justify-center rounded-xl bg-paper hover:bg-button-bg flex-shrink-0 my-2 sm:my-4';
+  'relative flex h-20 w-36 sm:h-20 sm:w-36 md:h-20 md:w-36 2xl:h-20 2xl:w-48 items-center justify-center rounded-xl bg-paper hover:bg-button-bg flex-shrink-0 my-2 sm:my-4';
 const dot = 'absolute right-1.5 top-1.5 sm:right-2 sm:top-2 md:right-3 md:top-3 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-green';
 const logoWrap = 'relative aspect-square w-14 sm:w-12 md:w-14 lg:w-14 rounded-full';
 
