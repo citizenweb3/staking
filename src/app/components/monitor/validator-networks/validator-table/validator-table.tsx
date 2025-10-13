@@ -14,18 +14,18 @@ interface OwnProps {
 
 const ValidatorTable: FC<OwnProps> = ({ data, sortKey, sortDir }) => {
   const thBtn =
-    'cursor-pointer select-none py-3 px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 py-3 -m-0.5';
+    'cursor-pointer select-none py-2 px-1 sm:py-3 sm:px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 -m-0.5 text-xs sm:text-sm';
 
   const th =
-    'py-3 px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 py-3 -m-0.5';
+    'py-2 px-1 sm:py-3 sm:px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 -m-0.5 text-xs sm:text-sm';
 
   return (
     <div>
       <div className="my-2 flex justify-end">
         <TestnetToggleButton />
       </div>
-      <div className="overflow-x-auto">
-        <table className="w-full min-w-[800px] table-auto">
+      <div className="overflow-x-auto sm:overflow-x-visible">
+        <table className="w-full table-auto min-w-[500px] sm:min-w-auto">
         <thead>
           <tr className="bg-button-bg">
             <th>

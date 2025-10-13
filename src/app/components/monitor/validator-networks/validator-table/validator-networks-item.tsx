@@ -9,7 +9,7 @@ interface OwnProps {
 }
 
 const ValidatorNetworksItem: FC<OwnProps> = ({ node }) => {
-  const cn = 'rounded-md border border-solid border-white/40 py-3 -m-0.5';
+  const cn = 'rounded-md border border-solid border-white/40 py-2 px-1 sm:py-3 sm:px-2 -m-0.5 text-xs sm:text-sm';
 
   const dailyCommission =
     node.totalSecure && node.chain.tokenomics.apr && node.rate
@@ -35,7 +35,7 @@ const ValidatorNetworksItem: FC<OwnProps> = ({ node }) => {
           >
             <div className="relative capitalize">{node.chain.name}</div>
           </Link>
-          <div className={`absolute right-1.5 top-1.5 h-2 w-2 rounded-full ${node.jailed ? 'bg-red' : 'bg-green'} `} />
+          <div className={`absolute right-1 top-1 sm:right-1.5 sm:top-1.5 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full ${node.jailed ? 'bg-red' : 'bg-green'} `} />
         </div>
       </td>
       <td className="text-center">

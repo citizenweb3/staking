@@ -40,8 +40,6 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
           <SocialIcons />
         </div>
       </div>
-      <Subtitle text={'Citizen Web3 Validator Total Value Secured and Total Delegators'} size={'h2'} />
-      <ChartLine />
       <Subtitle text={'Operator Rewards Statistics and Infrastructure Perks'} size={'h2'} />
       <div className="mb-8 mt-10 flex flex-col items-center justify-center">
         <Medals />

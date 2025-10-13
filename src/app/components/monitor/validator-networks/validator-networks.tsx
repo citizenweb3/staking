@@ -4,6 +4,8 @@ import InfrastructureTable from '@/app/components/monitor/validator-networks/inf
 import ValidatorTable from '@/app/components/monitor/validator-networks/validator-table/validator-table';
 import { SortDir, SortKey, sortRows } from '@/app/utils/monitor-table/prepare-table-data';
 import { IChainConfig, InfrastructureItem, NodeItem } from '@/types';
+import Subtitle from '@/app/components/common/subtitle';
+import ChartLine from '@/app/components/monitor/chart-line';
 
 interface OwnProps {
   validatorData: NodeItem[];
@@ -74,6 +76,10 @@ const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortD
   return (
     <div>
       <ValidatorTable data={validatorsSorted} sortKey={sortKey} sortDir={sortDir} />
+      <div className="my-4">
+        <Subtitle text={'Citizen Web3 Validator Total Value Secured and Total Delegators'} size={'h2'} />
+        <ChartLine />
+      </div>
       <InfrastructureTable data={infrastructureItems} />
     </div>
   );
