@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Button from '@/app/components/common/button';
+import ValidatorLinks from '@/app/components/chain-list/validator-links';
 
 const Header = () => (
   <div className="flex flex-row items-center justify-between">
@@ -23,35 +24,8 @@ const Header = () => (
           </div>
         </div>
       </Link>
-
-      <div className="mt-3 flex flex-row gap-x-4 justify-center">
-        <Link
-          title="Website"
-          href="https://citizenweb3.com"
-          target="_blank"
-          rel="nofollow"
-          className="transition-all duration-150 hover:scale-110"
-        >
-          <Image width={24} height={24} src={'/icons/website.svg'} alt="website" className="h-6 w-6" />
-        </Link>
-        <Link
-          title="Github"
-          href="https://github.com/citizenweb3"
-          target="_blank"
-          rel="nofollow"
-          className="transition-all duration-150 hover:scale-110"
-        >
-          <Image width={24} height={24} src={'/icons/github.svg'} alt="github" className="h-6 w-6" />
-        </Link>
-        <Link
-          title="Twitter (X)"
-          href="https://x.com/citizen_web3"
-          target="_blank"
-          rel="nofollow"
-          className="transition-all duration-150 hover:scale-110"
-        >
-          <Image width={24} height={24} src={'/icons/x.svg'} alt="Twitter (X)" className="h-6 w-6" />
-        </Link>
+      <div className="mt-3">
+        <ValidatorLinks />
       </div>
     </div>
 
