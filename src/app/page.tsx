@@ -28,7 +28,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-6 flex text-2xl font-semibold">Citizen Web3 Validator Public Projects Monitor</h1>
+        <h1 className="mb-4 flex text-2xl font-semibold">Citizen Web3 Validator Public Projects Monitor</h1>
       </div>
       <div className="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex justify-center lg:justify-start">

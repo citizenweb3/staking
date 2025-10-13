@@ -25,7 +25,7 @@ const TestnetToggleButton: FC = () => {
   };
 
   return (
-    <Button onClick={handleToggle} variant="bordered">
+    <Button onClick={handleToggle} variant="bordered" className={'className="rounded-md border border-white bg-black px-3 py-1.5 text-sm font-semibold capitalize text-white transition hover:border-black hover:bg-white hover:text-black active:border-white active:bg-black active:text-white"'}>
       {showTestnets ? 'Hide Others' : 'Show Others'}
     </Button>
   );
