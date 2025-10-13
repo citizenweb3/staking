@@ -22,7 +22,7 @@ const SocialIcons: FC = () => {
         <span className={dot} />
       </Link>
 
-      <Link href="https://bvc.citizenweb3.com" className={cardBase} aria-label="BVC" title="BVC">
+      <Link href="https://bvc.citizenweb3.com" className={cardBase} aria-label="B.V.C." title="B.V.C.">
         <div className={logoWrap}>
           <Image src="/img/logo/bvc.png" alt="bvc logo" fill className="object-contain" />
         </div>
