@@ -15,6 +15,7 @@ const config: Config = {
       grayLight: colors.gray['700'],
       green: colors.green['500'],
       red: colors.red['500'],
+      yellow: colors.yellow['500'],
       transparent: colors.transparent,
       primary: '#137987',
       paper: '#1A1A1B',

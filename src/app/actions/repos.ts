@@ -91,13 +91,31 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
 };
 
 export const getValidatorData = async (): Promise<NodeItem[]> => {
+  const cachedData = cache.get('validators');
+  if (cachedData) return cachedData as NodeItem[];
+
+  if (!API_URL || !VALIDATOR_IDENTITY.length) {
+    cache.set('validators', [], 60);
+    return [];
+  }
+
+  const requests = VALIDATOR_IDENTITY.map((identity) =>
+    fetch(`${API_URL}/api/monitor_api?identity=${encodeURIComponent(identity)}`, {
+      next: { revalidate: 120 },
+    })
+      .then((r) => (r.ok ? r.json() : undefined))
+      .catch(() => undefined),
+  );
+
+  const results = await Promise.all(requests);
   const all: NodeItem[] = [];
 
-  for (const identity of VALIDATOR_IDENTITY) {
-    const res = (await fetch(`${API_URL}/api/monitor_api?identity=${identity}`).then((r) => r.json())) as ApiResponse;
-    if (Array.isArray(res.nodes) && res.nodes.length) {
-      all.push(...res.nodes.map((n) => ({ ...n, validatorId: res.id })));
+  for (const res of results) {
+    const parsed = res as ApiResponse | undefined;
+    if (parsed && Array.isArray(parsed.nodes) && parsed.nodes.length) {
+      all.push(...parsed.nodes.map((n) => ({ ...n, validatorId: parsed.id })));
     }
   }
+  cache.set(`validators`, all, 120);
   return all;
 };

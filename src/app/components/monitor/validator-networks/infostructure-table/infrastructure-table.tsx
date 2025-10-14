@@ -9,7 +9,7 @@ interface OwnProps {
 
 const InfrastructureTable: FC<OwnProps> = ({ data }) => {
   const thBtn =
-    'cursor-pointer select-none py-3 px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 py-3 -m-0.5';
+    'py-3 px-2 rounded-b-md rounded-r-md rounded-l-md border-b border-r border-l border-solid border-white/40 py-3 -m-0.5';
 
   return (
     <div>

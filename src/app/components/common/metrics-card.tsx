@@ -8,11 +8,13 @@ interface OwnProps {
   dataClassName?: string;
   addLineData?: string;
   addLineClassName?: string;
+  titleTooltip?: string;
 }
 
-const MetricsCard: FC<OwnProps> = ({ title, data, className = '', titleClassName = '', dataClassName = '' }) => {
+const MetricsCard: FC<OwnProps> = ({ title, data, className = '', titleClassName = '', dataClassName = '', titleTooltip = '' }) => {
   return (
     <div
+      title={titleTooltip}
       className={`${className}     
        mx-1 flex flex-col items-center rounded-xl bg-paper
       xs:w-[100px]

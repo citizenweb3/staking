@@ -4,18 +4,25 @@ import InfrastructureTable from '@/app/components/monitor/validator-networks/inf
 import ValidatorTable from '@/app/components/monitor/validator-networks/validator-table/validator-table';
 import { SortDir, SortKey, sortRows } from '@/app/utils/monitor-table/prepare-table-data';
 import { IChainConfig, InfrastructureItem, NodeItem } from '@/types';
+import Subtitle from '@/app/components/common/subtitle';
+import ChartLine from '@/app/components/monitor/chart-line';
 
 interface OwnProps {
   validatorData: NodeItem[];
   chains: IChainConfig[];
   sortKey: SortKey;
   sortDir: SortDir;
+  showTestnets: boolean;
 }
 
-const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortDir }) => {
+const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortDir, showTestnets }) => {
   let chainsWithValidator: string[] = [];
 
   for (const chain of chains) {
+    if (!showTestnets && chain.name.includes('-testnet')) {
+      continue;
+    }
+
     if (chain.provision.includes('Validator') || chain.provision.includes('Sequencer')) {
       chainsWithValidator.push(chain.name);
     }
@@ -57,6 +64,10 @@ const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortD
   let infrastructureItems: InfrastructureItem[] = [];
 
   for (const chain of chains) {
+    if (!showTestnets && chain.name.includes('-testnet')) {
+      continue;
+    }
+
     if (!chainsWithValidator.includes(chain.name) || chain.name === 'zkverify') {
       infrastructureItems.push({ name: chain.name, infrastructure: chain.provision });
     }
@@ -65,6 +76,10 @@ const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortD
   return (
     <div>
       <ValidatorTable data={validatorsSorted} sortKey={sortKey} sortDir={sortDir} />
+      <div className="my-4">
+        <Subtitle text={'Citizen Web3 Validator Total Value Secured and Total Delegators'} size={'h2'} />
+        <ChartLine />
+      </div>
       <InfrastructureTable data={infrastructureItems} />
     </div>
   );

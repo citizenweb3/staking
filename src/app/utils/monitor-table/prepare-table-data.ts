@@ -1,13 +1,5 @@
 import { NodeItem } from '@/types';
 
-type Row = {
-  networkName: string;
-  chainName: string;
-  totalDelegators: number | null;
-  totalSecure: number | null;
-  node: NodeItem;
-};
-
 export type SortKey = 'network' | 'totalSecure' | 'totalDelegators';
 export type SortDir = 'asc' | 'desc';
 
@@ -19,7 +11,7 @@ const cmpNum = (a?: number | null, b?: number | null) => {
   return x === y ? 0 : x < y ? -1 : 1;
 };
 
-const computeTotalSecure = (node: NodeItem) => {
+export const computeTotalSecure = (node: NodeItem) => {
   const decimals = node.chain?.params?.coinDecimals;
   const price = node.chain?.prices?.[0]?.value;
   const tokensAmount = node.delegatorShares;
