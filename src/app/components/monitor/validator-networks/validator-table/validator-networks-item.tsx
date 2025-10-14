@@ -25,17 +25,21 @@ const ValidatorNetworksItem: FC<OwnProps> = ({ node }) => {
     <tr className="">
       <td className="text-center">
         <div className={`relative ${cn}`}>
-          <Link
-            href={
-              node.validatorId && node.operatorAddress
-                ? `https://validatorinfo.com/validators/${node.validatorId}/${node.operatorAddress}/validator_passport/authz/withdraw_rewards`
-                : '/'
-            }
-            target={'_blank'}
-          >
-            <div className="relative capitalize">{node.chain.name}</div>
-          </Link>
-          <div className={`absolute right-1 top-1 sm:right-1.5 sm:top-1.5 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full ${node.jailed ? 'bg-red' : 'bg-green'} `} />
+          <div className="relative capitalize">
+            <Link
+              href={
+                node.validatorId && node.operatorAddress
+                  ? `https://validatorinfo.com/validators/${node.validatorId}/${node.operatorAddress}/validator_passport/authz/withdraw_rewards`
+                  : '/'
+              }
+              target={'_blank'}
+            >
+              {node.chain.name}
+            </Link>
+          </div>
+          <div
+            className={`absolute right-1 top-1 h-1.5 w-1.5 rounded-full sm:right-1.5 sm:top-1.5 sm:h-2 sm:w-2 ${node.jailed ? 'bg-red' : 'bg-green'} `}
+          />
         </div>
       </td>
       <td className="text-center">
