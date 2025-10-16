@@ -2,7 +2,6 @@ import { FC } from 'react';
 
 import MetricsCard from '@/app/components/common/metrics-card';
 import { fmt } from '@/app/utils/format-money';
-import { computeTotalSecure } from '@/app/utils/monitor-table/prepare-table-data';
 import { IChainConfig, NodeItem } from '@/types';
 
 interface OwnProps {
@@ -15,18 +14,12 @@ const MetricsCards: FC<OwnProps> = ({ chains, validatorData }) => {
 
   for (const validator of validatorData) {
     if (
-      validator.delegatorsAmount &&
-      validator.chain.params.coinDecimals &&
+      validator.totalSecure &&
       validator.chain.tokenomics.apr &&
-      validator.chain.prices[0] &&
-      validator.chain.prices[0].value &&
       validator.rate
     ) {
-      const totalSecured = computeTotalSecure(validator);
-      const dailyCommission = totalSecured
-        ? ((totalSecured * +validator.chain.tokenomics.apr) / 365) * +validator.rate
-        : null;
-      dailyRevenue += dailyCommission ?? 0;
+      const dailyCommission = ((validator.totalSecure * +validator.chain.tokenomics.apr) / 365) * +validator.rate;
+      dailyRevenue += dailyCommission;
     }
   }
 
