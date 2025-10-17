@@ -1,11 +1,11 @@
 import { FC } from 'react';
 
+import Subtitle from '@/app/components/common/subtitle';
+import ChartLine from '@/app/components/monitor/chart-line';
 import InfrastructureTable from '@/app/components/monitor/validator-networks/infostructure-table/infrastructure-table';
 import ValidatorTable from '@/app/components/monitor/validator-networks/validator-table/validator-table';
 import { SortDir, SortKey, sortRows } from '@/app/utils/monitor-table/prepare-table-data';
 import { IChainConfig, InfrastructureItem, NodeItem } from '@/types';
-import Subtitle from '@/app/components/common/subtitle';
-import ChartLine from '@/app/components/monitor/chart-line';
 
 interface OwnProps {
   validatorData: NodeItem[];
@@ -53,11 +53,13 @@ const ValidatorNetworks: FC<OwnProps> = ({ validatorData, chains, sortKey, sortD
     },
   ];
 
-  for (const validator of validatorData) {
-    if (chainsWithValidator.includes(validator.chain.name)) {
-      validators.push(validator);
-    }
-  }
+  const filteredValidators = validatorData.filter(
+    (validator) =>
+      chainsWithValidator.includes(validator.chain.name) &&
+      !(validator.chain.name === 'gravitybridge' && validator.identity !== 'FA230088439F5B88'),
+  );
+
+  validators.push(...filteredValidators);
 
   const validatorsSorted = sortRows(validators, sortKey, sortDir);
 
