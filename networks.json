@@ -734,35 +734,5 @@
       "peers",
       "snapshot"
     ]
-  },
-  {
-    "name": "warden",
-    "type": "testnet",
-    "category": [
-      "AI"
-    ],
-    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
-    "title": "Warden",
-    "chain_id": "chiado_10010-1",
-    "icon": "https://raw.githubusercontent.com/warden-protocol/wardenprotocol/2362af8fd4d344b757e03295600c812d5f320921/snap/images/icon.svg",
-    "stake": "https://testnet.warden.explorers.guru/validator/wardenvaloper1tmrsvlfl4qyjer6wd5ar4prg7rgtttfay80787",
-    "explorer": "https://validatorinfo.com/networks/19/overview",
-    "website": "https://wardenprotocol.org",
-    "codebase": { "git_repo": "https://github.com/warden-protocol/wardenprotocol" },
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.warden-testnet.citizenweb3.com",
-      "rest": "https://warden.symphony-testnet.citizenweb3.com",
-      "grpc": "grpc.warden-testnet.citizenweb3.com",
-      "seed/peer": "81ce7b70b2fbef5c33fa2d7c1898512cd1ae5ba7@195.201.197.246:17856"
-    },
-    "generatedServices": [],
-    "twitter": "https://x.com/wardenprotocol",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
   }
 ]
