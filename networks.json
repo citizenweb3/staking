@@ -416,7 +416,7 @@
     "category": [
       "Networks"
     ],
-    "provision": ["RPC"],
+    "provision": ["Endpoints"],
     "title": "Bitcoin",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/bitcoin/bitcoin.svg",
     "explorer": "https://www.blockchain.com/explorer/blocks/btc?page=1",
@@ -558,6 +558,7 @@
       "public-goods"
     ]
   },
+  /*
   {
     "name": "linera",
     "type": "testnet",
@@ -579,6 +580,8 @@
       "public-goods"
     ]
   },
+  */
+  /*
   {
     "name": "waku",
     "type": "testnet",
@@ -600,6 +603,8 @@
       "public-goods"
     ]
   },
+  */
+  /*
   {
     "name": "darkfi",
     "type": "testnet",
@@ -621,6 +626,8 @@
       "public-goods"
     ]
   },
+  */
+  /*
   {
     "name": "nesa",
     "type": "testnet",
@@ -642,6 +649,7 @@
       "public-goods"
     ]
   },
+  */
   {
     "name": "cosmoshub-testnet",
     "type": "testnet",
