@@ -22,17 +22,22 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
   const chains: IChainConfig[] = await getRepoChains();
   const validatorData: NodeItem[] = await getValidatorData();
 
-  const validatorDataWithTotalSecure = validatorData.map(validator => ({
+  const validatorDataWithTotalSecure = validatorData.map((validator) => ({
     ...validator,
-    totalSecure: computeTotalSecure(validator)
+    totalSecure: computeTotalSecure(validator),
   }));
 
   return (
     <div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="my-8 mb-14 text-center text-xl font-semibold leading-tight sm:mt-0 md:text-2xl">
+        <h1 className="text-center text-xl font-semibold leading-tight sm:mt-0 md:text-2xl">
           Citizen Web3 Validator Public Projects Monitor
         </h1>
+        <div className="mx-auto my-6 w-1/12 border-b text-center"></div>
+        <h2 className="mb-14 text-center text-xl">
+          Citizen Web3 is a privacy-focused, self-hosted bare-metal validator. Located in the middle of the Atlantic
+          ocean with off the grid capabilities.
+        </h2>
       </div>
       <div className="mb-8 flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="flex justify-center lg:justify-start">
