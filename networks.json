@@ -462,6 +462,30 @@
     ]
   },
   {
+    "name": "aztec",
+    "type": "mainnet",
+    "category": [
+      "Privacy"
+    ],
+    "provision": ["Sequencer", "Prover", "Endpoints"],
+    "title": "Aztec",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
+    "stake": "https://stake.aztec.network/providers/26",
+    "explorer": "https://dashtec.xyz",
+    "website": "https://aztec.network",
+    "codebase": { "git_repo": "https://docs.aztec.network" },
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.aztec.citizenweb3.com"
+    },
+    "generatedServices": [],
+    "twitter": "https://twitter.com/AztecNetwork",
+    "services": [
+      "public-goods"
+    ]
+  },
+  {
     "name": "aztec-testnet",
     "type": "testnet",
     "category": [

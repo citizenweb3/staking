@@ -1,0 +1,48 @@
+# Public infrastructure 
+
+<details open>
+  <summary>Endpoints</summary>
+  <br>
+  RPC: <a href="https://rpc.aztec.citizenweb3.com">https://rpc.aztec.citizenweb3.com</a>
+</details>
+<br>
+<details>
+  <summary>Sequencers</summary>
+  <br>
+  <a href="https://dashtec.xyz/sequencers/0x31d9d6b1e666db12a537f70740671d9fb3e7d6a5">Sequencer 1</a><br>
+  <a href="https://dashtec.xyz/sequencers/0x082109fc2a4730ee2add9c3639fad5cba2c34abb">Sequencer 2</a><br>
+  <a href="https://dashtec.xyz/sequencers/0xbc7118972b92169aaae190b2a6c4efb67fd9c3a7">Sequencer 3</a><br>
+  <a href="https://dashtec.xyz/sequencers/0xe6eef9bad63817bd61524ab939495f5e2a6752a0">Sequencer 4</a><br>
+  <a href="https://dashtec.xyz/sequencers/0x9d48e0cdd7c21a0c6203a280651253fcd9e68327">Sequencer 5</a><br>
+</details>
+<br>
+<details>
+  <summary>Seed</summary>
+</details>
+<br>
+<details>
+  <summary>Relayers</summary>
+</details>
+<br>
+<details>
+  <summary>Archive endpoints</summary>
+  RPC: <br>
+  API: <br>
+  GRPC: <br>
+</details>
+<br>
+
+# Tools and community
+
+<details>
+  <summary>Explorer</summary>
+  <a href="https://validatorinfo.com/networks">Validator Info</a><br>
+</details>
+<br>
+<details>
+  <summary>Governance</summary>
+</details>
+<br>
+<details>
+  <summary>Podcasts</summary>
+</details>
