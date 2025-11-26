@@ -125,7 +125,7 @@
     ],
     "provision": ["Validator","Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Oraichain",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/3dc13bd79744ee1c40bc816187ab0c51f4c7c94b/oraichain/orai-white.svg",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/oraichain/orai-white.svg",
     "stake": "[PLACEHOLDER - Staking URL]",
     "explorer": "[PLACEHOLDER - Explorer URL]",
     "endpoints": {
