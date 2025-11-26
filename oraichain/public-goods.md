@@ -25,8 +25,3 @@
   <summary>Explorer</summary>
   <a href="[PLACEHOLDER - Explorer URL]">Citizen Web3 Explorer</a>
 </details>
-<br>
-<details>
-  <summary>Staking</summary>
-  <a href="[PLACEHOLDER - Staking URL]">Stake with Citizen Web3</a>
-</details>

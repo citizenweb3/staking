@@ -23,7 +23,7 @@ oraid tendermint unsafe-reset-all --home $HOME/.oraid --keep-addr-book
 
 ### Download and decompress the snapshot
 ```bash
-curl https://mainnet-snapshots.citizenweb3.com/oraichain/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.oraid
+curl https://mainnet-snapshots.citizenweb3.com/orai/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.oraid
 ```
 
 ### Replace the backed-up validator state (for validators only)

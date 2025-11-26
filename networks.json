@@ -123,9 +123,9 @@
     "category": [
       "AI"
     ],
-    "provision": ["Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": ["Validator","Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
     "title": "Oraichain",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/oraichain/images/orai.svg",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/oraichain/images/orai-white.png",
     "stake": "[PLACEHOLDER - Staking URL]",
     "explorer": "[PLACEHOLDER - Explorer URL]",
     "endpoints": {
