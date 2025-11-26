@@ -118,6 +118,31 @@
     ]
   },
   {
+    "name": "oraichain",
+    "type": "mainnet",
+    "category": [
+      "AI"
+    ],
+    "provision": ["Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "title": "Oraichain",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/oraichain/images/orai.svg",
+    "stake": "[PLACEHOLDER - Staking URL]",
+    "explorer": "[PLACEHOLDER - Explorer URL]",
+    "endpoints": {
+      "rpc": "https://rpc.orai.citizenweb3.com",
+      "rest": "https://api.orai.citizenweb3.com",
+      "grpc": "grpc.orai.citizenweb3.com",
+      "seed/peer": "d2204d84427052e2659509aa17c8cd39871a5cd8@195.201.197.246:27656"
+    },
+    "generatedServices": [],
+    "twitter": "https://twitter.com/oraichain",
+    "services": [
+      "public-goods",
+      "peers",
+      "snapshot"
+    ]
+  },
+  {
     "name": "stride",
     "type": "mainnet",
     "category": [
