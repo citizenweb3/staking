@@ -5,7 +5,14 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator", "Explorer", "Indexer", "Snapshot", "Archive", "Relayers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Indexer",
+      "Snapshot",
+      "Archive",
+      "Relayers"
+    ],
     "title": "Cosmos",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
@@ -34,13 +41,24 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator", "Explorer", "Indexer", "Staking-Interface", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Indexer",
+      "Staking-Interface",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Namada",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo.citizenweb3.com/staking",
     "explorer": "https://validatorinfo.com/networks/17/overview",
     "website": "https://namada.net",
-    "codebase": { "git_repo": "https://github.com/namada-net/namada" },
+    "codebase": {
+      "git_repo": "https://github.com/namada-net/namada"
+    },
     "chain_id": "namada.5f5de2dd1b88cba30586420",
     "horcrux": true,
     "shi": true,
@@ -69,7 +87,13 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Explorer", "Endpoints", "Snapshot", "Relayers", "Seed/Peers"],
+    "provision": [
+      "Explorer",
+      "Endpoints",
+      "Snapshot",
+      "Relayers",
+      "Seed/Peers"
+    ],
     "title": "Celestia",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
     "stake": "",
@@ -98,7 +122,13 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Explorer",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Osmosis",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/osmosis/images/osmo.svg",
     "stake": "",
@@ -123,11 +153,18 @@
     "category": [
       "AI"
     ],
-    "provision": ["Validator","Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Oraichain",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/oraichain/orai-white.svg",
-    "stake": "[PLACEHOLDER - Staking URL]",
-    "explorer": "[PLACEHOLDER - Explorer URL]",
+    "stake": "https://scan.orai.io/validators/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30",
+    "explorer": "https://dev.validatorinfo.com/networks/oraichain/overview",
     "endpoints": {
       "rpc": "https://rpc.orai.citizenweb3.com",
       "rest": "https://api.orai.citizenweb3.com",
@@ -140,7 +177,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "stride",
@@ -148,7 +186,15 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Governor", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Governor",
+      "Explorer",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Stride",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/stride/images/strd.svg",
     "stake": "https://explorer.bronbro.io/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
@@ -177,7 +223,14 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
@@ -198,7 +251,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "atomone",
@@ -206,7 +260,15 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Relayers", "Endpoints", "Seed-Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Archive",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed-Peers"
+    ],
     "title": "AtomOne",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
     "stake": "https://explorer.allinbits.services/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
@@ -226,7 +288,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "bostrom",
@@ -234,7 +297,11 @@
     "category": [
       "AI"
     ],
-    "provision": ["Validator", "Explorer", "Relayers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Relayers"
+    ],
     "title": "Bostrom",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/bostrom/images/boot.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake",
@@ -257,7 +324,13 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Uptick",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
     "stake": "https://explorer.nodestake.org/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
@@ -278,7 +351,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "gravitybridge",
@@ -286,7 +360,14 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Explorer", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Gravity Bridge",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
     "stake": "https://www.mintscan.io/wallet/stake?chain=gravity-bridge&src=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&type=stake",
@@ -316,7 +397,14 @@
     "category": [
       "DePin"
     ],
-    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Archive",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Althea",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/althea/images/althea.svg",
     "stake": "https://www.mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
@@ -341,7 +429,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "axone",
@@ -349,14 +438,23 @@
     "category": [
       "AI"
     ],
-    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Archive",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Axone",
     "chain_id": "axone-1",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/axone-testnet/axone.svg",
     "stake": "https://explorer.aknodes.com/AXONE-MAINNET/staking/axonevaloper1wnpak7sfawsfv9c8vqe7naxfa4g99lv7wd2wl6",
     "explorer": "https://validatorinfo.com/networks/16/overview",
     "website": "https://axone.xyz",
-    "codebase": { "git_repo": "https://github.com/axone-protocol" },
+    "codebase": {
+      "git_repo": "https://github.com/axone-protocol"
+    },
     "horcrux": true,
     "shi": true,
     "otgi": true,
@@ -372,7 +470,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "nym",
@@ -381,13 +480,18 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["dVPN", "Explorer"],
+    "provision": [
+      "dVPN",
+      "Explorer"
+    ],
     "chain_id": "nyx",
     "icon": "https://raw.githubusercontent.com/nymtech/nym/257e36ddcb408d301307b8ddf542b5275704e7d9/assets/logo/logo-bw.svg",
     "stake": "",
     "explorer": "https://validatorinfo.com/networks/25/overview",
     "website": "https://nym.com",
-    "codebase": { "git_repo": "https://github.com/nymtech/" },
+    "codebase": {
+      "git_repo": "https://github.com/nymtech/"
+    },
     "horcrux": true,
     "shi": true,
     "otgi": true,
@@ -411,14 +515,23 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Oracle-Voter", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Oracle-Voter",
+      "Explorer",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Symphony",
     "chain_id": "symphony-1",
     "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
     "stake": "https://explorer.corenodehq.xyz/symphony-mainnet/staking/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d",
     "explorer": "https://explorer.corenodehq.xyz/symphony-mainnet",
     "website": "https://orchestralabs.org",
-    "codebase": { "git_repo": "https://github.com/Orchestra-Labs" },
+    "codebase": {
+      "git_repo": "https://github.com/Orchestra-Labs"
+    },
     "shi": true,
     "otgi": true,
     "endpoints": {
@@ -433,7 +546,8 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
+    ],
+    "restake": true
   },
   {
     "name": "bitcoin",
@@ -441,12 +555,16 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Endpoints"],
+    "provision": [
+      "Endpoints"
+    ],
     "title": "Bitcoin",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/bitcoin/bitcoin.svg",
     "explorer": "https://www.blockchain.com/explorer/blocks/btc?page=1",
     "website": "https://bitcoin.org",
-    "codebase": { "git_repo": "https://github.com/bitcoin" },
+    "codebase": {
+      "git_repo": "https://github.com/bitcoin"
+    },
     "shi": true,
     "otgi": true,
     "generatedServices": [],
@@ -461,13 +579,24 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator" ,"Explorer", "Indexer", "Staking-Interface", "Snapshot", "Relayers", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Indexer",
+      "Staking-Interface",
+      "Snapshot",
+      "Relayers",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Namada",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
     "stake": "https://namadillo-housefire.citizenweb3.com",
     "explorer": "https://validatorinfo.com/networks/27/overview",
     "website": "https://namada.net",
-    "codebase": { "git_repo": "https://github.com/namada-net/namada" },
+    "codebase": {
+      "git_repo": "https://github.com/namada-net/namada"
+    },
     "shi": true,
     "otgi": true,
     "chain_id": "housefire--alpaca.cc0d3e0c033be",
@@ -492,13 +621,19 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Sequencer", "Prover", "Endpoints"],
+    "provision": [
+      "Sequencer",
+      "Prover",
+      "Endpoints"
+    ],
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "https://stake.aztec.network/providers/26",
     "explorer": "https://dashtec.xyz",
     "website": "https://aztec.network",
-    "codebase": { "git_repo": "https://docs.aztec.network" },
+    "codebase": {
+      "git_repo": "https://docs.aztec.network"
+    },
     "shi": true,
     "otgi": true,
     "endpoints": {
@@ -516,13 +651,19 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Sequencer", "Prover", "Endpoints"],
+    "provision": [
+      "Sequencer",
+      "Prover",
+      "Endpoints"
+    ],
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "https://aztecscan.xyz/l1/validators/0x7C5c8C46cbf3403E262d7da263E9d632fD32a07D",
     "explorer": "https://aztecscan.xyz",
     "website": "https://aztec.network",
-    "codebase": { "git_repo": "https://docs.aztec.network" },
+    "codebase": {
+      "git_repo": "https://docs.aztec.network"
+    },
     "shi": true,
     "otgi": true,
     "chain_id": "alpha-testnet",
@@ -541,14 +682,23 @@
     "category": [
       "AI"
     ],
-    "provision": ["Validator", "Explorer", "Archive", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Archive",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Axone",
     "chain_id": "axone-dentrite-1",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/axone-testnet/axone.svg",
     "stake": "https://explore.axone.xyz/Axone%20testnet/staking/axonevaloper1c3yfkydn9quv9ns6mkfrcgg489nrlwxd88yu9s",
     "explorer": "https://validatorinfo.com/networks/16/overview",
     "website": "https://axone.xyz",
-    "codebase": { "git_repo": "https://github.com/axone-protocol" },
+    "codebase": {
+      "git_repo": "https://github.com/axone-protocol"
+    },
     "shi": true,
     "otgi": true,
     "endpoints": {
@@ -571,13 +721,17 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Endpoints"],
+    "provision": [
+      "Endpoints"
+    ],
     "title": "Citrea",
     "chain_id": "5115",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/citrea/citrea.svg",
     "explorer": "https://explorer.testnet.citrea.xyz/",
     "website": "https://citrea.xyz",
-    "codebase": { "git_repo": "https://github.com/chainwayxyz/citrea" },
+    "codebase": {
+      "git_repo": "https://github.com/chainwayxyz/citrea"
+    },
     "shi": true,
     "otgi": true,
     "generatedServices": [],
@@ -592,13 +746,18 @@
     "category": [
       "Privacy"
     ],
-    "provision": ["Validator", "Endpoints"],
+    "provision": [
+      "Validator",
+      "Endpoints"
+    ],
     "title": "zkVerify",
     "chain_id": "zkVerify-testnet",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/zkverify/zkverify.svg",
     "explorer": "https://zkverify-testnet.subscan.io",
     "website": "https://zkverify.io",
-    "codebase": { "git_repo": "https://github.com/zkverify" },
+    "codebase": {
+      "git_repo": "https://github.com/zkverify"
+    },
     "shi": true,
     "otgi": true,
     "generatedServices": [],
@@ -613,14 +772,22 @@
     "category": [
       "Networks"
     ],
-    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Cosmos",
     "chain_id": "provider",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://explorer.polypore.xyz/provider/staking/cosmosvaloper18lz3nz3nyhtewm35npaccnc7javzmyvfake7j7",
     "explorer": "https://explorer.polypore.xyz/provider",
     "website": "https://cosmos.network",
-    "codebase": { "git_repo": "https://github.com/cosmos/gaia" },
+    "codebase": {
+      "git_repo": "https://github.com/cosmos/gaia"
+    },
     "horcrux": true,
     "shi": true,
     "otgi": true,
@@ -644,13 +811,21 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Explorer", "Snapshot", "Endpoints", "Seed/Peers"],
+    "provision": [
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
+    ],
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
     "stake": "https://testnet-explorer.konsortech.xyz/quicksilver/staking/quickvaloper1pd6yhpkt557d85mwdmvgt0mxpcc24kv7w0xh8n",
     "explorer": "https://testnet-explorer.konsortech.xyz/quicksilver",
     "website": "https://quicksilver.zone",
-    "codebase": { "git_repo": "https://github.com/quicksilver-zone/quicksilver" },
+    "codebase": {
+      "git_repo": "https://github.com/quicksilver-zone/quicksilver"
+    },
     "chain_id": "rhye-3",
     "horcrux": true,
     "shi": true,
@@ -676,14 +851,19 @@
     "category": [
       "DeFi"
     ],
-    "provision": ["Validator", "Explorer"],
+    "provision": [
+      "Validator",
+      "Explorer"
+    ],
     "title": "Symphony",
     "chain_id": "symphony-testnet-4",
     "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
     "stake": "https://testnet.ping.pub/symphony/staking/symphonyvaloper1wpzkum4902l3978qyl24469ktlmt58u9yy9nsa",
     "explorer": "https://validatorinfo.com/networks/19/overview",
     "website": "https://orchestralabs.org",
-    "codebase": { "git_repo": "https://github.com/Orchestra-Labs" },
+    "codebase": {
+      "git_repo": "https://github.com/Orchestra-Labs"
+    },
     "shi": true,
     "otgi": true,
     "endpoints": {

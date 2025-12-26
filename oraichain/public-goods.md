@@ -17,11 +17,11 @@
   <summary>Relayers</summary>
   Oraichain <-> Cosmoshub<br>
   Oraichain <-> Osmosis<br>
-  <a href="[PLACEHOLDER - Our wallet]">Our wallet</a>
+  <a href="https://scan.orai.io/account/orai12mchf67y67y3xnk2tkzkxa67w3vmhxjs0yke23">Our wallet</a>
 </details>
 
 # Tools and community
 <details>
   <summary>Explorer</summary>
-  <a href="[PLACEHOLDER - Explorer URL]">Citizen Web3 Explorer</a>
+  <a href="https://dev.validatorinfo.com/networks/oraichain/overview">Citizen Web3 Explorer</a>
 </details>
