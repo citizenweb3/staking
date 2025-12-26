@@ -165,6 +165,10 @@
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/oraichain/orai-white.svg",
     "stake": "https://scan.orai.io/validators/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30",
     "explorer": "https://dev.validatorinfo.com/networks/oraichain/overview",
+    "horcrux": true,
+    "restake": true,
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.orai.citizenweb3.com",
       "rest": "https://api.orai.citizenweb3.com",
@@ -177,8 +181,7 @@
       "public-goods",
       "peers",
       "snapshot"
-    ],
-    "restake": true
+    ]
   },
   {
     "name": "stride",
