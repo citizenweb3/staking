@@ -645,7 +645,8 @@
     "generatedServices": [],
     "twitter": "https://twitter.com/AztecNetwork",
     "services": [
-      "public-goods"
+      "public-goods",
+      "snapshot"
     ]
   },
   {

@@ -18,6 +18,8 @@
 <br>
 <details>
   <summary>Seed</summary>
+  <br>
+  <span title="Bootnode ENR" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="enr:-Ku4QJMw_QgqKUwBY93qM6TLjUfQr8-wpB_iBnHyXWAyP9ppOOLYlhfodGi9a9iFIVmgLmSJvf1xXNUHgHOzmSgESnMEhWF6dGVjoDAwLS0wMDAwMDAwMC0wLTEyZTlhYTM2LTIyOWVhZGI3gmlkgnY0gmlwhKh3JaSJc2VjcDI1NmsxoQKKS7HGYgedexQ4L5LH8ZZfJl6tMagw6dc3xlLxJqSMToN1ZHCCndE">enr:-Ku4QJMw_QgqKUwBY93qM6TLjUfQr8-wpB_iBnHyXWAyP9ppOOLYlhfodGi9a9iFIVmgLmSJvf1xXNUHgHOzmSgESnMEhWF6dGVjoDAwLS0wMDAwMDAwMC0wLTEyZTlhYTM2LTIyOWVhZGI3gmlkgnY0gmlwhKh3JaSJc2VjcDI1NmsxoQKKS7HGYgedexQ4L5LH8ZZfJl6tMagw6dc3xlLxJqSMToN1ZHCCndE</span>
 </details>
 <br>
 <details>
