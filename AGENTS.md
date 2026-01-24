@@ -54,6 +54,7 @@ Add a new entry to `networks.json` with the following structure:
   "icon": "https://...",            // SVG icon URL
   "stake": "",                      // Staking URL (if validator)
   "explorer": "",                   // Explorer URL
+  "chain_id": "chain-id-here",      // Chain ID (e.g., "cosmoshub-4", "1" for Ethereum)
   "horcrux": true,                  // Optional: validator badge (see Badges section)
   "restake": true,                  // Optional: validator badge
   "shi": true,                      // Optional: validator badge

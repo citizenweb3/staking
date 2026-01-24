@@ -871,6 +871,9 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/ethereum/images/eth-white.svg",
     "stake": "",
     "explorer": "https://etherscan.io",
+    "chain_id": "1",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.ethereum.citizenweb3.com",
       "beacon": "https://beacon.ethereum.citizenweb3.com"
@@ -890,10 +893,13 @@
     "provision": [
       "Endpoints"
     ],
-    "title": "Ethereum Sepolia",
+    "title": "Ethereum",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/ethereum/images/eth-white.svg",
     "stake": "",
     "explorer": "https://sepolia.etherscan.io",
+    "chain_id": "11155111",
+    "shi": true,
+    "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.sepolia.citizenweb3.com",
       "beacon": "https://beacon.sepolia.citizenweb3.com"
