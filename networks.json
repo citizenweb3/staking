@@ -882,7 +882,7 @@
     ]
   },
   {
-    "name": "ethereum-sepolia",
+    "name": "ethereum-testnet",
     "type": "testnet",
     "category": [
       "Networks"
