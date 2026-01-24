@@ -745,32 +745,6 @@
     ]
   },
   {
-    "name": "zkverify",
-    "type": "testnet",
-    "category": [
-      "Privacy"
-    ],
-    "provision": [
-      "Validator",
-      "Endpoints"
-    ],
-    "title": "zkVerify",
-    "chain_id": "zkVerify-testnet",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/zkverify/zkverify.svg",
-    "explorer": "https://zkverify-testnet.subscan.io",
-    "website": "https://zkverify.io",
-    "codebase": {
-      "git_repo": "https://github.com/zkverify"
-    },
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "twitter": "https://x.com/ZKVProtocol",
-    "services": [
-      "public-goods"
-    ]
-  },
-  {
     "name": "cosmoshub-testnet",
     "type": "testnet",
     "category": [
@@ -882,6 +856,52 @@
       "public-goods",
       "peers",
       "snapshot"
+    ]
+  },
+  {
+    "name": "ethereum",
+    "type": "mainnet",
+    "category": [
+      "Networks"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "Ethereum",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/ethereum/images/eth-white.svg",
+    "stake": "",
+    "explorer": "https://etherscan.io",
+    "endpoints": {
+      "rpc": "https://rpc.ethereum.citizenweb3.com",
+      "beacon": "https://beacon.ethereum.citizenweb3.com"
+    },
+    "generatedServices": [],
+    "twitter": "https://x.com/ethereum?s=21&t=e1J4PfdPAf_vKQd97ImS1A",
+    "services": [
+      "public-goods"
+    ]
+  },
+  {
+    "name": "ethereum-sepolia",
+    "type": "testnet",
+    "category": [
+      "Networks"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "Ethereum Sepolia",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/ethereum/images/eth-white.svg",
+    "stake": "",
+    "explorer": "https://sepolia.etherscan.io",
+    "endpoints": {
+      "rpc": "https://rpc.sepolia.citizenweb3.com",
+      "beacon": "https://beacon.sepolia.citizenweb3.com"
+    },
+    "generatedServices": [],
+    "twitter": "https://x.com/ethereum?s=21&t=e1J4PfdPAf_vKQd97ImS1A",
+    "services": [
+      "public-goods"
     ]
   }
 ]
