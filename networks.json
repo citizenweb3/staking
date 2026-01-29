@@ -914,7 +914,7 @@
     "name": "genlayer-testnet",
     "type": "testnet",
     "category": [
-      "Networks"
+      "Privacy"
     ],
     "provision": [
       "Endpoints"
@@ -956,7 +956,7 @@
     "name": "logos-testnet",
     "type": "testnet",
     "category": [
-      "Networks"
+      "Privacy"
     ],
     "provision": [
       "Endpoints"
