@@ -632,7 +632,7 @@
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "https://stake.aztec.network/providers/26",
-    "explorer": "https://dashtec.xyz",
+    "explorer": "https://dev.validatorinfo.com/networks/aztec/overview",
     "website": "https://aztec.network",
     "codebase": {
       "git_repo": "https://docs.aztec.network"
@@ -663,7 +663,7 @@
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "https://aztecscan.xyz/l1/validators/0x7C5c8C46cbf3403E262d7da263E9d632fD32a07D",
-    "explorer": "https://aztecscan.xyz",
+    "explorer": "https://dev.validatorinfo.com/networks/aztec-testnet/overview",
     "website": "https://aztec.network",
     "codebase": {
       "git_repo": "https://docs.aztec.network"
@@ -870,7 +870,7 @@
     "title": "Ethereum",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/ethereum/images/eth-white.svg",
     "stake": "",
-    "explorer": "https://etherscan.io",
+    "explorer": "https://dev.validatorinfo.com/networks/ethereum/overview",
     "chain_id": "1",
     "shi": true,
     "otgi": true,
@@ -896,7 +896,7 @@
     "title": "Ethereum",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/ethereum/images/eth-white.svg",
     "stake": "",
-    "explorer": "https://sepolia.etherscan.io",
+    "explorer": "https://validatorinfo.com/networks/ethereum-sepolia/overview",
     "chain_id": "11155111",
     "shi": true,
     "otgi": true,
@@ -906,6 +906,69 @@
     },
     "generatedServices": [],
     "twitter": "https://x.com/ethereum?s=21&t=e1J4PfdPAf_vKQd97ImS1A",
+    "services": [
+      "public-goods"
+    ]
+  },
+  {
+    "name": "genlayer-testnet",
+    "type": "testnet",
+    "category": [
+      "Networks"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "GenLayer",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/chain-images/genlayer/genlayer.svg",
+    "stake": "",
+    "explorer": "",
+    "chain_id": "",
+    "endpoints": {},
+    "generatedServices": [],
+    "twitter": "https://x.com/genlayer",
+    "services": [
+      "public-goods"
+    ]
+  },
+  {
+    "name": "darkfi-testnet",
+    "type": "testnet",
+    "category": [
+      "Privacy"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "DarkFi",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/chain-images/darkfi/darkfi.svg",
+    "stake": "",
+    "explorer": "",
+    "chain_id": "",
+    "endpoints": {},
+    "generatedServices": [],
+    "twitter": "https://x.com/darkdotfi",
+    "services": [
+      "public-goods"
+    ]
+  },
+  {
+    "name": "logos-testnet",
+    "type": "testnet",
+    "category": [
+      "Networks"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "Logos",
+    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/chain-images/logos/logos.svg",
+    "stake": "",
+    "explorer": "",
+    "chain_id": "",
+    "endpoints": {},
+    "generatedServices": [],
+    "twitter": "https://x.com/Logos_network",
     "services": [
       "public-goods"
     ]
