@@ -50,7 +50,7 @@
 
 <details>
   <summary>Explorer</summary>
-  <a href="https://validatorinfo.com/networks">Validator Info</a><br>
+  <a href="https://validatorinfo.com/networks/aztec/overview">Validator Info</a><br>
 </details>
 <br>
 <details>

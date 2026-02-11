@@ -627,7 +627,9 @@
     "provision": [
       "Sequencer",
       "Prover",
-      "Endpoints"
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
     ],
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
@@ -640,7 +642,8 @@
     "shi": true,
     "otgi": true,
     "endpoints": {
-      "rpc": "https://rpc.aztec.citizenweb3.com"
+      "rpc": "https://rpc.aztec.citizenweb3.com",
+      "seed/peer": "enr:-Ku4QJMw_QgqKUwBY93qM6TLjUfQr8-wpB_iBnHyXWAyP9ppOOLYlhfodGi9a9iFIVmgLmSJvf1xXNUHgHOzmSgESnMEhWF6dGVjoDAwLS0wMDAwMDAwMC0wLTEyZTlhYTM2LTIyOWVhZGI3gmlkgnY0gmlwhKh3JaSJc2VjcDI1NmsxoQKKS7HGYgedexQ4L5LH8ZZfJl6tMagw6dc3xlLxJqSMToN1ZHCCndE"
     },
     "generatedServices": [],
     "twitter": "https://twitter.com/AztecNetwork",
@@ -658,12 +661,14 @@
     "provision": [
       "Sequencer",
       "Prover",
-      "Endpoints"
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
     ],
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
-    "stake": "https://aztecscan.xyz/l1/validators/0x7C5c8C46cbf3403E262d7da263E9d632fD32a07D",
-    "explorer": "https://dev.validatorinfo.com/networks/aztec-testnet/overview",
+    "stake": "https://testnet.stake.aztec.network/providers/35",
+    "explorer": "https://validatorinfo.com/networks/aztec-testnet/overview",
     "website": "https://aztec.network",
     "codebase": {
       "git_repo": "https://docs.aztec.network"
@@ -672,12 +677,14 @@
     "otgi": true,
     "chain_id": "alpha-testnet",
     "endpoints": {
-      "rpc": "https://rpc.aztec-testnet.citizenweb3.com"
+      "rpc": "https://rpc.aztec-testnet.citizenweb3.com",
+      "seed/peer": "enr:-LO4QCbRmPTlYk1Vz42q9QyFRVhWX3FzBBl2tQWq65IzJSxOe9-527XvZUT7TuXF5lc8ZXHdo6yUXXN2TZGTF5LZ5LYEhWF6dGVjqDAwLTExMTU1MTExLTAwMDAwMDAwLTAtMjM0OGIxMmUtMGY0ODVkNzWCaWSCdjSCaXCEw8nF9olzZWNwMjU2azGhAxEroRpxi7kH_vVB6nCon-QD5cY6JtpR-19HA9coZQUkg3VkcIKd0g"
     },
     "generatedServices": [],
     "twitter": "https://twitter.com/AztecNetwork",
     "services": [
-      "public-goods"
+      "public-goods",
+      "snapshot"
     ]
   },
   {
