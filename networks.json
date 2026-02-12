@@ -626,7 +626,6 @@
     ],
     "provision": [
       "Sequencer",
-      "Prover",
       "Snapshot",
       "Endpoints",
       "Seed/Peers"
