@@ -8,13 +8,13 @@ Next.js 14 staking website for Citizenweb3 validator. Shows a filterable list of
 
 ### Development (local)
 ```bash
-yarn install    # Install dependencies
+yarn            # Install dependencies
 yarn dev        # Start dev server (port 3000)
-yarn lint       # ESLint
 ```
 
 ### Production (local)
 ```bash
+yarn            # Install dependencies
 yarn build      # Build for production
 yarn start      # Start production server (port 3200, see package.json)
 ```
