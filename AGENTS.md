@@ -14,7 +14,6 @@ Network configuration data (networks.json, markdown content for each chain) live
 | `source-main` | Next.js source code (this branch) |
 | `config` | Network configs: `networks.json`, per-chain `.md` files, global templates |
 | `chain-images` | Chain logo/icon images |
-| `main` | Production build output |
 
 ## Tech Stack
 
