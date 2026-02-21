@@ -60,7 +60,7 @@ const MainPage: FC<PageProps> = async ({ searchParams }) => {
       <NetworksFilters selected={selected.categories} options={categoryOptions} tag="category" title="Category" />
       <NetworksFilters selected={selected.provisions} options={provisionOptions} tag="provision" title="Provisions" />
       <ResetFilters />
-      <p className="mt-2 mb-6 text-xs text-gray font-normal">
+      <p className="mt-2 mb-6 text-sm text-gray font-medium">
         * Please note, every day at 06:00 and 18:00 UTC our public infrastructure makes snapshots.
         This means that for a period of approximately 30 minutes our public nodes won&apos;t respond
         to calls.
