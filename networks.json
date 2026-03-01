@@ -978,5 +978,31 @@
     "services": [
       "public-goods"
     ]
+  },
+  {
+    "name": "miden-testnet",
+    "type": "testnet",
+    "category": [
+      "Privacy"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "Miden",
+    "icon": "https://avatars.githubusercontent.com/u/190780847?s=200&v=4",
+    "stake": "",
+    "explorer": "https://testnet.midenscan.com",
+    "chain_id": "testnet",
+    "website": "https://miden.xyz",
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "grpc": "grpc.miden.citizenweb3.com"
+    },
+    "generatedServices": [],
+    "twitter": "https://x.com/0xMiden",
+    "services": [
+      "public-goods"
+    ]
   }
 ]
