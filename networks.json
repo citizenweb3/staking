@@ -33,6 +33,16 @@
       "public-goods",
       "peers",
       "snapshot"
+    ],
+    "validator_address": "cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u",
+    "mintscan_name": "cosmos",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake" },
+      { "name": "Leap", "url": "https://cosmos.leapwallet.io/staking/chain/cosmoshub-4" },
+      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
+      { "name": "Mintscan", "url": "https://mintscan.io/cosmos/validators/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u" },
+      { "name": "Restake", "url": "https://restake.app/cosmoshub/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u" },
+      { "name": "Ping.pub", "url": "https://ping.pub/cosmos/staking/cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u" }
     ]
   },
   {
@@ -115,6 +125,12 @@
       "public-goods",
       "peers",
       "snapshot"
+    ],
+    "validator_address": "oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=Oraichain&validator_address=oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30&step_id=3&action_id=stake" },
+      { "name": "Restake", "url": "https://restake.app/oraichain/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30" },
+      { "name": "Ping.pub", "url": "https://ping.pub/oraichain/staking/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30" }
     ]
   },
   {
@@ -152,6 +168,15 @@
       "public-goods",
       "peers",
       "snapshot"
+    ],
+    "validator_address": "stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj",
+    "mintscan_name": "stride",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=stride-1&validator_address=stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj&step_id=3&action_id=stake" },
+      { "name": "Leap", "url": "https://cosmos.leapwallet.io/staking/chain/stride-1" },
+      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
+      { "name": "Mintscan", "url": "https://mintscan.io/stride/validators/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj" },
+      { "name": "Ping.pub", "url": "https://ping.pub/stride/staking/stridevaloper1m77eksxfz9q50qejnqf720sns7q0xtx8gf36rj" }
     ]
   },
   {
@@ -175,7 +200,17 @@
     "services": [
       "public-goods"
     ],
-    "restake": true
+    "restake": true,
+    "validator_address": "quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
+    "mintscan_name": "quicksilver",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake" },
+      { "name": "Leap", "url": "https://cosmos.leapwallet.io/staking/chain/quicksilver-2" },
+      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
+      { "name": "Mintscan", "url": "https://mintscan.io/quicksilver/validators/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq" },
+      { "name": "Restake", "url": "https://restake.app/quicksilver/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq" },
+      { "name": "Ping.pub", "url": "https://ping.pub/quicksilver/staking/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq" }
+    ]
   },
   {
     "name": "atomone",
@@ -212,7 +247,12 @@
       "peers",
       "snapshot"
     ],
-    "restake": true
+    "restake": true,
+    "validator_address": "atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=atomone-1&validator_address=atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60&step_id=3&action_id=stake" },
+      { "name": "Ping.pub", "url": "https://ping.pub/atomone/staking/atonevaloper1e859xaue4k2jzqw20cv6l7p3tmc378pcclyn60" }
+    ]
   },
   {
     "name": "bostrom",
@@ -239,6 +279,12 @@
       "public-goods",
       "peers",
       "snapshot"
+    ],
+    "validator_address": "bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=bostrom&validator_address=bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r&step_id=3&action_id=stake" },
+      { "name": "Restake", "url": "https://restake.app/bostrom/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r" },
+      { "name": "Ping.pub", "url": "https://ping.pub/bostrom/staking/bostromvaloper1f7nx65pmayfenpfwzwaamwas4ygmvalqj6dz5r" }
     ]
   },
   {
@@ -275,7 +321,14 @@
       "peers",
       "snapshot"
     ],
-    "restake": true
+    "restake": true,
+    "validator_address": "uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=uptick_117-1&validator_address=uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu&step_id=3&action_id=stake" },
+      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
+      { "name": "Restake", "url": "https://restake.app/uptick/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu" },
+      { "name": "Ping.pub", "url": "https://ping.pub/uptick/staking/uptickvaloper1ke3qlvuhcn537m47l3y3hj0v7jm48ka47nkduu" }
+    ]
   },
   {
     "name": "gravitybridge",
@@ -312,6 +365,16 @@
       "public-goods",
       "peers",
       "snapshot"
+    ],
+    "validator_address": "gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m",
+    "mintscan_name": "gravity-bridge",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=gravity-bridge-3&validator_address=gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m&step_id=3&action_id=stake" },
+      { "name": "Leap", "url": "https://cosmos.leapwallet.io/staking/chain/gravity-bridge-3" },
+      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
+      { "name": "Mintscan", "url": "https://mintscan.io/gravity-bridge/validators/gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m" },
+      { "name": "Restake", "url": "https://restake.app/gravitybridge/gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m" },
+      { "name": "Ping.pub", "url": "https://ping.pub/gravity-bridge/staking/gravityvaloper1a00v3m5sthed82267gvdp2qt9czhjngg2djy8m" }
     ]
   },
   {
@@ -349,7 +412,16 @@
       "peers",
       "snapshot"
     ],
-    "restake": true
+    "restake": true,
+    "validator_address": "altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm",
+    "mintscan_name": "althea",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=althea_258432-1&validator_address=altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm&step_id=3&action_id=stake" },
+      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
+      { "name": "Mintscan", "url": "https://mintscan.io/althea/validators/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm" },
+      { "name": "Restake", "url": "https://restake.app/althea/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm" },
+      { "name": "Ping.pub", "url": "https://ping.pub/althea/staking/altheavaloper1m77eksxfz9q50qejnqf720sns7q0xtx8c4r6fm" }
+    ]
   },
   {
     "name": "axone",
@@ -389,7 +461,13 @@
       "peers",
       "snapshot"
     ],
-    "restake": true
+    "restake": true,
+    "validator_address": "axonevaloper1wnpak7sfawsfv9c8vqe7naxfa4g99lv7wd2wl6",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=axone-1&validator_address=axonevaloper1wnpak7sfawsfv9c8vqe7naxfa4g99lv7wd2wl6&step_id=3&action_id=stake" },
+      { "name": "Restake", "url": "https://restake.app/axone/axonevaloper1wnpak7sfawsfv9c8vqe7naxfa4g99lv7wd2wl6" },
+      { "name": "Ping.pub", "url": "https://ping.pub/axone/staking/axonevaloper1wnpak7sfawsfv9c8vqe7naxfa4g99lv7wd2wl6" }
+    ]
   },
   {
     "name": "nym",
@@ -453,7 +531,13 @@
     "services": [
       "public-goods"
     ],
-    "restake": true
+    "restake": true,
+    "validator_address": "symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d",
+    "wallets": [
+      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=symphony-1&validator_address=symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d&step_id=3&action_id=stake" },
+      { "name": "Restake", "url": "https://restake.app/symphony/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d" },
+      { "name": "Ping.pub", "url": "https://ping.pub/symphony/staking/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d" }
+    ]
   },
   {
     "name": "bitcoin",
