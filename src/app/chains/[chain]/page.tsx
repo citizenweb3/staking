@@ -11,7 +11,7 @@ import {
 import NotFound from '@/app/chains/[chain]/not-found';
 import StatusSwitch from '@/app/chains/[chain]/status-switch';
 import Tabs from '@/app/chains/[chain]/tabs';
-import Button from '@/app/components/common/button';
+import WalletStakeButtons from '@/app/components/chain-list/wallet-stake-buttons';
 import type { IChainConfig } from '@/types';
 
 interface OwnProps {
@@ -57,14 +57,8 @@ const ChainPage = async (props: OwnProps) => {
             <Image src={data.icon} alt={data.title} width={180} height={180} />
             <div className="ml-12 flex flex-col items-center justify-center">
               <div>
-                <div className="mt-4 flex space-x-8">
-                  {data.stake && (
-                    <Link href={data.stake} rel="nofollow" target="_blank">
-                      <Button external className="text-lg capitalize">
-                        Stake with Citizen Web3
-                      </Button>
-                    </Link>
-                  )}
+                <div className="mt-4">
+                  <WalletStakeButtons stake={data.stake} wallets={data.wallets} />
                 </div>
                 <div className="flex flex-row items-center justify-center">
                   <div className="mt-6 flex space-x-4">
