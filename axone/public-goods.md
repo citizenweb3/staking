@@ -17,13 +17,7 @@ b4629105b507792188a79fdb70f03262507cb5fc@78.46.79.242:17656
   <summary>Relayers</summary>
 </details>
 <br>
-<details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
+
 
 # Tools and community
 

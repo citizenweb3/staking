@@ -82,72 +82,6 @@
     ]
   },
   {
-    "name": "celestia",
-    "type": "mainnet",
-    "category": [
-      "Networks"
-    ],
-    "provision": [
-      "Explorer",
-      "Endpoints",
-      "Snapshot",
-      "Relayers",
-      "Seed/Peers"
-    ],
-    "title": "Celestia",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
-    "stake": "",
-    "explorer": "https://validatorinfo.com/networks/2/overview",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.celestia.citizenweb3.com",
-      "rest": "https://api.celestia.citizenweb3.com",
-      "grpc": "grpc.celestia.citizenweb3.com",
-      "grpcweb": "grpcweb.celestia.citizenweb3.com",
-      "seed/peer": "7066852273cf94ec60003b40428010a4eac86f5b@mainnet.seednode.citizenweb3.com:27656"
-    },
-    "generatedServices": [],
-    "twitter": "https://x.com/celestia",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
-  },
-  {
-    "name": "osmosis",
-    "type": "mainnet",
-    "category": [
-      "DeFi"
-    ],
-    "provision": [
-      "Explorer",
-      "Snapshot",
-      "Relayers",
-      "Endpoints",
-      "Seed/Peers"
-    ],
-    "title": "Osmosis",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/osmosis/images/osmo.svg",
-    "stake": "",
-    "explorer": "https://validatorinfo.com/networks/22/overview",
-    "endpoints": {
-      "rpc": "https://rpc.osmosis.citizenweb3.com",
-      "rest": "https://api.osmosis.citizenweb3.com",
-      "grpc": "grpc.osmosis.citizenweb3.com",
-      "seed/peer": "039e0725baf0b7eb79dcb5b4245e0b9049c6c91a@168.119.37.164:12956"
-    },
-    "generatedServices": [],
-    "twitter": "https://twitter.com/osmosiszone",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
-  },
-  {
     "name": "oraichain",
     "type": "mainnet",
     "category": [
@@ -227,12 +161,7 @@
       "DeFi"
     ],
     "provision": [
-      "Validator",
-      "Explorer",
-      "Snapshot",
-      "Relayers",
-      "Endpoints",
-      "Seed/Peers"
+      "Validator"
     ],
     "title": "Quicksilver",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
@@ -241,20 +170,9 @@
     "horcrux": true,
     "shi": true,
     "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.quicksilver.citizenweb3.com",
-      "rest": "https://api.quicksilver.citizenweb3.com",
-      "grpc": "grpc.quicksilver.citizenweb3.com",
-      "grpcweb": "grpcweb.quicksilver.citizenweb3.com",
-      "seed/peer": "719ddc260d5bbd17a7c6ed4219bdbad60d423d96@mainnet.seednode.citizenweb3.com:28656"
-    },
     "generatedServices": [],
     "twitter": "https://twitter.com/quicksilverzone",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ],
+    "services": [],
     "restake": true
   },
   {
@@ -328,11 +246,7 @@
       "Networks"
     ],
     "provision": [
-      "Validator",
-      "Explorer",
-      "Snapshot",
-      "Endpoints",
-      "Seed/Peers"
+      "Validator"
     ],
     "title": "Uptick",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
@@ -341,20 +255,9 @@
     "horcrux": true,
     "shi": true,
     "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.uptick.citizenweb3.com",
-      "rest": "https://api.uptick.citizenweb3.com",
-      "grpc": "grpc.uptick.citizenweb3.com",
-      "grpcweb": "grpcweb.uptick.citizenweb3.com",
-      "seed/peer": "bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656"
-    },
     "generatedServices": [],
     "twitter": "https://x.com/uptickproject",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ],
+    "services": [],
     "restake": true
   },
   {
@@ -403,7 +306,6 @@
     "provision": [
       "Validator",
       "Explorer",
-      "Archive",
       "Snapshot",
       "Endpoints",
       "Seed/Peers"
@@ -421,9 +323,6 @@
       "rpc": "https://rpc.althea.citizenweb3.com",
       "rest": "https://api.althea.citizenweb3.com",
       "grpc": "grpc.althea.citizenweb3.com",
-      "archive rpc": "https://rpc.althea-archive.citizenweb3.com",
-      "archive api": "https://api.althea-archive.citizenweb3.com",
-      "archive grpc": "grpc.althea-archive.citizenweb3.com",
       "seed/peer": "c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656"
     },
     "generatedServices": [],
@@ -444,7 +343,6 @@
     "provision": [
       "Validator",
       "Explorer",
-      "Archive",
       "Snapshot",
       "Endpoints",
       "Seed/Peers"
@@ -520,11 +418,7 @@
     ],
     "provision": [
       "Validator",
-      "Oracle-Voter",
-      "Explorer",
-      "Snapshot",
-      "Endpoints",
-      "Seed/Peers"
+      "Oracle-Voter"
     ],
     "title": "Symphony",
     "chain_id": "symphony-1",
@@ -537,19 +431,9 @@
     },
     "shi": true,
     "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.symphony.citizenweb3.com",
-      "rest": "https://api.symphony.citizenweb3.com",
-      "grpc": "grpc.symphony.citizenweb3.com",
-      "seed/peer": "3f934b3a5def38b1810d370b1aac9f2205713eeb@78.46.79.242:32756"
-    },
     "generatedServices": [],
     "twitter": "https://twitter.com/OrchestraLabs",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ],
+    "services": [],
     "restake": true
   },
   {
@@ -783,46 +667,6 @@
     },
     "generatedServices": [],
     "twitter": "https://twitter.com/cosmos",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
-  },
-  {
-    "name": "quicksilver-testnet",
-    "type": "testnet",
-    "category": [
-      "DeFi"
-    ],
-    "provision": [
-      "Validator",
-      "Explorer",
-      "Snapshot",
-      "Endpoints",
-      "Seed/Peers"
-    ],
-    "title": "Quicksilver",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
-    "stake": "https://testnet-explorer.konsortech.xyz/quicksilver/staking/quickvaloper1pd6yhpkt557d85mwdmvgt0mxpcc24kv7w0xh8n",
-    "explorer": "https://testnet-explorer.konsortech.xyz/quicksilver",
-    "website": "https://quicksilver.zone",
-    "codebase": {
-      "git_repo": "https://github.com/quicksilver-zone/quicksilver"
-    },
-    "chain_id": "rhye-3",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.quicksilver-testnet.citizenweb3.com",
-      "rest": "https://api.quicksilver-testnet.citizenweb3.com",
-      "grpc": "grpc.quicksilver-testnet.citizenweb3.com",
-      "grpcweb": "grpcweb.quicksilver-testnet.citizenweb3.com",
-      "seed/peer": "25fff0b03188a1bda4ae87a64a8b43b5b241df38@195.201.197.246:33656"
-    },
-    "generatedServices": [],
-    "twitter": "https://twitter.com/quicksilverzone",
     "services": [
       "public-goods",
       "peers",

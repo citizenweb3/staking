@@ -17,14 +17,7 @@ c098c53e76d204cd843cec99855cf7febe4277bf@mainnet.seednode.citizenweb3.com:36656
   <summary>Relayers</summary>
 </details>
 <br>
-<details>
-  <summary>Archive endpoints</summary>
-  <br>
-  RPC: <a href="https://rpc.althea-archive.citizenweb3.com">https://rpc.althea-archive.citizenweb3.com</a><br>
-  REST: <a href="https://api.althea-archive.citizenweb3.com/">https://api.althea-archive.citizenweb3.com</a><br>
-  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.althea-archive.citizenweb3.com">grpc.althea-archive.citizenweb3.com</span>
-</details>
-<br>
+
 
 # Tools and community
 
