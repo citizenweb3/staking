@@ -674,41 +674,6 @@
     ]
   },
   {
-    "name": "symphony-testnet",
-    "type": "testnet",
-    "category": [
-      "DeFi"
-    ],
-    "provision": [
-      "Validator",
-      "Explorer"
-    ],
-    "title": "Symphony",
-    "chain_id": "symphony-testnet-4",
-    "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
-    "stake": "https://testnet.ping.pub/symphony/staking/symphonyvaloper1wpzkum4902l3978qyl24469ktlmt58u9yy9nsa",
-    "explorer": "https://validatorinfo.com/networks/19/overview",
-    "website": "https://orchestralabs.org",
-    "codebase": {
-      "git_repo": "https://github.com/Orchestra-Labs"
-    },
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.symphony-testnet.citizenweb3.com",
-      "rest": "https://api.symphony-testnet.citizenweb3.com",
-      "grpc": "grpc.symphony-testnet.citizenweb3.com",
-      "seed/peer": "3bad680d3eebdf0e9168ad5802e2611c95eab124@195.201.197.246:27056"
-    },
-    "generatedServices": [],
-    "twitter": "https://twitter.com/OrchestraLabs",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ]
-  },
-  {
     "name": "ethereum",
     "type": "mainnet",
     "category": [
