@@ -172,7 +172,9 @@
     "otgi": true,
     "generatedServices": [],
     "twitter": "https://twitter.com/quicksilverzone",
-    "services": [],
+    "services": [
+      "public-goods"
+    ],
     "restake": true
   },
   {
@@ -257,7 +259,9 @@
     "otgi": true,
     "generatedServices": [],
     "twitter": "https://x.com/uptickproject",
-    "services": [],
+    "services": [
+      "public-goods"
+    ],
     "restake": true
   },
   {
@@ -433,7 +437,9 @@
     "otgi": true,
     "generatedServices": [],
     "twitter": "https://twitter.com/OrchestraLabs",
-    "services": [],
+    "services": [
+      "public-goods"
+    ],
     "restake": true
   },
   {
