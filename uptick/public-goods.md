@@ -1,31 +1,3 @@
-# Public infrastructure 
-
-<details open>
-  <summary>Endpoints</summary>
-  <br>
-  RPC: <a href="https://rpc.uptick.citizenweb3.com/">https://rpc.uptick.citizenweb3.com/</a><br>
-  REST: <a href="https://api.uptick.citizenweb3.com/">https://api.uptick.citizenweb3.com/</a><br>
-  GRPC: <span title="GRPC" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpc.uptick.citizenweb3.com">grpc.uptick.citizenweb3.com</span><br>
-  GRPCWEB: <span title="GRPCWEB" class="text-nowrap text-base text-primary hover:font-semibold cursor-pointer" text="grpcweb.uptick.citizenweb3.com">grpcweb.uptick.citizenweb3.com</span>
-</details>
-<br>
-<details>
-  <summary>Seed</summary>
-bddaa78825892bde04b5aa8f28b95a072a50eaf9@mainnet.seednode.citizenweb3.com:29656
-</details>
-<br>
-<details>
-  <summary>Relayers</summary>
-</details>
-<br>
-<details>
-  <summary>Archive endpoints</summary>
-  RPC: <br>
-  API: <br>
-  GRPC: <br>
-</details>
-<br>
-
 # Tools and community
 
 <details>
