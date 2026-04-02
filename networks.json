@@ -248,7 +248,11 @@
       "Networks"
     ],
     "provision": [
-      "Validator"
+      "Validator",
+      "Explorer",
+      "Snapshot",
+      "Endpoints",
+      "Seed/Peers"
     ],
     "title": "Uptick",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/uptick/images/uptick.svg",
@@ -257,10 +261,19 @@
     "horcrux": true,
     "shi": true,
     "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.uptick.citizenweb3.com",
+      "rest": "https://api.uptick.citizenweb3.com",
+      "grpc": "grpc.uptick.citizenweb3.com",
+      "grpcweb": "grpcweb.uptick.citizenweb3.com",
+      "seed/peer": "36099d48942a6e9b45d7c8fdde8e57f82486d6f4@mainnet.seednode.citizenweb3.com:29656"
+    },
     "generatedServices": [],
     "twitter": "https://x.com/uptickproject",
     "services": [
-      "public-goods"
+      "public-goods",
+      "peers",
+      "snapshot"
     ],
     "restake": true
   },
