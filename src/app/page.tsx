@@ -1,5 +1,3 @@
-import { FC } from 'react';
-
 import { getRepoChains, getValidatorData } from '@/app/actions/repos';
 import Subtitle from '@/app/components/common/subtitle';
 import Medals from '@/app/components/monitor/medals';
@@ -10,9 +8,10 @@ import ValidatorNetworks from '@/app/components/monitor/validator-networks/valid
 import { SortDir, SortKey, computeTotalSecure } from '@/app/utils/monitor-table/prepare-table-data';
 import { IChainConfig, NodeItem } from '@/types';
 
-type PageProps = { searchParams: Record<string, string | string[] | undefined> };
+type PageProps = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
-const MainPage: FC<PageProps> = async ({ searchParams }) => {
+const MainPage = async (props: PageProps) => {
+  const searchParams = await props.searchParams;
   const sortKey: SortKey = (searchParams.sort as SortKey) ?? 'network';
   const sortDir: SortDir = (searchParams.dir as SortDir) ?? 'asc';
 

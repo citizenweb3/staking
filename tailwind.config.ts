@@ -1,6 +1,7 @@
-// @ts-ignore
-import tailwindMdBase from '@geoffcodesthings/tailwind-md-base';
-import tailwindScrollbar from 'tailwind-scrollbar';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const tailwindMdBase = require('@geoffcodesthings/tailwind-md-base');
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const tailwindScrollbar = require('tailwind-scrollbar');
 import type { Config } from 'tailwindcss';
 import colors from 'tailwindcss/colors';
 import defaultTheme from 'tailwindcss/defaultTheme';
