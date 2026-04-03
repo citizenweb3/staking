@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FC } from 'react';
 
 import {
   getChain,
@@ -16,12 +15,13 @@ import Button from '@/app/components/common/button';
 import type { IChainConfig } from '@/types';
 
 interface OwnProps {
-  params: { chain: string };
+  params: Promise<{ chain: string }>;
 }
 
-const ChainPage: FC<OwnProps> = async ({ params }) => {
-  const data = await getChain(params.chain);
-  if (!data) return <NotFound chain={params.chain} />;
+const ChainPage = async (props: OwnProps) => {
+  const { chain } = await props.params;
+  const data = await getChain(chain);
+  if (!data) return <NotFound chain={chain} />;
 
   const allChains: IChainConfig[] = await getRepoChains();
 
@@ -35,7 +35,7 @@ const ChainPage: FC<OwnProps> = async ({ params }) => {
   }
 
   for (let serviceName of data.services) {
-    const service = await getRepoChainService(params.chain, serviceName);
+    const service = await getRepoChainService(chain, serviceName);
     tabs.push({ title: serviceName, content: service });
   }
 
