@@ -12,6 +12,9 @@ export interface IChainConfig {
   addrbookUrl?: string;
   twitter?: string;
   discord?: string;
+  validator_address?: string;
+  mintscan_name?: string;
+  wallets?: Array<{ name: string; url: string }>;
   services: string[];
   generatedServices: string[];
   showTopChainEndpoints?: boolean;

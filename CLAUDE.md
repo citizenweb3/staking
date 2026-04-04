@@ -38,6 +38,7 @@ docker run -p 3000:3000 staking         # Run container (port 3000)
 | Social icons | `src/app/components/chain-list/social-icons.tsx` |
 | Validator links | `src/app/components/chain-list/validator-links.tsx` |
 | Audio player | `src/app/components/chain-list/player.tsx` |
+| Wallet stake buttons | `src/app/components/chain-list/wallet-stake-buttons.tsx` |
 | Health check API | `src/app/api/health/[chainName]/route.ts` |
 | Filter logic | `src/app/utils/chain-list/filters-utils.ts` |
 | Data fetching | `src/app/actions/repos.ts` |
@@ -52,6 +53,7 @@ docker run -p 3000:3000 staking         # Run container (port 3000)
 - `FC<Props>` pattern with named interfaces (`OwnProps`)
 - Absolute imports via `@/` alias (mapped to `src/`)
 - Config fetched at runtime from GitHub raw content URLs
+- Wallet staking buttons driven by `wallets[]` array in config `networks.json`
 
 ## Gotchas
 
