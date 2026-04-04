@@ -1,4 +1,4 @@
-FROM node:20-bullseye
+FROM node:20-bookworm
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
