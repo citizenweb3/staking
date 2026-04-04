@@ -15,6 +15,8 @@ Network configuration data (networks.json, markdown content for each chain) live
 | `staking-dev` | Next.js source code — development branch |
 | `config` | Network configs: `networks.json`, per-chain `.md` files, global templates |
 | `chain-images` | Chain logo/icon images |
+| `feature/wallet-stake-buttons` | Source branch — wallet staking buttons feature |
+| `feature/wallet-stake-buttons-config` | Config branch — wallet metadata for buttons |
 
 ## Tech Stack
 
@@ -52,7 +54,8 @@ src/
 │   │   │   ├── reset-filters.tsx # Reset all filters button
 │   │   │   ├── player.tsx        # Audio player component
 │   │   │   ├── social-icons.tsx  # Social media icon links
-│   │   │   └── validator-links.tsx # Validator-related links
+│   │   │   ├── validator-links.tsx # Validator-related links
+│   │   │   └── wallet-stake-buttons.tsx # Per-wallet staking buttons (Keplr, Leap, etc.)
 │   │   ├── common/
 │   │   │   ├── button.tsx        # Styled button component
 │   │   │   └── switch.tsx        # Toggle switch
@@ -94,9 +97,22 @@ Each network in `networks.json`:
   "title": "Cosmos",
   "icon": "https://...",
   "stake": "https://...",
+  "validator_address": "cosmosvaloper1...",
+  "mintscan_name": "cosmos",
+  "wallets": [
+    { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=...&validator_address=..." },
+    { "name": "Ping.pub", "url": "https://ping.pub/cosmos/staking/cosmosvaloper1..." }
+  ],
   "services": ["public-goods", "peers", "snapshot"]
 }
 ```
+
+### Wallet Buttons Logic
+
+- `WalletStakeButtons` component renders one button per entry in `wallets[]`
+- Each button links directly to our validator where the wallet supports deep-linking
+- For wallets without direct validator links (Leap, Cosmostation), URLs point to the staking dashboard
+- Non-Cosmos chains (Namada, Aztec) use their native staking interfaces
 
 ## Environment Variables
 

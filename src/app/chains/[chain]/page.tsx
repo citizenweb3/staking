@@ -55,13 +55,13 @@ const ChainPage = async (props: OwnProps) => {
           <h1 className="mb-10 ml-10 text-nowrap text-3xl font-semibold">{data.title}</h1>
           <div className="flex flex-row">
             <Image src={data.icon} alt={data.title} width={180} height={180} />
-            <div className="ml-12 flex flex-col items-center justify-center">
+            <div className="ml-12 flex flex-col justify-center">
               <div>
                 <div className="mt-4">
-                  <WalletStakeButtons stake={data.stake} wallets={data.wallets} />
+                  <WalletStakeButtons wallets={data.wallets} />
                 </div>
-                <div className="flex flex-row items-center justify-center">
-                  <div className="mt-6 flex space-x-4">
+                <div className="mt-6 flex flex-row items-center">
+                  <div className="flex space-x-4">
                     <Link
                       title={`${data.title} explorer`}
                       href={`https://validatorinfo.com/networks/${data.name}/overview`}
