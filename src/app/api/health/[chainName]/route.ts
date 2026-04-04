@@ -2,9 +2,9 @@ import { NextResponse } from 'next/server';
 
 import { getChain } from '@/app/actions/repos';
 
-export async function GET(req: Request, ctx: any) {
-  const { params } = ctx;
-  const chain = await getChain(params.chainName);
+export async function GET(req: Request, ctx: { params: Promise<{ chainName: string }> }) {
+  const { chainName } = await ctx.params;
+  const chain = await getChain(chainName);
   try {
     return NextResponse.json({
       status: chain

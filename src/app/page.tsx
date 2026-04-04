@@ -1,4 +1,4 @@
-import { FC, Suspense } from 'react';
+import { Suspense } from 'react';
 
 import { getRepoChains } from '@/app/actions/repos';
 import ChainList from '@/app/components/chain-list/chain-list';
@@ -15,9 +15,10 @@ import {
 } from '@/app/utils/chain-list/filters-utils';
 import type { IChainConfig } from '@/types';
 
-type PageProps = { searchParams: Record<string, string | string[] | undefined> };
+type PageProps = { searchParams: Promise<Record<string, string | string[] | undefined>> };
 
-const MainPage: FC<PageProps> = async ({ searchParams }) => {
+const MainPage = async (props: PageProps) => {
+  const searchParams = await props.searchParams;
   const selected: Selected = {
     types: getAllCanonFromPage(searchParams, 'type'),
     categories: getAllCanonFromPage(searchParams, 'category'),
