@@ -89,6 +89,9 @@
       "snapshot",
       "indexer-snapshot",
       "masp-snapshot"
+    ],
+    "wallets": [
+      { "name": "Namadillo", "url": "https://namadillo.citizenweb3.com/staking" }
     ]
   },
   {
@@ -564,48 +567,6 @@
     ]
   },
   {
-    "name": "namada-testnet",
-    "type": "testnet",
-    "category": [
-      "Privacy"
-    ],
-    "provision": [
-      "Validator",
-      "Explorer",
-      "Indexer",
-      "Staking-Interface",
-      "Snapshot",
-      "Relayers",
-      "Endpoints",
-      "Seed/Peers"
-    ],
-    "title": "Namada",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/namada/namada.svg",
-    "stake": "https://namadillo-housefire.citizenweb3.com",
-    "explorer": "https://validatorinfo.com/networks/27/overview",
-    "website": "https://namada.net",
-    "codebase": {
-      "git_repo": "https://github.com/namada-net/namada"
-    },
-    "shi": true,
-    "otgi": true,
-    "chain_id": "housefire--alpaca.cc0d3e0c033be",
-    "endpoints": {
-      "rpc": "https://rpc.namada-housefire.citizenweb3.com/",
-      "indexer": "https://indexer.namada-housefire.citizenweb3.com/v3",
-      "seed/peer": "tcp://1dae6535bf5e4663ccb7c7294c129221b6018d22@168.119.37.164:31656"
-    },
-    "generatedServices": [],
-    "twitter": "https://twitter.com/namada",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot",
-      "indexer-snapshot",
-      "masp-snapshot"
-    ]
-  },
-  {
     "name": "aztec",
     "type": "mainnet",
     "category": [
@@ -636,6 +597,9 @@
     "services": [
       "public-goods",
       "snapshot"
+    ],
+    "wallets": [
+      { "name": "Aztec Staking", "url": "https://stake.aztec.network/providers/26" }
     ]
   },
   {
@@ -671,6 +635,9 @@
     "services": [
       "public-goods",
       "snapshot"
+    ],
+    "wallets": [
+      { "name": "Aztec Staking", "url": "https://testnet.stake.aztec.network/providers/35" }
     ]
   },
   {

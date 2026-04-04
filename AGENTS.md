@@ -66,7 +66,14 @@ Add a new entry to `networks.json` with the following structure:
   },
   "generatedServices": [],
   "twitter": "https://twitter.com/...",
-  "services": ["public-goods"]      // Available .md files
+  "services": ["public-goods"],      // Available .md files
+  "validator_address": "valoper1...", // Optional: our validator address for deep-link wallets
+  "mintscan_name": "cosmos",          // Optional: Mintscan chain slug
+  "wallets": [                         // Optional: staking buttons on chain page
+    { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=...&validator_address=..." },
+    { "name": "Namadillo", "url": "https://namadillo.citizenweb3.com/staking" },
+    { "name": "Aztec Staking", "url": "https://stake.aztec.network/providers/26" }
+  ]
 }
 ```
 
