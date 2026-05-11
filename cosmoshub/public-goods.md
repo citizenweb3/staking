@@ -37,6 +37,13 @@
 </details>
 <br>
 <details>
+  <summary>Indexer</summary>
+  <br>
+  Docs: <a href="https://indexer.cosmoshub-4.citizenweb3.com/docs">https://indexer.cosmoshub-4.citizenweb3.com/docs</a><br>
+  <i>Docs are available without whitelist access. Main API access is whitelist/token protected; contact us on Telegram: <a href="https://t.me/citizenweb3">@citizenweb3</a> and we will provide an access token.</i>
+</details>
+<br>
+<details>
   <summary>Testnet Node</summary>
   <a href="https://staking.citizenweb3.com/chains/cosmostestnet">Testnet Validator + Peers + Endpoints</a>
 </details>
@@ -45,7 +52,7 @@
 
 <details>
   <summary>Explorer</summary>
-  <a href="https://validatorinfo.com/networks">Validator Info</a><br>
+  <a href="https://validatorinfo.com/networks/cosmoshub/tx">Validator Info Transactions</a><br>
 </details>
 <br>
 <details>
@@ -105,4 +112,3 @@
   <a href="https://citizenweb3.github.io/manuscripts/hackatom-7/">HackAtom VII 2022</a><br>
   <a href="https://citizenweb3.github.io/manuscripts/ics/">Interchain Security</a><br>
 </details>
-

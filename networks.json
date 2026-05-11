@@ -16,7 +16,7 @@
     "title": "Cosmos",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/cosmoshub/images/atom.svg",
     "stake": "https://wallet.keplr.app/?modal=staking&chain=cosmoshub-4&validator_address=cosmosvaloper1e859xaue4k2jzqw20cv6l7p3tmc378pc3k8g2u&step_id=3&action_id=stake",
-    "explorer": "https://validatorinfo.com/networks/1/overview",
+    "explorer": "https://validatorinfo.com/networks/cosmoshub/tx",
     "horcrux": true,
     "restake": true,
     "shi": true,
@@ -25,6 +25,7 @@
       "rpc": "https://rpc.cosmoshub-4.citizenweb3.com",
       "rest": "https://api.cosmoshub-4.citizenweb3.com",
       "grpc": "grpc.cosmoshub-4.citizenweb3.com",
+      "indexer": "https://indexer.cosmoshub-4.citizenweb3.com",
       "seed/peer": "d567c93fa5b646c8cca8ba0a2d7499bca6aeba52@mainnet.seednode.citizenweb3.com:26656"
     },
     "generatedServices": [],
@@ -567,6 +568,35 @@
     ]
   },
   {
+    "name": "monero",
+    "type": "mainnet",
+    "category": [
+      "Privacy"
+    ],
+    "provision": [
+      "Endpoints"
+    ],
+    "title": "Monero",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/monero/images/xmr.svg",
+    "stake": "",
+    "explorer": "",
+    "chain_id": "",
+    "website": "https://www.getmonero.org",
+    "codebase": {
+      "git_repo": "https://github.com/monero-project/monero"
+    },
+    "shi": true,
+    "otgi": true,
+    "endpoints": {
+      "rpc": "https://rpc.monero.citizenweb3.com"
+    },
+    "generatedServices": [],
+    "twitter": "https://x.com/monero",
+    "services": [
+      "public-goods"
+    ]
+  },
+  {
     "name": "aztec",
     "type": "mainnet",
     "category": [
@@ -581,7 +611,7 @@
     "title": "Aztec",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/aztec/Aztec_symbol.svg",
     "stake": "https://stake.aztec.network/providers/26",
-    "explorer": "https://dev.validatorinfo.com/networks/aztec/overview",
+    "explorer": "https://validatorinfo.com/networks/aztec/tx",
     "website": "https://aztec.network",
     "codebase": {
       "git_repo": "https://docs.aztec.network"
@@ -590,6 +620,7 @@
     "otgi": true,
     "endpoints": {
       "rpc": "https://rpc.aztec.citizenweb3.com",
+      "indexer": "https://aztec.indexer.citizenweb3.com",
       "seed/peer": "enr:-Ku4QJMw_QgqKUwBY93qM6TLjUfQr8-wpB_iBnHyXWAyP9ppOOLYlhfodGi9a9iFIVmgLmSJvf1xXNUHgHOzmSgESnMEhWF6dGVjoDAwLS0wMDAwMDAwMC0wLTEyZTlhYTM2LTIyOWVhZGI3gmlkgnY0gmlwhKh3JaSJc2VjcDI1NmsxoQKKS7HGYgedexQ4L5LH8ZZfJl6tMagw6dc3xlLxJqSMToN1ZHCCndE"
     },
     "generatedServices": [],
@@ -849,9 +880,12 @@
     "title": "Logos",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/chain-images/logos/logos.svg",
     "stake": "",
-    "explorer": "",
+    "explorer": "https://validatorinfo.com/networks/logos-testnet/tx",
     "chain_id": "",
-    "endpoints": {},
+    "endpoints": {
+      "rpc": "https://rpc.logos-testnet.citizenweb3.com",
+      "indexer": "https://indexer.testnet-logos.citizenweb3.com"
+    },
     "generatedServices": [],
     "twitter": "https://x.com/Logos_network",
     "services": [
@@ -876,7 +910,8 @@
     "shi": true,
     "otgi": true,
     "endpoints": {
-      "grpc": "grpc.miden.citizenweb3.com"
+      "grpc": "grpc.miden.citizenweb3.com",
+      "indexer": "https://indexer.miden-testnet.citizenweb3.com"
     },
     "generatedServices": [],
     "twitter": "https://x.com/0xMiden",

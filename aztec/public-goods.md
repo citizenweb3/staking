@@ -19,7 +19,9 @@
 <details>
   <summary>Indexer</summary>
   <br>
-  <a href="https://github.com/citizenweb3/chain-data-indexer/tree/aztec">Chain Data Indexer</a>
+  API: <a href="https://aztec.indexer.citizenweb3.com">https://aztec.indexer.citizenweb3.com</a><br>
+  <a href="https://github.com/citizenweb3/chain-data-indexer/tree/aztec">Chain Data Indexer</a><br>
+  <i>Note: Indexer API access is whitelist/token protected. If you would like to use it, please contact us on Telegram: <a href="https://t.me/citizenweb3">@citizenweb3</a> and we will provide an access token.</i>
 </details>
 <br>
 <details>
@@ -50,7 +52,7 @@
 
 <details>
   <summary>Explorer</summary>
-  <a href="https://validatorinfo.com/networks/aztec/overview">Validator Info</a><br>
+  <a href="https://validatorinfo.com/networks/aztec/tx">Validator Info Transactions</a><br>
 </details>
 <br>
 <details>
