@@ -577,7 +577,7 @@
       "Endpoints"
     ],
     "title": "Monero",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/_non-cosmos/monero/images/xmr.svg",
+    "icon": "https://www.getmonero.org/press-kit/symbols/monero-symbol-480.png",
     "stake": "",
     "explorer": "",
     "chain_id": "",
