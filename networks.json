@@ -184,39 +184,6 @@
     ]
   },
   {
-    "name": "quicksilver",
-    "type": "mainnet",
-    "category": [
-      "DeFi"
-    ],
-    "provision": [
-      "Validator"
-    ],
-    "title": "Quicksilver",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
-    "stake": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake",
-    "explorer": "https://validatorinfo.com/networks/6/overview",
-    "horcrux": true,
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "twitter": "https://twitter.com/quicksilverzone",
-    "services": [
-      "public-goods"
-    ],
-    "restake": true,
-    "validator_address": "quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq",
-    "mintscan_name": "quicksilver",
-    "wallets": [
-      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=quicksilver-2&validator_address=quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq&step_id=3&action_id=stake" },
-      { "name": "Leap", "url": "https://cosmos.leapwallet.io/staking/chain/quicksilver-2" },
-      { "name": "Cosmostation", "url": "https://wallet.cosmostation.io/staking" },
-      { "name": "Mintscan", "url": "https://mintscan.io/quicksilver/validators/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq" },
-      { "name": "Restake", "url": "https://restake.app/quicksilver/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq" },
-      { "name": "Ping.pub", "url": "https://ping.pub/quicksilver/staking/quickvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8a7t9vq" }
-    ]
-  },
-  {
     "name": "atomone",
     "type": "mainnet",
     "category": [
@@ -507,40 +474,6 @@
       "public-goods",
       "peers",
       "snapshot"
-    ]
-  },
-  {
-    "name": "symphony",
-    "type": "mainnet",
-    "category": [
-      "DeFi"
-    ],
-    "provision": [
-      "Validator",
-      "Oracle-Voter"
-    ],
-    "title": "Symphony",
-    "chain_id": "symphony-1",
-    "icon": "https://raw.githubusercontent.com/Orchestra-Labs/orchestralabs.org/d83f18f62b2d99c68f82e6608f78bf7cbac97dcf/src/assets/images/symphony_logo.svg",
-    "stake": "https://explorer.corenodehq.xyz/symphony-mainnet/staking/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d",
-    "explorer": "https://explorer.corenodehq.xyz/symphony-mainnet",
-    "website": "https://orchestralabs.org",
-    "codebase": {
-      "git_repo": "https://github.com/Orchestra-Labs"
-    },
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "twitter": "https://twitter.com/OrchestraLabs",
-    "services": [
-      "public-goods"
-    ],
-    "restake": true,
-    "validator_address": "symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d",
-    "wallets": [
-      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=symphony-1&validator_address=symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d&step_id=3&action_id=stake" },
-      { "name": "Restake", "url": "https://restake.app/symphony/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d" },
-      { "name": "Ping.pub", "url": "https://ping.pub/symphony/staking/symphonyvaloper1m77eksxfz9q50qejnqf720sns7q0xtx8vdaj7d" }
     ]
   },
   {

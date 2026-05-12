@@ -251,7 +251,7 @@ For endpoints requiring authentication, add a note:
 ## Network Categories
 
 - `Networks` - General purpose blockchains (Cosmos, Ethereum, Celestia)
-- `DeFi` - DeFi-focused chains (Osmosis, Stride, Symphony)
+- `DeFi` - DeFi-focused chains (Osmosis, Stride)
 - `Privacy` - Privacy-focused chains (Namada, Nym)
 - `AI` - AI-focused chains (Oraichain)
 

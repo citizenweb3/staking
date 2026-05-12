@@ -19,7 +19,6 @@
   Cosmoshub <-> Neutron<br>
   Cosmoshub <-> Stride<br>
   Cosmoshub <-> Gravity-Bridge<br>
-  Cosmoshub <-> Quicksilver<br>
   Cosmoshub <-> Bostrom<br>
   Cosmoshub <-> Namada<br>
   <a href="https://www.mintscan.io/cosmos/address/cosmos12mchf67y67y3xnk2tkzkxa67w3vmhxjsuhq6tz">Our wallet</a><br>
