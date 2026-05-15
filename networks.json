@@ -813,6 +813,12 @@
     "title": "Logos",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/chain-images/logos/logos.svg",
     "stake": "",
+    "buttons": [
+      {
+        "label": "Open Logos AI chatbot",
+        "url": "https://logos.staking.citizenweb3.com"
+      }
+    ],
     "explorer": "https://validatorinfo.com/networks/logos-testnet/tx",
     "chain_id": "",
     "endpoints": {
@@ -822,7 +828,8 @@
     "generatedServices": [],
     "twitter": "https://x.com/Logos_network",
     "services": [
-      "public-goods"
+      "public-goods",
+      "AI"
     ]
   },
   {

@@ -73,6 +73,9 @@ Add a new entry to `networks.json` with the following structure:
     { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=...&validator_address=..." },
     { "name": "Namadillo", "url": "https://namadillo.citizenweb3.com/staking" },
     { "name": "Aztec Staking", "url": "https://stake.aztec.network/providers/26" }
+  ],
+  "buttons": [                         // Optional: additional config-driven action buttons
+    { "label": "Open AI Chatbot", "url": "https://logos.staking.citizenweb3.com" }
   ]
 }
 ```
@@ -119,6 +122,7 @@ Use this template for the public infrastructure page (based on cosmoshub format)
 - `snapshot.md` - For snapshot download instructions
 - `indexer-snapshot.md` - For indexer snapshots (Namada-specific)
 - `masp-snapshot.md` - For MASP snapshots (Namada-specific)
+- `ai.md` - For AI tooling, chatbots, plugins, and integration resources
 
 **Remember**: Add each service to the `"services"` array in `networks.json`.
 
