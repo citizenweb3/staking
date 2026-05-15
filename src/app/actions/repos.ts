@@ -5,6 +5,8 @@ import deepValue from '@/app/utils/deep-value';
 import { IChain, IChainConfig, TChainItem } from '@/types';
 
 const cache = new NodeCache();
+const CONFIG_REVALIDATE_SECONDS = 10;
+const REGISTRY_REVALIDATE_SECONDS = 3600;
 
 export const getRegistryChain = async (chainName: string): Promise<IChain | undefined> => {
   if (cache.has(`registry/${chainName}`)) {
@@ -14,6 +16,7 @@ export const getRegistryChain = async (chainName: string): Promise<IChain | unde
   try {
     const res = await fetch(
       `https://raw.githubusercontent.com/cosmos/chain-registry/master/${chainName}/chain.json`,
+      { next: { revalidate: REGISTRY_REVALIDATE_SECONDS } },
     ).then((r) => r.json());
 
     cache.set(`registry/${chainName}`, res, 3600);
@@ -28,7 +31,9 @@ export const getRepoChains = async (): Promise<IChainConfig[]> => {
   const cachedData = cache.get('github/chains');
   if (cachedData) return cachedData as IChainConfig[];
 
-  const res = (await fetch(`${CONFIG_REPO}/networks.json`).then((r) => {
+  const res = (await fetch(`${CONFIG_REPO}/networks.json`, {
+    next: { revalidate: CONFIG_REVALIDATE_SECONDS },
+  }).then((r) => {
     return r.json();
   })) as IChainConfig[];
   cache.set('github/chains', res, 10);
@@ -52,7 +57,9 @@ export const getRepoChainService = async (chain: string, serviceName: string): P
   const cachedData = cache.get(`github/${chain}/${serviceName}`);
   if (cachedData) return cachedData as string;
 
-  const service = await fetch(`${CONFIG_REPO}/${chain}/${serviceName.toLowerCase()}.md`).then((r) => r.text());
+  const service = await fetch(`${CONFIG_REPO}/${chain}/${serviceName.toLowerCase()}.md`, {
+    next: { revalidate: CONFIG_REVALIDATE_SECONDS },
+  }).then((r) => r.text());
   cache.set(`github/${chain}/${serviceName}`, service, 10);
   return service;
 };
@@ -61,7 +68,9 @@ export const getRepoChainContributions = async (name: string): Promise<string> =
   const cachedData = cache.get(`github/contributions/${name}`);
   if (cachedData) return cachedData as string;
 
-  const contributions = await fetch(`${CONTRIBUTIONS_REPO}/main/${name}.md`).then((r) => r.text());
+  const contributions = await fetch(`${CONTRIBUTIONS_REPO}/main/${name}.md`, {
+    next: { revalidate: CONFIG_REVALIDATE_SECONDS },
+  }).then((r) => r.text());
   cache.set(`github/contributions/${name}`, contributions, 10);
   return contributions;
 };
@@ -70,7 +79,9 @@ export const getRepoChainServiceGlobal = async (chain: TChainItem, serviceName: 
   const cachedData = cache.get(`github/global-service/${chain.name}/${serviceName}`);
   if (cachedData) return cachedData as string;
 
-  let globalService = await fetch(`${CONFIG_REPO}/global/${serviceName.toLowerCase()}.md`).then((r) => r.text());
+  let globalService = await fetch(`${CONFIG_REPO}/global/${serviceName.toLowerCase()}.md`, {
+    next: { revalidate: CONFIG_REVALIDATE_SECONDS },
+  }).then((r) => r.text());
 
   globalService = globalService.replace(/\{\{(.+?)}}/g, (_, param: string): string => {
     if (param[0] === ':') {
