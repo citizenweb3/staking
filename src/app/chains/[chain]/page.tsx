@@ -58,7 +58,7 @@ const ChainPage = async (props: OwnProps) => {
             <div className="ml-12 flex flex-col justify-center">
               <div>
                 <div className="mt-4">
-                  <WalletStakeButtons wallets={data.wallets} />
+                  <WalletStakeButtons wallets={data.wallets} buttons={data.buttons} />
                 </div>
                 <div className="mt-6 flex flex-row items-center">
                   <div className="flex space-x-4">

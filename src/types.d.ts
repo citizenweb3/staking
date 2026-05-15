@@ -7,6 +7,7 @@ export interface IChainConfig {
   icon: string;
   type?: 'mainnet' | 'testnet'| '';
   stake: string;
+  buttons?: Array<{ label: string; url: string }>;
   explorer: string;
   contributions?: string;
   addrbookUrl?: string;
