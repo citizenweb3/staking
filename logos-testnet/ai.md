@@ -4,14 +4,16 @@ We built an open-source AI skill for Logos node operators. It lets you install, 
 
 ```bash
 npx @citizenweb3/ai-integrations logos-node
+```
 
-# or
-
+```bash
 curl -fsSL https://raw.githubusercontent.com/citizenweb3/ai-integrations/logos-node/install.sh | bash
+```
 
-/logos-node install   # fresh node setup
-/logos-node update    # breaking upgrade
-/logos-node status    # check sync and peers
+```bash
+/logos-node install
+/logos-node update
+/logos-node status
 ```
 
 GitHub (skill files): <a href="https://github.com/citizenweb3/ai-integrations/tree/logos-node">https://github.com/citizenweb3/ai-integrations/tree/logos-node</a><br>
