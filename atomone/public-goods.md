@@ -21,6 +21,13 @@
 </details>
 <br>
 <details>
+  <summary>Indexer</summary>
+  <br>
+  Docs: <a href="https://indexer.atomone.citizenweb3.com/docs">https://indexer.atomone.citizenweb3.com/docs</a><br>
+  <i>Docs can be opened without whitelist access. Main API access is whitelist/token protected; contact us on Telegram: <a href="https://t.me/citizenweb3">@citizenweb3</a> and we will provide an access token.</i>
+</details>
+<br>
+<details>
   <summary>Archive endpoints</summary>
   RPC: <a href="https://rpc.atomone-archive.citizenweb3.com/">https://rpc.atomone-archive.citizenweb3.com/</a><br>
   REST: <a href="https://api.atomone-archive.citizenweb3.com/">https://api.atomone-archive.citizenweb3.com/</a><br>

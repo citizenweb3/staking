@@ -192,6 +192,7 @@
     "provision": [
       "Validator",
       "Explorer",
+      "Indexer",
       "Archive",
       "Snapshot",
       "Relayers",
@@ -209,6 +210,7 @@
       "rpc": "https://rpc.atomone.citizenweb3.com",
       "rest": "https://api.atomone.citizenweb3.com",
       "grpc": "grpc.atomone.citizenweb3.com",
+      "indexer": "https://indexer.atomone.citizenweb3.com",
       "seed/peer": "57e11247cd5c12420c37e68fe3157bc51ca84ca3@mainnet.seednode.citizenweb3.com:26756"
     },
     "generatedServices": [],
