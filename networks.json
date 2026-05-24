@@ -96,48 +96,6 @@
     ]
   },
   {
-    "name": "oraichain",
-    "type": "mainnet",
-    "category": [
-      "AI"
-    ],
-    "provision": [
-      "Validator",
-      "Explorer",
-      "Snapshot",
-      "Relayers",
-      "Endpoints",
-      "Seed/Peers"
-    ],
-    "title": "Oraichain",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/oraichain/orai-white.svg",
-    "stake": "https://scan.orai.io/validators/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30",
-    "explorer": "https://dev.validatorinfo.com/networks/oraichain/overview",
-    "horcrux": true,
-    "restake": true,
-    "shi": true,
-    "otgi": true,
-    "endpoints": {
-      "rpc": "https://rpc.orai.citizenweb3.com",
-      "rest": "https://api.orai.citizenweb3.com",
-      "grpc": "grpc.orai.citizenweb3.com",
-      "seed/peer": "d2204d84427052e2659509aa17c8cd39871a5cd8@195.201.197.246:27656"
-    },
-    "generatedServices": [],
-    "twitter": "https://twitter.com/oraichain",
-    "services": [
-      "public-goods",
-      "peers",
-      "snapshot"
-    ],
-    "validator_address": "oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30",
-    "wallets": [
-      { "name": "Keplr", "url": "https://wallet.keplr.app/?modal=staking&chain=Oraichain&validator_address=oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30&step_id=3&action_id=stake" },
-      { "name": "Restake", "url": "https://restake.app/oraichain/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30" },
-      { "name": "Ping.pub", "url": "https://ping.pub/oraichain/staking/oraivaloper1m77eksxfz9q50qejnqf720sns7q0xtx8jwcs30" }
-    ]
-  },
-  {
     "name": "stride",
     "type": "mainnet",
     "category": [
@@ -646,31 +604,6 @@
     ]
   },
   {
-    "name": "citrea",
-    "type": "testnet",
-    "category": [
-      "Privacy"
-    ],
-    "provision": [
-      "Endpoints"
-    ],
-    "title": "Citrea",
-    "chain_id": "5115",
-    "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/citrea/citrea.svg",
-    "explorer": "https://explorer.testnet.citrea.xyz/",
-    "website": "https://citrea.xyz",
-    "codebase": {
-      "git_repo": "https://github.com/chainwayxyz/citrea"
-    },
-    "shi": true,
-    "otgi": true,
-    "generatedServices": [],
-    "twitter": "https://twitter.com/citrea_xyz",
-    "services": [
-      "public-goods"
-    ]
-  },
-  {
     "name": "cosmoshub-testnet",
     "type": "testnet",
     "category": [
@@ -842,7 +775,7 @@
       "Privacy"
     ],
     "provision": [
-      "Endpoints"
+      "Indexer"
     ],
     "title": "Miden",
     "icon": "https://raw.githubusercontent.com/citizenweb3/staking/refs/heads/chain-images/miden/miden.svg",
@@ -853,7 +786,6 @@
     "shi": true,
     "otgi": true,
     "endpoints": {
-      "grpc": "grpc.miden.citizenweb3.com",
       "indexer": "https://indexer.miden-testnet.citizenweb3.com"
     },
     "generatedServices": [],
